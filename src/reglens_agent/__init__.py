@@ -1,2 +1,5 @@
-def main() -> None:
-    print("Hello from reglens-agent!")
+"""reglens-agent: compliance review over RegLens (MCP)."""
+
+from reglens_agent.cli import main
+
+__all__ = ["main"]
