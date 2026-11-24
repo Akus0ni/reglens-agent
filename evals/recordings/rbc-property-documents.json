@@ -1,0 +1,2827 @@
+{
+ "models": {
+  "0abc7a4684e264d7ff5ac8aea9e8e208bd98b208f1064a4e55c3559191a2dddf": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSqgcKEAgUGAI4AUIIdGhpbmtpbmcSDJVZAXQB5uh9u5NqSBoMHZIznwJ98LfZgEISIjA1VBxtQdCs02YxfQ1z3d9MCrS1i9F9U6vdiY1xpKz+I7UqdhYL4Ar+CUSTzArals4qxwa9WvYN1XG199AwSxBg7vickmNJbQSnPnFGVb9g5YYXPQHc19hqCAKurjQtdvcNkSZt/6dlbgPrT7BptkBVA9QrakmFzqAaQMJwlp/cDLsInbiFM45IhCJ986i5h6hJxiSrp6SBimyZkcMDo5bP0U0YmZ2iKGTMawCZ0wmxiMu/pmOKflvjQStEenHXTNh8pK+jeNkmcV5HRAuIH2yF94Z4XVuX7p7IbeV8ZV/IX2pQh2KrJScQIF4/U6hWEx+Syz1/gQD65V0a+/k38Mo4exzZ8g9HK3pxPYWr5aogu7ESOcbmEpxuFtQiyY3JQNni3eqOxfTu2ECvbp0fl4jG8MLO5oG4B4CB92XJLpT3pXlHf9BL2vqS7HxpQUXC1CXBxKuwLNUgJHO1j+BJRscpPB3hRGbdHiUcppleODfSFuXa+kr9mXgnPXVmJ38mNtkvi1YOrNA5DaGnhgoQYmd0ll4vLklHha+3hES24qiE10Gya+9BGrlOhtmnrbU6hP7497GH8dOQmjhy2aXNWGjYfk91+YwwozhiphoKIYhz5n/5KCZAuvivW9+cnp0J/xvu92sG1YH9/R5EBdu/GpdKxerDKoIHtrXsxdL5TiIitjc4gPJb6LPeBjlZ8/0qZzVc8Az9zXq1yz8TT0/2eECnl/GP/Upual6ezmKI0F+G9p2/SZ5qd67XN7SmFrYjDhNkysojCbvxuCeVj93osBdgAFyOd5MGwADArxWOiw7XOT8+lAilwI0HrHJsJvaK1RAvYLyVjnG7BUYSxznCrdLZcYAYV+jgKXuKePkCw4jwWLP9xZ3XoM++d2aNHw2Hq16LsfiDRh7KWkmLIDNgHhgbKCUvO4agFHfqFHLU/zP96pEznvld/OUwvxFAz/1hCma3drQlvXLtqYY9Nko1bscHhDabD1kszALcCheBHXTevtBoEwV8b2x9eJTFYm7JlX24iFDM7HK5EABDCIJMYKOT/hQh40yKH3jzd3hqx5UIOzf4SeKmuK1s7oqT5+U4UudAG3lbRwkFC3UfYQQvo+/R7cpziZZqFvc4zMoQrRHnF//wJir9xBTKsVGTbEBJcYpOxtK6Tm7n/geUsxY4cC4iu8qmpGni32u+OxgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01M19nuSws2AY9tnp5Kk2T1m",
+       "input": {
+        "chunkId": 2097
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-6c24-7159-911d-1b29988da33f-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMty5iQC7rDbWc3QySsX",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4584,
+       "output_tokens": 141,
+       "output_tokens_details": {
+        "thinking_tokens": 88
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2097
+       },
+       "id": "toolu_01M19nuSws2AY9tnp5Kk2T1m",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4584,
+      "output_token_details": {
+       "reasoning": 88
+      },
+      "output_tokens": 141,
+      "total_tokens": 4725
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "2d82718a2aa7e04741be3111c1c930672e8694af00608ece2598da2dddd3a23a": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_017E2gyira7vD6P8gGaQd8da",
+       "input": {
+        "query": "sanction letter loan agreement key facts statement document return timeline compensation for delay grievance redressal",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-9079-7719-b82b-764c64bb055d-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtymcmGe7rQwfJBuoBp",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1051,
+       "output_tokens": 102,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "sanction letter loan agreement key facts statement document return timeline compensation for delay grievance redressal",
+        "topK": 8
+       },
+       "id": "toolu_017E2gyira7vD6P8gGaQd8da",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1051,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 102,
+      "total_tokens": 1153
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "30bb1c855ac76ff9489f53735d913198967bddc0007bdab2390f13f8d020d057": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01RjNdZtFHp3KEsEvHwNgmWL",
+       "input": {
+        "chunkId": 2097
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01L4rUtJKda689FrhwWZJW7b",
+       "input": {
+        "chunkId": 2098
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-68a9-74eb-938a-726803f26231-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMty1rUtfkHsmajFXYjH",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3985,
+       "output_tokens": 101,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2097
+       },
+       "id": "toolu_01RjNdZtFHp3KEsEvHwNgmWL",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2098
+       },
+       "id": "toolu_01L4rUtJKda689FrhwWZJW7b",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3985,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 101,
+      "total_tokens": 4086
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "3f4401dc24d53a5e7db4975582774cbb9289bde4d11660293e06a4a6d29e39f6": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_014WkLxUicUXqak8YiA5byQp",
+       "input": {
+        "query": "release original movable or immovable property documents within 30 days full repayment settlement loan, release registered charge",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-4b8a-7374-bcbc-742a44f46f28-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtxUPPjjFsrC4wzTin3",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1041,
+       "output_tokens": 101,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "release original movable or immovable property documents within 30 days full repayment settlement loan, release registered charge",
+        "topK": 5
+       },
+       "id": "toolu_014WkLxUicUXqak8YiA5byQp",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1041,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 101,
+      "total_tokens": 1142
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "5d6fb799aba4cd3e88f4ce0dcfb9c977794df9c8fd22f52e990d9ad7ff010035": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Yes. Under Para 39 of the NBFC Responsible Business Conduct Directions, 2025, if an NBFC delays releasing original movable/immovable property documents or filing the charge satisfaction form beyond 30 days after full repayment or settlement, and the delay is attributable to the NBFC, it must compensate the borrower at ₹5,000 for each day of delay, and it must also communicate the reasons for the delay to the borrower. Para 41 says this applies to cases where release falls due on or after December 1, 2023, and that the compensation is without prejudice to the borrower's other rights.",
+     "id": "lc_run--01a20deb-5f39-7330-8dfe-c17efe44aff6-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtxqdaU9yp94yD5bJ6y",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4390,
+       "output_tokens": 197,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4390,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 197,
+      "total_tokens": 4587
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "6405d45cc33e27d1e65069fb0c81f3c2af6f355a9283e8d35c8be0efd2f32ee1": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01V7S3wi4ZFtkfCZATm6EDK6",
+       "input": {
+        "chunkId": 2095
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01A2R5p12cwkPV7HAdni8geo",
+       "input": {
+        "chunkId": 2059
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-a6e3-76c7-b2ce-e676b273377c-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtzC4SJLoK3p2Jh2Mj9",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 6622,
+       "output_tokens": 101,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2095
+       },
+       "id": "toolu_01V7S3wi4ZFtkfCZATm6EDK6",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2059
+       },
+       "id": "toolu_01A2R5p12cwkPV7HAdni8geo",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 6622,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 101,
+      "total_tokens": 6723
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "711074afbe75ba8fde7303925f10f46d0bdeab6a437fa179de4cf01127343ced": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "questions": [
+     {
+      "id": "q1",
+      "search_hint": "release original property documents within 30 days full repayment settlement loan account closure charge satisfaction",
+      "text": "What is the maximum timeline within which an NBFC must release or return original movable or immovable property documents and release registered charges after full repayment or settlement of a loan?"
+     },
+     {
+      "id": "q2",
+      "search_hint": "compensation delay Rs 5,000 per day delay beyond 30 days release original documents borrower",
+      "text": "Must an NBFC pay compensation to the borrower if it delays returning original property documents or filing charge satisfaction after loan closure, and what is the amount and rate of compensation?"
+     },
+     {
+      "id": "q3",
+      "search_hint": "documents lost damaged duplicate certified copies additional 30 days compensation NBFC responsibility",
+      "text": "Where delay in releasing documents is attributable to reasons beyond the NBFC's control, such as loss or damage of documents, what obligations and extended timelines apply, including duplicate or certified copies and the compensation due?"
+     },
+     {
+      "id": "q4",
+      "search_hint": "place of collection original documents branch where loan serviced legal heirs death of borrower settlement communication",
+      "text": "What must an NBFC disclose and communicate to a borrower at loan closure about the timeline, place of collection (any branch) and mode of document return, and in case of death of the borrower, what process applies for legal heirs?"
+     },
+     {
+      "id": "q5",
+      "search_hint": "sanction letter loan agreement terms release of documents timeline compensation board approved policy grievance redressal",
+      "text": "Must the NBFC's loan terms, sanction letter or key facts statement and board-approved policy include the document return timeline and compensation for delay, and what grievance redress applies?"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"questions\":[{\"id\":\"q1\",\"text\":\"What is the maximum timeline within which an NBFC must release or return original movable or immovable property documents and release registered charges after full repayment or settlement of a loan?\",\"search_hint\":\"release original property documents within 30 days full repayment settlement loan account closure charge satisfaction\"},{\"id\":\"q2\",\"text\":\"Must an NBFC pay compensation to the borrower if it delays returning original property documents or filing charge satisfaction after loan closure, and what is the amount and rate of compensation?\",\"search_hint\":\"compensation delay Rs 5,000 per day delay beyond 30 days release original documents borrower\"},{\"id\":\"q3\",\"text\":\"Where delay in releasing documents is attributable to reasons beyond the NBFC's control, such as loss or damage of documents, what obligations and extended timelines apply, including duplicate or certified copies and the compensation due?\",\"search_hint\":\"documents lost damaged duplicate certified copies additional 30 days compensation NBFC responsibility\"},{\"id\":\"q4\",\"text\":\"What must an NBFC disclose and communicate to a borrower at loan closure about the timeline, place of collection (any branch) and mode of document return, and in case of death of the borrower, what process applies for legal heirs?\",\"search_hint\":\"place of collection original documents branch where loan serviced legal heirs death of borrower settlement communication\"},{\"id\":\"q5\",\"text\":\"Must the NBFC's loan terms, sanction letter or key facts statement and board-approved policy include the document return timeline and compensation for delay, and what grievance redress applies?\",\"search_hint\":\"sanction letter loan agreement terms release of documents timeline compensation board approved policy grievance redressal\"}]}",
+     "id": "lc_run--01a20deb-35e8-7621-9084-f097e0a28352-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtx4ePJQqQ646fQauSb",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 904,
+       "output_tokens": 566,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 904,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 566,
+      "total_tokens": 1470
+     }
+    },
+    "type": "ai"
+   },
+   "role": "plan"
+  },
+  "8aa1bc857330528ae8337a67f9ea6653ecb70fbbb834c9113deaefc843f2216b": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01PAMHQ26ZzmzxuXZCwg63vE",
+       "input": {
+        "query": "compensation delay return original property documents charge satisfaction after loan closure per day"
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-5806-7316-a161-74d14480b525-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtxhe7uzZgfqS4z7fv5",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1050,
+       "output_tokens": 72,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "compensation delay return original property documents charge satisfaction after loan closure per day"
+       },
+       "id": "toolu_01PAMHQ26ZzmzxuXZCwg63vE",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1050,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 72,
+      "total_tokens": 1122
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "8b05b592b36cc28c89ca8b238287849e6add352e4c52d76ed8902a22054816b4": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "On loan closure, an NBFC must release the original movable/immovable property documents and remove registered charges within 30 days of full repayment or settlement (para 35), and must state the timeline and place of return in sanction letters issued on or after 1 December 2023 (para 37). The borrower may collect the documents from the branch where the loan was serviced or from any other NBFC office holding them, as they prefer (para 36). If the borrower or a joint borrower dies, the NBFC must have a well-laid-out procedure for returning the original property documents to the legal heirs, published on its website (para 38). If the 30-day deadline is missed for reasons attributable to the NBFC, it must communicate the reasons for the delay to the borrower (para 39) and pay compensation (paras 40–41, which I did not read in full).\n\nSources: RBI NBFC Responsible Business Conduct Directions, 2025, paras 35–39 (Chapter III, section F). I did not check the mode of return (for example, courier or in person) beyond what is above, and I did not read the detailed legal-heir steps, because the corpus only sets the requirement to have a procedure.",
+     "id": "lc_run--01a20deb-8604-74e4-86bc-220258ae3888-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtya8TAYQnm7SfJMndb",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 6829,
+       "output_tokens": 369,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 6829,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 369,
+      "total_tokens": 7198
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "8db61ae1db1714279624e33f49110101dbd837a64e0c1836a9591e9c39078c7c": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSwQcKEAgUGAI4AUIIdGhpbmtpbmcSDDVfVCZ51NVk6lxbCxoMV2U+YZjnGEdkSPTkIjCsvXL59Mk+dVXxI6ux//KPVzHtuOBAwdieOcMtfS2rS7eOOIdFh7Q/WdrFyJS3USEq3gaOmPoxSmq4F1NMeTQY/nE4gxmUyr4APHaFzcRsTF5z+lbQmAlxYwdq95YUxQU6jI7MfTzubYuv8qDf2D8rDMjqvVAHAGLoLmC3X3mWyFFHy42uU7kVDqjtKoTPb/Q8jrd0EqwFQFDxw+vpPxezvSrXlkgdFrpWbipFp+Trj55VmRrOT3Ziy+CzrKd/pd5lDIJq39UAtXN/bLc+jR1Id4Jk3tYlI3vmlRCn8df6rADvzDLajVDto9X5FS1qI/VjMGHLufKs+1zY0wYawfXvQwgV1NHcKAse8iuUpefGHMhTHwimHB4AGmX2u0LPp4ubhfWb3XiBbwivBm2aiN0HsODvzNRPualfbwAuNSn+mxdlp5I1anracahYta+erOJm1mcA2TUTxvrEgIkGBmvegAWkVzSk0DXFvRcWERzd5zbyXD1+J8NesdayhWCNQ/hOsMJAthx9ZpLm0csr6bp/XQzMURzL+2M4i+M1s8L1MhKEHneBzxRRyDSvGYiEDhx9fOmZqO+MQqICMHKTNSBrdOkuTiFxqFdqAcvkL5N4N1KxHbDtl/qh86IEH5CD4xu7MF02Lv6gVv5uCcIsrJDKc//kbgEQGQ5C6FChdjhYU1nhc2AFJjbDdF0hEjcXtVEy5sm2wyKmfVmY2UASwgBiuFFblu3b680stehvKhnzp8vn7kt9VMgsw4h/hc1zgOwHQ8qcFqsZz4vMdLy+sKi1NSsl7hYUcFE0Y9T3UlAaojlc8Doh595k0X136Ah/bRwrePikrcbLVLVh/7tyx59UrIR5p1K4pVXn76FTvv7Mt4Rp1qKh4Gl62BkmMEO+eQdIp1CA/654F4rEWQ8WRnegazNDz+AGkngepCWVmoiUuXX3Tzi/XLLTgzWlEbxtFhCUfmcOyXY2J6k69sSRLGBenIzCE05Ssgyf6RlBu0Uo9iFrp7s6R6sjFxkw9kig+kkyrbbEUqdzcOsaZIxFNnoU1FLM3lK+sKGPTXXqWB1AprahNSrmzlOqpbIix/93GdGQcuUzesSbDmHhbbe03NuNZ6z0SfYtsWm5zny87mLg7DesImU3p0MYIMKHXbJ+sN7jQCevJRxXWO/TrdGNGObWkzn+0HbHH3t3QQB6gXFPMbKF1iOkB6yL0Yeu9zsRbLsxGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01PQoBydqEFUVTJnYYJNBwQ2",
+       "input": {
+        "query": "release of movable immovable property documents within days of repayment of personal loan",
+        "topK": 4
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-7faf-77c1-a255-0a4f83eddb4e-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtyTBUudUL4yWVPEKQb",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 5214,
+       "output_tokens": 194,
+       "output_tokens_details": {
+        "thinking_tokens": 102
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "release of movable immovable property documents within days of repayment of personal loan",
+        "topK": 4
+       },
+       "id": "toolu_01PQoBydqEFUVTJnYYJNBwQ2",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 5214,
+      "output_token_details": {
+       "reasoning": 102
+      },
+      "output_tokens": 194,
+      "total_tokens": 5408
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "96279686eaca05b85c28fb1a09b096b0f0d63a76ea9ae33dc501bff181023938": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "findings": [
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2093
+      ],
+      "obligation": "An NBFC must release all original movable/immovable property documents and remove charges registered with any registry within 30 days after full repayment or settlement of the loan account.",
+      "para_ref": "Para 35",
+      "question_id": "q1",
+      "recommendation": "Cut the document return and charge-release timeline from 90 days to a maximum of 30 days after full repayment or settlement, and make sure registered charges are also removed within that period.",
+      "severity": "HIGH"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2097,
+       2099
+      ],
+      "obligation": "If the NBFC delays releasing documents or filing the charge satisfaction form beyond 30 days and the delay is attributable to it, it must compensate the borrower at ₹5,000 for each day of delay, and must tell the borrower the reasons for the delay. The compensation is without prejudice to the borrower's other rights.",
+      "para_ref": "Para 39",
+      "question_id": "q2",
+      "recommendation": "Remove the no-payment-for-delay stance. Build a process to communicate reasons for any delay past 30 days and to pay ₹5,000 per day where the delay is attributable to the NBFC. Apply this to all releases falling due on or after December 1, 2023.",
+      "severity": "HIGH"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2098
+      ],
+      "obligation": "If documents are lost or damaged, the NBFC must help the borrower obtain duplicate or certified copies and bear the costs. It gets an extra 30 days (60 in total), after which the ₹5,000 per day compensation applies.",
+      "para_ref": "Para 40",
+      "question_id": "q3",
+      "recommendation": "Add a loss/damage procedure covering assistance in obtaining duplicate or certified copies at the NBFC's cost, the 60-day outer limit, and compensation after that.",
+      "severity": "MEDIUM"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2094,
+       2096
+      ],
+      "obligation": "The borrower must be able to collect the original documents from the branch where the loan was serviced or any other NBFC office where the documents are available, as they prefer. The NBFC must also have a well laid out procedure for returning documents to legal heirs on the death of a borrower, displayed on its website.",
+      "para_ref": "Para 36",
+      "question_id": "q4",
+      "recommendation": "Confirm that borrowers can choose any office where the documents are held, and that the legal-heir return procedure exists and is published on the website. The feature description mentions neither.",
+      "severity": "MEDIUM"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2095,
+       2058,
+       2059,
+       2060
+      ],
+      "obligation": "The timeline and place of return of original property documents must be stated in loan sanction letters issued on or after December 1, 2023. The NBFC must also keep Board-approved policies, including a grievance redressal mechanism, and the Board must review how that mechanism functions.",
+      "para_ref": "Para 37",
+      "question_id": "q5",
+      "recommendation": "Ensure the sanction letter states the 30-day timeline and the place of return, and that the Board-approved policies and grievance redress mechanism cover document release and delay compensation. Check that the Board reviews grievance redress periodically.",
+      "severity": "MEDIUM"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"findings\":[{\"question_id\":\"q1\",\"obligation\":\"An NBFC must release all original movable/immovable property documents and remove charges registered with any registry within 30 days after full repayment or settlement of the loan account.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 35\",\"severity\":\"HIGH\",\"evidence_chunk_ids\":[2093],\"recommendation\":\"Cut the document return and charge-release timeline from 90 days to a maximum of 30 days after full repayment or settlement, and make sure registered charges are also removed within that period.\"},{\"question_id\":\"q2\",\"obligation\":\"If the NBFC delays releasing documents or filing the charge satisfaction form beyond 30 days and the delay is attributable to it, it must compensate the borrower at ₹5,000 for each day of delay, and must tell the borrower the reasons for the delay. The compensation is without prejudice to the borrower's other rights.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 39\",\"severity\":\"HIGH\",\"evidence_chunk_ids\":[2097,2099],\"recommendation\":\"Remove the no-payment-for-delay stance. Build a process to communicate reasons for any delay past 30 days and to pay ₹5,000 per day where the delay is attributable to the NBFC. Apply this to all releases falling due on or after December 1, 2023.\"},{\"question_id\":\"q3\",\"obligation\":\"If documents are lost or damaged, the NBFC must help the borrower obtain duplicate or certified copies and bear the costs. It gets an extra 30 days (60 in total), after which the ₹5,000 per day compensation applies.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 40\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[2098],\"recommendation\":\"Add a loss/damage procedure covering assistance in obtaining duplicate or certified copies at the NBFC's cost, the 60-day outer limit, and compensation after that.\"},{\"question_id\":\"q4\",\"obligation\":\"The borrower must be able to collect the original documents from the branch where the loan was serviced or any other NBFC office where the documents are available, as they prefer. The NBFC must also have a well laid out procedure for returning documents to legal heirs on the death of a borrower, displayed on its website.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 36\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[2094,2096],\"recommendation\":\"Confirm that borrowers can choose any office where the documents are held, and that the legal-heir return procedure exists and is published on the website. The feature description mentions neither.\"},{\"question_id\":\"q5\",\"obligation\":\"The timeline and place of return of original property documents must be stated in loan sanction letters issued on or after December 1, 2023. The NBFC must also keep Board-approved policies, including a grievance redressal mechanism, and the Board must review how that mechanism functions.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 37\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[2095,2058,2059,2060],\"recommendation\":\"Ensure the sanction letter states the 30-day timeline and the place of return, and that the Board-approved policies and grievance redress mechanism cover document release and delay compensation. Check that the Board reviews grievance redress periodically.\"}]}",
+     "id": "lc_run--01a20deb-bda4-76f2-b7b2-eacdc8f91f5e-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtzdFjtL4LCFx79K96H",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 7316,
+       "output_tokens": 1276,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 7316,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 1276,
+      "total_tokens": 8592
+     }
+    },
+    "type": "ai"
+   },
+   "role": "assess"
+  },
+  "9cd365055a5e14c8ee58b7442cbf466c3960f40ffe468cce7584eb086fd10424": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01L4e3jmY5u9UYm34jyAXQAL",
+       "input": {
+        "query": "documents lost damaged duplicate certified copies additional 30 days compensation NBFC responsibility"
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-6491-757c-98b0-dffc28cd6cae-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtxwNc7oXC9cQ6VoFTm",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1064,
+       "output_tokens": 80,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "documents lost damaged duplicate certified copies additional 30 days compensation NBFC responsibility"
+       },
+       "id": "toolu_01L4e3jmY5u9UYm34jyAXQAL",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1064,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 80,
+      "total_tokens": 1144
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "9e29f7083eef2d13ca40ea8a82cde423a1dc2e3abde99d03d2a1607bbe4245e1": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Under Para 35 of the RBI NBFC Responsible Business Conduct Directions, 2025, an NBFC must release all original movable/immovable property documents and remove registered charges within 30 days after full repayment or settlement of the loan account, with Para 39 requiring it to explain any delay beyond that 30-day window.",
+     "id": "lc_run--01a20deb-53e3-7104-af34-30af5eddfbbb-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtxdVZzHjLde4aJRZjv",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 2934,
+       "output_tokens": 107,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 2934,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 107,
+      "total_tokens": 3041
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "a1c45aa96d0f9b3b5467f3a4fe5c14d283ff2f9eb6774f0700e83f57a3bec726": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSqgYKEAgUGAI4AUIIdGhpbmtpbmcSDLedFKdwh7fuAlP9ExoMy1DFE8tOrgNcMe8aIjARiuiXGnLGB9K602BcKMNKi3MW8MTGv9gcTd5KuES8nwZW5hP+N7iDqxHEF+zElCYqxwWtSPzUTki6ta8pr67j15v9RqpO2/OFlaAbTQf9Y64yRZQcocZaC5LcHUF1h4rhEK3+hCYUerRHj+j12jzvMQ3a2j7Q4NxU+CAAqS5WuATJAMvcY1WyZvUnX+W4hTbMYb3DoaszWjyH5orPRWawj+YrgH3f8q6xxTiTV+WTQK2DDKk4LubWYp2Zv2Ij6GuD9GJjAcC5qknNDz903S6GBZJeSFi7r0hx1mRcU18B+86zfOjzUalm82bT7/XbxSDZOY/QWQsF5J2QSyaM90g7zpc9E8tuOPP6A08dCCjJl3iRi2PUMkN5wB69vxWzEEF7/4UXAE2QBRTm5wffdaSGZmIwq2rVwqqpEWLmIUTapqlJJ1A76W4YlCWIyhw9383RWUl9MmDqtU2kAU5gTx6IBTXbHcwenxG5SCbhSNGWU2Ji91j1Gq5Vo+NgMu0dOstKX6V8lYVIZutNvj0k9cLRbIS+iUBGwvYagNQZQe+zpM98dg39RZC4jhDhhx++SSyOge2VG0UWERrHk7lncLR0ByuaU2xgY+wKj4R9HaCfSxGC5Y/hpCYQ+uHB4HuFJLmgGCPlMnqXiU6wOBcA/urhTF+TDWaMrUe0gwFDU1d+k/i92mYLTBiC+R/4NvWwZJVePRWkePEgM6x/G2ZtRzbjd/nSJsrTvl+O6Bf+Va8+LykSeiqQxnJE3dXdUaDsYT01X2/tOftWseyOGgXwrHA2uy7nboOuXNPF2vlZzac1fAS3u4n0Y98u1BXezZJ9lN4eyZqGOF3OWXu9IFiOamtuRjDqmE48Rv68h/Q2MVTiO38B9CjZZ2Yz+nr0mcnlwqIlJgOAjtlzDH9GkAAYb6tyGdfJFKmpqP2TxojUICX1znhxOqmvmgRVYY/1WKpN4iS2pMdJS8lpe+ONGmVLPuqxTAAKhjCQZ5CQvrsJhfzQeE3B+Fb4SR1ELDkYAQ==",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01TurP9DaNA6TQnkaxJ3zDzV",
+       "input": {
+        "chunkId": 2097
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01CJwSXgshEPS9Kus27dysqN",
+       "input": {
+        "chunkId": 2170
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_019q4guCdHn7bMLja7wVYmur",
+       "input": {
+        "query": "grievance redressal mechanism board approved policy NBFC borrower complaints",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-9ab3-73fc-a445-55b34f4ac8a6-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtyxdo43Lxg5PXH8o3J",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3981,
+       "output_tokens": 253,
+       "output_tokens_details": {
+        "thinking_tokens": 59
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2097
+       },
+       "id": "toolu_01TurP9DaNA6TQnkaxJ3zDzV",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2170
+       },
+       "id": "toolu_01CJwSXgshEPS9Kus27dysqN",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "query": "grievance redressal mechanism board approved policy NBFC borrower complaints",
+        "topK": 5
+       },
+       "id": "toolu_019q4guCdHn7bMLja7wVYmur",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3981,
+      "output_token_details": {
+       "reasoning": 59
+      },
+      "output_tokens": 253,
+      "total_tokens": 4234
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "b4155a054c5bfe45ffb290dc02e5c168ebddc1abbf3215ef818dd1af64d26572": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS6AkKEAgUGAI4AUIIdGhpbmtpbmcSDC0KWj9OSvnis9fyuRoM6I30jQkjPFlmQckDIjCCNJL4XPxBP021YqdG9ou+J+qjcgJbeS6mKk7Q58BKG8zLjEJERZ+57OjyW61a5b0qhQlgZGN4714I2IbEAol28BDoriTBofNxEHmPcCAyPgTjSZiyntIaJO9/1/Hi98UGMKyDNX+uhxBcONWeAR0TpfsFjpBNwGquAf7ddGDb70em8toa7eJdKIXhY8Ul+Sx248LqEuaoVo9tgq5MVuBgDUbYWKP5ObdrPoKZnyEk+oZExI42Og2R2GPV1LgPECW3wPKKSRfjTxqBpp5UEuxoP6EZyL5FAdCSRyih6lLc45EM9D9RQBdOpNUewdccCe7uBQoTaVb6+X742T+28iaiHnS2G164hwiGF9WArlowCjAIXUhYFqshWb6xKP4Gei1CWYnpKCjAkyBYSNoLeb2U+fKWEg2CkR7H80VGIfEDzUx34SUdLdDmoRg+FO4DpKz9flOs6TBI+eH/qam/GxkZp2S0AbtNsoGk/6ehV6TQm3cpM7ssH579g7TbmkQ+Cdf307Ys7O1vMrtH5J/gCktiAWkOa9QdjvLs0qdX8/wvkHYCqbTS55T85S0Bd1+6jC1FgRHwWn/oHCKiAPK1zMSNvzCug+aA88asW6jXkRXk0Unm6oEV1iy6xMPvTb09EAQVCI4MtfbIq89RVJ3/6uqnWG5sMLi/yyla+J4BMsYZj4LtJdwCXH0XoWW9mTWyhNq9NC+ZDDTd98WNoVxgpYL3JIKk76lrD8Mfv0m8pX6Jn0ZZndt6SaibKxH+8FybEjNzt7QQrLR+aHT4untF4rQXnoLEBJZrr2UJzBjPIkibpeffldhZVIMSD5ivdd2AHdvF/izqk6c3O7woxx3/bcGC0q0V2SnMyTTzKYyYBrIo8p1FQ2X0tFP8lcK13ae9yncafZC2s5ytQ9DmiHEEONaWI1cI9zKVFpifXk1cDBhcZNMH1x7bVHOkKqSNVc46bG4yYcwvDz+HbHg6OalOaEPB2o7T7LfmuQB3JUUgZvGPdkQLeub3WcaNwNLvLDm281BFpaaxZRUGnaH5y3hCr23MBWVBCv1TEY0EzR3vvTY1Sw9DNcY4+4mVhlVblzdtd1M+LUsqSSfOpWFC8DzMXMiILL+DPXqmn8VOVZpCZmzwa5cYfNGKaJkTGrw96J3VA2+cE/lLSG3j3CWyeY7EqvXhcOE7PKtNuTPEbwNzfDFAKrXCyignajJbmYbDABeOpqPsV6P51hIIEJYjMC+T3bL7maGTd8/T2MfhdSknh9Txv4OkFyNE3cR1nOy95JOnNs9efnpvBSCFIw7D7TOe/4HzluGu4saEJIr2P6xMt+XNb0z5veY/6C2BO3mT1Or3DmHvmy6z7a6A07ayM/OI8nZxDtqligdAgmvaRj1PT8H4K7SRgKG9QOZvNmQoZW0KGdRLss9Z1zvqjrrd61dFFGBH81z7KOsycAcHn/EY+7P82JaGSJrhOChazoU1WKL9NXOQrNmJ8G4Ge4xdLbC23nCC+6K2kSMOlFuZClQIW3uxtc6hZRdpI9HTvtNQsV+M5MSj7MODcIuTlm/8JqN1vlpolh2V6CataR1i1i1uFojzgrWkmn+0vSFoCtoSfN/l6yiafQsVELwBGBgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "text": "The corpus answers this only in part. Sanction letters must state the timeline and place for returning original property documents (para 37, for letters issued on or after 1 December 2023). Para 39 requires the NBFC to tell the borrower why documents were not released, or the charge satisfaction form not filed, beyond 30 days after full repayment, and para 41 makes the compensation rules apply to cases falling due on or after 1 December 2023, without prejudice to other borrower rights. I did not retrieve the compensation amount for property documents, so I cannot confirm it from the corpus. For gold loans, collateral must be released within seven working days of full repayment (para 58), with compensation of ₹5,000 per day of delay where the NBFC is at fault (para 69).\n\nOn the board-approved policy, the Responsible Business Conduct Directions require a Fair Practices Code and a grievance redressal mechanism, with disputes heard and disposed of at least at the next higher level (paras 7 and 8, Chapter II A.1). The Credit Facilities Directions require nodal grievance officers, with their contact details prominently displayed, for digital lending complaints (para 12). The loan agreement must also contain a grievance redressal clause and the nodal officer's phone and email, which may be a generic email if replies come within one working day (Annex I, part 2). Microfinance recovery grievances need a dedicated mechanism whose details are given to the borrower at disbursal (para 92).",
+       "type": "text"
+      }
+     ],
+     "id": "lc_run--01a20deb-af82-75fa-bd09-b9ed7fde460f-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtzMRFYGSHG97yXD5b3",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 7341,
+       "output_tokens": 663,
+       "output_tokens_details": {
+        "thinking_tokens": 189
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 7341,
+      "output_token_details": {
+       "reasoning": 189
+      },
+      "output_tokens": 663,
+      "total_tokens": 8004
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "cc711a572e81dbcccb3915fd8316b147eeed358f0a139d4bc7521cbecfbb77ff": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01QpB4s8fk7kQib5ccAVknHF",
+       "input": {
+        "query": "return of original documents on loan closure timeline branch where loan serviced legal heirs death of borrower",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-7615-774e-b7a2-4f83021e47f4-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtyGZ1xto7uATnLhxfV",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1060,
+       "output_tokens": 101,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "return of original documents on loan closure timeline branch where loan serviced legal heirs death of borrower",
+        "topK": 8
+       },
+       "id": "toolu_01QpB4s8fk7kQib5ccAVknHF",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1060,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 101,
+      "total_tokens": 1161
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "d6fc020b330abc195d69978eefb2f1b8f89396c12dddbc8e0aada0952504b4c0": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_017AKnQnf1KoKvnqoYpFySZK",
+       "input": {
+        "chunkId": 2097
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-5c17-70dc-95b8-3d1378ff7a4b-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtxn9Uu6iC1Ktxgj313",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3966,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2097
+       },
+       "id": "toolu_017AKnQnf1KoKvnqoYpFySZK",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3966,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 4018
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "e75e3e30cf36e4862b69cc57f3d4e3d3b7d00cc21ab01351b74ca1af530ae3b2": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "text": "I need the full text of paras 36–38 for the timeline and the death-of-borrower procedure.",
+       "type": "text"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01EyzoBFyLZU6uShfKWS4XE9",
+       "input": {
+        "chunkId": 2095
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01RKJ6VPboWqfScSGEtezoBB",
+       "input": {
+        "chunkId": 2096
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01TMSDjgmLgUwZE1CkxHUY14",
+       "input": {
+        "chunkId": 2094
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-7a9d-76e7-a207-8b0f76896c54-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtyMbPMtq1xEovbnjPE",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4035,
+       "output_tokens": 182,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2095
+       },
+       "id": "toolu_01EyzoBFyLZU6uShfKWS4XE9",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2096
+       },
+       "id": "toolu_01RKJ6VPboWqfScSGEtezoBB",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2094
+       },
+       "id": "toolu_01TMSDjgmLgUwZE1CkxHUY14",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4035,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 182,
+      "total_tokens": 4217
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "fa5350fa6ec01185d32d2650b75fb7ef66b3e0afd996b86c1a2d57b9adf4f4d6": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSjgcKEAgUGAI4AUIIdGhpbmtpbmcSDDTLkdfdbpDa9l1XMRoMYoacqpiAyzOjuxzlIjDEAoNFkMSYKbpJmrs70LCINAUF+UDO/3e6mIrxkQQ8j5vWqDs88qPS7AhcpqpQIqYqqwZAu7zMM7FrSaGBVV30/VM17Ue2VuDXfPVFuJrgNNszQUQETtyJnh+F7pKI8gbMx+l4PzUYR1pXXpc3fVPmjpIBclsPiuBo8al/zqGALt04GFRa40MH3t+xdEKkW7LHRMv/HN8US/DN0Ms+ejT3JhA981UHwKMhvF22iNybV0WQnl7eX4gtU7bO3A9z3l8+YVMY7XgB2lk1zMmi0IatW+H5mpfpNvYUorFK2gGktiWN2yFlt45LCUmfKqYXvTBX5Bdmx1zKcFB+TjVGa9E6L9FdaT1nBGTxmtfSlUbr7oEi3v8zICk/gzGbKuCj8a6RD7B+lpg5mC93knxzfypzhW7bF3a1g44ggROfVeItxpuFLNcak8OxYvvj3whcM+8xVDV9i+QuoKO0ZNNwxizlElivGCmsaR7LEFrwxWNXX+j0OgyvtrP6aHTBvPYwXBJAFSehZfqA1fhCFfrsfcumsh6X3Y4zYPZwQ9fcQ+zb3wa/GG8FxVKBk3PvHK8epWP7xIk915oJZp3zg7NYA/1X9OQ71uqiGoZ5JOcNwIXrW2Fxrlcfqxj2vpLHIrzqJ4vWYM9fhsWXuZqCuQ71EmOQP3LdLoYeVoYdZr1zPhv1Ei48Oi4a6NS7eY9fqv7HsG1vPf+VxUmlUxvIkSqM3nvVH04atCNEN8Sd+XBZ/hQRr6Rm2pjLv5Rjk1ZEVPNoGWOfPob/LCSf9LqOx/bY9iW492a/skuv107sPb4SF7YM8QhmeZD3pqNqvcgMhfvl2JiSYB84G/xl94rpnN0LMDm+wDMNq1ji2fweFLFfPwPDsG+qntyMC740ZD6H0hX+HOQ5J2qkd0P4qmhtKxpap2XTgmaIb/rVIAzazvqpOZEwBOTUv6sj1LvANwjBBjj50J4dmfNM/V5bUQl1QbKiyUZb75PEXo/Zr+QYcpFeAvhoSJjSdCChD/x2WKK/4O98pODNsNHB7QOaOPRoz5jJbhDPUEoukYpVF3B7u+Zafsf7DRGJJTU4sF5SACIFWzcya3n6AjAuWlzeI1qinmbmORj6E1wDo3ldNRcFD+HMS09Sj2aSSPot0Ac5vY1qIBE2GAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01WQg3q4jRQsn6wHm2DkdLnZ",
+       "input": {
+        "query": "para 39 compensation per day delay release property documents attributable to NBFC Rs 5,000",
+        "topK": 3
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-70ec-74f5-b2ce-2fe29c35c136-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtyAxRpaoNWFD5EJDPQ",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4765,
+       "output_tokens": 161,
+       "output_tokens_details": {
+        "thinking_tokens": 60
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "para 39 compensation per day delay release property documents attributable to NBFC Rs 5,000",
+        "topK": 3
+       },
+       "id": "toolu_01WQg3q4jRQsn6wHm2DkdLnZ",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4765,
+      "output_token_details": {
+       "reasoning": 60
+      },
+      "output_tokens": 161,
+      "total_tokens": 4926
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  }
+ },
+ "scenario": "rbc-property-documents",
+ "tools": {
+  "05540056151e49c87a30efe991ac5be3dfe8fd265b6da7534da4a4f7e2e7d59d": {
+   "args": {
+    "query": "para 39 compensation per day delay release property documents attributable to NBFC Rs 5,000",
+    "topK": 3
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2097,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "39. An NBFC shall communicate to the borrower reasons for delay in releasing of\noriginal movable / immovable property documents or failing to file charge\nsatisfaction form with relevant registry beyond 30 days after full repayment/\nsettlement of loan. In case where the delay is attributable to the N",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 1,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 39",
+       "pinned": true,
+       "similarity": 0.8336257140191208
+      },
+      {
+       "chunkId": 1758,
+       "denseRank": null,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "39. Loans against ornaments and coins shall be subject to the following:\n(1) The aggregate weight of ornaments pledged for all loans to a borrower shall not\nexceed 1 kilogram for gold ornaments, and 10 kilograms for silver ornaments.\n(2) The aggregate weight of coin(s) pledged for all loans to a bor",
+       "fusedScore": 0.0125,
+       "heading": "Chapter IV – Lending against Gold and Silver Collateral › B. Restrictions and Ceilings",
+       "keywordRank": 20,
+       "pageEnd": 31,
+       "pageStart": 31,
+       "paraRef": "Para 39",
+       "pinned": true,
+       "similarity": null
+      },
+      {
+       "chunkId": 1603,
+       "denseRank": null,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "39. The NBFC shall undertake ongoing due diligence of customers to ensure that\ntheir transactions are consistent with their knowledge about the customers, customers’\nbusiness and risk profile, the source of funds / wealth.",
+       "fusedScore": 0,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": null,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Para 39",
+       "pinned": true,
+       "similarity": null
+      }
+     ],
+     "query": "para 39 compensation per day delay release property documents attributable to NBFC Rs 5,000"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_6a1f8c05-5586-4d46-b5e7-e1c986053f4f",
+     "text": "{\"query\":\"para 39 compensation per day delay release property documents attributable to NBFC Rs 5,000\",\"degraded\":null,\"hits\":[{\"chunkId\":2097,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"39. An NBFC shall communicate to the borrower reasons for delay in releasing of\\noriginal movable / immovable property documents or failing to file charge\\nsatisfaction form with relevant registry beyond 30 days after full repayment/\\nsettlement of loan. In case where the delay is attributable to the N\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.8336257140191208,\"pinned\":true},{\"chunkId\":1758,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter IV \\u2013 Lending against Gold and Silver Collateral \\u203A B. Restrictions and Ceilings\",\"pageStart\":31,\"pageEnd\":31,\"excerpt\":\"39. Loans against ornaments and coins shall be subject to the following:\\n(1) The aggregate weight of ornaments pledged for all loans to a borrower shall not\\nexceed 1 kilogram for gold ornaments, and 10 kilograms for silver ornaments.\\n(2) The aggregate weight of coin(s) pledged for all loans to a bor\",\"denseRank\":null,\"keywordRank\":20,\"fusedScore\":0.0125,\"similarity\":null,\"pinned\":true},{\"chunkId\":1603,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"39. The NBFC shall undertake ongoing due diligence of customers to ensure that\\ntheir transactions are consistent with their knowledge about the customers, customers\\u2019\\nbusiness and risk profile, the source of funds / wealth.\",\"denseRank\":null,\"keywordRank\":null,\"fusedScore\":0,\"similarity\":null,\"pinned\":true}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "11d4780e71a51c88b5eb0d0a3dc04728fc340e543e8e9e307f3de5922cc181a6": {
+   "args": {
+    "chunkId": 2097
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2097,
+     "content": "39. An NBFC shall communicate to the borrower reasons for delay in releasing of\noriginal movable / immovable property documents or failing to file charge\nsatisfaction form with relevant registry beyond 30 days after full repayment/\nsettlement of loan. In case where the delay is attributable to the NBFC, it shall\ncompensate the borrower at the rate of ₹5,000 for each day of delay.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+     "pageEnd": 19,
+     "pageStart": 19,
+     "paraRef": "Para 39"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_38dbf4a3-1307-4151-bea8-b863e4beff1c",
+     "text": "{\"chunkId\":2097,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"content\":\"39. An NBFC shall communicate to the borrower reasons for delay in releasing of\\noriginal movable / immovable property documents or failing to file charge\\nsatisfaction form with relevant registry beyond 30 days after full repayment/\\nsettlement of loan. In case where the delay is attributable to the NBFC, it shall\\ncompensate the borrower at the rate of \\u20B95,000 for each day of delay.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "202ec6a8ac95127327978b1dcf256c9992e50b4b2c940eae8ce21ad7650705eb": {
+   "args": {
+    "chunkId": 2098
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2098,
+     "content": "40. In case of loss/damage to original movable / immovable property documents, either\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\ncopies of the movable / immovable property documents and shall bear the\nassociated costs, in addition to paying compensation as indicated at paragraph 39\nabove. However, in such cases, an additional time of 30 days will be available to\nthe NBFC to complete this procedure and the delayed period penalty will be\ncalculated thereafter (i.e., after a total period of 60 days).",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+     "pageEnd": 19,
+     "pageStart": 19,
+     "paraRef": "Para 40"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_89939166-5d53-48f6-91c9-ae2676b79365",
+     "text": "{\"chunkId\":2098,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 40\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"content\":\"40. In case of loss/damage to original movable / immovable property documents, either\\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\\ncopies of the movable / immovable property documents and shall bear the\\nassociated costs, in addition to paying compensation as indicated at paragraph 39\\nabove. However, in such cases, an additional time of 30 days will be available to\\nthe NBFC to complete this procedure and the delayed period penalty will be\\ncalculated thereafter (i.e., after a total period of 60 days).\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "273267b92fbf20eced2a6f65306b5548ae2264100b19092e54c57ba21a52b3ae": {
+   "args": {
+    "query": "release of movable immovable property documents within days of repayment of personal loan",
+    "topK": 4
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2095,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "37. The timeline and place of return of original movable / immovable property\ndocuments shall be mentioned in the loan sanction letters issued on or after\nDecember 1, 2023.",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 2,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 37",
+       "pinned": false,
+       "similarity": 0.8412789858531498
+      },
+      {
+       "chunkId": 2093,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "35. An NBFC shall release all the original movable / immovable property documents\nand remove charges registered with any registry within a period of 30 days after\nfull repayment/ settlement of the loan account.",
+       "fusedScore": 0.032266458495966696,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 1,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 35",
+       "pinned": false,
+       "similarity": 0.8035528532140604
+      },
+      {
+       "chunkId": 2099,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "41. The instructions contained under this section shall be applicable to all cases where\nrelease of original movable / immovable property documents falls due on or after\nDecember 1, 2023. Further, the compensation provided under these directions\nshall be without prejudice to the rights of a borrower",
+       "fusedScore": 0.0315136476426799,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 5,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.8405900882619477
+      },
+      {
+       "chunkId": 2097,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "39. An NBFC shall communicate to the borrower reasons for delay in releasing of\noriginal movable / immovable property documents or failing to file charge\nsatisfaction form with relevant registry beyond 30 days after full repayment/\nsettlement of loan. In case where the delay is attributable to the N",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 3,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 39",
+       "pinned": false,
+       "similarity": 0.7884369114227227
+      }
+     ],
+     "query": "release of movable immovable property documents within days of repayment of personal loan"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_bd741873-813d-4503-81e4-a5cfa5f033e2",
+     "text": "{\"query\":\"release of movable immovable property documents within days of repayment of personal loan\",\"degraded\":null,\"hits\":[{\"chunkId\":2095,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 37\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"37. The timeline and place of return of original movable / immovable property\\ndocuments shall be mentioned in the loan sanction letters issued on or after\\nDecember 1, 2023.\",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.8412789858531498,\"pinned\":false},{\"chunkId\":2093,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 35\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"35. An NBFC shall release all the original movable / immovable property documents\\nand remove charges registered with any registry within a period of 30 days after\\nfull repayment/ settlement of the loan account.\",\"denseRank\":3,\"keywordRank\":1,\"fusedScore\":0.032266458495966696,\"similarity\":0.8035528532140604,\"pinned\":false},{\"chunkId\":2099,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"41. The instructions contained under this section shall be applicable to all cases where\\nrelease of original movable / immovable property documents falls due on or after\\nDecember 1, 2023. Further, the compensation provided under these directions\\nshall be without prejudice to the rights of a borrower\",\"denseRank\":2,\"keywordRank\":5,\"fusedScore\":0.0315136476426799,\"similarity\":0.8405900882619477,\"pinned\":false},{\"chunkId\":2097,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"39. An NBFC shall communicate to the borrower reasons for delay in releasing of\\noriginal movable / immovable property documents or failing to file charge\\nsatisfaction form with relevant registry beyond 30 days after full repayment/\\nsettlement of loan. In case where the delay is attributable to the N\",\"denseRank\":4,\"keywordRank\":3,\"fusedScore\":0.03149801587301587,\"similarity\":0.7884369114227227,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "3f633479b34336952963870bcb4e8e32298bda553dbdb693a4bbe114f436f9e3": {
+   "args": {
+    "chunkId": 2095
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2095,
+     "content": "37. The timeline and place of return of original movable / immovable property\ndocuments shall be mentioned in the loan sanction letters issued on or after\nDecember 1, 2023.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+     "pageEnd": 18,
+     "pageStart": 18,
+     "paraRef": "Para 37"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_4b51d232-2d6b-4faf-b1bd-b10de5a4f67e",
+     "text": "{\"chunkId\":2095,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 37\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"content\":\"37. The timeline and place of return of original movable / immovable property\\ndocuments shall be mentioned in the loan sanction letters issued on or after\\nDecember 1, 2023.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "48356cc395d1cde855bb0cfaab58d455dbbf5f0782c3a1a9e03d946ec05920f3": {
+   "args": {
+    "chunkId": 2059
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2059,
+     "content": "(1) Fair Practices Code, which shall preferably be in the vernacular language, or a\nlanguage as understood by the borrower.\n(2) Grievance redressal mechanism\nNote: The grievance redressal mechanism shall ensure that all disputes arising\nout of the decisions of the functionaries are heard and disposed of at least at\nthe next higher level.\n(3) Appropriate internal principles and procedures in determining interest rates and\nprocessing, penal and other charges.\nNote: The guidelines indicated in the Fair Practices Code about transparency\nin respect of terms and conditions of the loans shall also be considered.\n(4) Lending against gold and silver collateral\n(5) Fair Practices Code for lending to microfinance borrowers\n(6) Policy on reset of floating rate personal loans including option to borrowers for\nswitch between fixed and floating interest rates\n(7) Engagement of recovery agents\n(8) Code of Conduct for DSA / DMA / Recovery Agents",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter II – Institutional Framework › A. Role of Board › A.1 Policies",
+     "pageEnd": 6,
+     "pageStart": 6,
+     "paraRef": "A.1 Policies"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_3d5dc443-5412-4c96-be2b-b7de68966ab0",
+     "text": "{\"chunkId\":2059,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"A.1 Policies\",\"heading\":\"Chapter II \\u2013 Institutional Framework \\u203A A. Role of Board \\u203A A.1 Policies\",\"pageStart\":6,\"pageEnd\":6,\"content\":\"(1) Fair Practices Code, which shall preferably be in the vernacular language, or a\\nlanguage as understood by the borrower.\\n(2) Grievance redressal mechanism\\nNote: The grievance redressal mechanism shall ensure that all disputes arising\\nout of the decisions of the functionaries are heard and disposed of at least at\\nthe next higher level.\\n(3) Appropriate internal principles and procedures in determining interest rates and\\nprocessing, penal and other charges.\\nNote: The guidelines indicated in the Fair Practices Code about transparency\\nin respect of terms and conditions of the loans shall also be considered.\\n(4) Lending against gold and silver collateral\\n(5) Fair Practices Code for lending to microfinance borrowers\\n(6) Policy on reset of floating rate personal loans including option to borrowers for\\nswitch between fixed and floating interest rates\\n(7) Engagement of recovery agents\\n(8) Code of Conduct for DSA / DMA / Recovery Agents\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "4946875fa1f8efcc7f043a17f8ccaf06aae61c9dc2e9172af7459e945746933b": {
+   "args": {
+    "query": "documents lost damaged duplicate certified copies additional 30 days compensation NBFC responsibility"
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2098,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "40. In case of loss/damage to original movable / immovable property documents, either\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\ncopies of the movable / immovable property documents and shall bear the\nassociated costs, in addition to paying compensation as",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 1,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 40",
+       "pinned": false,
+       "similarity": 0.8234207349859368
+      },
+      {
+       "chunkId": 2097,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "39. An NBFC shall communicate to the borrower reasons for delay in releasing of\noriginal movable / immovable property documents or failing to file charge\nsatisfaction form with relevant registry beyond 30 days after full repayment/\nsettlement of loan. In case where the delay is attributable to the N",
+       "fusedScore": 0.03200204813108039,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 3,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 39",
+       "pinned": false,
+       "similarity": 0.7629067332522721
+      },
+      {
+       "chunkId": 2108,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "50. An NBFC, while accepting the eligible collateral, shall prepare a certificate or e-\ncertificate in duplicate on its letterhead regarding the assay of the collateral and\nstate therein the purity (in terms of carats); gross weight of the eligible collateral\npledged; net weight of gold or silver co",
+       "fusedScore": 0.031754032258064516,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.3 Standardisation of documents and communication",
+       "keywordRank": 2,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 50",
+       "pinned": false,
+       "similarity": 0.7332834978913247
+      },
+      {
+       "chunkId": 2093,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "35. An NBFC shall release all the original movable / immovable property documents\nand remove charges registered with any registry within a period of 30 days after\nfull repayment/ settlement of the loan account.",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 4,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 35",
+       "pinned": false,
+       "similarity": 0.7480364892417523
+      },
+      {
+       "chunkId": 2125,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "67. In case of any damage to the pledged eligible collateral by an NBFC during the\ntenor of loan, the cost of repair shall be borne by the NBFC.",
+       "fusedScore": 0.030076888285843508,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.7 Compensation",
+       "keywordRank": 6,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Para 67",
+       "pinned": false,
+       "similarity": 0.721857786178594
+      },
+      {
+       "chunkId": 2099,
+       "denseRank": 9,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "41. The instructions contained under this section shall be applicable to all cases where\nrelease of original movable / immovable property documents falls due on or after\nDecember 1, 2023. Further, the compensation provided under these directions\nshall be without prejudice to the rights of a borrower",
+       "fusedScore": 0.029418126757516764,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 7,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.717303369366721
+      },
+      {
+       "chunkId": 2127,
+       "denseRank": 12,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "69. In case of delay in release of the pledged collateral after full repayment or\nsettlement of loan by the borrower, where reasons for delay are attributable to the\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\n₹5,000 for each day of delay beyond the timeline prescr",
+       "fusedScore": 0.027402402402402402,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.7 Compensation",
+       "keywordRank": 14,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Para 69",
+       "pinned": false,
+       "similarity": 0.7061428953153691
+      },
+      {
+       "chunkId": 2116,
+       "denseRank": 10,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "58. An NBFC shall release or return the pledged eligible collateral held as security to\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\nmaximum period of seven working days upon full repayment or settlement of the\nloan.",
+       "fusedScore": 0.027106227106227107,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.5 Release of collateral after repayment",
+       "keywordRank": 18,
+       "pageEnd": 22,
+       "pageStart": 22,
+       "paraRef": "Para 58",
+       "pinned": false,
+       "similarity": 0.708527038448568
+      }
+     ],
+     "query": "documents lost damaged duplicate certified copies additional 30 days compensation NBFC responsibility"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b368dd01-c76f-44ee-8570-e7a8b9bab160",
+     "text": "{\"query\":\"documents lost damaged duplicate certified copies additional 30 days compensation NBFC responsibility\",\"degraded\":null,\"hits\":[{\"chunkId\":2098,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 40\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"40. In case of loss/damage to original movable / immovable property documents, either\\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\\ncopies of the movable / immovable property documents and shall bear the\\nassociated costs, in addition to paying compensation as\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.8234207349859368,\"pinned\":false},{\"chunkId\":2097,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"39. An NBFC shall communicate to the borrower reasons for delay in releasing of\\noriginal movable / immovable property documents or failing to file charge\\nsatisfaction form with relevant registry beyond 30 days after full repayment/\\nsettlement of loan. In case where the delay is attributable to the N\",\"denseRank\":2,\"keywordRank\":3,\"fusedScore\":0.03200204813108039,\"similarity\":0.7629067332522721,\"pinned\":false},{\"chunkId\":2108,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 50\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.3 Standardisation of documents and communication\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"50. An NBFC, while accepting the eligible collateral, shall prepare a certificate or e-\\ncertificate in duplicate on its letterhead regarding the assay of the collateral and\\nstate therein the purity (in terms of carats); gross weight of the eligible collateral\\npledged; net weight of gold or silver co\",\"denseRank\":4,\"keywordRank\":2,\"fusedScore\":0.031754032258064516,\"similarity\":0.7332834978913247,\"pinned\":false},{\"chunkId\":2093,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 35\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"35. An NBFC shall release all the original movable / immovable property documents\\nand remove charges registered with any registry within a period of 30 days after\\nfull repayment/ settlement of the loan account.\",\"denseRank\":3,\"keywordRank\":4,\"fusedScore\":0.03149801587301587,\"similarity\":0.7480364892417523,\"pinned\":false},{\"chunkId\":2125,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 67\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.7 Compensation\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"67. In case of any damage to the pledged eligible collateral by an NBFC during the\\ntenor of loan, the cost of repair shall be borne by the NBFC.\",\"denseRank\":7,\"keywordRank\":6,\"fusedScore\":0.030076888285843508,\"similarity\":0.721857786178594,\"pinned\":false},{\"chunkId\":2099,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"41. The instructions contained under this section shall be applicable to all cases where\\nrelease of original movable / immovable property documents falls due on or after\\nDecember 1, 2023. Further, the compensation provided under these directions\\nshall be without prejudice to the rights of a borrower\",\"denseRank\":9,\"keywordRank\":7,\"fusedScore\":0.029418126757516764,\"similarity\":0.717303369366721,\"pinned\":false},{\"chunkId\":2127,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 69\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.7 Compensation\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"69. In case of delay in release of the pledged collateral after full repayment or\\nsettlement of loan by the borrower, where reasons for delay are attributable to the\\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\\n\\u20B95,000 for each day of delay beyond the timeline prescr\",\"denseRank\":12,\"keywordRank\":14,\"fusedScore\":0.027402402402402402,\"similarity\":0.7061428953153691,\"pinned\":false},{\"chunkId\":2116,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 58\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.5 Release of collateral after repayment\",\"pageStart\":22,\"pageEnd\":22,\"excerpt\":\"58. An NBFC shall release or return the pledged eligible collateral held as security to\\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\\nmaximum period of seven working days upon full repayment or settlement of the\\nloan.\",\"denseRank\":10,\"keywordRank\":18,\"fusedScore\":0.027106227106227107,\"similarity\":0.708527038448568,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "5015acb51736ce5d6cad4c91f14ecaa17d60c1f592d650d05f305b9e1916143b": {
+   "args": {
+    "query": "compensation delay return original property documents charge satisfaction after loan closure per day"
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2097,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "39. An NBFC shall communicate to the borrower reasons for delay in releasing of\noriginal movable / immovable property documents or failing to file charge\nsatisfaction form with relevant registry beyond 30 days after full repayment/\nsettlement of loan. In case where the delay is attributable to the N",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 1,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 39",
+       "pinned": false,
+       "similarity": 0.7679306311442464
+      },
+      {
+       "chunkId": 2099,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "41. The instructions contained under this section shall be applicable to all cases where\nrelease of original movable / immovable property documents falls due on or after\nDecember 1, 2023. Further, the compensation provided under these directions\nshall be without prejudice to the rights of a borrower",
+       "fusedScore": 0.03225806451612903,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 2,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.7298510992704511
+      },
+      {
+       "chunkId": 2093,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "35. An NBFC shall release all the original movable / immovable property documents\nand remove charges registered with any registry within a period of 30 days after\nfull repayment/ settlement of the loan account.",
+       "fusedScore": 0.031746031746031744,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 3,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 35",
+       "pinned": false,
+       "similarity": 0.7108955900259764
+      },
+      {
+       "chunkId": 2098,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "40. In case of loss/damage to original movable / immovable property documents, either\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\ncopies of the movable / immovable property documents and shall bear the\nassociated costs, in addition to paying compensation as",
+       "fusedScore": 0.030776515151515152,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 4,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 40",
+       "pinned": false,
+       "similarity": 0.69155478032444
+      },
+      {
+       "chunkId": 2095,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "37. The timeline and place of return of original movable / immovable property\ndocuments shall be mentioned in the loan sanction letters issued on or after\nDecember 1, 2023.",
+       "fusedScore": 0.03076923076923077,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 5,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 37",
+       "pinned": false,
+       "similarity": 0.6974758949095105
+      },
+      {
+       "chunkId": 2127,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "69. In case of delay in release of the pledged collateral after full repayment or\nsettlement of loan by the borrower, where reasons for delay are attributable to the\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\n₹5,000 for each day of delay beyond the timeline prescr",
+       "fusedScore": 0.029910714285714287,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.7 Compensation",
+       "keywordRank": 10,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Para 69",
+       "pinned": false,
+       "similarity": 0.7021366294378121
+      },
+      {
+       "chunkId": 2116,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "58. An NBFC shall release or return the pledged eligible collateral held as security to\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\nmaximum period of seven working days upon full repayment or settlement of the\nloan.",
+       "fusedScore": 0.029631255487269536,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.5 Release of collateral after repayment",
+       "keywordRank": 8,
+       "pageEnd": 22,
+       "pageStart": 22,
+       "paraRef": "Para 58",
+       "pinned": false,
+       "similarity": 0.6687951281559209
+      },
+      {
+       "chunkId": 2096,
+       "denseRank": 10,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "38. In order to address the contingent event of demise of the sole borrower or joint\nborrowers, an NBFC shall have a well laid out procedure for return of original\nmovable / immovable property documents to the legal heirs. Such procedure shall\nbe displayed on the website of the NBFC along with other",
+       "fusedScore": 0.02943722943722944,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 6,
+       "pageEnd": 19,
+       "pageStart": 18,
+       "paraRef": "Para 38",
+       "pinned": false,
+       "similarity": 0.6379234955219802
+      }
+     ],
+     "query": "compensation delay return original property documents charge satisfaction after loan closure per day"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_cd531310-638d-4e7c-a537-2425c703efaa",
+     "text": "{\"query\":\"compensation delay return original property documents charge satisfaction after loan closure per day\",\"degraded\":null,\"hits\":[{\"chunkId\":2097,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"39. An NBFC shall communicate to the borrower reasons for delay in releasing of\\noriginal movable / immovable property documents or failing to file charge\\nsatisfaction form with relevant registry beyond 30 days after full repayment/\\nsettlement of loan. In case where the delay is attributable to the N\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7679306311442464,\"pinned\":false},{\"chunkId\":2099,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"41. The instructions contained under this section shall be applicable to all cases where\\nrelease of original movable / immovable property documents falls due on or after\\nDecember 1, 2023. Further, the compensation provided under these directions\\nshall be without prejudice to the rights of a borrower\",\"denseRank\":2,\"keywordRank\":2,\"fusedScore\":0.03225806451612903,\"similarity\":0.7298510992704511,\"pinned\":false},{\"chunkId\":2093,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 35\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"35. An NBFC shall release all the original movable / immovable property documents\\nand remove charges registered with any registry within a period of 30 days after\\nfull repayment/ settlement of the loan account.\",\"denseRank\":3,\"keywordRank\":3,\"fusedScore\":0.031746031746031744,\"similarity\":0.7108955900259764,\"pinned\":false},{\"chunkId\":2098,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 40\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"40. In case of loss/damage to original movable / immovable property documents, either\\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\\ncopies of the movable / immovable property documents and shall bear the\\nassociated costs, in addition to paying compensation as\",\"denseRank\":6,\"keywordRank\":4,\"fusedScore\":0.030776515151515152,\"similarity\":0.69155478032444,\"pinned\":false},{\"chunkId\":2095,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 37\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"37. The timeline and place of return of original movable / immovable property\\ndocuments shall be mentioned in the loan sanction letters issued on or after\\nDecember 1, 2023.\",\"denseRank\":5,\"keywordRank\":5,\"fusedScore\":0.03076923076923077,\"similarity\":0.6974758949095105,\"pinned\":false},{\"chunkId\":2127,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 69\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.7 Compensation\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"69. In case of delay in release of the pledged collateral after full repayment or\\nsettlement of loan by the borrower, where reasons for delay are attributable to the\\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\\n\\u20B95,000 for each day of delay beyond the timeline prescr\",\"denseRank\":4,\"keywordRank\":10,\"fusedScore\":0.029910714285714287,\"similarity\":0.7021366294378121,\"pinned\":false},{\"chunkId\":2116,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 58\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.5 Release of collateral after repayment\",\"pageStart\":22,\"pageEnd\":22,\"excerpt\":\"58. An NBFC shall release or return the pledged eligible collateral held as security to\\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\\nmaximum period of seven working days upon full repayment or settlement of the\\nloan.\",\"denseRank\":7,\"keywordRank\":8,\"fusedScore\":0.029631255487269536,\"similarity\":0.6687951281559209,\"pinned\":false},{\"chunkId\":2096,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 38\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":19,\"excerpt\":\"38. In order to address the contingent event of demise of the sole borrower or joint\\nborrowers, an NBFC shall have a well laid out procedure for return of original\\nmovable / immovable property documents to the legal heirs. Such procedure shall\\nbe displayed on the website of the NBFC along with other\",\"denseRank\":10,\"keywordRank\":6,\"fusedScore\":0.02943722943722944,\"similarity\":0.6379234955219802,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "6d1ea26f16a0544f040e82a24d871a9f3dfae2788b23b721fd0e78ac83de3b8a": {
+   "args": {
+    "chunkId": 2170
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2170,
+     "content": "Part 1 (Interest rate and fees / charges)\n(v) Any other charges (please specify)\n*Fixed reset, other than on account of changes in credit profile\nPart 2 (Other qualitative information)\n1 Clause of Loan agreement relating to\nengagement of recovery agents\n2 Clause of Loan agreement which details\ngrievance redressal mechanism\n3 Phone number and email id of the nodal\ngrievance redressal officer\n(An NBFC may furnish generic email id, provided a\nresponse is made within 1 working day)\n4 Whether the loan is, or in future, subject to\ntransfer to other REs or securitisation (Yes/\nNo)\n5 In case of lending under collaborative lending arrangements (e.g., co-\nlending / outsourcing), following additional details may be furnished:\nName of the\noriginating RE, along\nwith its funding\nproportion\nName of the partner RE along\nwith its\nproportion of funding\nBlended rate of\ninterest\n6 In case of digital loans, following specific disclosures may be furnished:\n(i) Cooling off / look-up period, in terms of the\nRE’s board approved policy, during which\nborrower shall not be charged any penalty on\nprepayment of loan\n(ii) Details of LSP acting as recovery\nagent and authorized to approach the borrower",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Annex I",
+     "pageEnd": 35,
+     "pageStart": 35,
+     "paraRef": "Annex I, part 2 of 2"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_862b9663-4da9-4c4c-903a-c8d36220a928",
+     "text": "{\"chunkId\":2170,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Annex I, part 2 of 2\",\"heading\":\"Annex I\",\"pageStart\":35,\"pageEnd\":35,\"content\":\"Part 1 (Interest rate and fees / charges)\\n(v) Any other charges (please specify)\\n*Fixed reset, other than on account of changes in credit profile\\nPart 2 (Other qualitative information)\\n1 Clause of Loan agreement relating to\\nengagement of recovery agents\\n2 Clause of Loan agreement which details\\ngrievance redressal mechanism\\n3 Phone number and email id of the nodal\\ngrievance redressal officer\\n(An NBFC may furnish generic email id, provided a\\nresponse is made within 1 working day)\\n4 Whether the loan is, or in future, subject to\\ntransfer to other REs or securitisation (Yes/\\nNo)\\n5 In case of lending under collaborative lending arrangements (e.g., co-\\nlending / outsourcing), following additional details may be furnished:\\nName of the\\noriginating RE, along\\nwith its funding\\nproportion\\nName of the partner RE along\\nwith its\\nproportion of funding\\nBlended rate of\\ninterest\\n6 In case of digital loans, following specific disclosures may be furnished:\\n(i) Cooling off / look-up period, in terms of the\\nRE\\u2019s board approved policy, during which\\nborrower shall not be charged any penalty on\\nprepayment of loan\\n(ii) Details of LSP acting as recovery\\nagent and authorized to approach the borrower\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "6fa4f9d4fe29959c0d45eef08b47ecdc15fb77053b1fe16c40eed468dca46c2e": {
+   "args": {
+    "query": "sanction letter loan agreement key facts statement document return timeline compensation for delay grievance redressal",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2095,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "37. The timeline and place of return of original movable / immovable property\ndocuments shall be mentioned in the loan sanction letters issued on or after\nDecember 1, 2023.",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 1,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 37",
+       "pinned": false,
+       "similarity": 0.7475591217955528
+      },
+      {
+       "chunkId": 2170,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "Part 1 (Interest rate and fees / charges)\n(v) Any other charges (please specify)\n*Fixed reset, other than on account of changes in credit profile\nPart 2 (Other qualitative information)\n1 Clause of Loan agreement relating to\nengagement of recovery agents\n2 Clause of Loan agreement which details\ngriev",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Annex I",
+       "keywordRank": 4,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Annex I, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7241936531759452
+      },
+      {
+       "chunkId": 2116,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "58. An NBFC shall release or return the pledged eligible collateral held as security to\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\nmaximum period of seven working days upon full repayment or settlement of the\nloan.",
+       "fusedScore": 0.030303030303030304,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.5 Release of collateral after repayment",
+       "keywordRank": 6,
+       "pageEnd": 22,
+       "pageStart": 22,
+       "paraRef": "Para 58",
+       "pinned": false,
+       "similarity": 0.7025638818741294
+      },
+      {
+       "chunkId": 2097,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "39. An NBFC shall communicate to the borrower reasons for delay in releasing of\noriginal movable / immovable property documents or failing to file charge\nsatisfaction form with relevant registry beyond 30 days after full repayment/\nsettlement of loan. In case where the delay is attributable to the N",
+       "fusedScore": 0.029827662395050816,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 13,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 39",
+       "pinned": false,
+       "similarity": 0.724473941075302
+      },
+      {
+       "chunkId": 2099,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "41. The instructions contained under this section shall be applicable to all cases where\nrelease of original movable / immovable property documents falls due on or after\nDecember 1, 2023. Further, the compensation provided under these directions\nshall be without prejudice to the rights of a borrower",
+       "fusedScore": 0.02970950704225352,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 11,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.7186866067274544
+      },
+      {
+       "chunkId": 2127,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "69. In case of delay in release of the pledged collateral after full repayment or\nsettlement of loan by the borrower, where reasons for delay are attributable to the\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\n₹5,000 for each day of delay beyond the timeline prescr",
+       "fusedScore": 0.02967032967032967,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.7 Compensation",
+       "keywordRank": 10,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Para 69",
+       "pinned": false,
+       "similarity": 0.7146850654295444
+      },
+      {
+       "chunkId": 2107,
+       "denseRank": 11,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "49. The loan agreement shall cover the description of the eligible collateral taken as\nsecurity, value of such collateral, details of auction procedure and the\ncircumstances leading to the auction of the eligible collateral, the notice period\nwhich shall be allowed to the borrower for repayment or s",
+       "fusedScore": 0.029469122426868905,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.3 Standardisation of documents and communication",
+       "keywordRank": 5,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 49",
+       "pinned": false,
+       "similarity": 0.6814438916974133
+      },
+      {
+       "chunkId": 2092,
+       "denseRank": 15,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\ninstance of the NBFC.\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\nin the sanction letter and loan ag",
+       "fusedScore": 0.029206349206349208,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 3,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 34, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.6733475357357599
+      }
+     ],
+     "query": "sanction letter loan agreement key facts statement document return timeline compensation for delay grievance redressal"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_333d0f73-6898-462c-bddd-200b391ea0de",
+     "text": "{\"query\":\"sanction letter loan agreement key facts statement document return timeline compensation for delay grievance redressal\",\"degraded\":null,\"hits\":[{\"chunkId\":2095,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 37\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"37. The timeline and place of return of original movable / immovable property\\ndocuments shall be mentioned in the loan sanction letters issued on or after\\nDecember 1, 2023.\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7475591217955528,\"pinned\":false},{\"chunkId\":2170,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Annex I, part 2 of 2\",\"heading\":\"Annex I\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"Part 1 (Interest rate and fees / charges)\\n(v) Any other charges (please specify)\\n*Fixed reset, other than on account of changes in credit profile\\nPart 2 (Other qualitative information)\\n1 Clause of Loan agreement relating to\\nengagement of recovery agents\\n2 Clause of Loan agreement which details\\ngriev\",\"denseRank\":3,\"keywordRank\":4,\"fusedScore\":0.03149801587301587,\"similarity\":0.7241936531759452,\"pinned\":false},{\"chunkId\":2116,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 58\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.5 Release of collateral after repayment\",\"pageStart\":22,\"pageEnd\":22,\"excerpt\":\"58. An NBFC shall release or return the pledged eligible collateral held as security to\\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\\nmaximum period of seven working days upon full repayment or settlement of the\\nloan.\",\"denseRank\":6,\"keywordRank\":6,\"fusedScore\":0.030303030303030304,\"similarity\":0.7025638818741294,\"pinned\":false},{\"chunkId\":2097,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"39. An NBFC shall communicate to the borrower reasons for delay in releasing of\\noriginal movable / immovable property documents or failing to file charge\\nsatisfaction form with relevant registry beyond 30 days after full repayment/\\nsettlement of loan. In case where the delay is attributable to the N\",\"denseRank\":2,\"keywordRank\":13,\"fusedScore\":0.029827662395050816,\"similarity\":0.724473941075302,\"pinned\":false},{\"chunkId\":2099,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"41. The instructions contained under this section shall be applicable to all cases where\\nrelease of original movable / immovable property documents falls due on or after\\nDecember 1, 2023. Further, the compensation provided under these directions\\nshall be without prejudice to the rights of a borrower\",\"denseRank\":4,\"keywordRank\":11,\"fusedScore\":0.02970950704225352,\"similarity\":0.7186866067274544,\"pinned\":false},{\"chunkId\":2127,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 69\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.7 Compensation\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"69. In case of delay in release of the pledged collateral after full repayment or\\nsettlement of loan by the borrower, where reasons for delay are attributable to the\\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\\n\\u20B95,000 for each day of delay beyond the timeline prescr\",\"denseRank\":5,\"keywordRank\":10,\"fusedScore\":0.02967032967032967,\"similarity\":0.7146850654295444,\"pinned\":false},{\"chunkId\":2107,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 49\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.3 Standardisation of documents and communication\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"49. The loan agreement shall cover the description of the eligible collateral taken as\\nsecurity, value of such collateral, details of auction procedure and the\\ncircumstances leading to the auction of the eligible collateral, the notice period\\nwhich shall be allowed to the borrower for repayment or s\",\"denseRank\":11,\"keywordRank\":5,\"fusedScore\":0.029469122426868905,\"similarity\":0.6814438916974133,\"pinned\":false},{\"chunkId\":2092,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\\ninstance of the NBFC.\\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\\nin the sanction letter and loan ag\",\"denseRank\":15,\"keywordRank\":3,\"fusedScore\":0.029206349206349208,\"similarity\":0.6733475357357599,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "9a36b439c2d8edb6ead253d58dadc60ff92b5f60a0da11d9139820287a910acc": {
+   "args": {
+    "chunkId": 2094
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2094,
+     "content": "36. The borrower shall be given the option of collecting the original movable /\nimmovable property documents either from the banking outlet / branch where the\nloan account was serviced or any other office of the NBFC where the documents\nare available, as per her / his preference.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+     "pageEnd": 18,
+     "pageStart": 18,
+     "paraRef": "Para 36"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_0cc3c477-a38c-48b9-957e-e9ef40a23625",
+     "text": "{\"chunkId\":2094,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 36\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"content\":\"36. The borrower shall be given the option of collecting the original movable /\\nimmovable property documents either from the banking outlet / branch where the\\nloan account was serviced or any other office of the NBFC where the documents\\nare available, as per her / his preference.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "9ada5221b6f22073ebd7e50ec580d59b6765b758a40142326c9e22b6aed4604e": {
+   "args": {
+    "chunkId": 2096
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2096,
+     "content": "38. In order to address the contingent event of demise of the sole borrower or joint\nborrowers, an NBFC shall have a well laid out procedure for return of original\nmovable / immovable property documents to the legal heirs. Such procedure shall\nbe displayed on the website of the NBFC along with other similar policies and\nprocedures for customer information.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+     "pageEnd": 19,
+     "pageStart": 18,
+     "paraRef": "Para 38"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_34fe69dc-e0a4-4c11-a62a-b2235fe3f7ca",
+     "text": "{\"chunkId\":2096,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 38\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":19,\"content\":\"38. In order to address the contingent event of demise of the sole borrower or joint\\nborrowers, an NBFC shall have a well laid out procedure for return of original\\nmovable / immovable property documents to the legal heirs. Such procedure shall\\nbe displayed on the website of the NBFC along with other similar policies and\\nprocedures for customer information.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "a3aa55719f9a46bab17631c8fb4803c0451ff4e92e8987dc5a68e56a2b6c91d3": {
+   "args": {
+    "query": "release original movable or immovable property documents within 30 days full repayment settlement loan, release registered charge",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2093,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "35. An NBFC shall release all the original movable / immovable property documents\nand remove charges registered with any registry within a period of 30 days after\nfull repayment/ settlement of the loan account.",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 1,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 35",
+       "pinned": false,
+       "similarity": 0.8348737353538088
+      },
+      {
+       "chunkId": 2095,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "37. The timeline and place of return of original movable / immovable property\ndocuments shall be mentioned in the loan sanction letters issued on or after\nDecember 1, 2023.",
+       "fusedScore": 0.03200204813108039,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 3,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 37",
+       "pinned": false,
+       "similarity": 0.8301121941176233
+      },
+      {
+       "chunkId": 2097,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "39. An NBFC shall communicate to the borrower reasons for delay in releasing of\noriginal movable / immovable property documents or failing to file charge\nsatisfaction form with relevant registry beyond 30 days after full repayment/\nsettlement of loan. In case where the delay is attributable to the N",
+       "fusedScore": 0.031754032258064516,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 2,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 39",
+       "pinned": false,
+       "similarity": 0.8108364826940561
+      },
+      {
+       "chunkId": 2099,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "41. The instructions contained under this section shall be applicable to all cases where\nrelease of original movable / immovable property documents falls due on or after\nDecember 1, 2023. Further, the compensation provided under these directions\nshall be without prejudice to the rights of a borrower",
+       "fusedScore": 0.031024531024531024,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 6,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.8195038975763758
+      },
+      {
+       "chunkId": 2098,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "40. In case of loss/damage to original movable / immovable property documents, either\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\ncopies of the movable / immovable property documents and shall bear the\nassociated costs, in addition to paying compensation as",
+       "fusedScore": 0.030776515151515152,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.2 Compensation for delay in release of property documents",
+       "keywordRank": 4,
+       "pageEnd": 19,
+       "pageStart": 19,
+       "paraRef": "Para 40",
+       "pinned": false,
+       "similarity": 0.7824336472391015
+      }
+     ],
+     "query": "release original movable or immovable property documents within 30 days full repayment settlement loan, release registered charge"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_cde7bdff-7f0c-474b-88ee-ca7c1c79108a",
+     "text": "{\"query\":\"release original movable or immovable property documents within 30 days full repayment settlement loan, release registered charge\",\"degraded\":null,\"hits\":[{\"chunkId\":2093,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 35\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"35. An NBFC shall release all the original movable / immovable property documents\\nand remove charges registered with any registry within a period of 30 days after\\nfull repayment/ settlement of the loan account.\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.8348737353538088,\"pinned\":false},{\"chunkId\":2095,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 37\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"37. The timeline and place of return of original movable / immovable property\\ndocuments shall be mentioned in the loan sanction letters issued on or after\\nDecember 1, 2023.\",\"denseRank\":2,\"keywordRank\":3,\"fusedScore\":0.03200204813108039,\"similarity\":0.8301121941176233,\"pinned\":false},{\"chunkId\":2097,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"39. An NBFC shall communicate to the borrower reasons for delay in releasing of\\noriginal movable / immovable property documents or failing to file charge\\nsatisfaction form with relevant registry beyond 30 days after full repayment/\\nsettlement of loan. In case where the delay is attributable to the N\",\"denseRank\":4,\"keywordRank\":2,\"fusedScore\":0.031754032258064516,\"similarity\":0.8108364826940561,\"pinned\":false},{\"chunkId\":2099,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"41. The instructions contained under this section shall be applicable to all cases where\\nrelease of original movable / immovable property documents falls due on or after\\nDecember 1, 2023. Further, the compensation provided under these directions\\nshall be without prejudice to the rights of a borrower\",\"denseRank\":3,\"keywordRank\":6,\"fusedScore\":0.031024531024531024,\"similarity\":0.8195038975763758,\"pinned\":false},{\"chunkId\":2098,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 40\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.2 Compensation for delay in release of property documents\",\"pageStart\":19,\"pageEnd\":19,\"excerpt\":\"40. In case of loss/damage to original movable / immovable property documents, either\\nin part or in full, an NBFC shall assist the borrower in obtaining duplicate/certified\\ncopies of the movable / immovable property documents and shall bear the\\nassociated costs, in addition to paying compensation as\",\"denseRank\":6,\"keywordRank\":4,\"fusedScore\":0.030776515151515152,\"similarity\":0.7824336472391015,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "ec762b9c9f1206e2818bcd60227514685d27089633d83ad5014e3776c601f0d0": {
+   "args": {
+    "query": "grievance redressal mechanism board approved policy NBFC borrower complaints",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1727,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "12. Grievance redressal\n(1) An NBFC, and their LSP which has an interface with the borrower, shall\ndesignate nodal grievance redressal officers to deal with digital lending related\ncomplaints/ issues raised by the borrower.\n(2) Contact details of the nodal grievance redressal officers shall be promi",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Digital Lending › B. Conduct and Customer Protection Requirements",
+       "keywordRank": 2,
+       "pageEnd": 19,
+       "pageStart": 18,
+       "paraRef": "Para 12",
+       "pinned": false,
+       "similarity": 0.8137632961941694
+      },
+      {
+       "chunkId": 2059,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "(1) Fair Practices Code, which shall preferably be in the vernacular language, or a\nlanguage as understood by the borrower.\n(2) Grievance redressal mechanism\nNote: The grievance redressal mechanism shall ensure that all disputes arising\nout of the decisions of the functionaries are heard and dispose",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter II – Institutional Framework › A. Role of Board › A.1 Policies",
+       "keywordRank": 1,
+       "pageEnd": 6,
+       "pageStart": 6,
+       "paraRef": "A.1 Policies",
+       "pinned": false,
+       "similarity": 0.7928338523410466
+      },
+      {
+       "chunkId": 2058,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "7. An NBFC shall have Board approved policies and review mechanisms in place to\nensure responsible business conduct. An illustrative list of Board approved policies\nand the aspects to be covered thereunder is detailed in the paragraphs below.",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter II – Institutional Framework › A. Role of Board",
+       "keywordRank": 3,
+       "pageEnd": 6,
+       "pageStart": 6,
+       "paraRef": "Para 7",
+       "pinned": false,
+       "similarity": 0.7523669223020907
+      },
+      {
+       "chunkId": 2150,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "92. An NBFC shall have a dedicated mechanism for redressal of recovery related\ngrievances. The details of this mechanism shall be provided to the borrower at the\ntime of loan disbursal.",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter III – Responsible Lending Conduct › H. Conduct towards Microfinance borrowers › H.4 Guidelines related to recovery of microfinance loans",
+       "keywordRank": 4,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Para 92",
+       "pinned": false,
+       "similarity": 0.7562063772310432
+      },
+      {
+       "chunkId": 2060,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "8. The Board of Directors shall also provide for periodical review of the compliance of\nthe Fair Practices Code and the functioning of the grievance redressal mechanism\nat various levels of management. A consolidated report of such reviews shall be\nsubmitted to the Board at regular intervals.",
+       "fusedScore": 0.030536130536130537,
+       "heading": "Chapter II – Institutional Framework › A. Role of Board › A.2 Review",
+       "keywordRank": 6,
+       "pageEnd": 6,
+       "pageStart": 6,
+       "paraRef": "Para 8",
+       "pinned": false,
+       "similarity": 0.7450268444275021
+      }
+     ],
+     "query": "grievance redressal mechanism board approved policy NBFC borrower complaints"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_963b5896-c407-415e-947b-135558b8ffd4",
+     "text": "{\"query\":\"grievance redressal mechanism board approved policy NBFC borrower complaints\",\"degraded\":null,\"hits\":[{\"chunkId\":1727,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 12\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A B. Conduct and Customer Protection Requirements\",\"pageStart\":18,\"pageEnd\":19,\"excerpt\":\"12. Grievance redressal\\n(1) An NBFC, and their LSP which has an interface with the borrower, shall\\ndesignate nodal grievance redressal officers to deal with digital lending related\\ncomplaints/ issues raised by the borrower.\\n(2) Contact details of the nodal grievance redressal officers shall be promi\",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.8137632961941694,\"pinned\":false},{\"chunkId\":2059,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"A.1 Policies\",\"heading\":\"Chapter II \\u2013 Institutional Framework \\u203A A. Role of Board \\u203A A.1 Policies\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"(1) Fair Practices Code, which shall preferably be in the vernacular language, or a\\nlanguage as understood by the borrower.\\n(2) Grievance redressal mechanism\\nNote: The grievance redressal mechanism shall ensure that all disputes arising\\nout of the decisions of the functionaries are heard and dispose\",\"denseRank\":2,\"keywordRank\":1,\"fusedScore\":0.03252247488101533,\"similarity\":0.7928338523410466,\"pinned\":false},{\"chunkId\":2058,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 7\",\"heading\":\"Chapter II \\u2013 Institutional Framework \\u203A A. Role of Board\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"7. An NBFC shall have Board approved policies and review mechanisms in place to\\nensure responsible business conduct. An illustrative list of Board approved policies\\nand the aspects to be covered thereunder is detailed in the paragraphs below.\",\"denseRank\":4,\"keywordRank\":3,\"fusedScore\":0.03149801587301587,\"similarity\":0.7523669223020907,\"pinned\":false},{\"chunkId\":2150,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 92\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A H. Conduct towards Microfinance borrowers \\u203A H.4 Guidelines related to recovery of microfinance loans\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"92. An NBFC shall have a dedicated mechanism for redressal of recovery related\\ngrievances. The details of this mechanism shall be provided to the borrower at the\\ntime of loan disbursal.\",\"denseRank\":3,\"keywordRank\":4,\"fusedScore\":0.03149801587301587,\"similarity\":0.7562063772310432,\"pinned\":false},{\"chunkId\":2060,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 8\",\"heading\":\"Chapter II \\u2013 Institutional Framework \\u203A A. Role of Board \\u203A A.2 Review\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"8. The Board of Directors shall also provide for periodical review of the compliance of\\nthe Fair Practices Code and the functioning of the grievance redressal mechanism\\nat various levels of management. A consolidated report of such reviews shall be\\nsubmitted to the Board at regular intervals.\",\"denseRank\":5,\"keywordRank\":6,\"fusedScore\":0.030536130536130537,\"similarity\":0.7450268444275021,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "f3e8b8d059819186844c968af17d71532e12c09905bc9c08a2c605995ac52ab0": {
+   "args": {
+    "query": "return of original documents on loan closure timeline branch where loan serviced legal heirs death of borrower",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2096,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "38. In order to address the contingent event of demise of the sole borrower or joint\nborrowers, an NBFC shall have a well laid out procedure for return of original\nmovable / immovable property documents to the legal heirs. Such procedure shall\nbe displayed on the website of the NBFC along with other",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 1,
+       "pageEnd": 19,
+       "pageStart": 18,
+       "paraRef": "Para 38",
+       "pinned": false,
+       "similarity": 0.7527987963673637
+      },
+      {
+       "chunkId": 2095,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "37. The timeline and place of return of original movable / immovable property\ndocuments shall be mentioned in the loan sanction letters issued on or after\nDecember 1, 2023.",
+       "fusedScore": 0.03225806451612903,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 2,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 37",
+       "pinned": false,
+       "similarity": 0.7419181667942935
+      },
+      {
+       "chunkId": 2094,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "36. The borrower shall be given the option of collecting the original movable /\nimmovable property documents either from the banking outlet / branch where the\nloan account was serviced or any other office of the NBFC where the documents\nare available, as per her / his preference.",
+       "fusedScore": 0.03125763125763126,
+       "heading": "Chapter III – Responsible Lending Conduct › F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans › F.1 Release of property documents",
+       "keywordRank": 5,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 36",
+       "pinned": false,
+       "similarity": 0.7159080166707059
+      },
+      {
+       "chunkId": 2116,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "58. An NBFC shall release or return the pledged eligible collateral held as security to\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\nmaximum period of seven working days upon full repayment or settlement of the\nloan.",
+       "fusedScore": 0.030776515151515152,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.5 Release of collateral after repayment",
+       "keywordRank": 4,
+       "pageEnd": 22,
+       "pageStart": 22,
+       "paraRef": "Para 58",
+       "pinned": false,
+       "similarity": 0.7021389958692994
+      },
+      {
+       "chunkId": 2105,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "47. Post pledging, cases involving loss of gold or silver collateral and any deterioration\nor discrepancy in quantity or purity observed during internal audit or otherwise\nincluding at the time of return or auction of collateral shall be recorded and\ncommunicated promptly to the borrower(s)/ legal h",
+       "fusedScore": 0.030330882352941176,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.2 Standardisation of procedure for assaying and valuation of gold and silver collateral",
+       "keywordRank": 8,
+       "pageEnd": 21,
+       "pageStart": 20,
+       "paraRef": "Para 47",
+       "pinned": false,
+       "similarity": 0.7038057126593614
+      },
+      {
+       "chunkId": 2126,
+       "denseRank": 10,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "68. In case of loss of the pledged eligible collateral and / or any loss emanating from\ndeterioration or discrepancy in quantity or purity observed during internal audit or\notherwise including at the time of return or auction of collateral, an NBFC shall\nsuitably compensate the borrower(s) / legal h",
+       "fusedScore": 0.03015873015873016,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.7 Compensation",
+       "keywordRank": 3,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Para 68",
+       "pinned": false,
+       "similarity": 0.6934619411139397
+      },
+      {
+       "chunkId": 2127,
+       "denseRank": 9,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "69. In case of delay in release of the pledged collateral after full repayment or\nsettlement of loan by the borrower, where reasons for delay are attributable to the\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\n₹5,000 for each day of delay beyond the timeline prescr",
+       "fusedScore": 0.029644268774703556,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.7 Compensation",
+       "keywordRank": 6,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Para 69",
+       "pinned": false,
+       "similarity": 0.698065179701746
+      },
+      {
+       "chunkId": 2118,
+       "denseRank": 12,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "60. An NBFC shall give adequate notice to the borrower(s)/ legal heir(s), as applicable,\nthrough available means of communication to repay or settle the loan dues prior to\ninitiating the auction procedure. A copy of the notice and acknowledgement thereof\nshall be kept on record in both scenarios. In",
+       "fusedScore": 0.028381642512077296,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.6 Transparency in auction procedure",
+       "keywordRank": 9,
+       "pageEnd": 23,
+       "pageStart": 23,
+       "paraRef": "Para 60",
+       "pinned": false,
+       "similarity": 0.6889291405677844
+      }
+     ],
+     "query": "return of original documents on loan closure timeline branch where loan serviced legal heirs death of borrower"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_4dcbc45d-7679-42d7-9586-5da02fd0684a",
+     "text": "{\"query\":\"return of original documents on loan closure timeline branch where loan serviced legal heirs death of borrower\",\"degraded\":null,\"hits\":[{\"chunkId\":2096,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 38\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":19,\"excerpt\":\"38. In order to address the contingent event of demise of the sole borrower or joint\\nborrowers, an NBFC shall have a well laid out procedure for return of original\\nmovable / immovable property documents to the legal heirs. Such procedure shall\\nbe displayed on the website of the NBFC along with other\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7527987963673637,\"pinned\":false},{\"chunkId\":2095,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 37\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"37. The timeline and place of return of original movable / immovable property\\ndocuments shall be mentioned in the loan sanction letters issued on or after\\nDecember 1, 2023.\",\"denseRank\":2,\"keywordRank\":2,\"fusedScore\":0.03225806451612903,\"similarity\":0.7419181667942935,\"pinned\":false},{\"chunkId\":2094,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 36\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A F. Release of Movable / Immovable Property Documents on Repayment / Settlement of Personal Loans \\u203A F.1 Release of property documents\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"36. The borrower shall be given the option of collecting the original movable /\\nimmovable property documents either from the banking outlet / branch where the\\nloan account was serviced or any other office of the NBFC where the documents\\nare available, as per her / his preference.\",\"denseRank\":3,\"keywordRank\":5,\"fusedScore\":0.03125763125763126,\"similarity\":0.7159080166707059,\"pinned\":false},{\"chunkId\":2116,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 58\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.5 Release of collateral after repayment\",\"pageStart\":22,\"pageEnd\":22,\"excerpt\":\"58. An NBFC shall release or return the pledged eligible collateral held as security to\\nthe borrower(s)/ legal heir(s) on the same day but in any case, not exceeding a\\nmaximum period of seven working days upon full repayment or settlement of the\\nloan.\",\"denseRank\":6,\"keywordRank\":4,\"fusedScore\":0.030776515151515152,\"similarity\":0.7021389958692994,\"pinned\":false},{\"chunkId\":2105,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 47\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.2 Standardisation of procedure for assaying and valuation of gold and silver collateral\",\"pageStart\":20,\"pageEnd\":21,\"excerpt\":\"47. Post pledging, cases involving loss of gold or silver collateral and any deterioration\\nor discrepancy in quantity or purity observed during internal audit or otherwise\\nincluding at the time of return or auction of collateral shall be recorded and\\ncommunicated promptly to the borrower(s)/ legal h\",\"denseRank\":4,\"keywordRank\":8,\"fusedScore\":0.030330882352941176,\"similarity\":0.7038057126593614,\"pinned\":false},{\"chunkId\":2126,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 68\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.7 Compensation\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"68. In case of loss of the pledged eligible collateral and / or any loss emanating from\\ndeterioration or discrepancy in quantity or purity observed during internal audit or\\notherwise including at the time of return or auction of collateral, an NBFC shall\\nsuitably compensate the borrower(s) / legal h\",\"denseRank\":10,\"keywordRank\":3,\"fusedScore\":0.03015873015873016,\"similarity\":0.6934619411139397,\"pinned\":false},{\"chunkId\":2127,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 69\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.7 Compensation\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"69. In case of delay in release of the pledged collateral after full repayment or\\nsettlement of loan by the borrower, where reasons for delay are attributable to the\\nNBFC, the NBFC shall compensate the borrower(s) / legal heir(s) at the rate of\\n\\u20B95,000 for each day of delay beyond the timeline prescr\",\"denseRank\":9,\"keywordRank\":6,\"fusedScore\":0.029644268774703556,\"similarity\":0.698065179701746,\"pinned\":false},{\"chunkId\":2118,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 60\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.6 Transparency in auction procedure\",\"pageStart\":23,\"pageEnd\":23,\"excerpt\":\"60. An NBFC shall give adequate notice to the borrower(s)/ legal heir(s), as applicable,\\nthrough available means of communication to repay or settle the loan dues prior to\\ninitiating the auction procedure. A copy of the notice and acknowledgement thereof\\nshall be kept on record in both scenarios. In\",\"denseRank\":12,\"keywordRank\":9,\"fusedScore\":0.028381642512077296,\"similarity\":0.6889291405677844,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  }
+ }
+}

@@ -1,6 +1,6 @@
 # Spec 0002 — Trajectory evals and a CI gate
 
-> Status: **Draft** · Created: 2026-11-24 · Owner: @Akus0ni
+> Status: **Approved (PR #5, 2026-11-24) · Implemented in `feat/0002-trajectory-evals`** · Created: 2026-11-24 · Owner: @Akus0ni
 > Depends on: spec 0001; RegLens with PR #21 (MCP results match their schemas) · Blocked by open questions: none
 > Sprint phase: D2·5
 
@@ -165,7 +165,74 @@ scenarios, and the PR says so.
 |---|----------|--------|
 | — | None | — |
 
-## 9. Sources (checked 2026-11-24)
+## 9. Changes made while building
+
+| Where | Change | Why |
+|-------|--------|-----|
+| R2.1 (owner decision, after run 1) | `oos-office-seating` now says bookings are anonymous (no employee name, ID or other personal data stored or shown); `scenarios.json` version 2 | Version 1 said what the tool *shows*, not what it *stores*. Run 1 asked whether bookings identify employees and raised two conditional MEDIUM DPDP findings (Rules 3 and 6), a defensible reading. This test was fixed after seeing a result; the run 1 record keeps the original outcome |
+| R2.3 | `eval record --first-run N --scenario ID` records one run or one scenario again; the report merges run files by run number (a later file's scenario replaces an earlier one) | The machine ran out of memory during run 2, and Claude Code stopped the recording and the RegLens API. Run 1 had finished; run 2 was lost (about 9 reviews, ≈ $0.45 paid with nothing saved) |
+| R2.3 | Progress lines are flushed | Run 2's progress was buffered and lost with the process |
+| R2.5 | The graph state logs each research turn's question id and each executed tool (`turns_log`, `tools_log`) | The checks need them. They change no request sent to a model |
+| R2.4 | The stale-recording message names the scenario and the command that re-records just it | Seen in practice: rewording one scenario made exactly that scenario stale |
+| R2.6 | `eval check` fails each stale or missing recording on its own and keeps checking the others; `--write-baseline` refuses while any scenario didn't replay | The demo needs both kinds of failure in one run; the first version stopped at the first stale scenario |
+| R2.11 | `astral-sh/setup-uv@v10.4.0`, not `@v10` | The action publishes exact version tags only; the first CI run could not resolve `v10` |
+
+## 10. Results (2026-11-24; full tables in `evals/results.md`)
+
+- **A1:** `uv run pytest`: **30 passed**, offline. Covers record/replay round trip, a changed prompt raising
+  `StaleRecording`, a recorded tool error replaying as an error, each check on hand-made states, and the gate.
+- **A2:** two live runs of 15 reviews. Run 1 is `20261124T140912Z-r1.json`, plus `20261124T152938Z-r1.json`, which
+  re-records `oos-office-seating` after the scenario was clarified. Run 2 is `20261124T153003Z-r2.json`.
+  `evals/recordings/` holds 15 recordings.
+
+  | Check | Run 1 (as first recorded) | Run 1 (merged) | Run 2 |
+  |-------|---------------------------|----------------|-------|
+  | completed, guards, searched, verified | 15/15 each | 15/15 each | 15/15 each |
+  | quiet | 1/2 (office seating, v1 wording) | 2/2 | 2/2 |
+  | required | 13/13 | 13/13 | 13/13 |
+  | severity | 13/13 | 13/13 | 13/13 |
+
+  **Spread:** no scenario's check results differed between run 1 (merged) and run 2. Each review cost about $0.045
+  (run 1 $0.70, run 2 $0.68), with p50 wall times of 41.8 s and 43.4 s.
+- **A3:** `eval check` passes on the committed recordings. The baseline (`evals/baseline.json`) is required 13,
+  severity 13. The GitHub Actions run is linked in the PR.
+- **A4, judge** (`claude-haiku-4-5`, n = 30 memos):
+  - Grounded mean 4.60 and actionable mean 4.63.
+  - The lowest scores: grounded 2 for `rbc-kfs-after-acceptance` (run 1), where it called a claim that "a single
+    tap is not valid acceptance" an inference beyond the passages; and actionable 3 for that memo and for the v1
+    `oos-office-seating` memo.
+  - **Hand check** (D14: Claude, in the session, no API call, labelled before seeing any judge score; a
+    second-model check, not a human one): 10 memos × 2 criteria. Within 1 point: **20/20**. Exact: 14/20.
+  - Judge cost $0.144.
+- **A3, CI:** GitHub Actions passed on `ubuntu-26.04`
+  (https://github.com/Akus0ni/reglens-agent/actions/runs/45429498935). The replay of recordings made on Windows
+  reproduced every check.
+- **A5, broken-prompt demo** (PR #7, closed unmerged):
+  - The assess prompt was changed to cite "from memory" with invented passage ids.
+  - Pushed without re-recording, the gate
+    [failed](https://github.com/Akus0ni/reglens-agent/actions/runs/45429751028) because all 15 recordings were stale.
+  - After re-recording 5 scenarios live ($0.27), it
+    [failed](https://github.com/Akus0ni/reglens-agent/actions/runs/45431028604) on a named check:
+    `required: 4 scenarios pass, baseline 13; failing: rbc-late-calls (met []; missing ['Para 100'])`, plus 10 still
+    stale.
+  - Sonnet 5.5 didn't follow the instruction to invent ids: no finding was rejected by verification. The broken
+    prompt still lost a required citation, and the gate caught it.
+- **A6:** the "Protect main" ruleset now has `required_status_checks: evals`, applied with
+  `scripts/protect-main.ps1` and read back from the rulesets API.
+- **A7, spend:**
+
+  | Item | Cost |
+  |------|------|
+  | Run 1 | $0.70 |
+  | Run 2 lost to the memory reap (estimated from timing) | ≈ $0.45 |
+  | Office-seating re-record | $0.01 |
+  | Run 2 | $0.68 |
+  | Judge | $0.14 |
+  | Demo | $0.27 |
+  | **This spec** | **≈ $2.25** |
+  | **Day 2, with spec 0001's $0.16** | **≈ $2.41 of $3** |
+
+## 11. Sources (checked 2026-11-24)
 
 - `astral-sh/setup-uv` latest release v10.4.0 (2026-11-20) and `actions/checkout` v7.0.1 (2026-07-20), from the
   GitHub releases API.

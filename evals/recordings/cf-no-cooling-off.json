@@ -1,0 +1,2587 @@
+{
+ "models": {
+  "0aab483b570557111e7bc27a4fe6b3cc041e5c642bb0ba0cefdbdd6db3ed4f11": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "questions": [
+     {
+      "id": "q1",
+      "search_hint": "digital lending cooling-off look-up period exit principal proportionate annual percentage rate no penalty",
+      "text": "Must a digital loan borrower be given a cooling-off or look-up period after disbursal during which they can exit the loan by repaying only the principal and proportionate APR, without penalty?"
+     },
+     {
+      "id": "q2",
+      "search_hint": "foreclosure charges pre-payment penalty individual borrower floating rate loans non-business purposes",
+      "text": "Are NBFCs restricted from levying foreclosure or pre-payment charges on certain borrowers or loan types, such as floating rate loans to individual borrowers, and does a flat 3% charge on principal comply?"
+     },
+     {
+      "id": "q3",
+      "search_hint": "key facts statement KFS disclosure charges foreclosure pre-payment loan agreement APR",
+      "text": "Must the foreclosure or pre-payment charge be disclosed upfront in the Key Facts Statement and loan agreement before the borrower accepts the loan, and how should it be presented?"
+     },
+     {
+      "id": "q4",
+      "search_hint": "fair practices code charges reasonable transparent no unilateral additional charges responsible business conduct",
+      "text": "Are there requirements that charges be reasonable, transparent and not levied without being disclosed, and that fair practice terms not be unfair to the borrower?"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"questions\":[{\"id\":\"q1\",\"text\":\"Must a digital loan borrower be given a cooling-off or look-up period after disbursal during which they can exit the loan by repaying only the principal and proportionate APR, without penalty?\",\"search_hint\":\"digital lending cooling-off look-up period exit principal proportionate annual percentage rate no penalty\"},{\"id\":\"q2\",\"text\":\"Are NBFCs restricted from levying foreclosure or pre-payment charges on certain borrowers or loan types, such as floating rate loans to individual borrowers, and does a flat 3% charge on principal comply?\",\"search_hint\":\"foreclosure charges pre-payment penalty individual borrower floating rate loans non-business purposes\"},{\"id\":\"q3\",\"text\":\"Must the foreclosure or pre-payment charge be disclosed upfront in the Key Facts Statement and loan agreement before the borrower accepts the loan, and how should it be presented?\",\"search_hint\":\"key facts statement KFS disclosure charges foreclosure pre-payment loan agreement APR\"},{\"id\":\"q4\",\"text\":\"Are there requirements that charges be reasonable, transparent and not levied without being disclosed, and that fair practice terms not be unfair to the borrower?\",\"search_hint\":\"fair practices code charges reasonable transparent no unilateral additional charges responsible business conduct\"}]}",
+     "id": "lc_run--01a20de8-75fb-73d8-ae60-01914ae12b22-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtinWfV3GiLrKJBjtcC",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 926,
+       "output_tokens": 451,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 926,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 451,
+      "total_tokens": 1377
+     }
+    },
+    "type": "ai"
+   },
+   "role": "plan"
+  },
+  "0c28cf8bad80a61f505f2ade316d368414c8162bdbde36a5933f63f31b7cc562": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01EzVHGiv7SfBacZuFvQ95rn",
+       "input": {
+        "chunkId": 2092
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01KZvZeEhSGxFWKth5VnJNAH",
+       "input": {
+        "chunkId": 2169
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-b125-768a-aaeb-84aee85bc754-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjtjkS8ZWbd3FWV5DB",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3871,
+       "output_tokens": 101,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2092
+       },
+       "id": "toolu_01EzVHGiv7SfBacZuFvQ95rn",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2169
+       },
+       "id": "toolu_01KZvZeEhSGxFWKth5VnJNAH",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3871,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 101,
+      "total_tokens": 3972
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "1b956672ee18e78f73963f70acee42903100c51600ef61c6349106eb30c26390": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "text": "I need the full text of para 34 part 1 to see the 3% rule.",
+       "type": "text"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01Su4HwXyzg8VanJS2t4oRzj",
+       "input": {
+        "chunkId": 2091
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01GXiW82ryxiwzmJPQipzDGT",
+       "input": {
+        "chunkId": 2092
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-99a6-738d-a7ee-bd2e55dc00e8-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjSxxQEGrzFHaATAGZ",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3906,
+       "output_tokens": 125,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2091
+       },
+       "id": "toolu_01Su4HwXyzg8VanJS2t4oRzj",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2092
+       },
+       "id": "toolu_01GXiW82ryxiwzmJPQipzDGT",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3906,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 125,
+      "total_tokens": 4031
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "1e3bb7a99400ff06020cc1348d37d82c973dba1a1b5e86a9801bd86db918c7dd": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01WUCPVoZhqyUUCsvnku88UF",
+       "input": {
+        "query": "digital lending cooling-off look-up period exit principal proportionate annual percentage rate no penalty"
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-8879-749c-86d7-bfe79bd2c850-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtj9Nng7vRRZ4ZUWQDy",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1052,
+       "output_tokens": 80,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "digital lending cooling-off look-up period exit principal proportionate annual percentage rate no penalty"
+       },
+       "id": "toolu_01WUCPVoZhqyUUCsvnku88UF",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1052,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 80,
+      "total_tokens": 1132
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "230352b910e838b76a4480b73fd2955e482ddf7bf66db5c775dc08e9265412f8": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "findings": [
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+      "evidence_chunk_ids": [
+       1726
+      ],
+      "obligation": "A digital loan borrower must be given an explicit option to exit during a cooling-off period of at least one day by paying only the principal and proportionate APR, without penalty. The NBFC may retain only a reasonable one-time processing fee, disclosed upfront in the KFS.",
+      "para_ref": "Para 11",
+      "question_id": "q1",
+      "recommendation": "Remove the no-cancellation rule and the 3% charge for early exit. Build a cooling-off exit of at least one day where the borrower repays principal plus proportionate APR, with at most a reasonable one-time processing fee disclosed in the KFS. Exits the day after disbursal must fall inside this window unless the credit policy sets a longer one.",
+      "severity": "HIGH"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2091,
+       2090,
+       2139,
+       2092
+      ],
+      "obligation": "No pre-payment charges may be levied on floating rate loans for non-business purposes to individuals (existing loans under Para 33, and loans sanctioned or renewed from 1 January 2026 under Para 34(1)). Business-purpose floating rate loans to individuals and MSEs are also barred from charges, depending on NBFC layer and loan size. Microfinance loans cannot carry any pre-payment charge. In other cases, charges follow the approved policy and, for term loans, must be based on the amount being prepaid. No charge may be levied where pre-payment is at the NBFC's instance.",
+      "para_ref": "Para 34, part 1 of 2",
+      "question_id": "q2",
+      "recommendation": "The feature does not say whether loans are floating or fixed rate, personal or business, or microfinance. Check each loan product against these prohibitions and switch off the 3% charge where it is barred. Where a charge is allowed, make sure it is covered by the Board-approved policy and is levied on the amount prepaid. Also confirm no charge applies when the NBFC initiates the pre-payment.",
+      "severity": "MEDIUM"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2092,
+       2169
+      ],
+      "obligation": "The applicability of pre-payment charges must be clearly disclosed in the sanction letter and loan agreement, and in the KFS where one is required. Foreclosure charges appear under contingent charges in the KFS format. No undisclosed pre-payment charge may be levied.",
+      "para_ref": "Para 34, part 2 of 2",
+      "question_id": "q3",
+      "recommendation": "Show the 3% foreclosure charge, and the cases where it applies, in the sanction letter, loan agreement and KFS (contingent charges, item 10(iii)) before the borrower accepts. Block any levy that was not disclosed in this way.",
+      "severity": "MEDIUM"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+      "evidence_chunk_ids": [
+       2066,
+       2077
+      ],
+      "obligation": "Fair practice requires that loan terms and conditions be conveyed in writing, and that a copy of the loan agreement and its enclosures be given to the borrower at sanction or disbursement. Failing to do so is an unfair practice. The Reserve Bank has also flagged excessive interest and charges as a concern.",
+      "para_ref": "Para 14",
+      "question_id": "q4",
+      "recommendation": "Make sure the no-cancellation term and the 3% foreclosure charge are plainly stated in the borrower's agreement copy. Review whether a full 3% charge the day after disbursal is reasonable under the fair practices code and the Board's charges policy.",
+      "severity": "LOW"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"findings\":[{\"question_id\":\"q1\",\"obligation\":\"A digital loan borrower must be given an explicit option to exit during a cooling-off period of at least one day by paying only the principal and proportionate APR, without penalty. The NBFC may retain only a reasonable one-time processing fee, disclosed upfront in the KFS.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025\",\"para_ref\":\"Para 11\",\"severity\":\"HIGH\",\"evidence_chunk_ids\":[1726],\"recommendation\":\"Remove the no-cancellation rule and the 3% charge for early exit. Build a cooling-off exit of at least one day where the borrower repays principal plus proportionate APR, with at most a reasonable one-time processing fee disclosed in the KFS. Exits the day after disbursal must fall inside this window unless the credit policy sets a longer one.\"},{\"question_id\":\"q2\",\"obligation\":\"No pre-payment charges may be levied on floating rate loans for non-business purposes to individuals (existing loans under Para 33, and loans sanctioned or renewed from 1 January 2026 under Para 34(1)). Business-purpose floating rate loans to individuals and MSEs are also barred from charges, depending on NBFC layer and loan size. Microfinance loans cannot carry any pre-payment charge. In other cases, charges follow the approved policy and, for term loans, must be based on the amount being prepaid. No charge may be levied where pre-payment is at the NBFC's instance.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 34, part 1 of 2\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[2091,2090,2139,2092],\"recommendation\":\"The feature does not say whether loans are floating or fixed rate, personal or business, or microfinance. Check each loan product against these prohibitions and switch off the 3% charge where it is barred. Where a charge is allowed, make sure it is covered by the Board-approved policy and is levied on the amount prepaid. Also confirm no charge applies when the NBFC initiates the pre-payment.\"},{\"question_id\":\"q3\",\"obligation\":\"The applicability of pre-payment charges must be clearly disclosed in the sanction letter and loan agreement, and in the KFS where one is required. Foreclosure charges appear under contingent charges in the KFS format. No undisclosed pre-payment charge may be levied.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 34, part 2 of 2\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[2092,2169],\"recommendation\":\"Show the 3% foreclosure charge, and the cases where it applies, in the sanction letter, loan agreement and KFS (contingent charges, item 10(iii)) before the borrower accepts. Block any levy that was not disclosed in this way.\"},{\"question_id\":\"q4\",\"obligation\":\"Fair practice requires that loan terms and conditions be conveyed in writing, and that a copy of the loan agreement and its enclosures be given to the borrower at sanction or disbursement. Failing to do so is an unfair practice. The Reserve Bank has also flagged excessive interest and charges as a concern.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025\",\"para_ref\":\"Para 14\",\"severity\":\"LOW\",\"evidence_chunk_ids\":[2066,2077],\"recommendation\":\"Make sure the no-cancellation term and the 3% foreclosure charge are plainly stated in the borrower's agreement copy. Review whether a full 3% charge the day after disbursal is reasonable under the fair practices code and the Board's charges policy.\"}]}",
+     "id": "lc_run--01a20de8-de23-7208-a24d-de336f803279-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtkkEoJZ8fMqgjDSXET",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 9530,
+       "output_tokens": 1324,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 9530,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 1324,
+      "total_tokens": 10854
+     }
+    },
+    "type": "ai"
+   },
+   "role": "assess"
+  },
+  "24c0bd1933f0fc1e71b0a56a679162770eee222241c9c2da0082da48fcead0ce": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Yes, NBFCs are barred from levying pre-payment charges on floating rate loans granted to individuals for non-business purposes (para 34(1), applicable to loans sanctioned on or after 1 January 2026, and para 33 for earlier loans), but the corpus contains no 3% cap, so I cannot say whether a flat 3% charge on principal complies.\n\nPara 34(1) bars pre-payment charges on all floating rate loans for purposes other than business to individuals, and para 34(2) bars them for business-purpose loans to individuals and MSEs by NBFC-Upper Layer entities, and by NBFC-Middle Layer entities on sanctioned amounts up to ₹50 lakh. Para 34(5) lets other loans carry charges per the NBFC's approved policy, with term-loan charges based on the amount prepaid. Para 81 separately bars pre-payment charges on microfinance loans. Under para 34, a flat 3% charge would therefore be unlawful on any loan in those barred categories, and otherwise would have to be permitted by the NBFC's approved policy, disclosed in the sanction letter and loan agreement, and not levied where prepayment is at the NBFC's instance (para 34(7)–(8)).",
+     "id": "lc_run--01a20de8-a3fe-77fa-9b2e-bc5bfe42e2d5-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjeJandfPCoyZybAUd",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 7448,
+       "output_tokens": 411,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 7448,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 411,
+      "total_tokens": 7859
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "4b8fd5978e05e0a98866442986ec9bbb5fb52848d050402113ef1c9904a148a7": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS8wUKEAgUGAI4AUIIdGhpbmtpbmcSDC0RcONz2KWOeoEsSBoMJHReOLZ8Xam/NIyCIjAgGxlluCTLtqjOlae1WmwEbqMjdEIiY1nJiG9SNhTyf/pFI89DAnw4jmO23ZWO8XUqkAVCjb93Lz2Leiw4crWBlcbHDbygwrdaklBS1NECZjtxuAnnFdfrHv6ZKYGfkqjwVwY+1fS+h+3cNfWfZVb9BrmZejjgEc50RgSxq3r1Lt9P0FQFYdXTMRKP2b09Hhwl+5+4+fXveU79eOBKqIBaSI8lmhzbRIyfUzjcNx8DjRfT5wSaGvXZLkYEIC1A45uyLZPurnh81YtrgHjzPbdzCRcRseBS3aDIaFiZ7k/hiHQFcCVJF4+Xd1LoMrt1/6uVDh4aSHq2/AAnRHif8D/CzsJnfTNXEKONEbpWyO/oTFTLjTOJz6uqViJ+TSrt8L/OHvKk7uGlKfA67VvjGtf8SPfOezTpgLV82S/zDK+yanJ2biZEdqtEPRYjNyHwx2u7Tzb25sXaR36Bih+f/IkcJZMr3b3mzI4BeDxpWotCz1ttfvf+Cv06ZG/5O+6nt54uBmtx7Sgv9g3yv79DmC2F0GECH/ArD+uUwMRag/HzDlfY/VLXtub0OkopZDz71eeWWZL0oYbecMqjI5pRHZ1WMk9SoEIaHY7fN33ezSJS6KWHlcuMuJVt56H4sjZXLzPHc9Ervrh8T/zalKXAY+0SxutjbRoKeF7msFF0ywCeQOild8ntWmsNJdIze9LMfjyX3A5S6Dih1upGAnxs5HVgfbj8G+KZADiNpV8zXfUm/X/FZF6m7qjgdOkW/wAAJSjEMwlEtmGGeOgW+RgRfnO1IVgvOH72GsG7v4cYUPdz9DeKjKorSeflGgty3wpIqtYskOuL8hWQKo1OyrUdGeollVRm/K3yGbvQgD0T4BULXYecHxUd3tnlD5QBUb/t7bWeM8s3SXcI+ytnTAAWTRzTauH9uNMOw5rYYBU8VA0cZUXLCBgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01U9uRHsX8nsHdcnoxZtAhvV",
+       "input": {
+        "query": "charges levied without disclosure to borrower, reasonable charges, terms not unfair to borrower",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-c5c1-715e-85c2-b69dca2fda3e-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtkHCcGxdLLrUkaR2Ma",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3766,
+       "output_tokens": 138,
+       "output_tokens_details": {
+        "thinking_tokens": 36
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "charges levied without disclosure to borrower, reasonable charges, terms not unfair to borrower",
+        "topK": 8
+       },
+       "id": "toolu_01U9uRHsX8nsHdcnoxZtAhvV",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3766,
+      "output_token_details": {
+       "reasoning": 36
+      },
+      "output_tokens": 138,
+      "total_tokens": 3904
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "5594c1f67bd79b06c9e13056c6b762cec6c3faba281d6b749829de650e6e0d95": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01LaKfabVBnmpS2eq3qisrDM",
+       "input": {
+        "query": "fair practices code charges reasonable transparent no unilateral additional charges responsible business conduct",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-c168-74cc-9cce-177cd43447f1-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtkCaJGGvpb73wdScDX",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1040,
+       "output_tokens": 100,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "fair practices code charges reasonable transparent no unilateral additional charges responsible business conduct",
+        "topK": 8
+       },
+       "id": "toolu_01LaKfabVBnmpS2eq3qisrDM",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1040,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 100,
+      "total_tokens": 1140
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "70fa099e0149a9c8514ac7f46ea1ea21e818c9a6aa6318a454ec2e52380e1dfe": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_017igXcxULYJ5PLp35A4UhL6",
+       "input": {
+        "query": "key facts statement foreclosure pre-payment charges disclosure loan agreement",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-ad10-775c-bfc2-b6562fb8094d-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjpCQ7sKQsocsmD82m",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1053,
+       "output_tokens": 96,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "key facts statement foreclosure pre-payment charges disclosure loan agreement",
+        "topK": 8
+       },
+       "id": "toolu_017igXcxULYJ5PLp35A4UhL6",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1053,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 96,
+      "total_tokens": 1149
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "85b48bdf26370a8ca7e997138ca55b6636baebd58a6550471ddb821ccd8a71df": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS5wYKEAgUGAI4AUIIdGhpbmtpbmcSDPniGx0lKr9tTZcYiBoMHIEKDWTLzqYQh50KIjCwesH6dWFjlYLj9+0shv+CjvE8Hzo+7M2cfJ0pm+o4xy62L8yrNZYgHr4BZLvjAwwqhAYPIKNqjyMerouyli+FPIZLfnfcHtztnJfc88WiQTX/PUKMBdwqxQ8b5k5o+S28eXlssPI2RGwEuRNJnMZ+VE2bbkxhieNng/EPbntjBr7tZDONytZcAXf/JQ8Z3/3G5QPiIbUHbyC06Xm4un7T36Cc2Nr6hpnwp5fFyZtb31xBGsfSaumbRoxf5Qfte8bBpn34Pa5GbJlF0HpwT+ZkFvcNJMUoF8rTisi5rk9SOV8Rk+hTHb9QA2cEtBBoX6w4sv9lvkSe7JL8H3spPmkGSXZ0VrCHczopOJfcSyeSMFnAI0w3DXe38Ugf0DSI4ncb6wwoQHv/u36LvyZONJ3NvxFRQjWbONw/OQWwvKJk4NRA5JYh4/kMc6ACCeo0XuaEnLRxUdADS1/N4s/Jx2G77HX7fz04IhYc+08e6B+HlfLupeX+uLKBnsdStR1m8mr4AAfmTv6lH7CvUXASagYMfGhGYuUEjdmLzxGtOGyz+o3cE7bvi59N6kmh3ZVb4YeyzttAaMsbln2se/SStL5b8LrW4PVS3gdfwYL8WmNMMUDwphiemBsw6fRW/470UIkStbYtsTLQKnnnmTpNobqOTuw90YKCvoVBFGg0BLcLAcUPycFt46pd7QhdkHP79PRnWAbL8A01XZ1brDO4sFg8y8RPybQNhr2ZC3TSpg6VTssbucq/joj9Quva5mWhrTSASSuVqri+Qsx2lMDHktu95C1ZnLo8O4vGltHCMceqTnFqs05wFFX/rD7nSEOtlzNWsFsDZ/qkjIKWgIAPtRnVlYAgcemPtu2BLCEC7a467X3NMlyBo5kWkneEkOLoxd8NMn5rxJWB09a36XOrVHNu3URhtlyu6mArvgcRHBkvzA8mXmlE6QmO+48vZVOXqb1U8plmPhe8rezt8Us/p3BFoHS3j/w00kHBFP5f5GdeUiMdQY8GM24BzY6UySSxDCGNT1rFZWc3KW9iXIZRD2PlL5ZauLDhHSE4rhOJ0eHTi079FPWUmDSgWfm8s7xRH7VRsgCbQIynGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01L7bX5eG84w2h7Nz89Dcao2",
+       "input": {
+        "query": "NBFC shall not charge any fee or charge not disclosed to borrower; charges part of loan terms; annualised rate; processing fees",
+        "topK": 6
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-d87b-7578-8e57-2846113f67a0-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtkdfAoFkXbYzimwns6",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 7684,
+       "output_tokens": 171,
+       "output_tokens_details": {
+        "thinking_tokens": 56
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "NBFC shall not charge any fee or charge not disclosed to borrower; charges part of loan terms; annualised rate; processing fees",
+        "topK": 6
+       },
+       "id": "toolu_01L7bX5eG84w2h7Nz89Dcao2",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 7684,
+      "output_token_details": {
+       "reasoning": 56
+      },
+      "output_tokens": 171,
+      "total_tokens": 7855
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "b4afc9cc1d03028c1f206079540019cfcc0662e5ab697072f3369d9f0f752822": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSwQcKEAgUGAI4AUIIdGhpbmtpbmcSDIlPqJp3qyX2QRfVLBoMwB0XXygtQ9oWl//yIjBxHNQnY4KpnkF93096SMByjhu59Km0cSsbfcIksoye/fE4FIDOVwPspuOsicNeKekq3gaYoHZzN58zP2Op8kg+Ff9rA/HXgsKh0/jq0AxLe5cN/PWr1wxPKxTjiAffDeaF6itrlVq6ReF++6xFtjDk4AQmBj4kaJTmaJ4OcF0tVrmTZah09GdxGOqZ/9FM0DbuvnrZm/2Q1UpMRYst7SftTRsYrPYvMrUTciAYGpQYy7Ki/JOrTnisO7B+B2+A0TTcGts5K8bRUyabNCOqH2LCkEudZtmwVdNUwuRC6C7aXA9YND7TbZ5PzxyWv6VYDMZe8zu4O33q1wzkEDFKWwvbv5S0jN6yS46TZuQQda/i6HlSNO1gfYvrUonvz2tnw9AZo3jFq1C4ClG1LyxiQQz4wOdVJ2IM9TxADlNdkj/qpbkUG6+18ywDXVeAKwzsdJ4lJXKKPjsrNLCKX8wcVZqjxdTZt5BXupsg4iRW+ONOY4OmIfQsQ5+cQrY79FEF6JrV+8va4sNuHfKcxvcn5A04Ycztuf89bzu2UA4bld7Nx/NLEAdAISMjeJIPLUZ4h9DEd2xz3xgyqqONyNH3lEPvJutqds2ZzUzchawPRRVNBTo01ImosuzIUh6uns7Cf20evjSXv9T3oxpwDw2LwDszljitSqHlhFk+AmQE9+I2Db/t4fvibkRH7pWSbQghmFUmU6si+EuOin84a7ic49Zoprq9rzZx+aUzSfG8RPSepYGZWqlit26w6MJiMuhpzbqlvZ74sVuBmhK7j2eaYkhYR0M+h7DyXRUgT4bllj0GXTrNf1FeQ5AID6fwK3INxjIHSiOK3ygfBSr0uIpy373j2Ug5OyJh1JQDyStMOZ/BfIWGMYg1hwmNrSU1wPesVQ67tl4h/rUfStm5T1xwOo6DIp5Mcb5C+GRoXZ6NErehyobYbXTZt8umRMj44gLuO1B/KYb0uCfiyATVfmeYuULPA4nXempF5iYBcpNekKJkEztIRh1UCLgGocEzQvBPR7umL7o9z7xjUGzYycZv7Oflqi1SfHXujFU/cHMutDiESe+1dfGX9EQz4Sy/1zqWA97nH8FxdQKcN30Fk1TTetJ/eRoLP0ul7VybAIK2a76AyQtiS7QQORgfyWAAoYdUvHVabAUnn0dMpjdyEYkGLWvw5UHRrDyPzSh2kvQN8AmZ7Co8falm/EcHJ+wYlneqS39tGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01YKukeeZ2jXBFVeX911f6iD",
+       "input": {
+        "query": "pre-payment charge 3 per cent of principal outstanding cap",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-9de6-7520-99fd-81bbfe3be5cd-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjXYn1dVrJTPNGy3nP",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 5489,
+       "output_tokens": 195,
+       "output_tokens_details": {
+        "thinking_tokens": 102
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "pre-payment charge 3 per cent of principal outstanding cap",
+        "topK": 5
+       },
+       "id": "toolu_01YKukeeZ2jXBFVeX911f6iD",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 5489,
+      "output_token_details": {
+       "reasoning": 102
+      },
+      "output_tokens": 195,
+      "total_tokens": 5684
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "b9702fdd3f54c33fab00016b6ff2aab39e9d34b067d4e36565a48ae8f6f1a2af": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSnQgKEAgUGAI4AUIIdGhpbmtpbmcSDLFY6LNKtFr7Jnpu5RoMtL/GABt3jXgd//3yIjD4KBZN5zzOB761TFc/UfJiOuh1uEc1VeCqAQp/nJLn/+hZWvl3m2HeGEsb11JBpxYqugd1K2v1Zj73AeqwoQwbjxJ9k6R4woYHKNcebP5nRMC+dMeRUUzdMBiFd4/3xvecsP+nSDZLs0LpsWVNAommgMq9tZl5rYRVODo97kz7DS55CLFjX1WSz4oXV65zwSa1VMsYBmYAWg/mPGvOzwhCXyYjCDTehSXBDB+V6iELgYACjrbQrElMCAifVdv+BsHZgcC5Voo9JU1DPg8nYKeNgutsdf0QYOp7V0/5mdVSi7rnjxP5+oHEuZDgMNuTJT/RkelwA3w3svIOrx2PekOvLxrxkr7/MmDdjg7X3/iiw1BmdwjL/4IInVGX5G3u6c0E/LbhL+4EJmMQq+5XfS6dKzI9ihGq8lWi33ccf1t+QQcErrKAuDvoD0n6bILhgNF58kxWYc+TEFy/gWFYQIGT58Vu3qk6dlec62FSJgAT7fdURImrSnSYGdo3qt/ZpgFw390RMhUUbnguFukD+tR8IsRkbAWSa7J949n2LE4CsHmK3tQ2xXBe0usu9fbYtmGVwZm9YbdPQ7WMsQ9/iMkPy/XQM8t3UCXYmR09C7gVi80gzu4FYFwH7y2r6KLcsYTFM88WIV2eupFK9sMqSc/t2VwOemTHK+MF2D0eJ5E6ueGZA23vzT9/WBvc+sdO+z75JF9Mt/YEFOI0dG9PYVBGZpuYx2APvAAA31lD7vHTPcqH9K6OiSNzt7uxJUxtt8FHrtbwZ5latiLzNzxgHQ/h30GvYmm2mdHn75ydfgCh5dQl54h1GLCmr97i7hrfmY0BpU+//QmZMoPBwQSc5DBsIKuIOZLBAzJsTLgG2shkRdJ0iZdgENHzRhaxYS8LarexI2fHNsFOYqRNORFKrD9qtwhXuT6+XGK4Hl7j9Rdifacqv3rSl1AzJ34hm1ENYwHsak8tANQrK7RGvvucHB06f8BrnSGuC5PQNFqEjdtDZWUks7/xjo7JvkfO4+r7ZYjMWMsYCk9HuErP5T81pbPsop2aN/ycYGSkyOLevH1a862axUFgk1Pza6gW7fxa6nW2Et/wIf848NWIYEMTcMo9UsjUdYQuLjI1deYJ4M552IW/hyS7Ck+Uipf9EoDC7ej8xbY919V3fOuZf0o38s2b7D1skfsYUmhQi6GI5Wn9qSRsvqS1ZM1k9OAzfYBhQMrVpQQyMwCoxrvp7zsMQ1y9B5VCg5XZSNMozep0Hdfvl8U/g1pK1dy7rgCF9tv7GEyArEHkdhDMRvRBRXfWhQ5AtgBZ9+KjxNTMCuwZlDLqK7LdkCNs65wQhwEnnVwYAQ==",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "text": "The corpus requires that the applicability of pre-payment charges be clearly disclosed in the sanction letter and loan agreement (para 34(8)), and the KFS template (Annex I) lists foreclosure charges under \"Details of Contingent Charges\" alongside penal charges. I worked from search excerpts and one full annex passage, not the full text of para 34, so I can't confirm the exact timing requirement relative to acceptance. The corpus also says an NBFC may not levy any charge where pre-payment is at the NBFC's own instance (para 34(7)), and microfinance loans carry no pre-payment charge (para 81).",
+       "type": "text"
+      }
+     ],
+     "id": "lc_run--01a20de8-b81a-7664-9961-dde5f25b6b8a-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtk2khJsVTecuMGKCQw",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 5175,
+       "output_tokens": 356,
+       "output_tokens_details": {
+        "thinking_tokens": 150
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 5175,
+      "output_token_details": {
+       "reasoning": 150
+      },
+      "output_tokens": 356,
+      "total_tokens": 5531
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "bd9be1c490acd1a5bdc6ef9ca45435dc746fe41dec0ddbdb273892b102f43762": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01RmdQE4mPHfau5QRA9YirMj",
+       "input": {
+        "chunkId": 1726
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-8dac-73ec-90e5-5fc8369a8c69-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjDogPDRb6aBZFoZnw",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3791,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1726
+       },
+       "id": "toolu_01RmdQE4mPHfau5QRA9YirMj",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3791,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 3843
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "ce8997af294689fcb5afb3b124823e872410186d4a261cec5ba5469e4e050a48": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01J1vW3W6KprFYumQtd6Wc9Z",
+       "input": {
+        "chunkId": 2091
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-b508-7532-83cf-62cab99349f1-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjxu2XMpi8ZP4LFRiB",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 5083,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2091
+       },
+       "id": "toolu_01J1vW3W6KprFYumQtd6Wc9Z",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 5083,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 5135
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "e350b9d1c7bee1ddae36ed62f52f4e087251394ef6c751f0f1f393b667c72d7d": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01UjY53jDbju3LAN69VUrbf8",
+       "input": {
+        "query": "foreclosure charges pre-payment penalty individual borrower floating rate loans non-business purposes",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-956f-7100-9a21-1be54f0e12a4-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjNNdaPXYm7gc2zvX3",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1064,
+       "output_tokens": 102,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "foreclosure charges pre-payment penalty individual borrower floating rate loans non-business purposes",
+        "topK": 8
+       },
+       "id": "toolu_01UjY53jDbju3LAN69VUrbf8",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1064,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 102,
+      "total_tokens": 1166
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "e76d66f38f73111a74295e002a0b6010df8f7d6eb41ee096d796028d0d23da0d": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Yes. Under Para 11 of the RBI NBFC Credit Facilities Directions, 2025, a digital loan borrower must be given an explicit option to exit by paying only the principal and proportionate APR, without penalty, during a cooling-off period set by the NBFC's credit policy, which must be at least one day. The NBFC may retain a reasonable one-time processing fee if the borrower exits, and that fee must be disclosed upfront in the Key Facts Statement.",
+     "id": "lc_run--01a20de8-90d8-7408-8b0a-1097198b4e64-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtjHLWNPekhtMa1whAP",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4315,
+       "output_tokens": 157,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4315,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 157,
+      "total_tokens": 4472
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "ef32942b55d61bd7efff77fb664c2bfd0975bc3510f91a75b8db4a31e544d49e": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQStgcKEAgUGAI4AUIIdGhpbmtpbmcSDBN2RiGbY1Yyg8tDSBoM9eDR4u0Ss3B1oFUwIjA5b4FjU7Tw/7793G2uis/5sDq2lDaDvcyG9q9vw547GssfhLUN/hSjtUygRGlKL+8q0wYzyo6WKvjPZrjQZSmtkEPI/xq8iiH+4xWIazM6dt5E+A8sDE5WDV+IsV2+qSPYz+K9PrzEFKOEIJP504Jw7bwPv9WpHSaWx8neQ8mFGiIoVv86i6m/Zt3PxCiYGL54OyBZUn0kapA/ibSsoCnTv/xt1mBRwA+uMzgwH7ER4hvvdpVzVugIfDeJGyE83tBf77iGQAA1C1Kh0jMoFlRfLXUFRiD7vXBdLrA/m15Gr+eglZ5Wc+/KaZ+osnQbHrBi8woeFhBgdO01qsfncqjik1Eh77y+ne3ADMVB5l766PPB8kXLTZJgtW4UHEHRBrIZVWCgKUNrFDISImXY5PglapglPzYO76IvknrQqHFeh4GmGxzVDwfBmEO9ZpNp5osb5mil5aZz/rdpY7gFjJT0HJvvIxp/eOjWsE8GpkHjs+bUnBYG87KANq96boAwiYFEx7uPD3lKIjne+mygQnrdeKv+mIzOAvhHJpIKpLdu/3nnjQ/o1FuomY68lLA099YuUAhTUSezAKJhH4Skuq0Dp/uAcFjHrYepFOXRYuipAeIqJR0+Mpj0/hoD2sVqAf0hTtYVQRdAykZaIwk5jRpfdNeL3WOyyhJ9ZObQocVx1+nT9+SRZNKLg9ddLmSJy7OzHh1zrCE896DHb1pNIFq8DTE3H/1m5QZ9nED81xNLqa2rfzbEV7s0W9jJ99aHUJ/7cl0633UMMJ42f6s28AAwRsXy+UtHxu889VDCMhn8VXRWy/KNJ2TqajCO++sDiphAnfS1lt/ReTzPOkBwzMMlBBSUIqofFW5cl9wq5SskprMP1Gtd74/GBKW0PameD8ai490jDzKsZKrzYVDbY1ILLGdYYcfwpzJKH4nevIf+R9SU6bCRg9bUS7LPyfOfaMX638tXaf6l4AosvhFuUm8W0Xh+x2WXuNCH+5L5LVLL0q7cmGmgdPnZLMwD97S9tgdCfBqMLjo5vbpjUfCZRDp6K1eEVKqKvhJ4Q33rOH6/QpqJCkq7gDnc9jWjukiW1IALLNIMExGtgqPMItNZTXyLn3x8hlK/e2sjOBd6ZXEzlrVfG5dUyS7zN0p1aU6BX2oHiTOXN6IaKSGo3QonvkSTMxiXtKDIvIw0PI8IzAWuL0dSF5wiaBgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01JduYQaRHucgZAhiUYU5sF2",
+       "input": {
+        "chunkId": 2066
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01D8qkXTs7moMP59GLnXJ4Zo",
+       "input": {
+        "chunkId": 2062
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de8-d26e-779c-b512-f677baf164be-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtkXAEmLZG52U39LJDu",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 6729,
+       "output_tokens": 204,
+       "output_tokens_details": {
+        "thinking_tokens": 102
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 2066
+       },
+       "id": "toolu_01JduYQaRHucgZAhiUYU5sF2",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 2062
+       },
+       "id": "toolu_01D8qkXTs7moMP59GLnXJ4Zo",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 6729,
+      "output_token_details": {
+       "reasoning": 102
+      },
+      "output_tokens": 204,
+      "total_tokens": 6933
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  }
+ },
+ "scenario": "cf-no-cooling-off",
+ "tools": {
+  "12a72ff91fbaef063dfbc50ec3af413891ddc2304d61a6012110e66f7c192bc0": {
+   "args": {
+    "chunkId": 2091
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2091,
+     "content": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\ncharges on loans and advances (term loans as well as demand loans) sanctioned\nor renewed on or after January 1, 2026:\n(1) For all floating rate loans granted for purposes other than business to\nindividuals, with or without co-obligant(s), an NBFC shall not levy pre-payment\ncharges.\n(2) For all floating rate loans granted for business purpose to individuals and Micro\nand Small Enterprises (MSEs), as defined in Micro, Small and Medium\nEnterprises Development (MSMED) Act, 2006, with or without co-obligant(s):\n(i) an NBFC-Upper Layer shall not levy any pre-payment charges.\n(ii) an NBFC-Middle Layer shall not levy any pre-payment charges on loans\nwith sanctioned amount/ limit up to ₹50 lakh.\n(3) The Directions at paragraphs 34(1) and 34(2) above shall be applicable\nirrespective of the source of funds used for pre-payment of loans, either in part\nor in full, and without any minimum lock-in period.\n(4) Applicability of above Directions for dual/ special rate (combination of fixed and\nfloating rate) loans will depend on whether the loan is on floating rate at the\ntime of pre-payment.\n(5) In cases other than those mentioned at paragraphs 34(1) and 34(2) above, pre-\npayment charges, if any, shall be as per the approved policy of the NBFC.\nHowever, in case of term loans, pre-payment charges, if levied by the NBFC,\nshall be based on the amount being prepaid. In case of cash credit/ overdraft\nfacilities, pre-payment charges on closure of the facility before the due date\nshall be levied on an amount not exceeding the sanctioned limit.\n(6) In case of cash credit/ overdraft facilities, no pre-payment charges shall be\napplicable if the borrower intimates the NBFC of her / his / its intention not to\nrenew the facility before the period as stipulated in the loan agreement,\nprovided that the facility gets closed on the due date.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+     "pageEnd": 18,
+     "pageStart": 17,
+     "paraRef": "Para 34, part 1 of 2"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_387f7b5e-c139-4f19-8c1d-079d1b0c694f",
+     "text": "{\"chunkId\":2091,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":18,\"content\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\ncharges on loans and advances (term loans as well as demand loans) sanctioned\\nor renewed on or after January 1, 2026:\\n(1) For all floating rate loans granted for purposes other than business to\\nindividuals, with or without co-obligant(s), an NBFC shall not levy pre-payment\\ncharges.\\n(2) For all floating rate loans granted for business purpose to individuals and Micro\\nand Small Enterprises (MSEs), as defined in Micro, Small and Medium\\nEnterprises Development (MSMED) Act, 2006, with or without co-obligant(s):\\n(i) an NBFC-Upper Layer shall not levy any pre-payment charges.\\n(ii) an NBFC-Middle Layer shall not levy any pre-payment charges on loans\\nwith sanctioned amount/ limit up to \\u20B950 lakh.\\n(3) The Directions at paragraphs 34(1) and 34(2) above shall be applicable\\nirrespective of the source of funds used for pre-payment of loans, either in part\\nor in full, and without any minimum lock-in period.\\n(4) Applicability of above Directions for dual/ special rate (combination of fixed and\\nfloating rate) loans will depend on whether the loan is on floating rate at the\\ntime of pre-payment.\\n(5) In cases other than those mentioned at paragraphs 34(1) and 34(2) above, pre-\\npayment charges, if any, shall be as per the approved policy of the NBFC.\\nHowever, in case of term loans, pre-payment charges, if levied by the NBFC,\\nshall be based on the amount being prepaid. In case of cash credit/ overdraft\\nfacilities, pre-payment charges on closure of the facility before the due date\\nshall be levied on an amount not exceeding the sanctioned limit.\\n(6) In case of cash credit/ overdraft facilities, no pre-payment charges shall be\\napplicable if the borrower intimates the NBFC of her / his / its intention not to\\nrenew the facility before the period as stipulated in the loan agreement,\\nprovided that the facility gets closed on the due date.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "1f4d4cedc0fce7e863e4a67d5d80697250bbaf2d3027782b26868b4446cf9e3c": {
+   "args": {
+    "query": "NBFC shall not charge any fee or charge not disclosed to borrower; charges part of loan terms; annualised rate; processing fees",
+    "topK": 6
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2065,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "13. An NBFC shall convey in writing to the borrower in the vernacular language as\nunderstood by the borrower by means of sanction letter or otherwise, the amount\nof loan sanctioned along with the terms and conditions including annualised rate\nof interest and method of application thereof and keep th",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.2 Loan appraisal and terms / conditions",
+       "keywordRank": 2,
+       "pageEnd": 7,
+       "pageStart": 7,
+       "paraRef": "Para 13",
+       "pinned": false,
+       "similarity": 0.8381829551131343
+      },
+      {
+       "chunkId": 2076,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "24. The rate of interest must be annualised rate so that the borrower is aware of the\nexact rates that would be charged to the account.",
+       "fusedScore": 0.031754032258064516,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.6 Regulation of excessive interest charged by NBFCs",
+       "keywordRank": 4,
+       "pageEnd": 9,
+       "pageStart": 9,
+       "paraRef": "Para 24",
+       "pinned": false,
+       "similarity": 0.8281502332508521
+      },
+      {
+       "chunkId": 2088,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "31. The following instructions shall be applicable to the existing as well as new\n(4) All applicable charges for switching of loans from floating to fixed rate and any\nother service charges/ administrative costs incidental to the exercise of the\nabove options shall be transparently disclosed in the ",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter III – Responsible Lending Conduct › D. Reset of Floating Interest Rate on EMI based Personal Loans",
+       "keywordRank": 3,
+       "pageEnd": 16,
+       "pageStart": 16,
+       "paraRef": "Para 31, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.8241279930916074
+      },
+      {
+       "chunkId": 2086,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\n(ii) Although no upper limit / cap for penal charges has been prescribed, the\nNBFC, while formulating its Board approved policy on penal charges, should\nkeep in mind that the intent of levying penal charges is e",
+       "fusedScore": 0.030076888285843508,
+       "heading": "Chapter III – Responsible Lending Conduct › C. Penal Charges in Loan Accounts",
+       "keywordRank": 6,
+       "pageEnd": 15,
+       "pageStart": 14,
+       "paraRef": "Para 30, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.8216762690702761
+      },
+      {
+       "chunkId": 2084,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\navailed from April 1, 2024 onwards. In case of existing loans, the switchover to new\npenal charges regime shall be applicable from June 30, 2024. These instructions\nshall be applicable to all credit facilities o",
+       "fusedScore": 0.029571646010002173,
+       "heading": "Chapter III – Responsible Lending Conduct › C. Penal Charges in Loan Accounts",
+       "keywordRank": 13,
+       "pageEnd": 14,
+       "pageStart": 13,
+       "paraRef": "Para 30, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.8273450444915943
+      },
+      {
+       "chunkId": 2169,
+       "denseRank": 18,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "Part 1 (Interest rate and fees / charges)\n1 Loan proposal/ account\nNo.\nType of Loan\n2 Sanctioned Loan amount (in\nRupees)\n3 Disbursal schedule\n(i) Disbursement in stages or 100%\nupfront.\n(ii) If it is stage wise, mention the clause\nof loan agreement having relevant\ndetails\n4 Loan term (year/months/da",
+       "fusedScore": 0.02921395544346364,
+       "heading": "Annex I",
+       "keywordRank": 1,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Annex I, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.8017760746221245
+      }
+     ],
+     "query": "NBFC shall not charge any fee or charge not disclosed to borrower; charges part of loan terms; annualised rate; processing fees"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_9f47197d-29d7-45c6-b799-e8723ae55260",
+     "text": "{\"query\":\"NBFC shall not charge any fee or charge not disclosed to borrower; charges part of loan terms; annualised rate; processing fees\",\"degraded\":null,\"hits\":[{\"chunkId\":2065,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 13\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.2 Loan appraisal and terms / conditions\",\"pageStart\":7,\"pageEnd\":7,\"excerpt\":\"13. An NBFC shall convey in writing to the borrower in the vernacular language as\\nunderstood by the borrower by means of sanction letter or otherwise, the amount\\nof loan sanctioned along with the terms and conditions including annualised rate\\nof interest and method of application thereof and keep th\",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.8381829551131343,\"pinned\":false},{\"chunkId\":2076,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 24\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.6 Regulation of excessive interest charged by NBFCs\",\"pageStart\":9,\"pageEnd\":9,\"excerpt\":\"24. The rate of interest must be annualised rate so that the borrower is aware of the\\nexact rates that would be charged to the account.\",\"denseRank\":2,\"keywordRank\":4,\"fusedScore\":0.031754032258064516,\"similarity\":0.8281502332508521,\"pinned\":false},{\"chunkId\":2088,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 31, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A D. Reset of Floating Interest Rate on EMI based Personal Loans\",\"pageStart\":16,\"pageEnd\":16,\"excerpt\":\"31. The following instructions shall be applicable to the existing as well as new\\n(4) All applicable charges for switching of loans from floating to fixed rate and any\\nother service charges/ administrative costs incidental to the exercise of the\\nabove options shall be transparently disclosed in the \",\"denseRank\":4,\"keywordRank\":3,\"fusedScore\":0.03149801587301587,\"similarity\":0.8241279930916074,\"pinned\":false},{\"chunkId\":2086,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 30, part 3 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A C. Penal Charges in Loan Accounts\",\"pageStart\":14,\"pageEnd\":15,\"excerpt\":\"30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\\n(ii) Although no upper limit / cap for penal charges has been prescribed, the\\nNBFC, while formulating its Board approved policy on penal charges, should\\nkeep in mind that the intent of levying penal charges is e\",\"denseRank\":7,\"keywordRank\":6,\"fusedScore\":0.030076888285843508,\"similarity\":0.8216762690702761,\"pinned\":false},{\"chunkId\":2084,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 30, part 1 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A C. Penal Charges in Loan Accounts\",\"pageStart\":13,\"pageEnd\":14,\"excerpt\":\"30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\\navailed from April 1, 2024 onwards. In case of existing loans, the switchover to new\\npenal charges regime shall be applicable from June 30, 2024. These instructions\\nshall be applicable to all credit facilities o\",\"denseRank\":3,\"keywordRank\":13,\"fusedScore\":0.029571646010002173,\"similarity\":0.8273450444915943,\"pinned\":false},{\"chunkId\":2169,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Annex I, part 1 of 2\",\"heading\":\"Annex I\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"Part 1 (Interest rate and fees / charges)\\n1 Loan proposal/ account\\nNo.\\nType of Loan\\n2 Sanctioned Loan amount (in\\nRupees)\\n3 Disbursal schedule\\n(i) Disbursement in stages or 100%\\nupfront.\\n(ii) If it is stage wise, mention the clause\\nof loan agreement having relevant\\ndetails\\n4 Loan term (year/months/da\",\"denseRank\":18,\"keywordRank\":1,\"fusedScore\":0.02921395544346364,\"similarity\":0.8017760746221245,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "3f0a0f38160213458c882987efdf426d7b510098ebd75be8f4beeec8eab892b1": {
+   "args": {
+    "chunkId": 1726
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1726,
+     "content": "11. Cooling-off period\n(1) The borrower shall be given an explicit option to exit a digital loan by paying\nthe principal and the proportionate APR without any penalty during an initial\n“cooling-off period”. The cooling off period shall be determined by the NBFC in\nterms of their credit policy, subject to the period so determined not being less\nthan one day. For borrower continuing with the loan even after cooling-off\nperiod, pre-payment shall continue to be allowed as per Reserve Bank of India\n(Non-Banking Financial Companies- Responsible Business Conduct)\nDirections, 2025.\n(2) An NBFC may retain a reasonable one-time processing fee, if the customer\nexits the loan during the cooling-off period. This, if applicable, shall be\ndisclosed to the customer upfront in KFS.",
+     "documentId": "rbi-nbfc-credit-facilities-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+     "heading": "Chapter III – Digital Lending › B. Conduct and Customer Protection Requirements",
+     "pageEnd": 18,
+     "pageStart": 18,
+     "paraRef": "Para 11"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b17c5d80-55e0-4d49-b7f2-dffa9159f770",
+     "text": "{\"chunkId\":1726,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 11\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A B. Conduct and Customer Protection Requirements\",\"pageStart\":18,\"pageEnd\":18,\"content\":\"11. Cooling-off period\\n(1) The borrower shall be given an explicit option to exit a digital loan by paying\\nthe principal and the proportionate APR without any penalty during an initial\\n\\u201Ccooling-off period\\u201D. The cooling off period shall be determined by the NBFC in\\nterms of their credit policy, subject to the period so determined not being less\\nthan one day. For borrower continuing with the loan even after cooling-off\\nperiod, pre-payment shall continue to be allowed as per Reserve Bank of India\\n(Non-Banking Financial Companies- Responsible Business Conduct)\\nDirections, 2025.\\n(2) An NBFC may retain a reasonable one-time processing fee, if the customer\\nexits the loan during the cooling-off period. This, if applicable, shall be\\ndisclosed to the customer upfront in KFS.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "3fc43cb1bc7b2a0572e2f53ab57c8df088197a7ee3843f59e014dbeaf6b54c5c": {
+   "args": {
+    "chunkId": 2062
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2062,
+     "content": "10. All communications to the borrower shall be in the vernacular language or a\nlanguage as understood by the borrower.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.1 Applications for loans and their processing",
+     "pageEnd": 7,
+     "pageStart": 7,
+     "paraRef": "Para 10"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_752927d9-c6f7-45f1-b235-047e61c8f404",
+     "text": "{\"chunkId\":2062,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 10\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.1 Applications for loans and their processing\",\"pageStart\":7,\"pageEnd\":7,\"content\":\"10. All communications to the borrower shall be in the vernacular language or a\\nlanguage as understood by the borrower.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "4958eea0065f28a5081c84a22b8239fa3f353266824ee92fa2c4f87e12f48862": {
+   "args": {
+    "query": "foreclosure charges pre-payment penalty individual borrower floating rate loans non-business purposes",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2090,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\nan NBFC shall not levy pre-payment charges on any floating rate term loan\nsanctioned for purposes other than business to individual borrowers, with or\nwithout co-obligant(s).",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 1,
+       "pageEnd": 17,
+       "pageStart": 17,
+       "paraRef": "Para 33",
+       "pinned": false,
+       "similarity": 0.756687932713049
+      },
+      {
+       "chunkId": 2091,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\ncharges on loans and advances (term loans as well as demand loans) sanctioned\nor renewed on or after January 1, 2026:\n(1) For all floating rate loans granted for purposes other than business to\nindividuals, with or wi",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 2,
+       "pageEnd": 18,
+       "pageStart": 17,
+       "paraRef": "Para 34, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.7631729158903521
+      },
+      {
+       "chunkId": 2092,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\ninstance of the NBFC.\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\nin the sanction letter and loan ag",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 4,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 34, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7239920968971727
+      },
+      {
+       "chunkId": 2139,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "81. There shall be no pre-payment charge levied on microfinance loans. Charges, if\nany, for delayed payment shall be applied on the overdue amount and not on the\nentire loan amount.",
+       "fusedScore": 0.03076923076923077,
+       "heading": "Chapter III – Responsible Lending Conduct › H. Conduct towards Microfinance borrowers › H.2 Conduct aspects in pricing of microfinance loans",
+       "keywordRank": 5,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Para 81",
+       "pinned": false,
+       "similarity": 0.7109840153966083
+      },
+      {
+       "chunkId": 2088,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "31. The following instructions shall be applicable to the existing as well as new\n(4) All applicable charges for switching of loans from floating to fixed rate and any\nother service charges/ administrative costs incidental to the exercise of the\nabove options shall be transparently disclosed in the ",
+       "fusedScore": 0.029513888888888888,
+       "heading": "Chapter III – Responsible Lending Conduct › D. Reset of Floating Interest Rate on EMI based Personal Loans",
+       "keywordRank": 12,
+       "pageEnd": 16,
+       "pageStart": 16,
+       "paraRef": "Para 31, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7122153761964635
+      },
+      {
+       "chunkId": 2086,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\n(ii) Although no upper limit / cap for penal charges has been prescribed, the\nNBFC, while formulating its Board approved policy on penal charges, should\nkeep in mind that the intent of levying penal charges is e",
+       "fusedScore": 0.029211087420042643,
+       "heading": "Chapter III – Responsible Lending Conduct › C. Penal Charges in Loan Accounts",
+       "keywordRank": 10,
+       "pageEnd": 15,
+       "pageStart": 14,
+       "paraRef": "Para 30, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.6985551506712195
+      },
+      {
+       "chunkId": 2087,
+       "denseRank": 12,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "31. The following instructions shall be applicable to the existing as well as new\npersonal loans with effect from January 1, 2024. An NBFC shall put in place an\nappropriate policy framework meeting the following requirements for\nimplementation and compliance:\n(1) At the time of sanction, an NBFC sha",
+       "fusedScore": 0.02904040404040404,
+       "heading": "Chapter III – Responsible Lending Conduct › D. Reset of Floating Interest Rate on EMI based Personal Loans",
+       "keywordRank": 6,
+       "pageEnd": 16,
+       "pageStart": 15,
+       "paraRef": "Para 31, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.6882070283705556
+      },
+      {
+       "chunkId": 2085,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\n(ii) Default in repayment by the borrower is also a type of non-compliance of\nmaterial terms and conditions of loan repayment contract by the borrower\nand penalty, if charged, for such default shall only be levi",
+       "fusedScore": 0.028484848484848484,
+       "heading": "Chapter III – Responsible Lending Conduct › C. Penal Charges in Loan Accounts",
+       "keywordRank": 15,
+       "pageEnd": 14,
+       "pageStart": 14,
+       "paraRef": "Para 30, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7000936299646542
+      }
+     ],
+     "query": "foreclosure charges pre-payment penalty individual borrower floating rate loans non-business purposes"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_01ec3d30-7351-4e0b-9b79-6d1814f75269",
+     "text": "{\"query\":\"foreclosure charges pre-payment penalty individual borrower floating rate loans non-business purposes\",\"degraded\":null,\"hits\":[{\"chunkId\":2090,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 33\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":17,\"excerpt\":\"33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\\nan NBFC shall not levy pre-payment charges on any floating rate term loan\\nsanctioned for purposes other than business to individual borrowers, with or\\nwithout co-obligant(s).\",\"denseRank\":2,\"keywordRank\":1,\"fusedScore\":0.03252247488101533,\"similarity\":0.756687932713049,\"pinned\":false},{\"chunkId\":2091,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\ncharges on loans and advances (term loans as well as demand loans) sanctioned\\nor renewed on or after January 1, 2026:\\n(1) For all floating rate loans granted for purposes other than business to\\nindividuals, with or wi\",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.7631729158903521,\"pinned\":false},{\"chunkId\":2092,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\\ninstance of the NBFC.\\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\\nin the sanction letter and loan ag\",\"denseRank\":3,\"keywordRank\":4,\"fusedScore\":0.03149801587301587,\"similarity\":0.7239920968971727,\"pinned\":false},{\"chunkId\":2139,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 81\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A H. Conduct towards Microfinance borrowers \\u203A H.2 Conduct aspects in pricing of microfinance loans\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"81. There shall be no pre-payment charge levied on microfinance loans. Charges, if\\nany, for delayed payment shall be applied on the overdue amount and not on the\\nentire loan amount.\",\"denseRank\":5,\"keywordRank\":5,\"fusedScore\":0.03076923076923077,\"similarity\":0.7109840153966083,\"pinned\":false},{\"chunkId\":2088,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 31, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A D. Reset of Floating Interest Rate on EMI based Personal Loans\",\"pageStart\":16,\"pageEnd\":16,\"excerpt\":\"31. The following instructions shall be applicable to the existing as well as new\\n(4) All applicable charges for switching of loans from floating to fixed rate and any\\nother service charges/ administrative costs incidental to the exercise of the\\nabove options shall be transparently disclosed in the \",\"denseRank\":4,\"keywordRank\":12,\"fusedScore\":0.029513888888888888,\"similarity\":0.7122153761964635,\"pinned\":false},{\"chunkId\":2086,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 30, part 3 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A C. Penal Charges in Loan Accounts\",\"pageStart\":14,\"pageEnd\":15,\"excerpt\":\"30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\\n(ii) Although no upper limit / cap for penal charges has been prescribed, the\\nNBFC, while formulating its Board approved policy on penal charges, should\\nkeep in mind that the intent of levying penal charges is e\",\"denseRank\":7,\"keywordRank\":10,\"fusedScore\":0.029211087420042643,\"similarity\":0.6985551506712195,\"pinned\":false},{\"chunkId\":2087,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 31, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A D. Reset of Floating Interest Rate on EMI based Personal Loans\",\"pageStart\":15,\"pageEnd\":16,\"excerpt\":\"31. The following instructions shall be applicable to the existing as well as new\\npersonal loans with effect from January 1, 2024. An NBFC shall put in place an\\nappropriate policy framework meeting the following requirements for\\nimplementation and compliance:\\n(1) At the time of sanction, an NBFC sha\",\"denseRank\":12,\"keywordRank\":6,\"fusedScore\":0.02904040404040404,\"similarity\":0.6882070283705556,\"pinned\":false},{\"chunkId\":2085,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 30, part 2 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A C. Penal Charges in Loan Accounts\",\"pageStart\":14,\"pageEnd\":14,\"excerpt\":\"30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\\n(ii) Default in repayment by the borrower is also a type of non-compliance of\\nmaterial terms and conditions of loan repayment contract by the borrower\\nand penalty, if charged, for such default shall only be levi\",\"denseRank\":6,\"keywordRank\":15,\"fusedScore\":0.028484848484848484,\"similarity\":0.7000936299646542,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "5609d79c115e5f996d6fdc7b93e1033ade6b6dc770c9a886ada33533e18d1c87": {
+   "args": {
+    "chunkId": 2169
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2169,
+     "content": "Part 1 (Interest rate and fees / charges)\n1 Loan proposal/ account\nNo.\nType of Loan\n2 Sanctioned Loan amount (in\nRupees)\n3 Disbursal schedule\n(i) Disbursement in stages or 100%\nupfront.\n(ii) If it is stage wise, mention the clause\nof loan agreement having relevant\ndetails\n4 Loan term (year/months/days)\n5 Instalment details\nType of instalments Number of EPIs EPI (₹) Commencement of\nrepayment, post sanction\n6 Interest rate (%) and type (fixed or floating or\nhybrid)\n7 Additional Information in case of Floating rate of interest\nReferen\nce\nBenchm\nark\nBenchm\nark rate\n(%) (B)\nSpread (%)\n(S)\nFinal rate\n(%)\nR = (B) +\n(S)\nReset\nperiodicity*\n(Months)\nImpact of change in\nthe reference\nbenchmark\n(for 25 bps change\nin ‘R’, change in:)\nB S EPI (₹) No. of\nEPIs\n8 Fee/ Charges (An NBFC may disclose the amount net of any taxes such as GST)\nPayable to the NBFC (A) Payable to a third party\nthrough the NBFC (B)\nOne-time/\nRecurring\nAmount (in\n₹) or\nPercentag\ne (%) as\napplicable\n(Mention\nfrequency,\nwhere\nrecurring)\nOne-\ntime/Rec\nurring\nAmount (in\n₹) or\nPercentag\ne (%) as\napplicable\n(Mention\nfrequency,\nwhere\nrecurring)\n(i) Processing fees\n(ii) Insurance charges\n(iii) Valuation fees\n(iv) Any other (please\nspecify)\n9 Annual Percentage Rate (APR) (%)\n(Please refer to the illustration in sub-\nparagraph (3) of paragraph 29 of these\ndirections)\n10 Details of Contingent Charges (in ₹ or %, as applicable)\n(i) Penal charges, if any, in case of delayed payment\n(ii) Other penal charges, if any\n(iii) Foreclosure charges, if applicable\n(iv) Charges for switching of loans from floating to fixed rate and\nvice versa",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Annex I",
+     "pageEnd": 35,
+     "pageStart": 34,
+     "paraRef": "Annex I, part 1 of 2"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_45faca0c-19c2-4cc1-a8e2-35232916f0c3",
+     "text": "{\"chunkId\":2169,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Annex I, part 1 of 2\",\"heading\":\"Annex I\",\"pageStart\":34,\"pageEnd\":35,\"content\":\"Part 1 (Interest rate and fees / charges)\\n1 Loan proposal/ account\\nNo.\\nType of Loan\\n2 Sanctioned Loan amount (in\\nRupees)\\n3 Disbursal schedule\\n(i) Disbursement in stages or 100%\\nupfront.\\n(ii) If it is stage wise, mention the clause\\nof loan agreement having relevant\\ndetails\\n4 Loan term (year/months/days)\\n5 Instalment details\\nType of instalments Number of EPIs EPI (\\u20B9) Commencement of\\nrepayment, post sanction\\n6 Interest rate (%) and type (fixed or floating or\\nhybrid)\\n7 Additional Information in case of Floating rate of interest\\nReferen\\nce\\nBenchm\\nark\\nBenchm\\nark rate\\n(%) (B)\\nSpread (%)\\n(S)\\nFinal rate\\n(%)\\nR = (B) \\u002B\\n(S)\\nReset\\nperiodicity*\\n(Months)\\nImpact of change in\\nthe reference\\nbenchmark\\n(for 25 bps change\\nin \\u2018R\\u2019, change in:)\\nB S EPI (\\u20B9) No. of\\nEPIs\\n8 Fee/ Charges (An NBFC may disclose the amount net of any taxes such as GST)\\nPayable to the NBFC (A) Payable to a third party\\nthrough the NBFC (B)\\nOne-time/\\nRecurring\\nAmount (in\\n\\u20B9) or\\nPercentag\\ne (%) as\\napplicable\\n(Mention\\nfrequency,\\nwhere\\nrecurring)\\nOne-\\ntime/Rec\\nurring\\nAmount (in\\n\\u20B9) or\\nPercentag\\ne (%) as\\napplicable\\n(Mention\\nfrequency,\\nwhere\\nrecurring)\\n(i) Processing fees\\n(ii) Insurance charges\\n(iii) Valuation fees\\n(iv) Any other (please\\nspecify)\\n9 Annual Percentage Rate (APR) (%)\\n(Please refer to the illustration in sub-\\nparagraph (3) of paragraph 29 of these\\ndirections)\\n10 Details of Contingent Charges (in \\u20B9 or %, as applicable)\\n(i) Penal charges, if any, in case of delayed payment\\n(ii) Other penal charges, if any\\n(iii) Foreclosure charges, if applicable\\n(iv) Charges for switching of loans from floating to fixed rate and\\nvice versa\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "6a118c9211dac09f9710d17180ec5bec6c6cb041a301b68e9361e1e3abb1fe9f": {
+   "args": {
+    "chunkId": 2066
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2066,
+     "content": "14. Borrowers may not be fully aware of the terms and conditions of the loans including\nrate of interest at the time of sanction of loans, either because the NBFC does not\nprovide details of the same or the borrower has no time to look into detailed\nagreement. Not furnishing a copy of the loan agreement or enclosures quoted in\nthe loan agreement is an unfair practice and this could lead to disputes between\nthe NBFC and the borrower with regard to the terms and conditions. The NBFC,\nshall furnish a copy of the loan agreement as understood by the borrower along\nwith a copy each of all enclosures quoted in the loan agreement to all the borrowers\nat the time of sanction / disbursement of loans.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.2 Loan appraisal and terms / conditions",
+     "pageEnd": 8,
+     "pageStart": 7,
+     "paraRef": "Para 14"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_ca7cfa5c-98d8-400d-b172-294d720bc54d",
+     "text": "{\"chunkId\":2066,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 14\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.2 Loan appraisal and terms / conditions\",\"pageStart\":7,\"pageEnd\":8,\"content\":\"14. Borrowers may not be fully aware of the terms and conditions of the loans including\\nrate of interest at the time of sanction of loans, either because the NBFC does not\\nprovide details of the same or the borrower has no time to look into detailed\\nagreement. Not furnishing a copy of the loan agreement or enclosures quoted in\\nthe loan agreement is an unfair practice and this could lead to disputes between\\nthe NBFC and the borrower with regard to the terms and conditions. The NBFC,\\nshall furnish a copy of the loan agreement as understood by the borrower along\\nwith a copy each of all enclosures quoted in the loan agreement to all the borrowers\\nat the time of sanction / disbursement of loans.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "6b6024ebc9a567ec2acb3226d09a25e0db39f40debab601c19797113fdbd6965": {
+   "args": {
+    "query": "charges levied without disclosure to borrower, reasonable charges, terms not unfair to borrower",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2085,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\n(ii) Default in repayment by the borrower is also a type of non-compliance of\nmaterial terms and conditions of loan repayment contract by the borrower\nand penalty, if charged, for such default shall only be levi",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › C. Penal Charges in Loan Accounts",
+       "keywordRank": 1,
+       "pageEnd": 14,
+       "pageStart": 14,
+       "paraRef": "Para 30, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7797579956920218
+      },
+      {
+       "chunkId": 2086,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\n(ii) Although no upper limit / cap for penal charges has been prescribed, the\nNBFC, while formulating its Board approved policy on penal charges, should\nkeep in mind that the intent of levying penal charges is e",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › C. Penal Charges in Loan Accounts",
+       "keywordRank": 2,
+       "pageEnd": 15,
+       "pageStart": 14,
+       "paraRef": "Para 30, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.7812015265457504
+      },
+      {
+       "chunkId": 2084,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\navailed from April 1, 2024 onwards. In case of existing loans, the switchover to new\npenal charges regime shall be applicable from June 30, 2024. These instructions\nshall be applicable to all credit facilities o",
+       "fusedScore": 0.03057889822595705,
+       "heading": "Chapter III – Responsible Lending Conduct › C. Penal Charges in Loan Accounts",
+       "keywordRank": 8,
+       "pageEnd": 14,
+       "pageStart": 13,
+       "paraRef": "Para 30, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.7650963628062555
+      },
+      {
+       "chunkId": 2066,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "14. Borrowers may not be fully aware of the terms and conditions of the loans including\nrate of interest at the time of sanction of loans, either because the NBFC does not\nprovide details of the same or the borrower has no time to look into detailed\nagreement. Not furnishing a copy of the loan agree",
+       "fusedScore": 0.03055037313432836,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.2 Loan appraisal and terms / conditions",
+       "keywordRank": 7,
+       "pageEnd": 8,
+       "pageStart": 7,
+       "paraRef": "Para 14",
+       "pinned": false,
+       "similarity": 0.7578815736281034
+      },
+      {
+       "chunkId": 2090,
+       "denseRank": 9,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\nan NBFC shall not levy pre-payment charges on any floating rate term loan\nsanctioned for purposes other than business to individual borrowers, with or\nwithout co-obligant(s).",
+       "fusedScore": 0.030117753623188404,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 4,
+       "pageEnd": 17,
+       "pageStart": 17,
+       "paraRef": "Para 33",
+       "pinned": false,
+       "similarity": 0.7414164717744494
+      },
+      {
+       "chunkId": 2091,
+       "denseRank": 11,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\ncharges on loans and advances (term loans as well as demand loans) sanctioned\nor renewed on or after January 1, 2026:\n(1) For all floating rate loans granted for purposes other than business to\nindividuals, with or wi",
+       "fusedScore": 0.029957522915269395,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 3,
+       "pageEnd": 18,
+       "pageStart": 17,
+       "paraRef": "Para 34, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.7408575017620627
+      },
+      {
+       "chunkId": 2077,
+       "denseRank": 8,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "25. The Reserve Bank has been receiving several complaints regarding levying of\nexcessive interest and charges on certain loans and advances by NBFCs. Though\ninterest rates are not regulated by the Reserve Bank, rates of interest beyond a\ncertain level may be seen to be excessive and can neither be ",
+       "fusedScore": 0.029198635976129584,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.7 Complaints about excessive interest charged by NBFCs",
+       "keywordRank": 9,
+       "pageEnd": 9,
+       "pageStart": 9,
+       "paraRef": "Para 25",
+       "pinned": false,
+       "similarity": 0.7439542121942266
+      },
+      {
+       "chunkId": 2083,
+       "denseRank": 17,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "29. The following instructions shall be applicable in case of all new retail and MSME\nrepayment schedule i.e., ₹23,280 (=970*24) vis-à-vis the amount of ₹23,274 (₹20,000 (loan amount) +\n₹3,274 (Interest charges) mentioned under (8) is due to rounding off the instalment amount of ₹969.73\nto ₹970 unde",
+       "fusedScore": 0.028371628371628373,
+       "heading": "Chapter III – Responsible Lending Conduct › B. Key Facts Statement for Loans and Advances",
+       "keywordRank": 5,
+       "pageEnd": 13,
+       "pageStart": 12,
+       "paraRef": "Para 29, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.729801393818362
+      }
+     ],
+     "query": "charges levied without disclosure to borrower, reasonable charges, terms not unfair to borrower"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_38e19c83-6f99-45d8-a6ae-05abd93a28c3",
+     "text": "{\"query\":\"charges levied without disclosure to borrower, reasonable charges, terms not unfair to borrower\",\"degraded\":null,\"hits\":[{\"chunkId\":2085,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 30, part 2 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A C. Penal Charges in Loan Accounts\",\"pageStart\":14,\"pageEnd\":14,\"excerpt\":\"30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\\n(ii) Default in repayment by the borrower is also a type of non-compliance of\\nmaterial terms and conditions of loan repayment contract by the borrower\\nand penalty, if charged, for such default shall only be levi\",\"denseRank\":2,\"keywordRank\":1,\"fusedScore\":0.03252247488101533,\"similarity\":0.7797579956920218,\"pinned\":false},{\"chunkId\":2086,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 30, part 3 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A C. Penal Charges in Loan Accounts\",\"pageStart\":14,\"pageEnd\":15,\"excerpt\":\"30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\\n(ii) Although no upper limit / cap for penal charges has been prescribed, the\\nNBFC, while formulating its Board approved policy on penal charges, should\\nkeep in mind that the intent of levying penal charges is e\",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.7812015265457504,\"pinned\":false},{\"chunkId\":2084,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 30, part 1 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A C. Penal Charges in Loan Accounts\",\"pageStart\":13,\"pageEnd\":14,\"excerpt\":\"30. An NBFC shall adhere to the following instructions in respect of all the fresh loans\\navailed from April 1, 2024 onwards. In case of existing loans, the switchover to new\\npenal charges regime shall be applicable from June 30, 2024. These instructions\\nshall be applicable to all credit facilities o\",\"denseRank\":3,\"keywordRank\":8,\"fusedScore\":0.03057889822595705,\"similarity\":0.7650963628062555,\"pinned\":false},{\"chunkId\":2066,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 14\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.2 Loan appraisal and terms / conditions\",\"pageStart\":7,\"pageEnd\":8,\"excerpt\":\"14. Borrowers may not be fully aware of the terms and conditions of the loans including\\nrate of interest at the time of sanction of loans, either because the NBFC does not\\nprovide details of the same or the borrower has no time to look into detailed\\nagreement. Not furnishing a copy of the loan agree\",\"denseRank\":4,\"keywordRank\":7,\"fusedScore\":0.03055037313432836,\"similarity\":0.7578815736281034,\"pinned\":false},{\"chunkId\":2090,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 33\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":17,\"excerpt\":\"33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\\nan NBFC shall not levy pre-payment charges on any floating rate term loan\\nsanctioned for purposes other than business to individual borrowers, with or\\nwithout co-obligant(s).\",\"denseRank\":9,\"keywordRank\":4,\"fusedScore\":0.030117753623188404,\"similarity\":0.7414164717744494,\"pinned\":false},{\"chunkId\":2091,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\ncharges on loans and advances (term loans as well as demand loans) sanctioned\\nor renewed on or after January 1, 2026:\\n(1) For all floating rate loans granted for purposes other than business to\\nindividuals, with or wi\",\"denseRank\":11,\"keywordRank\":3,\"fusedScore\":0.029957522915269395,\"similarity\":0.7408575017620627,\"pinned\":false},{\"chunkId\":2077,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 25\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.7 Complaints about excessive interest charged by NBFCs\",\"pageStart\":9,\"pageEnd\":9,\"excerpt\":\"25. The Reserve Bank has been receiving several complaints regarding levying of\\nexcessive interest and charges on certain loans and advances by NBFCs. Though\\ninterest rates are not regulated by the Reserve Bank, rates of interest beyond a\\ncertain level may be seen to be excessive and can neither be \",\"denseRank\":8,\"keywordRank\":9,\"fusedScore\":0.029198635976129584,\"similarity\":0.7439542121942266,\"pinned\":false},{\"chunkId\":2083,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 29, part 3 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A B. Key Facts Statement for Loans and Advances\",\"pageStart\":12,\"pageEnd\":13,\"excerpt\":\"29. The following instructions shall be applicable in case of all new retail and MSME\\nrepayment schedule i.e., \\u20B923,280 (=970*24) vis-\\u00E0-vis the amount of \\u20B923,274 (\\u20B920,000 (loan amount) \\u002B\\n\\u20B93,274 (Interest charges) mentioned under (8) is due to rounding off the instalment amount of \\u20B9969.73\\nto \\u20B9970 unde\",\"denseRank\":17,\"keywordRank\":5,\"fusedScore\":0.028371628371628373,\"similarity\":0.729801393818362,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "8f958fe028bec240e0e4c839b106380ef9b994d76fde5675a94207542493b406": {
+   "args": {
+    "query": "key facts statement foreclosure pre-payment charges disclosure loan agreement",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2092,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\ninstance of the NBFC.\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\nin the sanction letter and loan ag",
+       "fusedScore": 0.032266458495966696,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 1,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 34, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7121949399389087
+      },
+      {
+       "chunkId": 2170,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "Part 1 (Interest rate and fees / charges)\n(v) Any other charges (please specify)\n*Fixed reset, other than on account of changes in credit profile\nPart 2 (Other qualitative information)\n1 Clause of Loan agreement relating to\nengagement of recovery agents\n2 Clause of Loan agreement which details\ngriev",
+       "fusedScore": 0.032266458495966696,
+       "heading": "Annex I",
+       "keywordRank": 3,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Annex I, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7387166876971797
+      },
+      {
+       "chunkId": 2091,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\ncharges on loans and advances (term loans as well as demand loans) sanctioned\nor renewed on or after January 1, 2026:\n(1) For all floating rate loans granted for purposes other than business to\nindividuals, with or wi",
+       "fusedScore": 0.0315136476426799,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 2,
+       "pageEnd": 18,
+       "pageStart": 17,
+       "paraRef": "Para 34, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.6742019445656179
+      },
+      {
+       "chunkId": 2169,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "Part 1 (Interest rate and fees / charges)\n1 Loan proposal/ account\nNo.\nType of Loan\n2 Sanctioned Loan amount (in\nRupees)\n3 Disbursal schedule\n(i) Disbursement in stages or 100%\nupfront.\n(ii) If it is stage wise, mention the clause\nof loan agreement having relevant\ndetails\n4 Loan term (year/months/da",
+       "fusedScore": 0.031054405392392875,
+       "heading": "Annex I",
+       "keywordRank": 7,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Annex I, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.7306870978661757
+      },
+      {
+       "chunkId": 2090,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\nan NBFC shall not levy pre-payment charges on any floating rate term loan\nsanctioned for purposes other than business to individual borrowers, with or\nwithout co-obligant(s).",
+       "fusedScore": 0.03030998851894374,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 5,
+       "pageEnd": 17,
+       "pageStart": 17,
+       "paraRef": "Para 33",
+       "pinned": false,
+       "similarity": 0.6661845047694044
+      },
+      {
+       "chunkId": 2107,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "49. The loan agreement shall cover the description of the eligible collateral taken as\nsecurity, value of such collateral, details of auction procedure and the\ncircumstances leading to the auction of the eligible collateral, the notice period\nwhich shall be allowed to the borrower for repayment or s",
+       "fusedScore": 0.029513888888888888,
+       "heading": "Chapter III – Responsible Lending Conduct › G. Conduct related aspects in Lending Against Gold and Silver Collateral › G.3 Standardisation of documents and communication",
+       "keywordRank": 12,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 49",
+       "pinned": false,
+       "similarity": 0.682929358831587
+      },
+      {
+       "chunkId": 2139,
+       "denseRank": 12,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "81. There shall be no pre-payment charge levied on microfinance loans. Charges, if\nany, for delayed payment shall be applied on the overdue amount and not on the\nentire loan amount.",
+       "fusedScore": 0.02904040404040404,
+       "heading": "Chapter III – Responsible Lending Conduct › H. Conduct towards Microfinance borrowers › H.2 Conduct aspects in pricing of microfinance loans",
+       "keywordRank": 6,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Para 81",
+       "pinned": false,
+       "similarity": 0.6563696014369568
+      },
+      {
+       "chunkId": 2056,
+       "denseRank": 10,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "6. In these Directions, unless the context states otherwise, the terms herein shall bear\nthe meaning assigned to them below:\n(1) Annual Percentage Rate (APR) means the annual cost of credit to the\nborrower which includes interest rate and all other charges associated with the\ncredit facility.\n(2) Co",
+       "fusedScore": 0.02877846790890269,
+       "heading": "Chapter I – Preliminary › C. Definitions",
+       "keywordRank": 9,
+       "pageEnd": 5,
+       "pageStart": 4,
+       "paraRef": "Para 6, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.658573245875401
+      }
+     ],
+     "query": "key facts statement foreclosure pre-payment charges disclosure loan agreement"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_f1028289-6582-4958-93c3-db085f072d53",
+     "text": "{\"query\":\"key facts statement foreclosure pre-payment charges disclosure loan agreement\",\"degraded\":null,\"hits\":[{\"chunkId\":2092,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\\ninstance of the NBFC.\\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\\nin the sanction letter and loan ag\",\"denseRank\":3,\"keywordRank\":1,\"fusedScore\":0.032266458495966696,\"similarity\":0.7121949399389087,\"pinned\":false},{\"chunkId\":2170,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Annex I, part 2 of 2\",\"heading\":\"Annex I\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"Part 1 (Interest rate and fees / charges)\\n(v) Any other charges (please specify)\\n*Fixed reset, other than on account of changes in credit profile\\nPart 2 (Other qualitative information)\\n1 Clause of Loan agreement relating to\\nengagement of recovery agents\\n2 Clause of Loan agreement which details\\ngriev\",\"denseRank\":1,\"keywordRank\":3,\"fusedScore\":0.032266458495966696,\"similarity\":0.7387166876971797,\"pinned\":false},{\"chunkId\":2091,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\ncharges on loans and advances (term loans as well as demand loans) sanctioned\\nor renewed on or after January 1, 2026:\\n(1) For all floating rate loans granted for purposes other than business to\\nindividuals, with or wi\",\"denseRank\":5,\"keywordRank\":2,\"fusedScore\":0.0315136476426799,\"similarity\":0.6742019445656179,\"pinned\":false},{\"chunkId\":2169,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Annex I, part 1 of 2\",\"heading\":\"Annex I\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"Part 1 (Interest rate and fees / charges)\\n1 Loan proposal/ account\\nNo.\\nType of Loan\\n2 Sanctioned Loan amount (in\\nRupees)\\n3 Disbursal schedule\\n(i) Disbursement in stages or 100%\\nupfront.\\n(ii) If it is stage wise, mention the clause\\nof loan agreement having relevant\\ndetails\\n4 Loan term (year/months/da\",\"denseRank\":2,\"keywordRank\":7,\"fusedScore\":0.031054405392392875,\"similarity\":0.7306870978661757,\"pinned\":false},{\"chunkId\":2090,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 33\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":17,\"excerpt\":\"33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\\nan NBFC shall not levy pre-payment charges on any floating rate term loan\\nsanctioned for purposes other than business to individual borrowers, with or\\nwithout co-obligant(s).\",\"denseRank\":7,\"keywordRank\":5,\"fusedScore\":0.03030998851894374,\"similarity\":0.6661845047694044,\"pinned\":false},{\"chunkId\":2107,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 49\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A G. Conduct related aspects in Lending Against Gold and Silver Collateral \\u203A G.3 Standardisation of documents and communication\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"49. The loan agreement shall cover the description of the eligible collateral taken as\\nsecurity, value of such collateral, details of auction procedure and the\\ncircumstances leading to the auction of the eligible collateral, the notice period\\nwhich shall be allowed to the borrower for repayment or s\",\"denseRank\":4,\"keywordRank\":12,\"fusedScore\":0.029513888888888888,\"similarity\":0.682929358831587,\"pinned\":false},{\"chunkId\":2139,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 81\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A H. Conduct towards Microfinance borrowers \\u203A H.2 Conduct aspects in pricing of microfinance loans\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"81. There shall be no pre-payment charge levied on microfinance loans. Charges, if\\nany, for delayed payment shall be applied on the overdue amount and not on the\\nentire loan amount.\",\"denseRank\":12,\"keywordRank\":6,\"fusedScore\":0.02904040404040404,\"similarity\":0.6563696014369568,\"pinned\":false},{\"chunkId\":2056,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 6, part 1 of 2\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A C. Definitions\",\"pageStart\":4,\"pageEnd\":5,\"excerpt\":\"6. In these Directions, unless the context states otherwise, the terms herein shall bear\\nthe meaning assigned to them below:\\n(1) Annual Percentage Rate (APR) means the annual cost of credit to the\\nborrower which includes interest rate and all other charges associated with the\\ncredit facility.\\n(2) Co\",\"denseRank\":10,\"keywordRank\":9,\"fusedScore\":0.02877846790890269,\"similarity\":0.658573245875401,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "a0bdcad1a288d14a30953f3ccf386418452ae2efeba6e97704130277044decff": {
+   "args": {
+    "query": "fair practices code charges reasonable transparent no unilateral additional charges responsible business conduct",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2077,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "25. The Reserve Bank has been receiving several complaints regarding levying of\nexcessive interest and charges on certain loans and advances by NBFCs. Though\ninterest rates are not regulated by the Reserve Bank, rates of interest beyond a\ncertain level may be seen to be excessive and can neither be ",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.7 Complaints about excessive interest charged by NBFCs",
+       "keywordRank": 4,
+       "pageEnd": 9,
+       "pageStart": 9,
+       "paraRef": "Para 25",
+       "pinned": false,
+       "similarity": 0.7184287570034027
+      },
+      {
+       "chunkId": 2076,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "24. The rate of interest must be annualised rate so that the borrower is aware of the\nexact rates that would be charged to the account.",
+       "fusedScore": 0.03125763125763126,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.6 Regulation of excessive interest charged by NBFCs",
+       "keywordRank": 3,
+       "pageEnd": 9,
+       "pageStart": 9,
+       "paraRef": "Para 24",
+       "pinned": false,
+       "similarity": 0.7136304803866447
+      },
+      {
+       "chunkId": 2073,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "21. An NBFC shall have the freedom of drafting the Fair Practices Code, enhancing\nthe scope of the guidelines but in no way sacrificing the spirit underlying the above\nguidelines. The same shall be put up on its website for the information of various\nstakeholders.",
+       "fusedScore": 0.031099324975891997,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.5 Language and mode of communicating Fair Practice Code",
+       "keywordRank": 8,
+       "pageEnd": 9,
+       "pageStart": 9,
+       "paraRef": "Para 21",
+       "pinned": false,
+       "similarity": 0.7365429622599553
+      },
+      {
+       "chunkId": 2074,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "22. The Board of an NBFC shall adopt an interest rate model taking into account\nrelevant factors such as cost of funds, margin and risk premium and determine the\nrate of interest to be charged for loans and advances. The rate of interest and the\napproach for gradations of risk and rationale for char",
+       "fusedScore": 0.03055037313432836,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.6 Regulation of excessive interest charged by NBFCs",
+       "keywordRank": 7,
+       "pageEnd": 9,
+       "pageStart": 9,
+       "paraRef": "Para 22",
+       "pinned": false,
+       "similarity": 0.7145063622315134
+      },
+      {
+       "chunkId": 2059,
+       "denseRank": 12,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "(1) Fair Practices Code, which shall preferably be in the vernacular language, or a\nlanguage as understood by the borrower.\n(2) Grievance redressal mechanism\nNote: The grievance redressal mechanism shall ensure that all disputes arising\nout of the decisions of the functionaries are heard and dispose",
+       "fusedScore": 0.03028233151183971,
+       "heading": "Chapter II – Institutional Framework › A. Role of Board › A.1 Policies",
+       "keywordRank": 1,
+       "pageEnd": 6,
+       "pageStart": 6,
+       "paraRef": "A.1 Policies",
+       "pinned": false,
+       "similarity": 0.703066403953186
+      },
+      {
+       "chunkId": 2061,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "9. NBFCs having customer interface shall adopt the guidelines enumerated below:",
+       "fusedScore": 0.029462365591397848,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs",
+       "keywordRank": 15,
+       "pageEnd": 7,
+       "pageStart": 7,
+       "paraRef": "Para 9",
+       "pinned": false,
+       "similarity": 0.7248305842381381
+      },
+      {
+       "chunkId": 2075,
+       "denseRank": 8,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "23. The rates of interest and the approach for gradation of risks shall also be made\navailable on the website of the companies or published in the relevant newspapers.\nThe information published on the website or otherwise published shall be updated\nwhenever there is a change in the rates of interest",
+       "fusedScore": 0.028991596638655463,
+       "heading": "Chapter III – Responsible Lending Conduct › A. Fair Practices Code for NBFCs › A.6 Regulation of excessive interest charged by NBFCs",
+       "keywordRank": 10,
+       "pageEnd": 9,
+       "pageStart": 9,
+       "paraRef": "Para 23",
+       "pinned": false,
+       "similarity": 0.7099979847663911
+      },
+      {
+       "chunkId": 2058,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "7. An NBFC shall have Board approved policies and review mechanisms in place to\nensure responsible business conduct. An illustrative list of Board approved policies\nand the aspects to be covered thereunder is detailed in the paragraphs below.",
+       "fusedScore": 0.02862400327131466,
+       "heading": "Chapter II – Institutional Framework › A. Role of Board",
+       "keywordRank": 13,
+       "pageEnd": 6,
+       "pageStart": 6,
+       "paraRef": "Para 7",
+       "pinned": false,
+       "similarity": 0.7111099825963431
+      }
+     ],
+     "query": "fair practices code charges reasonable transparent no unilateral additional charges responsible business conduct"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_7b89d7ff-ce11-4efd-9bac-c8f251808c66",
+     "text": "{\"query\":\"fair practices code charges reasonable transparent no unilateral additional charges responsible business conduct\",\"degraded\":null,\"hits\":[{\"chunkId\":2077,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 25\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.7 Complaints about excessive interest charged by NBFCs\",\"pageStart\":9,\"pageEnd\":9,\"excerpt\":\"25. The Reserve Bank has been receiving several complaints regarding levying of\\nexcessive interest and charges on certain loans and advances by NBFCs. Though\\ninterest rates are not regulated by the Reserve Bank, rates of interest beyond a\\ncertain level may be seen to be excessive and can neither be \",\"denseRank\":3,\"keywordRank\":4,\"fusedScore\":0.03149801587301587,\"similarity\":0.7184287570034027,\"pinned\":false},{\"chunkId\":2076,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 24\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.6 Regulation of excessive interest charged by NBFCs\",\"pageStart\":9,\"pageEnd\":9,\"excerpt\":\"24. The rate of interest must be annualised rate so that the borrower is aware of the\\nexact rates that would be charged to the account.\",\"denseRank\":5,\"keywordRank\":3,\"fusedScore\":0.03125763125763126,\"similarity\":0.7136304803866447,\"pinned\":false},{\"chunkId\":2073,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 21\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.5 Language and mode of communicating Fair Practice Code\",\"pageStart\":9,\"pageEnd\":9,\"excerpt\":\"21. An NBFC shall have the freedom of drafting the Fair Practices Code, enhancing\\nthe scope of the guidelines but in no way sacrificing the spirit underlying the above\\nguidelines. The same shall be put up on its website for the information of various\\nstakeholders.\",\"denseRank\":1,\"keywordRank\":8,\"fusedScore\":0.031099324975891997,\"similarity\":0.7365429622599553,\"pinned\":false},{\"chunkId\":2074,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 22\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.6 Regulation of excessive interest charged by NBFCs\",\"pageStart\":9,\"pageEnd\":9,\"excerpt\":\"22. The Board of an NBFC shall adopt an interest rate model taking into account\\nrelevant factors such as cost of funds, margin and risk premium and determine the\\nrate of interest to be charged for loans and advances. The rate of interest and the\\napproach for gradations of risk and rationale for char\",\"denseRank\":4,\"keywordRank\":7,\"fusedScore\":0.03055037313432836,\"similarity\":0.7145063622315134,\"pinned\":false},{\"chunkId\":2059,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"A.1 Policies\",\"heading\":\"Chapter II \\u2013 Institutional Framework \\u203A A. Role of Board \\u203A A.1 Policies\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"(1) Fair Practices Code, which shall preferably be in the vernacular language, or a\\nlanguage as understood by the borrower.\\n(2) Grievance redressal mechanism\\nNote: The grievance redressal mechanism shall ensure that all disputes arising\\nout of the decisions of the functionaries are heard and dispose\",\"denseRank\":12,\"keywordRank\":1,\"fusedScore\":0.03028233151183971,\"similarity\":0.703066403953186,\"pinned\":false},{\"chunkId\":2061,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 9\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs\",\"pageStart\":7,\"pageEnd\":7,\"excerpt\":\"9. NBFCs having customer interface shall adopt the guidelines enumerated below:\",\"denseRank\":2,\"keywordRank\":15,\"fusedScore\":0.029462365591397848,\"similarity\":0.7248305842381381,\"pinned\":false},{\"chunkId\":2075,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 23\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A A. Fair Practices Code for NBFCs \\u203A A.6 Regulation of excessive interest charged by NBFCs\",\"pageStart\":9,\"pageEnd\":9,\"excerpt\":\"23. The rates of interest and the approach for gradation of risks shall also be made\\navailable on the website of the companies or published in the relevant newspapers.\\nThe information published on the website or otherwise published shall be updated\\nwhenever there is a change in the rates of interest\",\"denseRank\":8,\"keywordRank\":10,\"fusedScore\":0.028991596638655463,\"similarity\":0.7099979847663911,\"pinned\":false},{\"chunkId\":2058,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 7\",\"heading\":\"Chapter II \\u2013 Institutional Framework \\u203A A. Role of Board\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"7. An NBFC shall have Board approved policies and review mechanisms in place to\\nensure responsible business conduct. An illustrative list of Board approved policies\\nand the aspects to be covered thereunder is detailed in the paragraphs below.\",\"denseRank\":7,\"keywordRank\":13,\"fusedScore\":0.02862400327131466,\"similarity\":0.7111099825963431,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "ca755d924870f30f990b40df13791ecdda9f3baaab8b3bb78a9e90772369cf53": {
+   "args": {
+    "chunkId": 2092
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 2092,
+     "content": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\ninstance of the NBFC.\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\nin the sanction letter and loan agreement. Further, in case of loans and\nadvances where Key Facts Statement (KFS) is to be provided as specified in\nparagraph 29, the same shall also be mentioned in the KFS. No pre-payment\ncharges which have not been disclosed as specified herein shall be charged by\nthe NBFC.\n(9) The NBFC shall not levy any charges / fees retrospectively at the time of pre-\npayment of loans, which were waived off earlier by the NBFC.",
+     "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+     "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+     "pageEnd": 18,
+     "pageStart": 18,
+     "paraRef": "Para 34, part 2 of 2"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_e2134735-d8ba-4627-9b4b-a48ac7f4f817",
+     "text": "{\"chunkId\":2092,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":18,\"pageEnd\":18,\"content\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\\ninstance of the NBFC.\\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\\nin the sanction letter and loan agreement. Further, in case of loans and\\nadvances where Key Facts Statement (KFS) is to be provided as specified in\\nparagraph 29, the same shall also be mentioned in the KFS. No pre-payment\\ncharges which have not been disclosed as specified herein shall be charged by\\nthe NBFC.\\n(9) The NBFC shall not levy any charges / fees retrospectively at the time of pre-\\npayment of loans, which were waived off earlier by the NBFC.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "e4960e4652a328c4d370b0c332827ad938b97c3e2f422424c9b90c710d341401": {
+   "args": {
+    "query": "pre-payment charge 3 per cent of principal outstanding cap",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2091,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\ncharges on loans and advances (term loans as well as demand loans) sanctioned\nor renewed on or after January 1, 2026:\n(1) For all floating rate loans granted for purposes other than business to\nindividuals, with or wi",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 1,
+       "pageEnd": 18,
+       "pageStart": 17,
+       "paraRef": "Para 34, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.672885256397926
+      },
+      {
+       "chunkId": 2092,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "34. An NBFC shall adhere to the following directions regarding levy of pre-payment\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\ninstance of the NBFC.\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\nin the sanction letter and loan ag",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 2,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 34, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.6889333559473907
+      },
+      {
+       "chunkId": 2090,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\nan NBFC shall not levy pre-payment charges on any floating rate term loan\nsanctioned for purposes other than business to individual borrowers, with or\nwithout co-obligant(s).",
+       "fusedScore": 0.031746031746031744,
+       "heading": "Chapter III – Responsible Lending Conduct › E. Pre-payment charges on loans",
+       "keywordRank": 3,
+       "pageEnd": 17,
+       "pageStart": 17,
+       "paraRef": "Para 33",
+       "pinned": false,
+       "similarity": 0.6542306564633876
+      },
+      {
+       "chunkId": 2139,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "81. There shall be no pre-payment charge levied on microfinance loans. Charges, if\nany, for delayed payment shall be applied on the overdue amount and not on the\nentire loan amount.",
+       "fusedScore": 0.03125,
+       "heading": "Chapter III – Responsible Lending Conduct › H. Conduct towards Microfinance borrowers › H.2 Conduct aspects in pricing of microfinance loans",
+       "keywordRank": 4,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Para 81",
+       "pinned": false,
+       "similarity": 0.6334321032174481
+      },
+      {
+       "chunkId": 2083,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "29. The following instructions shall be applicable in case of all new retail and MSME\nrepayment schedule i.e., ₹23,280 (=970*24) vis-à-vis the amount of ₹23,274 (₹20,000 (loan amount) +\n₹3,274 (Interest charges) mentioned under (8) is due to rounding off the instalment amount of ₹969.73\nto ₹970 unde",
+       "fusedScore": 0.0288981288981289,
+       "heading": "Chapter III – Responsible Lending Conduct › B. Key Facts Statement for Loans and Advances",
+       "keywordRank": 14,
+       "pageEnd": 13,
+       "pageStart": 12,
+       "paraRef": "Para 29, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.6293375779777579
+      }
+     ],
+     "query": "pre-payment charge 3 per cent of principal outstanding cap"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_fccc623f-1305-4468-ac89-9d2ece7b3504",
+     "text": "{\"query\":\"pre-payment charge 3 per cent of principal outstanding cap\",\"degraded\":null,\"hits\":[{\"chunkId\":2091,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\ncharges on loans and advances (term loans as well as demand loans) sanctioned\\nor renewed on or after January 1, 2026:\\n(1) For all floating rate loans granted for purposes other than business to\\nindividuals, with or wi\",\"denseRank\":2,\"keywordRank\":1,\"fusedScore\":0.03252247488101533,\"similarity\":0.672885256397926,\"pinned\":false},{\"chunkId\":2092,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 34, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"34. An NBFC shall adhere to the following directions regarding levy of pre-payment\\n(7) An NBFC shall not levy any charges where pre-payment is effected at the\\ninstance of the NBFC.\\n(8) The applicability or otherwise of pre-payment charges shall be clearly disclosed\\nin the sanction letter and loan ag\",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.6889333559473907,\"pinned\":false},{\"chunkId\":2090,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 33\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A E. Pre-payment charges on loans\",\"pageStart\":17,\"pageEnd\":17,\"excerpt\":\"33. In case of existing loans sanctioned or renewed on or before December 31, 2025,\\nan NBFC shall not levy pre-payment charges on any floating rate term loan\\nsanctioned for purposes other than business to individual borrowers, with or\\nwithout co-obligant(s).\",\"denseRank\":3,\"keywordRank\":3,\"fusedScore\":0.031746031746031744,\"similarity\":0.6542306564633876,\"pinned\":false},{\"chunkId\":2139,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 81\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A H. Conduct towards Microfinance borrowers \\u203A H.2 Conduct aspects in pricing of microfinance loans\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"81. There shall be no pre-payment charge levied on microfinance loans. Charges, if\\nany, for delayed payment shall be applied on the overdue amount and not on the\\nentire loan amount.\",\"denseRank\":4,\"keywordRank\":4,\"fusedScore\":0.03125,\"similarity\":0.6334321032174481,\"pinned\":false},{\"chunkId\":2083,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 29, part 3 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A B. Key Facts Statement for Loans and Advances\",\"pageStart\":12,\"pageEnd\":13,\"excerpt\":\"29. The following instructions shall be applicable in case of all new retail and MSME\\nrepayment schedule i.e., \\u20B923,280 (=970*24) vis-\\u00E0-vis the amount of \\u20B923,274 (\\u20B920,000 (loan amount) \\u002B\\n\\u20B93,274 (Interest charges) mentioned under (8) is due to rounding off the instalment amount of \\u20B9969.73\\nto \\u20B9970 unde\",\"denseRank\":5,\"keywordRank\":14,\"fusedScore\":0.0288981288981289,\"similarity\":0.6293375779777579,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "f6fd526ec41828bd6244395aaad3741b150aa796aaf725a3eee33e995bf80fe5": {
+   "args": {
+    "query": "digital lending cooling-off look-up period exit principal proportionate annual percentage rate no penalty"
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1726,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "11. Cooling-off period\n(1) The borrower shall be given an explicit option to exit a digital loan by paying\nthe principal and the proportionate APR without any penalty during an initial\n“cooling-off period”. The cooling off period shall be determined by the NBFC in\nterms of their credit policy, subje",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter III – Digital Lending › B. Conduct and Customer Protection Requirements",
+       "keywordRank": 1,
+       "pageEnd": 18,
+       "pageStart": 18,
+       "paraRef": "Para 11",
+       "pinned": false,
+       "similarity": 0.8084230030202616
+      },
+      {
+       "chunkId": 2088,
+       "denseRank": 8,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "31. The following instructions shall be applicable to the existing as well as new\n(4) All applicable charges for switching of loans from floating to fixed rate and any\nother service charges/ administrative costs incidental to the exercise of the\nabove options shall be transparently disclosed in the ",
+       "fusedScore": 0.029411764705882353,
+       "heading": "Chapter III – Responsible Lending Conduct › D. Reset of Floating Interest Rate on EMI based Personal Loans",
+       "keywordRank": 8,
+       "pageEnd": 16,
+       "pageStart": 16,
+       "paraRef": "Para 31, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.6706947684288073
+      },
+      {
+       "chunkId": 1741,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "24. Cap on DLG\n(3) Illustrative examples on cap on DLG: .\nIllustration 1\nAssume that as on April 1, 2024 the NBFC earmarks a portfolio of ₹40 crore\n(out of the total sanctioned loans) under a DLG arrangement (DLG set). This\nportfolio shall remain \"frozen\" for the purpose of the specific DLG arrangem",
+       "fusedScore": 0.028958333333333332,
+       "heading": "Chapter III – Digital Lending › E. Loss sharing arrangement in case of default",
+       "keywordRank": 15,
+       "pageEnd": 25,
+       "pageStart": 24,
+       "paraRef": "Para 24, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.6745662258885456
+      },
+      {
+       "chunkId": 2089,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "32. Apart from the EMI based loans, these instructions would also apply, mutatis\nmutandis, to all equated instalment-based loans of different periodicities,\nirrespective of whether they are linked to an external benchmark or an internal\nbenchmark. The instructions in paragraph 31 above are not appli",
+       "fusedScore": 0.028665028665028666,
+       "heading": "Chapter III – Responsible Lending Conduct › D. Reset of Floating Interest Rate on EMI based Personal Loans",
+       "keywordRank": 14,
+       "pageEnd": 17,
+       "pageStart": 16,
+       "paraRef": "Para 32",
+       "pinned": false,
+       "similarity": 0.6720310039446392
+      },
+      {
+       "chunkId": 2170,
+       "denseRank": 27,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "Part 1 (Interest rate and fees / charges)\n(v) Any other charges (please specify)\n*Fixed reset, other than on account of changes in credit profile\nPart 2 (Other qualitative information)\n1 Clause of Loan agreement relating to\nengagement of recovery agents\n2 Clause of Loan agreement which details\ngriev",
+       "fusedScore": 0.027623285131627734,
+       "heading": "Annex I",
+       "keywordRank": 2,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Annex I, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.6578479001340934
+      },
+      {
+       "chunkId": 2014,
+       "denseRank": 7,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "2. Data Fiduciary who\nis an online gaming\nintermediary having\nnot less than fifty\nlakh registered users\nin India.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to\naccess her user account; and\n(b) Enabling the Data Principal to\naccess any virtual token that is\nissued by ",
+       "fusedScore": 0.027425373134328357,
+       "heading": "Third Schedule",
+       "keywordRank": 20,
+       "pageEnd": 36,
+       "pageStart": 35,
+       "paraRef": "Third Schedule, Item 2",
+       "pinned": false,
+       "similarity": 0.6709911627168264
+      },
+      {
+       "chunkId": 2013,
+       "denseRank": 11,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "1. Data Fiduciary who\nis an e-commerce\nentity having not\nless than two crore\nregistered users in\nIndia.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to access\nher user account; and\n(b) Enabling the Data Principal to access\nany virtual token that is issued by or\non beha",
+       "fusedScore": 0.026905019862766343,
+       "heading": "Third Schedule",
+       "keywordRank": 18,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Third Schedule, Item 1",
+       "pinned": false,
+       "similarity": 0.6649822396061135
+      },
+      {
+       "chunkId": 2081,
+       "denseRank": 26,
+       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
+       "excerpt": "29. The following instructions shall be applicable in case of all new retail and MSME\nterm loans sanctioned on or after October 1, 2024, including fresh loans to existing\ncustomers, by an NBFC. Credit card receivables are exempted from the provisions\ngiven below:\n(1) An NBFC shall provide a KFS to a",
+       "fusedScore": 0.026779422128259338,
+       "heading": "Chapter III – Responsible Lending Conduct › B. Key Facts Statement for Loans and Advances",
+       "keywordRank": 6,
+       "pageEnd": 11,
+       "pageStart": 10,
+       "paraRef": "Para 29, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.6579053205875983
+      }
+     ],
+     "query": "digital lending cooling-off look-up period exit principal proportionate annual percentage rate no penalty"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_32643c8c-b5b9-428e-a1d0-5c1733978179",
+     "text": "{\"query\":\"digital lending cooling-off look-up period exit principal proportionate annual percentage rate no penalty\",\"degraded\":null,\"hits\":[{\"chunkId\":1726,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 11\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A B. Conduct and Customer Protection Requirements\",\"pageStart\":18,\"pageEnd\":18,\"excerpt\":\"11. Cooling-off period\\n(1) The borrower shall be given an explicit option to exit a digital loan by paying\\nthe principal and the proportionate APR without any penalty during an initial\\n\\u201Ccooling-off period\\u201D. The cooling off period shall be determined by the NBFC in\\nterms of their credit policy, subje\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.8084230030202616,\"pinned\":false},{\"chunkId\":2088,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 31, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A D. Reset of Floating Interest Rate on EMI based Personal Loans\",\"pageStart\":16,\"pageEnd\":16,\"excerpt\":\"31. The following instructions shall be applicable to the existing as well as new\\n(4) All applicable charges for switching of loans from floating to fixed rate and any\\nother service charges/ administrative costs incidental to the exercise of the\\nabove options shall be transparently disclosed in the \",\"denseRank\":8,\"keywordRank\":8,\"fusedScore\":0.029411764705882353,\"similarity\":0.6706947684288073,\"pinned\":false},{\"chunkId\":1741,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 24, part 2 of 3\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A E. Loss sharing arrangement in case of default\",\"pageStart\":24,\"pageEnd\":25,\"excerpt\":\"24. Cap on DLG\\n(3) Illustrative examples on cap on DLG: .\\nIllustration 1\\nAssume that as on April 1, 2024 the NBFC earmarks a portfolio of \\u20B940 crore\\n(out of the total sanctioned loans) under a DLG arrangement (DLG set). This\\nportfolio shall remain \\u0022frozen\\u0022 for the purpose of the specific DLG arrangem\",\"denseRank\":4,\"keywordRank\":15,\"fusedScore\":0.028958333333333332,\"similarity\":0.6745662258885456,\"pinned\":false},{\"chunkId\":2089,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 32\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A D. Reset of Floating Interest Rate on EMI based Personal Loans\",\"pageStart\":16,\"pageEnd\":17,\"excerpt\":\"32. Apart from the EMI based loans, these instructions would also apply, mutatis\\nmutandis, to all equated instalment-based loans of different periodicities,\\nirrespective of whether they are linked to an external benchmark or an internal\\nbenchmark. The instructions in paragraph 31 above are not appli\",\"denseRank\":6,\"keywordRank\":14,\"fusedScore\":0.028665028665028666,\"similarity\":0.6720310039446392,\"pinned\":false},{\"chunkId\":2170,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Annex I, part 2 of 2\",\"heading\":\"Annex I\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"Part 1 (Interest rate and fees / charges)\\n(v) Any other charges (please specify)\\n*Fixed reset, other than on account of changes in credit profile\\nPart 2 (Other qualitative information)\\n1 Clause of Loan agreement relating to\\nengagement of recovery agents\\n2 Clause of Loan agreement which details\\ngriev\",\"denseRank\":27,\"keywordRank\":2,\"fusedScore\":0.027623285131627734,\"similarity\":0.6578479001340934,\"pinned\":false},{\"chunkId\":2014,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 2\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":36,\"excerpt\":\"2. Data Fiduciary who\\nis an online gaming\\nintermediary having\\nnot less than fifty\\nlakh registered users\\nin India.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to\\naccess her user account; and\\n(b) Enabling the Data Principal to\\naccess any virtual token that is\\nissued by \",\"denseRank\":7,\"keywordRank\":20,\"fusedScore\":0.027425373134328357,\"similarity\":0.6709911627168264,\"pinned\":false},{\"chunkId\":2013,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 1\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"1. Data Fiduciary who\\nis an e-commerce\\nentity having not\\nless than two crore\\nregistered users in\\nIndia.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to access\\nher user account; and\\n(b) Enabling the Data Principal to access\\nany virtual token that is issued by or\\non beha\",\"denseRank\":11,\"keywordRank\":18,\"fusedScore\":0.026905019862766343,\"similarity\":0.6649822396061135,\"pinned\":false},{\"chunkId\":2081,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 29, part 1 of 3\",\"heading\":\"Chapter III \\u2013 Responsible Lending Conduct \\u203A B. Key Facts Statement for Loans and Advances\",\"pageStart\":10,\"pageEnd\":11,\"excerpt\":\"29. The following instructions shall be applicable in case of all new retail and MSME\\nterm loans sanctioned on or after October 1, 2024, including fresh loans to existing\\ncustomers, by an NBFC. Credit card receivables are exempted from the provisions\\ngiven below:\\n(1) An NBFC shall provide a KFS to a\",\"denseRank\":26,\"keywordRank\":6,\"fusedScore\":0.026779422128259338,\"similarity\":0.6579053205875983,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  }
+ }
+}

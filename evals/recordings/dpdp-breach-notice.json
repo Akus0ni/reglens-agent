@@ -1,0 +1,3030 @@
+{
+ "models": {
+  "02b92d18f6802d700db2a0ba3306c2ce0ba487a0918b18c69f723a5aa48179fc": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "findings": [
+     {
+      "document": "Digital Personal Data Protection Rules, 2025",
+      "evidence_chunk_ids": [
+       1966
+      ],
+      "obligation": "On becoming aware of a personal data breach, the Data Fiduciary must intimate the Data Protection Board without delay with a description of the breach, and within 72 hours (or a longer period the Board allows) give detailed information, including the facts, mitigation, findings on the cause, remedial measures and a report on intimations to Data Principals.",
+      "para_ref": "Rule 7",
+      "question_id": "q1",
+      "recommendation": "Change the incident plan to include notifying the Board without delay and filing the detailed report within 72 hours of becoming aware of the breach. Assign an owner and prepare templates for both filings.",
+      "severity": "HIGH"
+     },
+     {
+      "document": "Digital Personal Data Protection Rules, 2025",
+      "evidence_chunk_ids": [
+       1966
+      ],
+      "obligation": "The Data Fiduciary must tell each affected Data Principal, without delay, about the breach: its nature, extent and timing, the likely consequences, the mitigation measures, the safety steps the person can take, and a business contact. The notice must be concise, clear and plain, and sent through the user account or a registered communication mode.",
+      "para_ref": "Rule 7",
+      "question_id": "q2",
+      "recommendation": "Replace the plan to wait 30 days until the investigation ends with notice to customers without delay on becoming aware of the breach. Use a notice template covering items (a) to (e), and send updates as the investigation progresses.",
+      "severity": "HIGH"
+     },
+     {
+      "document": "Digital Personal Data Protection Rules, 2025",
+      "evidence_chunk_ids": [
+       1965
+      ],
+      "obligation": "The Data Fiduciary must maintain reasonable security safeguards, at minimum including encryption or masking, access controls, logs, monitoring and review to detect and investigate unauthorised access, and data backups. It must also retain logs and personal data for one year to support detection, investigation and remediation, and must have appropriate contract terms with Data Processors.",
+      "para_ref": "Rule 6",
+      "question_id": "q3",
+      "recommendation": "The plan describes no detection, logging or investigation capability. Confirm that logging, monitoring and review, one-year log retention, backups, access control and processor contract clauses are in place, so that a breach can be detected and investigated quickly.",
+      "severity": "MEDIUM"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+      "evidence_chunk_ids": [
+       1729,
+       1731
+      ],
+      "obligation": "The NBFC remains responsible for the data privacy and security of borrower personal information, including data held by its LSPs. It must have clear policies on data storage and on standards for handling a security breach, disclosed on its website and DLA. It must also ensure that it and its LSPs comply with RBI cybersecurity standards.",
+      "para_ref": "Para 14",
+      "question_id": "q4",
+      "recommendation": "Write a breach-handling standard, publish it on the website and DLA, and cover LSPs. Align the incident plan with RBI cybersecurity requirements, since the current plan has no regulator or board escalation. The passages provided do not state a specific RBI incident-reporting timeline.",
+      "severity": "MEDIUM"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+      "evidence_chunk_ids": [
+       1718
+      ],
+      "obligation": "Digital lending must be covered by a Board-approved credit policy. A breach plan that excludes the board from oversight is inconsistent with this governance requirement.",
+      "para_ref": "Para 5",
+      "question_id": "q4",
+      "recommendation": "Check that the Board-approved digital lending policy covers data security and breach escalation, and add a path to inform the board of breaches.",
+      "severity": "LOW"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"findings\":[{\"question_id\":\"q1\",\"obligation\":\"On becoming aware of a personal data breach, the Data Fiduciary must intimate the Data Protection Board without delay with a description of the breach, and within 72 hours (or a longer period the Board allows) give detailed information, including the facts, mitigation, findings on the cause, remedial measures and a report on intimations to Data Principals.\",\"document\":\"Digital Personal Data Protection Rules, 2025\",\"para_ref\":\"Rule 7\",\"severity\":\"HIGH\",\"evidence_chunk_ids\":[1966],\"recommendation\":\"Change the incident plan to include notifying the Board without delay and filing the detailed report within 72 hours of becoming aware of the breach. Assign an owner and prepare templates for both filings.\"},{\"question_id\":\"q2\",\"obligation\":\"The Data Fiduciary must tell each affected Data Principal, without delay, about the breach: its nature, extent and timing, the likely consequences, the mitigation measures, the safety steps the person can take, and a business contact. The notice must be concise, clear and plain, and sent through the user account or a registered communication mode.\",\"document\":\"Digital Personal Data Protection Rules, 2025\",\"para_ref\":\"Rule 7\",\"severity\":\"HIGH\",\"evidence_chunk_ids\":[1966],\"recommendation\":\"Replace the plan to wait 30 days until the investigation ends with notice to customers without delay on becoming aware of the breach. Use a notice template covering items (a) to (e), and send updates as the investigation progresses.\"},{\"question_id\":\"q3\",\"obligation\":\"The Data Fiduciary must maintain reasonable security safeguards, at minimum including encryption or masking, access controls, logs, monitoring and review to detect and investigate unauthorised access, and data backups. It must also retain logs and personal data for one year to support detection, investigation and remediation, and must have appropriate contract terms with Data Processors.\",\"document\":\"Digital Personal Data Protection Rules, 2025\",\"para_ref\":\"Rule 6\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[1965],\"recommendation\":\"The plan describes no detection, logging or investigation capability. Confirm that logging, monitoring and review, one-year log retention, backups, access control and processor contract clauses are in place, so that a breach can be detected and investigated quickly.\"},{\"question_id\":\"q4\",\"obligation\":\"The NBFC remains responsible for the data privacy and security of borrower personal information, including data held by its LSPs. It must have clear policies on data storage and on standards for handling a security breach, disclosed on its website and DLA. It must also ensure that it and its LSPs comply with RBI cybersecurity standards.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025\",\"para_ref\":\"Para 14\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[1729,1731],\"recommendation\":\"Write a breach-handling standard, publish it on the website and DLA, and cover LSPs. Align the incident plan with RBI cybersecurity requirements, since the current plan has no regulator or board escalation. The passages provided do not state a specific RBI incident-reporting timeline.\"},{\"question_id\":\"q4\",\"obligation\":\"Digital lending must be covered by a Board-approved credit policy. A breach plan that excludes the board from oversight is inconsistent with this governance requirement.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025\",\"para_ref\":\"Para 5\",\"severity\":\"LOW\",\"evidence_chunk_ids\":[1718],\"recommendation\":\"Check that the Board-approved digital lending policy covers data security and breach escalation, and add a path to inform the board of breaches.\"}]}",
+     "id": "lc_run--01a20de6-6db3-7252-abdc-b8f87325d69b-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtYxqzpUjYEpnDu6XxG",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 10184,
+       "output_tokens": 1268,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 10184,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 1268,
+      "total_tokens": 11452
+     }
+    },
+    "type": "ai"
+   },
+   "role": "assess"
+  },
+  "1054389d28985871edc3c3a8d36c6d21d6fb3214595f8dffc180d181b6b1f0c2": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "questions": [
+     {
+      "id": "q1",
+      "search_hint": "personal data breach intimate Board without delay seventy-two hours detailed information Rule 7",
+      "text": "Under the Digital Personal Data Protection Rules 2025, what is the Data Fiduciary's obligation to notify the Data Protection Board of India of a personal data breach, and within what timelines must the intimation and detailed report be made?"
+     },
+     {
+      "id": "q2",
+      "search_hint": "intimate each affected Data Principal without delay breach nature extent timing consequences mitigation measures safety contact",
+      "text": "Under the DPDP Rules 2025, what must a Data Fiduciary tell each affected Data Principal about a personal data breach, and how quickly must the notice be given?"
+     },
+     {
+      "id": "q3",
+      "search_hint": "reasonable security safeguards encryption access control logs monitoring detection of unauthorised access retain logs one year",
+      "text": "What reasonable security safeguards must a Data Fiduciary maintain under the DPDP Rules 2025 to detect, investigate and remediate a personal data breach, including logging, monitoring and retention of logs?"
+     },
+     {
+      "id": "q4",
+      "search_hint": "digital lending data privacy security lending service provider borrower data storage board approved policy incident",
+      "text": "Do the RBI Directions for NBFCs on digital lending require the NBFC to maintain data security and privacy controls for borrower data held by it or its lending service providers, and do they require any incident reporting or board oversight?"
+     },
+     {
+      "id": "q5",
+      "search_hint": "KYC records confidentiality information collected from customer secrecy safeguards Central KYC Records Registry security",
+      "text": "Do the RBI NBFC KYC Directions 2025 impose confidentiality and security requirements on customer KYC records, and are there any obligations in the event KYC data is compromised?"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"questions\":[{\"id\":\"q1\",\"text\":\"Under the Digital Personal Data Protection Rules 2025, what is the Data Fiduciary's obligation to notify the Data Protection Board of India of a personal data breach, and within what timelines must the intimation and detailed report be made?\",\"search_hint\":\"personal data breach intimate Board without delay seventy-two hours detailed information Rule 7\"},{\"id\":\"q2\",\"text\":\"Under the DPDP Rules 2025, what must a Data Fiduciary tell each affected Data Principal about a personal data breach, and how quickly must the notice be given?\",\"search_hint\":\"intimate each affected Data Principal without delay breach nature extent timing consequences mitigation measures safety contact\"},{\"id\":\"q3\",\"text\":\"What reasonable security safeguards must a Data Fiduciary maintain under the DPDP Rules 2025 to detect, investigate and remediate a personal data breach, including logging, monitoring and retention of logs?\",\"search_hint\":\"reasonable security safeguards encryption access control logs monitoring detection of unauthorised access retain logs one year\"},{\"id\":\"q4\",\"text\":\"Do the RBI Directions for NBFCs on digital lending require the NBFC to maintain data security and privacy controls for borrower data held by it or its lending service providers, and do they require any incident reporting or board oversight?\",\"search_hint\":\"digital lending data privacy security lending service provider borrower data storage board approved policy incident\"},{\"id\":\"q5\",\"text\":\"Do the RBI NBFC KYC Directions 2025 impose confidentiality and security requirements on customer KYC records, and are there any obligations in the event KYC data is compromised?\",\"search_hint\":\"KYC records confidentiality information collected from customer secrecy safeguards Central KYC Records Registry security\"}]}",
+     "id": "lc_run--01a20de5-ef68-7677-931f-11c92f918c0a-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtWadTSSVrhSuBh5S3M",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 913,
+       "output_tokens": 599,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 913,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 599,
+      "total_tokens": 1512
+     }
+    },
+    "type": "ai"
+   },
+   "role": "plan"
+  },
+  "11894c462203a88946f8fe472d430355999e841255b76b8014dea8522a9e703c": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01CQkHEhww9NeRpQ8n42Sf5D",
+       "input": {
+        "query": "personal data breach intimate Board without delay seventy-two hours detailed information Rule 7"
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-0470-74ef-b69a-d178fddc1c7d-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtWyW7mc9yBtwJRyQ6B",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1067,
+       "output_tokens": 77,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "personal data breach intimate Board without delay seventy-two hours detailed information Rule 7"
+       },
+       "id": "toolu_01CQkHEhww9NeRpQ8n42Sf5D",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1067,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 77,
+      "total_tokens": 1144
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "134da3222c5f28b46ed041889a9b08c00eba75190f7fb377f744a22243f6e167": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSwgsKEAgUGAI4AUIIdGhpbmtpbmcSDP3lN0kn2lN8cMAjnBoMtrfVLWNgyWhNlm8IIjDkZMtxUpCSg5fSOAdhiQFFdbQzNkbk1mwy1+M8b824SVPN6afZsGmUgXOzrtfyS3cq3wq+BxQBbbzKh0aW95xyXU371uBKRlcC1Kc2nmRJ/FyARTtvp++1poXD7+ClG8H3jnR8DdZLGdr09PpH5fqaW1VuIWp2c9bvqkf8md8WXjwjx5IAPQd4CW7ofSmY2LgEUy0vNZfa84pXOMUGVeOhK860fcxmnjNjs3x9Ger4GHvFdBBPJmWDvw/W9NcBvGuCJeuIxdX3P3ho+fg4fC05H+UcXw0E30WsV1+xOS/zeDd091cjYmm6t2ufJH5qXI0div43wKkeEHVtgIvVkgzVoHPxQfkkqytNc89WsPDOtHOvu/97r51ScZlpIc2uoh4bAHxc49kxx72cdY2VcfXgQhs/nwokKqFfPeDapRhxqMiAtAa9pQe0Uzir8S0bcs2UaeKSIS9OzNf2wDtTUN7Rg2SaPyvjpcKfVTmPPPM+kc1isH4K2pWOeLF5uajreT24+wTbaMV67CdjDRDPusZLiZK7H86pax4MtQdc+RjwxnbsQqdZl2DyxWK/ja/x7lOZpllL1+kcD2CwQqvUbcsic68bBWs3kbNJiPXmPg2Olt3mU/ToHAmz2urhu/R7TRNuUypPdmHMlyWhh45Zw0jEZBmD9ulNAZopJoLTsvpGVrbmU74TugUH3ae/RMLlXIoz0CV7p2P6QjwaJ/kUSJnlF8FecgCDlWQNBD5q9wmS1gANyQBjMPyMhpdMgu3Y70JOFzJRc0QMSZ9WdOlk7jGeEh2sN6c60pOCq+U8H51GJF8cPxXy6dpBEQSNES53f5HhTlClCrHI0hjsXXFfEMz/usdQAPIExdskoI3/zYAfcH3OxtsA7v0OiZAVMqEgOXPAe11SfscR3mHvRF18KlBxVj/y4M/TTEEhM3723ArHvo5yqAS4pofYJnC6Q+WQx2s3+B/9qmpS0d8gaHuth2d/hw6pFYYv78vGOdyJotvfBvDVsxS2TgQwmBnJzu5rH356tw7pwTEisbVjjyBJ2gDFgVquQcmzsG7Vjc94j/DBgGnXZ/O5Mvgj3rBXjALh8EKT4BLk7BSUHec1XhjYSqGd2TMeqa4tEjcGVLfylnl/+DMxxV8vJpSeNHOQroVdImIwhDWMRfCNez8A6/flJZan9N5+ea8N7PdH1u1lY0hVd0eTYDe2iT5qbfaUoP976sm6JoslcQ+Yk2LMgz8JTfJ2fHcjTTob37mqH7pMzZv0uAAGUZpiWh+0OR40J13OHxB93yjxdIvBN+L3xVb/CNhhP92j0TgRrAGA89vnL4H7EnlHdgKqKKKRQdRtjt9l7ZY/j930Xfh4FdVT8bF4BA8qw3aInhG9Y7FAHEHBaVzqsOj/eLnae842y6sOlEudxTvHVw1pai6Xk//7mIpS3+oIohnqYZT0ZAAJGStcDvaZPlkKlCT2Fr5xQg7MVa79u/iZQY/OVY/S2ZvtPHcgnt9D1mW9O2k27xyeGJz3bHi0WssTJSVcxHcvSg+MkVEjxAl38CuqtAD0MsXpVyDo2pfs5OScemEavJToN6yReZerkGLmyDIghMezhrG7csg6x94ISWB2IedPaivYttp1fWeCyo/RonXn8TGlX42rXzP0IoNTilcX0kb+7adi5f0nDHo14jUwIWbBBp15e4UrzCgFAGHmzBSCRe9Wk/mVScrz3p7J8R1OKbNwD5GgCGF//AoDq8FWkd6jvysBAqJsZNJE91mPjjFYghXlascW/9mslbMRg9TdzJ3o6RIRbJhd6uu47NpNJHdG1EnBC7nmZyNFczdnzxIexHz3OnU8UQFLpS1BK8/3kDnCyP7REWGrkDfwgBz9TWu/Dj7jz360vn1HF0u5/6dY+cbxMczpG+8RZf3BGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "text": "Under Rule 7(1) of the DPDP Rules 2025, a Data Fiduciary must, once it becomes aware of a personal data breach, intimate each affected Data Principal \"to the best of its knowledge, in a concise, clear and plain manner and without delay,\" through the Data Principal's user account or any other mode of communication. I could not retrieve the rest of Rule 7, so the corpus text I checked does not confirm the required content of the notice (nature, extent, consequences, mitigation steps, and contact details) or any specific deadline beyond \"without delay.\" Those points need checking against the full text of Rule 7 before you rely on them.",
+       "type": "text"
+      }
+     ],
+     "id": "lc_run--01a20de6-1f6f-773f-a8a6-a4c532af93f1-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXUnFZ1RpM9QWoeQ7o",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4334,
+       "output_tokens": 484,
+       "output_tokens_details": {
+        "thinking_tokens": 275
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4334,
+      "output_token_details": {
+       "reasoning": 275
+      },
+      "output_tokens": 484,
+      "total_tokens": 4818
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "2d88a94bf6592dcf62643198aad55f1a5855b8aa8e27457e57ca9edd057bdb3c": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_0119ENPGou8zygC6kyZzwzkY",
+       "input": {
+        "query": "digital lending data privacy security lending service provider borrower data storage board approved policy incident",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-3a89-73a3-a81c-d61068172e2a-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXzUT3f5f43jHNmjAu",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1059,
+       "output_tokens": 97,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "digital lending data privacy security lending service provider borrower data storage board approved policy incident",
+        "topK": 8
+       },
+       "id": "toolu_0119ENPGou8zygC6kyZzwzkY",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1059,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 97,
+      "total_tokens": 1156
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "2dab80b48d5ea78861539cc90e6799fd5cd9c8b4546ffb3ffd23c0b3b8c9ee9e": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_0197EpcKgioGoWdv6P5w7gVR",
+       "input": {
+        "query": "KYC records confidentiality security safeguards customer information",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01UXN8DZwkpLxRsrGGTYd1FK",
+       "input": {
+        "query": "breach of KYC data compromise reporting obligation",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-54ef-74f1-a5ab-dcbb76e8d57c-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtYVMmDPMzXCAQFktsc",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1055,
+       "output_tokens": 170,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "KYC records confidentiality security safeguards customer information",
+        "topK": 8
+       },
+       "id": "toolu_0197EpcKgioGoWdv6P5w7gVR",
+       "name": "search_regulations",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "query": "breach of KYC data compromise reporting obligation",
+        "topK": 8
+       },
+       "id": "toolu_01UXN8DZwkpLxRsrGGTYd1FK",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1055,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 170,
+      "total_tokens": 1225
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "3da850f79169a355b0037bf5cb99968d1942d43e55bcdcd352fde87936451ca6": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_017tWWVwvHpwWfN2JJNXA2fP",
+       "input": {
+        "query": "intimate each affected Data Principal without delay personal data breach nature extent timing consequences mitigation measures contact"
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-122c-7749-b248-30061cd64ff5-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXEH85pWShkDU9Bqua",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1052,
+       "output_tokens": 84,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "intimate each affected Data Principal without delay personal data breach nature extent timing consequences mitigation measures contact"
+       },
+       "id": "toolu_017tWWVwvHpwWfN2JJNXA2fP",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1052,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 84,
+      "total_tokens": 1136
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "47f4f0fd8535a3a9df59e37a6507f8d7b37dd8c0bb8ba38d2956138824014238": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSzwYKEAgUGAI4AUIIdGhpbmtpbmcSDJtbUVjIIUC1IEGeQBoMg8tyAVNQD0iJ46j3IjB/yZTMcR1qsAGElSw5ZceULVh4NVl0Ah3aXzP3i08lOJUGRQH5wnRQib9TO7JyRzYq7AU3oBNthAhrbwgpRYNRR+c/QqMczJIWc6FL8b2FGvtzfrJgmQwKw1NVS/iLZbGhPIsPTjJAwxSpnOnRFNU51uN+Srb12Zfi67DaHg5b8W9tUZQNL1gBDGkC9breP+8enUUQD0ACXBimvsmeTRrQM5XcpTNvzlj5C5B9NEgB4abt/7uRigBqHvgNZOoA9JqTYB4rnE3ehz8bUFRr+7zLi69P2PDDg++H2eJCeggdhuje3eqg/iOwmsJvMrud4AW8oI6hA6erLNvhm7cnT77J5+lS0ya5ydb9iwihOcanS6asPouXlHz/QyRN9fJqxEN+kXbkkUrNU2KweFXkLSzeEcOYAA7X9DizhHqdUfhasR4gE7tseOGOR0VtjddCmWnUxtGPFyRrd0oUAi+WLByN3xbTEjvAAobUX/VRR8wN20esE7+5Mt8V3JZwc2Kuwcgl4oZfD+UShYV0yVS+197YVIUcdy7OFB5ftRRnYDlOtt7kxGcG5P+H/6B+imHkaNq1fo6bYUrxSYHF87z6kh3mjRpLx0es7Wpw6Z9ZdUfvvJx6WYSdLkQKW+XVJbCNUT4LijlxfvCqB/8t1rB8XiHCU9FVpT3YJWGzIcsI7h1mwkGf7l4UOFgnZ7fztKtjtwJeFGyR1mWrk0lQZnxjKfgcEAob29W0M6O/30FNwAIDzKdwbHr+rJJUZ+6WQFa1jHM9qRuz0SoWwGX2JMG0uhATILINyEY1E1PUO38MWtSiVO6YftN6pJ2mgnPsk/zORezWlIWRRUENe5CdyftFLZDhjq00EKUE2bz0CaevgdPmqpFe0N++NwrdLlFqwSRopRZApFfchphXP8p0p+YgNR0xiw7Wv6zYM0iMGPgCN2lPtkpoFgun6zE2zqsQ5HJo+p2m9MN1h7WVA43AOs1tVB/6U/ze6Hy+KXpC3Vzjp6eJ63v6r9FfaXjoqOZFOOD+dgT3kelYtGeDEbRGClTzrKYhghXfoepOfDP9lYUooLcSGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01T3BZSdzUvyXhhpqVec3oqr",
+       "input": {
+        "query": "KYC data security cyber incident unauthorised access CKYCR information security policy NBFC",
+        "topK": 6
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-5e58-7124-ac55-4ec416a41e10-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtYfauvLNURUa4fk7Pa",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 6712,
+       "output_tokens": 138,
+       "output_tokens_details": {
+        "thinking_tokens": 38
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "KYC data security cyber incident unauthorised access CKYCR information security policy NBFC",
+        "topK": 6
+       },
+       "id": "toolu_01T3BZSdzUvyXhhpqVec3oqr",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 6712,
+      "output_token_details": {
+       "reasoning": 38
+      },
+      "output_tokens": 138,
+      "total_tokens": 6850
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "4dab94ade46aeeaa8f22db809f4d0619372e6cf85eccbfeaabb61448c02892d2": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01Pq26GJHGjdx5TEUnhWEUNo",
+       "input": {
+        "chunkId": 1965
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-2f3e-7033-96e0-4349c3b3ca9a-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXn64MiRMYCRfqovzX",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3369,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1965
+       },
+       "id": "toolu_01Pq26GJHGjdx5TEUnhWEUNo",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3369,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 3421
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "4dd88a1f1d2ee13c8ee2720510b9abf9d6921c312f3ae6433b2c3f3b10653069": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS1wkKEAgUGAI4AUIIdGhpbmtpbmcSDKzMAU0nn6748OgFGBoMPCd2VaxgpFTBqrD/IjDLSImfU7tJBvQ7+GEmpKDrbNnCvpfvYkLUaLNV8xuVrbeql8w+CZ/Jzo1YPnWb6Y4q9AiTQOYxs+b4WWv2ddD0lcgNTaynst1ve6j9YhteNjdnzGJoONAFoJ3KBSwWyL5ii6pxgOfjfrUPBBWvD0LE+Ejc5xEaE8EuxPepMrQLculayCEXGbuQoKMt09MTsec+GbvSnUPn5o0eC0Z5I8fkVpFuYAWDbUjR6BhgIp/NRdtE2hVThP7lfsGbJkB/LD+19ItEwnbTZX8NFHG8CBhnMfysTYDXTvF/nZeNkg9ptzRDH8IbUN6WeVb8V2dRThSeMPCWsT9BR2zbjBT69rllidTonuSImoYQUCDwcHEAlBh73eYTeZkj0bw1GRtlbVl9zT7RlcTMlmG/jUQJrRjgNb1n2VsYlBHUQQgnCGL7eFREa6rPOxZrbR4lSjNKe4LEVN6RiV+dwknbuTJD3h2EbXFTLurhmzhW+ltZm2RmXgZfMXwKqfyDvx66yQ094+0/9dF7uPYZ8jkZDFyjdNmR3Abqw1wLpdbGVxs5gvvgzGs4TFS37v6D/MLQIE3a6xNiqwZBfTflSOiR736Vt/27QruDxFNlYszFa76bHHCUlmuiZgZRWoQkrVcTCGGR1RAtmFs7oGSG3YZt75oDY6lSmCas50k2LaPbxYKxviMxj2wGySR5m35kuEgaWvCM9q1eKGjy1MVGgR5QY6YvevWFGoseNlyKsvevD6rYmz18z/yPhDH5MMaFgGeQ2iXUDi/6j6tx+6961S//t58dwBm13WVnVLUGuhoqoGHkLTDRTZ32t0T5NUmBXIiRcKjIzvNGGYPpuMc8q8YYigg5Xg3WFXHlUot9q+2z+pQr1WpG0lNzadnIHtWU/PZWrsFiqy6cg0DWPOXHDQ/98Jc4sjUrSB6DHj3a0FQgAmoRaFU9AHUfX1zf8WSMlnmVL+BqPFkp2x2NSWvHfl4wJ31cmbcijb9AIeZCQHFGHxu0LwuTAPITOI7kfPmClb/DBdB+jf2WEYiN72rEh90F+a5stqLEtA3jzE2Q/ZwNGItekayCtuDElWuSjiZORFVV6K4XlpS4Pwf3NFHQMSLLiyX9PWX6DZUlkUBIZoyADxJQbtDzJlBtD/Di91F02oGny1t5dwSPWsERo4U+HlLfXHhEuBOjP1p2d2ZvRKqGhmppWzcwBpFVgUy0T14WxhHcgpIDHjOgO1LJ0UPAeG+1RrsrYVQfmYq++QinRFRh3lFJxk1Legh1QXbUlKJG6Y931cKsWqBO4C7EGxN/4dri3J4IRM/JZ1gRkJ0r0dLk6fKiN5J9mgW2PCVeCFGCW/98WBbLcuCDykXuzUEoAROtxZNMCto8iwukNh888RqUxZ56F5xWPDqYMR8UWX6CWxKohCWVwV6mPDUq574OnPJodtzBsnVbKSOzavaHmfbf83NZdEPgDB0au1tqOdveWsLZA7MH/HO01tW3sjaw0iL1s+mpcIeiMIoGiJBp1dKYey5bg4NbelvkhtXkAMnZWsjCOdhNXtqAKi48hrfzkE2HQCaMQ3NkpTINYjEplsJwSfZq0mXwFTEltV9U/iYYAQ==",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "text": "The KYC Directions contain only limited confidentiality provisions and no specific breach-response obligation. Para 52 requires the NBFC, its directors, officers and employees to keep confidential the fact that PML records are maintained and that information has been furnished to the Director (FIU-IND), though this does not inhibit sharing analyses of unusual transactions under para 8. Para 24 requires the NBFC to control access to its digital KYC application, but I did not read its full text. I found no KYC-specific obligation to notify regulators or customers if KYC data is compromised. The only breach-notification rule in the corpus is DPDP Rule 7, which requires a data fiduciary to intimate affected data principals of a personal data breach without delay, and that is a general data-protection rule rather than part of the KYC Directions.",
+       "type": "text"
+      }
+     ],
+     "id": "lc_run--01a20de6-6354-74cd-aa08-dd84d1c49484-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtYm7obzvtjGJenwVSW",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 8863,
+       "output_tokens": 433,
+       "output_tokens_details": {
+        "thinking_tokens": 171
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 8863,
+      "output_token_details": {
+       "reasoning": 171
+      },
+      "output_tokens": 433,
+      "total_tokens": 9296
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "591021028324f3a3a4bfba67009e42a7111260c525cac82d3fe179f7b3b7b33e": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Rule 6(1) of the DPDP Rules 2025 requires a Data Fiduciary, including for processing done by a Data Processor, to take at minimum these reasonable security safeguards to prevent personal data breaches:\n\n- **(a) Data security measures:** encryption, obfuscation, masking, or virtual tokens mapped to the personal data.\n- **(b) Access control:** appropriate measures to control access to the computer resources used by the Fiduciary or its Processor, where applicable.\n- **(c) Logs, monitoring and review:** visibility into access to personal data through appropriate logs, monitoring and review, so unauthorised access can be detected, investigated and remediated to prevent recurrence.\n- **(d) Continuity:** reasonable measures for continued processing if confidentiality, integrity or availability is compromised, such as data backups.\n- **(e) Log and data retention:** retain such logs and personal data for one year, unless another law requires a longer period.\n- **(f) Processor contracts:** appropriate contract terms requiring the Processor to take reasonable security safeguards.\n- **(g) Governance:** appropriate technical and organisational measures to ensure effective observance of these safeguards.",
+     "id": "lc_run--01a20de6-3290-72ac-92b7-9a149c1c6eef-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXqrXhJ99us3a7pFmP",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4175,
+       "output_tokens": 397,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4175,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 397,
+      "total_tokens": 4572
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "61a68ff636359cd596dc7b945eb1738f98b5b80246f73bfcf8ea767aadf6f0aa": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Under Rule 7(2) of the DPDP Rules 2025, on becoming aware of a personal data breach the Data Fiduciary must intimate the Data Protection Board of India without delay with a description of the breach (nature, extent, timing, location and likely impact), and then within 72 hours of becoming aware must provide updated and detailed information (facts, mitigation measures, findings on the person who caused it, remedial steps, and a report on intimations given to Data Principals), though the Board may allow a longer period on a written request. Rule 7(1) separately requires notifying each affected Data Principal without delay.",
+     "id": "lc_run--01a20de6-0d0b-7580-8903-85bcd7b87a3f-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtX8doCG27u41NhbY4Z",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4004,
+       "output_tokens": 197,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4004,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 197,
+      "total_tokens": 4201
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "683022cad66421cd40a6eb99f9671933a616a1af1b213246672c8f71a0812c4a": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSqQcKEAgUGAI4AUIIdGhpbmtpbmcSDEbJTRuQq5Qq2rxx4xoMjg/7R+c/jpw6GHROIjDu1zNO+5YtyCrFEtfdOKhCVhA20gioxzDSEMjrSui2BVhqrBmNRMUb236Gxf8Aw2UqxgY+q6zrCs47IM+AqQBpABZ92F6nvEkbH6Z9lcibctOXFBaFFclXdopD4zv120bH1fL9rsbmDe6nxvFD+4HP6KX0BX6Pb6nxXIebVF337yTY09wUBQNJgefUWvHFa2j/2uoIptSpUVJAoxdyVsJRmSj7p1diU8FnSp85YF449AB80Dg/bf0+9WBuONSHOQncv7OVpvYShO3ur7G0X6qCRjc4O7eL5iON3gtHI2WX23Mwz5JDz8eT0eKgi6ZkToKXNXZG+xaIbgLDRb4ulRFM35b0lDaKHDAZGjjCg0h6WttH3ga55KoSBcDvSDAB3H0OW1E9XolncnXmJVF//JQxkIGcBLra2EFoo/araYfNBAFjTZNOWhv8ZB8xLPRbrTYdneFmWpiq2gZALpEksTZuA2qO/uKYYqhbb0nhoqN/gRF35TuxooPswIhJi0KaU0YdPDbnXNiO/AFXf3gZ/nouVnq++RXzr4gxLSnIvJ5/l2XX3CRIX2yyMROL03rLyqOYrY9AsY0ot057UnHkLxa+tBHh5If6KMRZIv7lcHS8JKd3CMdSOO6u01qNmBfgPgSJBqTQyGDTlLZForvUkUh1aefntX2oJ0ybkj+a9XWZOf67jsS22YRFDXIsjibQ2kejstMiEK28yZKdhcH9JJ02ObEzOgHGgvcOAUdzJc6TAXBijrYETnRCd7XC5Ir+ju9OZXpbo9rOVXLMERni7LvLFkqPXpJO/tvh05gbktZ28UonQwpddb1VY0zO4CsEVQv3FrVli9Vn0LJlHAalEJYf0DPBiTRKG5rUbuJLO3edvRe68gwOki7cQNqn7j5NehziUHxcckPZ1/0Sg5y3JfHe5M1PNY2Dpq2NU7oxV+u5XJmVesueFMNG/2WSLXkf36uDN8HYYHuDh5okHBjbgLTovwFHq4h/6vCKYglKJwtzfjHaVF27wwn6YDu1V4xQzbCA2ZymzCNWkjcGq+OqVBcgXEXgIeE2R+603RARDKo9cLdbyE0UTxSu1YMFH8NAfxsrhoOErbWpNoQTNKe6QiYSjbv0ruznJmlzz9q58uYFAyEXQYrnIzEPNwVvZoBkOGF7ycxomrkFy5c12I2TfUnHENd5IBGvdF7JGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_016mAsrpJkFJmbkMvDp14Vft",
+       "input": {
+        "query": "NBFC report security breach incident to Reserve Bank digital lending cyber incident reporting",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-437f-73c9-9969-61c4ab9443ae-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtYAEp5b1w8H8zQmHco",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 5402,
+       "output_tokens": 186,
+       "output_tokens_details": {
+        "thinking_tokens": 85
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "NBFC report security breach incident to Reserve Bank digital lending cyber incident reporting",
+        "topK": 5
+       },
+       "id": "toolu_016mAsrpJkFJmbkMvDp14Vft",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 5402,
+      "output_token_details": {
+       "reasoning": 85
+      },
+      "output_tokens": 186,
+      "total_tokens": 5588
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "6994fd78b5fb3c3ddc63def38b5198f1cafdc46f8b46929d1d517cc70e3160e9": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_0154XGxHTFV4qSQp732XEqbB",
+       "input": {
+        "chunkId": 1966
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-1646-76cc-bfab-58b03b27dd5c-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXJi2UD516yor29ctA",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3205,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1966
+       },
+       "id": "toolu_0154XGxHTFV4qSQp732XEqbB",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3205,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 3257
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "8c915a8ffb3c0f42aa498eb940d55116116bf2fde98adcc91347d670519c3fa4": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01JoNecCNCjprmdRi7R3PwFC",
+       "input": {
+        "query": "reasonable security safeguards encryption access control logs monitoring detection of unauthorised access retain logs one year",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-2b06-721c-9cc2-f4f0637f37e6-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXhSmJn563mjXW6BUe",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1066,
+       "output_tokens": 105,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "reasonable security safeguards encryption access control logs monitoring detection of unauthorised access retain logs one year",
+        "topK": 8
+       },
+       "id": "toolu_01JoNecCNCjprmdRi7R3PwFC",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1066,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 105,
+      "total_tokens": 1171
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "94280ef5cc98bb471d551d3b4c1bd3da979abcb30a9fa86fa17fb5e1d5787e04": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS+AUKEAgUGAI4AUIIdGhpbmtpbmcSDEqSsRHXbgatLBS30RoMAjHTqf9aAg4ETXAKIjCq6oQ33fy7/uiJpTb5LwZcPGe7dnsAfYDbcJdqHwOsAwD1mPF869rer3z0hn508dkqlQXxI1fu9SDi2ch4CDZgUhwqXeNVziq8Ths1eiBCrM+fjHhMFYaV3iimqlUMafqwtwjAh+K633bNZmPoiXAcW/aEZ0Dw3m5yMDBYSIU904ynvUMbNc0GMhh4JhjL3J9OSHJKBsFwIn/XmDlbAxjIyMYlx9yWKVzISFZDxlrZsY4v5pNyKo/8klVafiQ29fSheTev6pM9rpxGc4UUSccSf73SOBPt00J7TfSrIW7MMqgCoAsQcwA82DEyFc2GE6iGNtnZlFQUXXTr8wpFzuHfOykBGF2YQfV5j/cNuuyezL1WnLBi/BM7qO9EDIOLCy9fqRbuoeWGA/8OKilHZWDchoa5Dm2AKzxGUNQBrUkTeRwWyEvMnY+rbRBZDwgdU7vCRuI9a/197Q1/Cow7AxJ/rIt6S647bpfVfCJ9oIwHOdwfsfvqHr/u7vGQkza9FaFp8yrN9vkXJVZONRpYZCG9JBM2Vj6geDyyeQ/hMhDHPD7lM0ymsNuGuJc8jUibMlRdYyteDwLn+Iy5szP2YHs9MMBmITjg4QrEM1h6ZrzrNUD+/cN1bdsESvDlAWRxd/k+hw4mJaUNzrbQkKoBVcgaxH2MM/kYquuicOGFGl1pK6/ICMEhZ+YZ1j0i+lXeWaKAe1eXhDLJPoBDf5k19EugVyv2cvkDU1CYa//iEJB4hw3/U0L5sFtCEhdZehhXyvHhXbCtW9vu4TBVMzGvT51HZ6Hfi2oLbl0twwBU+YXjJA2R71YWLV8RZ2DvOXiBaDqKN8Cz2sLsvng1Ah7bGDEylmSSGZPbsPzcoexG/1/EpfE7XgP8yX+lhQCHh25FPQ0jjjhwinhZfl33Jh1lcjelKrPRUvTnxyiOicwNkGbMIf3eWtywycuyGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01HjwAeFJvTb7NMUg6DHcfNN",
+       "input": {
+        "chunkId": 1621
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-5a4c-71a5-a907-8295a47099d7-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtYbDjjpQejxpbK5vft",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 6269,
+       "output_tokens": 94,
+       "output_tokens_details": {
+        "thinking_tokens": 41
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1621
+       },
+       "id": "toolu_01HjwAeFJvTb7NMUg6DHcfNN",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 6269,
+      "output_token_details": {
+       "reasoning": 41
+      },
+      "output_tokens": 94,
+      "total_tokens": 6363
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "9b1230d8be367e9474de61324b90987f79c9a428547a70b5776ceb34dba6bca6": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSgQYKEAgUGAI4AUIIdGhpbmtpbmcSDLwFPpDTdDnDbe8xOBoMkmncKznI55sd6wHNIjAaZ3CR1OMKTGRn0251g9n7YIZsUSxCGakeHhLf+bhUetZkCsxIA9K8fxk+ItlPeq4qngUwaMiBymT6MySp0rCgbEy0tpDqnoZDRz/uD0X6W4vM/3YEBVPsLK/sQpZAdPGV9zkBsBv03tD2gVPu+MqvPN4HOMKaTLL67v5pmbcI5TWUZ6mHPFpVyAn0emudG27WFdU1TKvwtbDEDLctxEP44z2y7z4QNx/JV+n3l4n2Zo866ZsNsGclsyWG7o8gV7x+YNpxqWgtiY0WerasaQx4mS52n5SooGMgEst1IM6+d28ofvZdluPpGLHsy2ivEsYM5DVYpYxNsBfY4Q7RQX0u3UlfnEY/RkOfULWxUbew23auJbb2JFHViC65X4YTGestkSSXQGJ3mw/LC8SjBZMlXvxBFrFFqPp6UGtWad0UIqgSg/9FdIYdtWF7gAomsO+yZWFY90sLkhFB1obVlR+nHT5+2jA6RKUwRaI0vuiZVDjRE7KmD5CVaTWSu8mnCXuBm3PbZVi9gSCU0LqFpytSbMV8raQtCrtY67zZGSAlg40Oj8lneAeOBGLcDVwO01Lr7wKNXwmxuMvobCYCZ+RMe+nYU5oBm/lSnHClW89dUCqsgJh59g2FyjcWpurVlctANg7Mdz9hmWHBljR0qQ2FEQmCgBO6GocGyGD56bNN/hp18LWApXBZ1KznYG4xwOlRmn0lHevPzw1qwg+kOnsYy8JihfFDLoDWlk1tXrlpf21av7qTxKD/5nkQj6bJ1rvqbxNHG9pu1YK7uLEuBNmn3oi09M3MDOgJ8+fAhBgCts9yrWmyXipNQiAYo92WbLhjR+SRMxpXzDLVVAcs8KBLkFE+jWR7yj3h1ShRL+r9mBTFbyhxXZzeL/YL9xUfbMMuDW/4Lw7IFEoKEh+LvCsiPqmqF3/1AsKVq9JeS9cBJ+XrNEsCCY4KsAZXoHW5qSuFGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01Cm4ARtqpaC2fKt1nc2L7R6",
+       "input": {
+        "chunkId": 1966
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-08fe-74b8-bf31-c6119e7253ec-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtX4C9kwqLij4dVB7Xr",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3204,
+       "output_tokens": 102,
+       "output_tokens_details": {
+        "thinking_tokens": 49
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1966
+       },
+       "id": "toolu_01Cm4ARtqpaC2fKt1nc2L7R6",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3204,
+      "output_token_details": {
+       "reasoning": 49
+      },
+      "output_tokens": 102,
+      "total_tokens": 3306
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "af33222b31dc056b84146ec3d2c1efa4977fa0f9982d63d3e544d75d8d92d5b2": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS7gcKEAgUGAI4AUIIdGhpbmtpbmcSDKmYQnVIfE9ApxMdexoMfqYoWxlwoRKU+u/KIjCXqV5tBTSKnAzq9y/IU7mKT5Qs/iZN/pM3Nbzh0NKlcOsDkpsJtSHsqB2GkshyvQkqiwduGmHpCrFsoE7ICrTIdfXOnCbJh2vT//HOnt3jEon/CEumfMMROwd+aAGWOIlKJ0OT4ifUz+ngUT3ndp+tJTWpWTL39Lem3bCLncvndrZkGPEu/j6PRjd49qiM8ZuiFYVgsoycJx6Aq1is2g5/Zr39hpjnAE16v0RRf2tbRfv9WtCN+QIxEI8UMw9Mkdv4uds7/D3MJyZnufQ9ONS0PsBS7vj5r4uYnKQtizGNSsTQByuUhRebEYqa8G5WopNlPwItgpEjhPyzn06+xKj6eIAc6pz5kUVPZE6WNdxgJhH/bi+p4afo/DCDYJ13RfIeCq2GKw5IxQqEKwWn0Xj41SZ8oydkZq6RUXor8XzBTtsFMhRdFD4xRxGtzySARhjhXcAvV8bXMIwW5qJYIHMdsWTMA8ePTKm6tZuIOT7qfMwJYawh/HKFui9Rgak0VT9Lebk7fqy1Ofm1nAvc1jEN+FpVeUiT3P5KLoqZTMX1yZCnh7OglnsmevwcA4pQSMBi40ZIS0qNuGtHBDddAd5agp4ShuG+e6gCmIB5mXmB6UdQrowneYbf/TxNy7d54d1hkv5M8K+zEiF1twHLQG1v9guo4H/7uMFclNK+brZKN+cY8FyNPoRa1oKtUsi6AIbA7aBYVk7OQD77My0bE/dgQLHXCOtLNCBS2hA25EcHSN7i0wAxDs8rVhfGsAFjzbfc+KdSWgazBtihEDJknOWjiloWLbpxZrVZ7GeQH+n219UAkuAbuhx99nF2W7lsn5FZQy+DcU4khgE2h/h8jgiUOvG7XaMgxDWY1tF1+/HTKCO/xeFkG+A/W8pPYxBiX7k5wpl5dsfaPPBQCSHt/eas9DkyvYwPaEACYXrO1BOcKQN3mH29ZYmGifLyGKTZXm7kbkpLDjBHRPUX2x6a+W1HUgMOs2iqi7vLNqZsqYkkWHtrSiW83bm586adqSXBDTxMZMAM/jTyFWMJrL+sNhZLoa0+WjgkxHKxerkM9ohEv8ctlcwVm5rT/FbSFDlOXvnIkgTScY8z5JT8cmyHkoQrLC2KdR8RYPFU0IZT4hTrM9KvjA/nmO7TpccF2yI0+Btlh/SzEqGX39dfKeMTRecJ/WmxPtMzj5622BLPtTV+KetP/KRYX9kH37p+JQCCx8fr8C515pcvPJtDGczjdI99TmdRcw6hKDDQeC7hkcLRlNaKspBNePVdzKD1c7I6GAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01Q3RrFdQswFjR6sK27ZXzvR",
+       "input": {
+        "query": "Rule 7 intimation of personal data breach detailed description extent mitigation safety measures Board",
+        "topK": 3
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-192d-76eb-ae7d-8c72e2d87fd6-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtXMvWPMy5RGutm5gpe",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3297,
+       "output_tokens": 223,
+       "output_tokens_details": {
+        "thinking_tokens": 121
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "Rule 7 intimation of personal data breach detailed description extent mitigation safety measures Board",
+        "topK": 3
+       },
+       "id": "toolu_01Q3RrFdQswFjR6sK27ZXzvR",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3297,
+      "output_token_details": {
+       "reasoning": 121
+      },
+      "output_tokens": 223,
+      "total_tokens": 3520
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "f681b16f8eebe92f14a50f8536357db2f09dc94294ebf651eaf706037fc3696f": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01HwGU1PEVcjPNLiu85Xs9Py",
+       "input": {
+        "chunkId": 1729
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01KsFc2ot4dTdJxSF8YgXR5J",
+       "input": {
+        "chunkId": 1730
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01Scf4zuapYCECJm3eT5MFen",
+       "input": {
+        "chunkId": 1718
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20de6-3eb8-7473-b0f1-261c1cd03f27-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMtY56WLB2k8VxfATAF6",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3843,
+       "output_tokens": 150,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1729
+       },
+       "id": "toolu_01HwGU1PEVcjPNLiu85Xs9Py",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 1730
+       },
+       "id": "toolu_01KsFc2ot4dTdJxSF8YgXR5J",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 1718
+       },
+       "id": "toolu_01Scf4zuapYCECJm3eT5MFen",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3843,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 150,
+      "total_tokens": 3993
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "fd3c3eed84251d5b8fee0496a933a05a67040088264d918ef718191ebd6ca65c": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Yes, the digital lending chapter of the NBFC Credit Facilities Directions 2025 requires data privacy and security controls, but it does not set out a specific incident-reporting duty or an explicit board oversight duty for data security.\n\n**Data security and privacy (Paras 14–16):**\n- Para 14(1): The NBFC must ensure its LSPs do not store borrower personal information beyond basic minimal data needed for their scope of work, and responsibility for ongoing privacy and security of customer personal information stays with the NBFC.\n- Para 14(2): The NBFC must have clear policies on what data can be stored, how long, usage restrictions, data destruction protocols, and \"standards for handling security breach,\" disclosed prominently on its website and the DLA.\n- Para 14(3)–(4): No biometric data may be stored or collected unless statutorily allowed, and all data must be stored on servers in India. Any data processed abroad must be deleted there and brought back to India within 24 hours.\n- Para 15: The NBFC and its LSPs must publish a comprehensive privacy policy, and it must disclose any third parties allowed to collect personal information through the DLA.\n- Para 16: The NBFC must ensure it and its LSPs comply with RBI and other cybersecurity technology standards.\n\n**Incident reporting and board oversight:**\n- Incident reporting: I found no requirement to report security breaches or cyber incidents to RBI. Para 14(2) only requires a policy covering breach-handling standards.\n- Board oversight: Para 5 requires a Board-approved credit policy that covers digital lending, but the excerpts I read do not show a board duty specific to data security or privacy.",
+     "id": "lc_run--01a20de6-4a17-722a-8c73-17f5175136b6-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMtYHRAKXStkz6TuQeHJ",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 7337,
+       "output_tokens": 553,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 7337,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 553,
+      "total_tokens": 7890
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  }
+ },
+ "scenario": "dpdp-breach-notice",
+ "tools": {
+  "0f2ba89bc93994d82e3b5ed62404e1e64a1753c9f707dbd8ae7a43c862278e5e": {
+   "args": {
+    "query": "KYC data security cyber incident unauthorised access CKYCR information security policy NBFC",
+    "topK": 6
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1634,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\nRegistry (CKYCR)\n(1) In terms of provision of Rule 9(1A) of the PML Rules, the NBFC shall capture\ncustomer’s KYC records and upload onto CKYCR within 10 days of commencement\nof an account-based relationship with the customer.\n(2)",
+       "fusedScore": 0.032266458495966696,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 3,
+       "pageEnd": 57,
+       "pageStart": 56,
+       "paraRef": "Para 63, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.7487359798774947
+      },
+      {
+       "chunkId": 1635,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(7) In order to ensure that all KYC records are incrementally uploaded on to\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\nindividual customers and LEs opened prior to the above-mentioned dates as p",
+       "fusedScore": 0.03200204813108039,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 2,
+       "pageEnd": 58,
+       "pageStart": 57,
+       "paraRef": "Para 63, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7359848179826576
+      },
+      {
+       "chunkId": 1636,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(i) there is a change in the information of the customer as existing in the records\nof CKYCR; or\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\napplicable KYC norms; or\n(iii) the validity ",
+       "fusedScore": 0.03128054740957967,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 6,
+       "pageEnd": 59,
+       "pageStart": 58,
+       "paraRef": "Para 63, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.7393911065485769
+      },
+      {
+       "chunkId": 1547,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "5. In these Directions, unless the context otherwise requires, the following\n(viii) ‘Digital KYC’ means that an authorised officer of the NBFC captures a live\nphoto of the customer and officially valid document or the proof of possession of\nAadhaar (where offline verification cannot be carried out),",
+       "fusedScore": 0.030776515151515152,
+       "heading": "Chapter I – Preliminary › C. Definitions",
+       "keywordRank": 4,
+       "pageEnd": 6,
+       "pageStart": 6,
+       "paraRef": "Para 5, part 4 of 14",
+       "pinned": false,
+       "similarity": 0.7230010513963809
+      },
+      {
+       "chunkId": 1580,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "24. Digital KYC Process:\n(1) The NBFC shall develop an application for digital KYC process and make it\navailable at customer touch points for undertaking KYC of its customers and shall\nundertake the KYC process only through this authenticated application.\n(2) The NBFC shall control the access to the",
+       "fusedScore": 0.03076923076923077,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › A. CDD Procedure in case of Individuals",
+       "keywordRank": 5,
+       "pageEnd": 27,
+       "pageStart": 26,
+       "paraRef": "Para 24, part 1 of 4",
+       "pinned": false,
+       "similarity": 0.7322806875538741
+      },
+      {
+       "chunkId": 1585,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "25. Accounts opened using Aadhaar OTP based e-KYC, in non-face-to-face mode,\n(8) The NBFC shall obtain declaration from the customer to the effect that no other\naccount has been opened nor will be opened using OTP based KYC in non-face-to-\nface mode with any other RE. Further, while uploading KYC in",
+       "fusedScore": 0.030330882352941176,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › A. CDD Procedure in case of Individuals",
+       "keywordRank": 8,
+       "pageEnd": 30,
+       "pageStart": 29,
+       "paraRef": "Para 25, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7333135366510618
+      }
+     ],
+     "query": "KYC data security cyber incident unauthorised access CKYCR information security policy NBFC"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_5eddcdf4-4ec7-4d80-98a2-d6496edb2dec",
+     "text": "{\"query\":\"KYC data security cyber incident unauthorised access CKYCR information security policy NBFC\",\"degraded\":null,\"hits\":[{\"chunkId\":1634,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 1 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":56,\"pageEnd\":57,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\nRegistry (CKYCR)\\n(1) In terms of provision of Rule 9(1A) of the PML Rules, the NBFC shall capture\\ncustomer\\u2019s KYC records and upload onto CKYCR within 10 days of commencement\\nof an account-based relationship with the customer.\\n(2)\",\"denseRank\":1,\"keywordRank\":3,\"fusedScore\":0.032266458495966696,\"similarity\":0.7487359798774947,\"pinned\":false},{\"chunkId\":1635,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 2 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":57,\"pageEnd\":58,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(7) In order to ensure that all KYC records are incrementally uploaded on to\\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\\nindividual customers and LEs opened prior to the above-mentioned dates as p\",\"denseRank\":3,\"keywordRank\":2,\"fusedScore\":0.03200204813108039,\"similarity\":0.7359848179826576,\"pinned\":false},{\"chunkId\":1636,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 3 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":58,\"pageEnd\":59,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(i) there is a change in the information of the customer as existing in the records\\nof CKYCR; or\\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\\napplicable KYC norms; or\\n(iii) the validity \",\"denseRank\":2,\"keywordRank\":6,\"fusedScore\":0.03128054740957967,\"similarity\":0.7393911065485769,\"pinned\":false},{\"chunkId\":1547,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 5, part 4 of 14\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A C. Definitions\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"5. In these Directions, unless the context otherwise requires, the following\\n(viii) \\u2018Digital KYC\\u2019 means that an authorised officer of the NBFC captures a live\\nphoto of the customer and officially valid document or the proof of possession of\\nAadhaar (where offline verification cannot be carried out),\",\"denseRank\":6,\"keywordRank\":4,\"fusedScore\":0.030776515151515152,\"similarity\":0.7230010513963809,\"pinned\":false},{\"chunkId\":1580,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 24, part 1 of 4\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A A. CDD Procedure in case of Individuals\",\"pageStart\":26,\"pageEnd\":27,\"excerpt\":\"24. Digital KYC Process:\\n(1) The NBFC shall develop an application for digital KYC process and make it\\navailable at customer touch points for undertaking KYC of its customers and shall\\nundertake the KYC process only through this authenticated application.\\n(2) The NBFC shall control the access to the\",\"denseRank\":5,\"keywordRank\":5,\"fusedScore\":0.03076923076923077,\"similarity\":0.7322806875538741,\"pinned\":false},{\"chunkId\":1585,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 25, part 2 of 2\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A A. CDD Procedure in case of Individuals\",\"pageStart\":29,\"pageEnd\":30,\"excerpt\":\"25. Accounts opened using Aadhaar OTP based e-KYC, in non-face-to-face mode,\\n(8) The NBFC shall obtain declaration from the customer to the effect that no other\\naccount has been opened nor will be opened using OTP based KYC in non-face-to-\\nface mode with any other RE. Further, while uploading KYC in\",\"denseRank\":4,\"keywordRank\":8,\"fusedScore\":0.030330882352941176,\"similarity\":0.7333135366510618,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "1b96645566aab86859c48b5715b8b8c43055e18bc30f5bc502138a76c0ae9ad4": {
+   "args": {
+    "query": "digital lending data privacy security lending service provider borrower data storage board approved policy incident",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1729,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "14. Storage of data\n(1) An NBFC shall ensure that LSP engaged by them do not store personal\ninformation of borrower except some basic minimal data (viz., name, address,\ncontact details of the customer, etc.) that may be required to carry out their\noperations or service within the scope of the NBFC-L",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Digital Lending › C. Technology and Data Requirement",
+       "keywordRank": 1,
+       "pageEnd": 20,
+       "pageStart": 20,
+       "paraRef": "Para 14",
+       "pinned": false,
+       "similarity": 0.7288226758030474
+      },
+      {
+       "chunkId": 1730,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "15. Comprehensive privacy policy\n(1) An NBFC and their LSPs shall have a comprehensive privacy policy compliant\nwith applicable laws, associated regulations and RBI guidelines which shall be\nmade available publicly on the website of the NBFC and LSP, as the case may\nbe.\n(2) Details of third parties ",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter III – Digital Lending › C. Technology and Data Requirement",
+       "keywordRank": 2,
+       "pageEnd": 21,
+       "pageStart": 20,
+       "paraRef": "Para 15",
+       "pinned": false,
+       "similarity": 0.7619573133473373
+      },
+      {
+       "chunkId": 1731,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "16. Technology standards\nAn NBFC shall ensure that they and the LSPs engaged by them comply with\nvarious technology standards/ requirements on cybersecurity stipulated by the\nReserve Bank and other relevant agencies, or as may be specified from time to\ntime, for undertaking digital lending.",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter III – Digital Lending › C. Technology and Data Requirement",
+       "keywordRank": 3,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 16",
+       "pinned": false,
+       "similarity": 0.6963811335791142
+      },
+      {
+       "chunkId": 1722,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "9. Disclosures to borrowers\n(1) An NBFC shall provide a Key Fact Statement (KFS), as per instructions\ncontained in Reserve Bank of India (Non- Banking Financial Companies –\nResponsible Business Conduct) Directions, 2025.\n(2) As regards penal charges, an NBFC shall be guided by Reserve Bank of India\n",
+       "fusedScore": 0.03076923076923077,
+       "heading": "Chapter III – Digital Lending › B. Conduct and Customer Protection Requirements",
+       "keywordRank": 5,
+       "pageEnd": 17,
+       "pageStart": 16,
+       "paraRef": "Para 9, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.6936731617668765
+      },
+      {
+       "chunkId": 1733,
+       "denseRank": 16,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "18. Reporting of DLAs to RBI\n(1) An NBFC shall report all DLAs deployed / joined by them, whether their own or\nthose of the LSPs, either exclusively or as a platform participant, on the\nCentralised Information Management System (CIMS) portal of the Reserve\nBank in the requisite format as given in th",
+       "fusedScore": 0.028782894736842105,
+       "heading": "Chapter III – Digital Lending › D. Reporting of Credit Information and DLAs",
+       "keywordRank": 4,
+       "pageEnd": 22,
+       "pageStart": 21,
+       "paraRef": "Para 18, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.6719841771088116
+      },
+      {
+       "chunkId": 1728,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "13. Collection, usage and sharing of data with third parties\n(1) An NBFC shall ensure that any collection of data by their DLA and DLA of their\nLSP is need-based and with prior and explicit consent of the borrower having\naudit trail. In any case, an NBFC shall also ensure that DLA of NBFC / LSP\ndesi",
+       "fusedScore": 0.028693528693528692,
+       "heading": "Chapter III – Digital Lending › C. Technology and Data Requirement",
+       "keywordRank": 18,
+       "pageEnd": 20,
+       "pageStart": 19,
+       "paraRef": "Para 13",
+       "pinned": false,
+       "similarity": 0.721963344263935
+      },
+      {
+       "chunkId": 1718,
+       "denseRank": 13,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "5. An NBFC shall put in place Board approved credit policy covering, inter alia, the\nareas specified below, to the extent such activities are undertaken by it. The\nspecific aspects to be addressed in this policy are detailed in the relevant\nparagraphs of these Directions.\n(1) Digital Lending includi",
+       "fusedScore": 0.02862400327131466,
+       "heading": "Chapter II – Board Approved Policies › A. Role of Board",
+       "keywordRank": 7,
+       "pageEnd": 13,
+       "pageStart": 13,
+       "paraRef": "Para 5",
+       "pinned": false,
+       "similarity": 0.677574259656496
+      },
+      {
+       "chunkId": 1719,
+       "denseRank": 15,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "6. Due diligence requirements with respect to LSPs\n(1) Digital lending by an NBFC involving a LSP, shall be carried out under a\ncontractual agreement between the NBFC and the LSP, which clearly defines\nthe respective roles, rights, and obligations of each party thereto.\n(2) An NBFC shall conduct enh",
+       "fusedScore": 0.028484848484848484,
+       "heading": "Chapter III – Digital Lending › A. General Requirements for NBFC-LSP Arrangements",
+       "keywordRank": 6,
+       "pageEnd": 14,
+       "pageStart": 14,
+       "paraRef": "Para 6",
+       "pinned": false,
+       "similarity": 0.6727248457334273
+      }
+     ],
+     "query": "digital lending data privacy security lending service provider borrower data storage board approved policy incident"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_30c011f9-5960-41df-827f-9aaebc42736f",
+     "text": "{\"query\":\"digital lending data privacy security lending service provider borrower data storage board approved policy incident\",\"degraded\":null,\"hits\":[{\"chunkId\":1729,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 14\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A C. Technology and Data Requirement\",\"pageStart\":20,\"pageEnd\":20,\"excerpt\":\"14. Storage of data\\n(1) An NBFC shall ensure that LSP engaged by them do not store personal\\ninformation of borrower except some basic minimal data (viz., name, address,\\ncontact details of the customer, etc.) that may be required to carry out their\\noperations or service within the scope of the NBFC-L\",\"denseRank\":2,\"keywordRank\":1,\"fusedScore\":0.03252247488101533,\"similarity\":0.7288226758030474,\"pinned\":false},{\"chunkId\":1730,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 15\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A C. Technology and Data Requirement\",\"pageStart\":20,\"pageEnd\":21,\"excerpt\":\"15. Comprehensive privacy policy\\n(1) An NBFC and their LSPs shall have a comprehensive privacy policy compliant\\nwith applicable laws, associated regulations and RBI guidelines which shall be\\nmade available publicly on the website of the NBFC and LSP, as the case may\\nbe.\\n(2) Details of third parties \",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.7619573133473373,\"pinned\":false},{\"chunkId\":1731,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 16\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A C. Technology and Data Requirement\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"16. Technology standards\\nAn NBFC shall ensure that they and the LSPs engaged by them comply with\\nvarious technology standards/ requirements on cybersecurity stipulated by the\\nReserve Bank and other relevant agencies, or as may be specified from time to\\ntime, for undertaking digital lending.\",\"denseRank\":4,\"keywordRank\":3,\"fusedScore\":0.03149801587301587,\"similarity\":0.6963811335791142,\"pinned\":false},{\"chunkId\":1722,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 9, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A B. Conduct and Customer Protection Requirements\",\"pageStart\":16,\"pageEnd\":17,\"excerpt\":\"9. Disclosures to borrowers\\n(1) An NBFC shall provide a Key Fact Statement (KFS), as per instructions\\ncontained in Reserve Bank of India (Non- Banking Financial Companies \\u2013\\nResponsible Business Conduct) Directions, 2025.\\n(2) As regards penal charges, an NBFC shall be guided by Reserve Bank of India\\n\",\"denseRank\":5,\"keywordRank\":5,\"fusedScore\":0.03076923076923077,\"similarity\":0.6936731617668765,\"pinned\":false},{\"chunkId\":1733,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 18, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A D. Reporting of Credit Information and DLAs\",\"pageStart\":21,\"pageEnd\":22,\"excerpt\":\"18. Reporting of DLAs to RBI\\n(1) An NBFC shall report all DLAs deployed / joined by them, whether their own or\\nthose of the LSPs, either exclusively or as a platform participant, on the\\nCentralised Information Management System (CIMS) portal of the Reserve\\nBank in the requisite format as given in th\",\"denseRank\":16,\"keywordRank\":4,\"fusedScore\":0.028782894736842105,\"similarity\":0.6719841771088116,\"pinned\":false},{\"chunkId\":1728,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 13\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A C. Technology and Data Requirement\",\"pageStart\":19,\"pageEnd\":20,\"excerpt\":\"13. Collection, usage and sharing of data with third parties\\n(1) An NBFC shall ensure that any collection of data by their DLA and DLA of their\\nLSP is need-based and with prior and explicit consent of the borrower having\\naudit trail. In any case, an NBFC shall also ensure that DLA of NBFC / LSP\\ndesi\",\"denseRank\":3,\"keywordRank\":18,\"fusedScore\":0.028693528693528692,\"similarity\":0.721963344263935,\"pinned\":false},{\"chunkId\":1718,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 5\",\"heading\":\"Chapter II \\u2013 Board Approved Policies \\u203A A. Role of Board\",\"pageStart\":13,\"pageEnd\":13,\"excerpt\":\"5. An NBFC shall put in place Board approved credit policy covering, inter alia, the\\nareas specified below, to the extent such activities are undertaken by it. The\\nspecific aspects to be addressed in this policy are detailed in the relevant\\nparagraphs of these Directions.\\n(1) Digital Lending includi\",\"denseRank\":13,\"keywordRank\":7,\"fusedScore\":0.02862400327131466,\"similarity\":0.677574259656496,\"pinned\":false},{\"chunkId\":1719,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 6\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A A. General Requirements for NBFC-LSP Arrangements\",\"pageStart\":14,\"pageEnd\":14,\"excerpt\":\"6. Due diligence requirements with respect to LSPs\\n(1) Digital lending by an NBFC involving a LSP, shall be carried out under a\\ncontractual agreement between the NBFC and the LSP, which clearly defines\\nthe respective roles, rights, and obligations of each party thereto.\\n(2) An NBFC shall conduct enh\",\"denseRank\":15,\"keywordRank\":6,\"fusedScore\":0.028484848484848484,\"similarity\":0.6727248457334273,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "40db1b4c77f4aa432d8985f701522b1a35a2814285dce94f922cbaf86e7d5709": {
+   "args": {
+    "chunkId": 1729
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1729,
+     "content": "14. Storage of data\n(1) An NBFC shall ensure that LSP engaged by them do not store personal\ninformation of borrower except some basic minimal data (viz., name, address,\ncontact details of the customer, etc.) that may be required to carry out their\noperations or service within the scope of the NBFC-LSP agreement.\nResponsibility regarding data privacy and security of the customer’s personal\ninformation on an ongoing basis shall be that of the NBFC.\n(2) An NBFC shall ensure that clear policy guidelines regarding the storage of\ncustomer data including the type of data that can be stored, the length of time\nfor which data can be stored, restrictions on the use of data, data destruction\nprotocol, standards for handling security breach, etc., are put in place and also\ndisclosed by the NBFC and the LSP engaged by the NBFC prominently on\ntheir website and DLA at all times.\n(3) An NBFC shall ensure that no biometric data is stored / collected by the NBFC\nand LSP, unless allowed under extant statutory guidelines.\n(4) An NBFC shall ensure that all data is stored only in servers located within India,\nwhile ensuring compliance with statutory obligations/ regulatory instructions.\nFurther, in case the data is processed outside India, the same shall be deleted\nfrom servers outside India and brought back to India within 24 hours of\nprocessing.",
+     "documentId": "rbi-nbfc-credit-facilities-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+     "heading": "Chapter III – Digital Lending › C. Technology and Data Requirement",
+     "pageEnd": 20,
+     "pageStart": 20,
+     "paraRef": "Para 14"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_922ea8b1-81b3-4831-be80-400f7114df38",
+     "text": "{\"chunkId\":1729,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 14\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A C. Technology and Data Requirement\",\"pageStart\":20,\"pageEnd\":20,\"content\":\"14. Storage of data\\n(1) An NBFC shall ensure that LSP engaged by them do not store personal\\ninformation of borrower except some basic minimal data (viz., name, address,\\ncontact details of the customer, etc.) that may be required to carry out their\\noperations or service within the scope of the NBFC-LSP agreement.\\nResponsibility regarding data privacy and security of the customer\\u2019s personal\\ninformation on an ongoing basis shall be that of the NBFC.\\n(2) An NBFC shall ensure that clear policy guidelines regarding the storage of\\ncustomer data including the type of data that can be stored, the length of time\\nfor which data can be stored, restrictions on the use of data, data destruction\\nprotocol, standards for handling security breach, etc., are put in place and also\\ndisclosed by the NBFC and the LSP engaged by the NBFC prominently on\\ntheir website and DLA at all times.\\n(3) An NBFC shall ensure that no biometric data is stored / collected by the NBFC\\nand LSP, unless allowed under extant statutory guidelines.\\n(4) An NBFC shall ensure that all data is stored only in servers located within India,\\nwhile ensuring compliance with statutory obligations/ regulatory instructions.\\nFurther, in case the data is processed outside India, the same shall be deleted\\nfrom servers outside India and brought back to India within 24 hours of\\nprocessing.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "42d57febddc9f40d3cbdc0e42ebc20d7daffc34c1d727256c63f322633a58e55": {
+   "args": {
+    "query": "personal data breach intimate Board without delay seventy-two hours detailed information Rule 7"
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1966,
+       "denseRank": 1,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication ",
+       "fusedScore": 0.03278688524590164,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 7",
+       "pinned": true,
+       "similarity": 0.7946815964390942
+      },
+      {
+       "chunkId": 1969,
+       "denseRank": 3,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "9. Contact information of person to answer questions about processing.— Every Data Fiduciary shall\nprominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat",
+       "fusedScore": 0.03200204813108039,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 9",
+       "pinned": false,
+       "similarity": 0.7551559076178134
+      },
+      {
+       "chunkId": 1965,
+       "denseRank": 4,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which ",
+       "fusedScore": 0.031009615384615385,
+       "heading": "",
+       "keywordRank": 5,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 6",
+       "pinned": false,
+       "similarity": 0.7331658561625607
+      },
+      {
+       "chunkId": 1983,
+       "denseRank": 2,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "19. Procedure for meetings of Board and authentication of its orders, directions and instruments. —\n(8) The Chairperson or any Member of the Board, or any individual authorised by it,by a general or special\norder in writing, may, under her signature, authenticate its order, direction or instrument.\n",
+       "fusedScore": 0.02964254577157803,
+       "heading": "",
+       "keywordRank": 14,
+       "pageEnd": 31,
+       "pageStart": 31,
+       "paraRef": "Rule 19, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7777852945880325
+      },
+      {
+       "chunkId": 2010,
+       "denseRank": 9,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "[See rules 5(1) and 16]\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\nsection (2) of section 17\nImplementation of appropriate technical and orga",
+       "fusedScore": 0.029418126757516764,
+       "heading": "Second Schedule",
+       "keywordRank": 7,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Second Schedule, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.7217948450109778
+      },
+      {
+       "chunkId": 2003,
+       "denseRank": 8,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. The Consent Manager shall take reasonable security safeguards to prevent personal data breach.",
+       "fusedScore": 0.029198635976129584,
+       "heading": "First Schedule — [See rule 4] › Part B — Obligations of Consent Manager",
+       "keywordRank": 9,
+       "pageEnd": 33,
+       "pageStart": 33,
+       "paraRef": "First Schedule, Part B, Item 7",
+       "pinned": false,
+       "similarity": 0.7228727757139984
+      },
+      {
+       "chunkId": 1962,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "3. Notice given by Data Fiduciary to Data Principal. —The notice given by the Data Fiduciary to the\nData Principal shall—\n(a) be presented and be understandable independently of any other information that has been, is or may\nbe made available by such Data Fiduciary;\n(b) give, in clear and plain lang",
+       "fusedScore": 0.027579737335834898,
+       "heading": "",
+       "keywordRank": 22,
+       "pageEnd": 25,
+       "pageStart": 24,
+       "paraRef": "Rule 3",
+       "pinned": false,
+       "similarity": 0.7331278998789487
+      },
+      {
+       "chunkId": 1984,
+       "denseRank": 7,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "20. Functioning of Board as digital office. — The Board shall function as a digital office, without\nprejudice to its power to summon and enforce the attendance of any person and examine her on oath, may\nadopt techno-legal measures to conduct proceedings in a manner that does not require physical pre",
+       "fusedScore": 0.026973565905412694,
+       "heading": "",
+       "keywordRank": 23,
+       "pageEnd": 31,
+       "pageStart": 31,
+       "paraRef": "Rule 20",
+       "pinned": false,
+       "similarity": 0.7243777616700139
+      }
+     ],
+     "query": "personal data breach intimate Board without delay seventy-two hours detailed information Rule 7"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_36de13d6-8612-4a36-8499-187aa7687e97",
+     "text": "{\"query\":\"personal data breach intimate Board without delay seventy-two hours detailed information Rule 7\",\"degraded\":null,\"hits\":[{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication \",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7946815964390942,\"pinned\":true},{\"chunkId\":1969,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 9\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"9. Contact information of person to answer questions about processing.\\u2014 Every Data Fiduciary shall\\nprominently publish on its website or app, and mention in every response to a communication for the\\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat\",\"denseRank\":3,\"keywordRank\":2,\"fusedScore\":0.03200204813108039,\"similarity\":0.7551559076178134,\"pinned\":false},{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which \",\"denseRank\":4,\"keywordRank\":5,\"fusedScore\":0.031009615384615385,\"similarity\":0.7331658561625607,\"pinned\":false},{\"chunkId\":1983,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 19, part 2 of 2\",\"heading\":\"\",\"pageStart\":31,\"pageEnd\":31,\"excerpt\":\"19. Procedure for meetings of Board and authentication of its orders, directions and instruments. \\u2014\\n(8) The Chairperson or any Member of the Board, or any individual authorised by it,by a general or special\\norder in writing, may, under her signature, authenticate its order, direction or instrument.\\n\",\"denseRank\":2,\"keywordRank\":14,\"fusedScore\":0.02964254577157803,\"similarity\":0.7777852945880325,\"pinned\":false},{\"chunkId\":2010,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Second Schedule, part 1 of 2\",\"heading\":\"Second Schedule\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"[See rules 5(1) and 16]\\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\\nsection (2) of section 17\\nImplementation of appropriate technical and orga\",\"denseRank\":9,\"keywordRank\":7,\"fusedScore\":0.029418126757516764,\"similarity\":0.7217948450109778,\"pinned\":false},{\"chunkId\":2003,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"First Schedule, Part B, Item 7\",\"heading\":\"First Schedule \\u2014 [See rule 4] \\u203A Part B \\u2014 Obligations of Consent Manager\",\"pageStart\":33,\"pageEnd\":33,\"excerpt\":\"7. The Consent Manager shall take reasonable security safeguards to prevent personal data breach.\",\"denseRank\":8,\"keywordRank\":9,\"fusedScore\":0.029198635976129584,\"similarity\":0.7228727757139984,\"pinned\":false},{\"chunkId\":1962,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 3\",\"heading\":\"\",\"pageStart\":24,\"pageEnd\":25,\"excerpt\":\"3. Notice given by Data Fiduciary to Data Principal. \\u2014The notice given by the Data Fiduciary to the\\nData Principal shall\\u2014\\n(a) be presented and be understandable independently of any other information that has been, is or may\\nbe made available by such Data Fiduciary;\\n(b) give, in clear and plain lang\",\"denseRank\":5,\"keywordRank\":22,\"fusedScore\":0.027579737335834898,\"similarity\":0.7331278998789487,\"pinned\":false},{\"chunkId\":1984,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 20\",\"heading\":\"\",\"pageStart\":31,\"pageEnd\":31,\"excerpt\":\"20. Functioning of Board as digital office. \\u2014 The Board shall function as a digital office, without\\nprejudice to its power to summon and enforce the attendance of any person and examine her on oath, may\\nadopt techno-legal measures to conduct proceedings in a manner that does not require physical pre\",\"denseRank\":7,\"keywordRank\":23,\"fusedScore\":0.026973565905412694,\"similarity\":0.7243777616700139,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "4d80154ac68e77c856abe5cfd79205b9a9d257c50098f0c9e14d8b4dde0ee30f": {
+   "args": {
+    "chunkId": 1730
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1730,
+     "content": "15. Comprehensive privacy policy\n(1) An NBFC and their LSPs shall have a comprehensive privacy policy compliant\nwith applicable laws, associated regulations and RBI guidelines which shall be\nmade available publicly on the website of the NBFC and LSP, as the case may\nbe.\n(2) Details of third parties (where applicable) allowed to collect personal\ninformation through the DLA shall also be disclosed in the privacy policy.",
+     "documentId": "rbi-nbfc-credit-facilities-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+     "heading": "Chapter III – Digital Lending › C. Technology and Data Requirement",
+     "pageEnd": 21,
+     "pageStart": 20,
+     "paraRef": "Para 15"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_5ef3af95-962d-425e-9e1a-637aafd894ac",
+     "text": "{\"chunkId\":1730,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 15\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A C. Technology and Data Requirement\",\"pageStart\":20,\"pageEnd\":21,\"content\":\"15. Comprehensive privacy policy\\n(1) An NBFC and their LSPs shall have a comprehensive privacy policy compliant\\nwith applicable laws, associated regulations and RBI guidelines which shall be\\nmade available publicly on the website of the NBFC and LSP, as the case may\\nbe.\\n(2) Details of third parties (where applicable) allowed to collect personal\\ninformation through the DLA shall also be disclosed in the privacy policy.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "7a581b774d9fe70828f214d94434c185efc0a4aad5e175ad1e500526fe38ad59": {
+   "args": {
+    "query": "NBFC report security breach incident to Reserve Bank digital lending cyber incident reporting",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1732,
+       "denseRank": 8,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "17. Reporting to Credit Information Companies (CICs)\n(1) As per the provisions of the Credit Information Companies (CIC) (Regulation)\nAct, 2005; CIC Rules, 2006; CIC Regulations, 2006 and related guidelines\nissued by the Reserve Bank from time to time, NBFC shall ensure that any\nlending done through",
+       "fusedScore": 0.030834914611005692,
+       "heading": "Chapter III – Digital Lending › D. Reporting of Credit Information and DLAs",
+       "keywordRank": 2,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 17",
+       "pinned": false,
+       "similarity": 0.7192438673522713
+      },
+      {
+       "chunkId": 1734,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "18. Reporting of DLAs to RBI\n(5) An NBFC shall ensure the correctness and timeliness of information regarding\nDLAs, as the data, as submitted by the NBFC on CIMS, shall be published on\nthe website of the Reserve Bank in an automated manner and the Reserve\nBank shall not verify / validate the data su",
+       "fusedScore": 0.030090497737556562,
+       "heading": "Chapter III – Digital Lending › D. Reporting of Credit Information and DLAs",
+       "keywordRank": 8,
+       "pageEnd": 22,
+       "pageStart": 22,
+       "paraRef": "Para 18, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7275741479523892
+      },
+      {
+       "chunkId": 1731,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "16. Technology standards\nAn NBFC shall ensure that they and the LSPs engaged by them comply with\nvarious technology standards/ requirements on cybersecurity stipulated by the\nReserve Bank and other relevant agencies, or as may be specified from time to\ntime, for undertaking digital lending.",
+       "fusedScore": 0.029462365591397848,
+       "heading": "Chapter III – Digital Lending › C. Technology and Data Requirement",
+       "keywordRank": 15,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 16",
+       "pinned": false,
+       "similarity": 0.745067895634676
+      },
+      {
+       "chunkId": 1722,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "9. Disclosures to borrowers\n(1) An NBFC shall provide a Key Fact Statement (KFS), as per instructions\ncontained in Reserve Bank of India (Non- Banking Financial Companies –\nResponsible Business Conduct) Directions, 2025.\n(2) As regards penal charges, an NBFC shall be guided by Reserve Bank of India\n",
+       "fusedScore": 0.028283227848101267,
+       "heading": "Chapter III – Digital Lending › B. Conduct and Customer Protection Requirements",
+       "keywordRank": 19,
+       "pageEnd": 17,
+       "pageStart": 16,
+       "paraRef": "Para 9, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.732927381992361
+      },
+      {
+       "chunkId": 1727,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-credit-facilities-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+       "excerpt": "12. Grievance redressal\n(1) An NBFC, and their LSP which has an interface with the borrower, shall\ndesignate nodal grievance redressal officers to deal with digital lending related\ncomplaints/ issues raised by the borrower.\n(2) Contact details of the nodal grievance redressal officers shall be promi",
+       "fusedScore": 0.028068137824235385,
+       "heading": "Chapter III – Digital Lending › B. Conduct and Customer Protection Requirements",
+       "keywordRank": 22,
+       "pageEnd": 19,
+       "pageStart": 18,
+       "paraRef": "Para 12",
+       "pinned": false,
+       "similarity": 0.7354532822422815
+      }
+     ],
+     "query": "NBFC report security breach incident to Reserve Bank digital lending cyber incident reporting"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_833aa049-f8c6-4490-bcf3-cc918c90bdfe",
+     "text": "{\"query\":\"NBFC report security breach incident to Reserve Bank digital lending cyber incident reporting\",\"degraded\":null,\"hits\":[{\"chunkId\":1732,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 17\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A D. Reporting of Credit Information and DLAs\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"17. Reporting to Credit Information Companies (CICs)\\n(1) As per the provisions of the Credit Information Companies (CIC) (Regulation)\\nAct, 2005; CIC Rules, 2006; CIC Regulations, 2006 and related guidelines\\nissued by the Reserve Bank from time to time, NBFC shall ensure that any\\nlending done through\",\"denseRank\":8,\"keywordRank\":2,\"fusedScore\":0.030834914611005692,\"similarity\":0.7192438673522713,\"pinned\":false},{\"chunkId\":1734,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 18, part 2 of 2\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A D. Reporting of Credit Information and DLAs\",\"pageStart\":22,\"pageEnd\":22,\"excerpt\":\"18. Reporting of DLAs to RBI\\n(5) An NBFC shall ensure the correctness and timeliness of information regarding\\nDLAs, as the data, as submitted by the NBFC on CIMS, shall be published on\\nthe website of the Reserve Bank in an automated manner and the Reserve\\nBank shall not verify / validate the data su\",\"denseRank\":5,\"keywordRank\":8,\"fusedScore\":0.030090497737556562,\"similarity\":0.7275741479523892,\"pinned\":false},{\"chunkId\":1731,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 16\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A C. Technology and Data Requirement\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"16. Technology standards\\nAn NBFC shall ensure that they and the LSPs engaged by them comply with\\nvarious technology standards/ requirements on cybersecurity stipulated by the\\nReserve Bank and other relevant agencies, or as may be specified from time to\\ntime, for undertaking digital lending.\",\"denseRank\":2,\"keywordRank\":15,\"fusedScore\":0.029462365591397848,\"similarity\":0.745067895634676,\"pinned\":false},{\"chunkId\":1722,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 9, part 1 of 2\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A B. Conduct and Customer Protection Requirements\",\"pageStart\":16,\"pageEnd\":17,\"excerpt\":\"9. Disclosures to borrowers\\n(1) An NBFC shall provide a Key Fact Statement (KFS), as per instructions\\ncontained in Reserve Bank of India (Non- Banking Financial Companies \\u2013\\nResponsible Business Conduct) Directions, 2025.\\n(2) As regards penal charges, an NBFC shall be guided by Reserve Bank of India\\n\",\"denseRank\":4,\"keywordRank\":19,\"fusedScore\":0.028283227848101267,\"similarity\":0.732927381992361,\"pinned\":false},{\"chunkId\":1727,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 12\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A B. Conduct and Customer Protection Requirements\",\"pageStart\":18,\"pageEnd\":19,\"excerpt\":\"12. Grievance redressal\\n(1) An NBFC, and their LSP which has an interface with the borrower, shall\\ndesignate nodal grievance redressal officers to deal with digital lending related\\ncomplaints/ issues raised by the borrower.\\n(2) Contact details of the nodal grievance redressal officers shall be promi\",\"denseRank\":3,\"keywordRank\":22,\"fusedScore\":0.028068137824235385,\"similarity\":0.7354532822422815,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "81123dc70657d23da93872b4701d033a858a00b0f1852da2c0980141373efc34": {
+   "args": {
+    "query": "Rule 7 intimation of personal data breach detailed description extent mitigation safety measures Board",
+    "topK": 3
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1966,
+       "denseRank": 1,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication ",
+       "fusedScore": 0.03278688524590164,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 7",
+       "pinned": true,
+       "similarity": 0.8187486149372845
+      },
+      {
+       "chunkId": 1965,
+       "denseRank": 2,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which ",
+       "fusedScore": 0.03225806451612903,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 6",
+       "pinned": false,
+       "similarity": 0.7636810996342482
+      },
+      {
+       "chunkId": 1969,
+       "denseRank": 3,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "9. Contact information of person to answer questions about processing.— Every Data Fiduciary shall\nprominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat",
+       "fusedScore": 0.031746031746031744,
+       "heading": "",
+       "keywordRank": 3,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 9",
+       "pinned": false,
+       "similarity": 0.7588089416991457
+      }
+     ],
+     "query": "Rule 7 intimation of personal data breach detailed description extent mitigation safety measures Board"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_491d2f63-ed81-4f4e-a721-67859f5f45f8",
+     "text": "{\"query\":\"Rule 7 intimation of personal data breach detailed description extent mitigation safety measures Board\",\"degraded\":null,\"hits\":[{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication \",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.8187486149372845,\"pinned\":true},{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which \",\"denseRank\":2,\"keywordRank\":2,\"fusedScore\":0.03225806451612903,\"similarity\":0.7636810996342482,\"pinned\":false},{\"chunkId\":1969,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 9\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"9. Contact information of person to answer questions about processing.\\u2014 Every Data Fiduciary shall\\nprominently publish on its website or app, and mention in every response to a communication for the\\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat\",\"denseRank\":3,\"keywordRank\":3,\"fusedScore\":0.031746031746031744,\"similarity\":0.7588089416991457,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "81e8f57993f905bdc3faf0dbe9841ac067117ee89d07829650e93a658a000f05": {
+   "args": {
+    "chunkId": 1718
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1718,
+     "content": "5. An NBFC shall put in place Board approved credit policy covering, inter alia, the\nareas specified below, to the extent such activities are undertaken by it. The\nspecific aspects to be addressed in this policy are detailed in the relevant\nparagraphs of these Directions.\n(1) Digital Lending including DLG\n(2) Lending Against Gold and Silver Collateral\n(3) Microfinance Loans\n(4) Project Finance\n(5) Demand / Call Loans\n(6) Housing Finance",
+     "documentId": "rbi-nbfc-credit-facilities-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
+     "heading": "Chapter II – Board Approved Policies › A. Role of Board",
+     "pageEnd": 13,
+     "pageStart": 13,
+     "paraRef": "Para 5"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b50ef8e6-f452-46a6-829a-fecd1f1b63ac",
+     "text": "{\"chunkId\":1718,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 5\",\"heading\":\"Chapter II \\u2013 Board Approved Policies \\u203A A. Role of Board\",\"pageStart\":13,\"pageEnd\":13,\"content\":\"5. An NBFC shall put in place Board approved credit policy covering, inter alia, the\\nareas specified below, to the extent such activities are undertaken by it. The\\nspecific aspects to be addressed in this policy are detailed in the relevant\\nparagraphs of these Directions.\\n(1) Digital Lending including DLG\\n(2) Lending Against Gold and Silver Collateral\\n(3) Microfinance Loans\\n(4) Project Finance\\n(5) Demand / Call Loans\\n(6) Housing Finance\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "849f98e687aa7e9f1486b02a574c01077eff69f16ad680980fb5050d488d5db9": {
+   "args": {
+    "query": "reasonable security safeguards encryption access control logs monitoring detection of unauthorised access retain logs one year",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1965,
+       "denseRank": 1,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which ",
+       "fusedScore": 0.03278688524590164,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 6",
+       "pinned": false,
+       "similarity": 0.7584989749043428
+      },
+      {
+       "chunkId": 1968,
+       "denseRank": 4,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\n(3) Without prejudice to sub-rules (1) and (2), a Data Fiduciary shall retain, in respect of any processing of\npersonal data undertaken by it or on its behalf by a Data Processor, such personal data, a",
+       "fusedScore": 0.031754032258064516,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 8, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.6679153639204926
+      },
+      {
+       "chunkId": 2000,
+       "denseRank": 6,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "4. The Consent Manager: —\n(a) shall give the Data Principal using such platform access to such record;\n(b) shall, on the request of the Data Principal and in accordance with its terms of service, make\navailable to her the information contained in such record, in machine-readable form; and\n(c) shall ",
+       "fusedScore": 0.030076888285843508,
+       "heading": "First Schedule — [See rule 4] › Part B — Obligations of Consent Manager",
+       "keywordRank": 7,
+       "pageEnd": 33,
+       "pageStart": 33,
+       "paraRef": "First Schedule, Part B, Item 4",
+       "pinned": false,
+       "similarity": 0.6613352495830074
+      },
+      {
+       "chunkId": 2003,
+       "denseRank": 11,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. The Consent Manager shall take reasonable security safeguards to prevent personal data breach.",
+       "fusedScore": 0.029957522915269395,
+       "heading": "First Schedule — [See rule 4] › Part B — Obligations of Consent Manager",
+       "keywordRank": 3,
+       "pageEnd": 33,
+       "pageStart": 33,
+       "paraRef": "First Schedule, Part B, Item 7",
+       "pinned": false,
+       "similarity": 0.6516152981794603
+      },
+      {
+       "chunkId": 2010,
+       "denseRank": 12,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "[See rules 5(1) and 16]\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\nsection (2) of section 17\nImplementation of appropriate technical and orga",
+       "fusedScore": 0.029273504273504274,
+       "heading": "Second Schedule",
+       "keywordRank": 5,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Second Schedule, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.6510353392573522
+      },
+      {
+       "chunkId": 1966,
+       "denseRank": 3,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication ",
+       "fusedScore": 0.029206349206349208,
+       "heading": "",
+       "keywordRank": 15,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 7",
+       "pinned": false,
+       "similarity": 0.6715373988565652
+      },
+      {
+       "chunkId": 2013,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "1. Data Fiduciary who\nis an e-commerce\nentity having not\nless than two crore\nregistered users in\nIndia.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to access\nher user account; and\n(b) Enabling the Data Principal to access\nany virtual token that is issued by or\non beha",
+       "fusedScore": 0.02804284323271665,
+       "heading": "Third Schedule",
+       "keywordRank": 19,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Third Schedule, Item 1",
+       "pinned": false,
+       "similarity": 0.6625708933983196
+      },
+      {
+       "chunkId": 2014,
+       "denseRank": 8,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "2. Data Fiduciary who\nis an online gaming\nintermediary having\nnot less than fifty\nlakh registered users\nin India.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to\naccess her user account; and\n(b) Enabling the Data Principal to\naccess any virtual token that is\nissued by ",
+       "fusedScore": 0.027051561365286855,
+       "heading": "Third Schedule",
+       "keywordRank": 21,
+       "pageEnd": 36,
+       "pageStart": 35,
+       "paraRef": "Third Schedule, Item 2",
+       "pinned": false,
+       "similarity": 0.6602207404967151
+      }
+     ],
+     "query": "reasonable security safeguards encryption access control logs monitoring detection of unauthorised access retain logs one year"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_ea5521a8-5eaf-408f-86b8-9a37bd0a36f0",
+     "text": "{\"query\":\"reasonable security safeguards encryption access control logs monitoring detection of unauthorised access retain logs one year\",\"degraded\":null,\"hits\":[{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which \",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7584989749043428,\"pinned\":false},{\"chunkId\":1968,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 2 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\n(3) Without prejudice to sub-rules (1) and (2), a Data Fiduciary shall retain, in respect of any processing of\\npersonal data undertaken by it or on its behalf by a Data Processor, such personal data, a\",\"denseRank\":4,\"keywordRank\":2,\"fusedScore\":0.031754032258064516,\"similarity\":0.6679153639204926,\"pinned\":false},{\"chunkId\":2000,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"First Schedule, Part B, Item 4\",\"heading\":\"First Schedule \\u2014 [See rule 4] \\u203A Part B \\u2014 Obligations of Consent Manager\",\"pageStart\":33,\"pageEnd\":33,\"excerpt\":\"4. The Consent Manager: \\u2014\\n(a) shall give the Data Principal using such platform access to such record;\\n(b) shall, on the request of the Data Principal and in accordance with its terms of service, make\\navailable to her the information contained in such record, in machine-readable form; and\\n(c) shall \",\"denseRank\":6,\"keywordRank\":7,\"fusedScore\":0.030076888285843508,\"similarity\":0.6613352495830074,\"pinned\":false},{\"chunkId\":2003,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"First Schedule, Part B, Item 7\",\"heading\":\"First Schedule \\u2014 [See rule 4] \\u203A Part B \\u2014 Obligations of Consent Manager\",\"pageStart\":33,\"pageEnd\":33,\"excerpt\":\"7. The Consent Manager shall take reasonable security safeguards to prevent personal data breach.\",\"denseRank\":11,\"keywordRank\":3,\"fusedScore\":0.029957522915269395,\"similarity\":0.6516152981794603,\"pinned\":false},{\"chunkId\":2010,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Second Schedule, part 1 of 2\",\"heading\":\"Second Schedule\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"[See rules 5(1) and 16]\\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\\nsection (2) of section 17\\nImplementation of appropriate technical and orga\",\"denseRank\":12,\"keywordRank\":5,\"fusedScore\":0.029273504273504274,\"similarity\":0.6510353392573522,\"pinned\":false},{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication \",\"denseRank\":3,\"keywordRank\":15,\"fusedScore\":0.029206349206349208,\"similarity\":0.6715373988565652,\"pinned\":false},{\"chunkId\":2013,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 1\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"1. Data Fiduciary who\\nis an e-commerce\\nentity having not\\nless than two crore\\nregistered users in\\nIndia.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to access\\nher user account; and\\n(b) Enabling the Data Principal to access\\nany virtual token that is issued by or\\non beha\",\"denseRank\":5,\"keywordRank\":19,\"fusedScore\":0.02804284323271665,\"similarity\":0.6625708933983196,\"pinned\":false},{\"chunkId\":2014,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 2\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":36,\"excerpt\":\"2. Data Fiduciary who\\nis an online gaming\\nintermediary having\\nnot less than fifty\\nlakh registered users\\nin India.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to\\naccess her user account; and\\n(b) Enabling the Data Principal to\\naccess any virtual token that is\\nissued by \",\"denseRank\":8,\"keywordRank\":21,\"fusedScore\":0.027051561365286855,\"similarity\":0.6602207404967151,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "a1b563f1e793bab4f017123f59d2fe18bfb12f4c4f04c4fd7c70400b654d5a34": {
+   "args": {
+    "query": "breach of KYC data compromise reporting obligation",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1966,
+       "denseRank": 8,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication ",
+       "fusedScore": 0.030834914611005692,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 7",
+       "pinned": false,
+       "similarity": 0.633542337032787
+      },
+      {
+       "chunkId": 1635,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(7) In order to ensure that all KYC records are incrementally uploaded on to\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\nindividual customers and LEs opened prior to the above-mentioned dates as p",
+       "fusedScore": 0.030798389007344232,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 7,
+       "pageEnd": 58,
+       "pageStart": 57,
+       "paraRef": "Para 63, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.6685127424949036
+      },
+      {
+       "chunkId": 1634,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\nRegistry (CKYCR)\n(1) In terms of provision of Rule 9(1A) of the PML Rules, the NBFC shall capture\ncustomer’s KYC records and upload onto CKYCR within 10 days of commencement\nof an account-based relationship with the customer.\n(2)",
+       "fusedScore": 0.029906956136464335,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 14,
+       "pageEnd": 57,
+       "pageStart": 56,
+       "paraRef": "Para 63, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.6764325692397278
+      },
+      {
+       "chunkId": 1621,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "52. The NBFC, its directors, officers, and all employees shall ensure that the\nfact of maintenance of records referred to in rule 3 of the PML (Maintenance of\nRecords) Rules, 2005, and furnishing of the information to the Director is\nconfidential. However, such confidentiality requirement shall not ",
+       "fusedScore": 0.029469122426868905,
+       "heading": "Chapter VIII – Reporting Requirements to Financial Intelligence Unit – India",
+       "keywordRank": 11,
+       "pageEnd": 51,
+       "pageStart": 50,
+       "paraRef": "Para 52",
+       "pinned": false,
+       "similarity": 0.6421566643549995
+      },
+      {
+       "chunkId": 1636,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(i) there is a change in the information of the customer as existing in the records\nof CKYCR; or\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\napplicable KYC norms; or\n(iii) the validity ",
+       "fusedScore": 0.02643831060857998,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 37,
+       "pageEnd": 59,
+       "pageStart": 58,
+       "paraRef": "Para 63, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.6730345498981852
+      },
+      {
+       "chunkId": 2003,
+       "denseRank": 35,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. The Consent Manager shall take reasonable security safeguards to prevent personal data breach.",
+       "fusedScore": 0.026399331662489558,
+       "heading": "First Schedule — [See rule 4] › Part B — Obligations of Consent Manager",
+       "keywordRank": 3,
+       "pageEnd": 33,
+       "pageStart": 33,
+       "paraRef": "First Schedule, Part B, Item 7",
+       "pinned": false,
+       "similarity": 0.5968902039400663
+      },
+      {
+       "chunkId": 1639,
+       "denseRank": 31,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "66. The NBFC shall allot UCIC while entering into new relationships with individual\ncustomers as also the existing individual customers.",
+       "fusedScore": 0.025274725274725275,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 10,
+       "pageEnd": 60,
+       "pageStart": 60,
+       "paraRef": "Para 66",
+       "pinned": false,
+       "similarity": 0.601060957190829
+      },
+      {
+       "chunkId": 1553,
+       "denseRank": 24,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "5. In these Directions, unless the context otherwise requires, the following\n(viii) ‘KYC Templates’ means templates prepared to facilitate collating and reporting\nKYC data to the CKYCR, for individuals and legal entities.\n(ix) ‘Non-face-to-face customers’ means customers who open accounts without\nvi",
+       "fusedScore": 0.02506265664160401,
+       "heading": "Chapter I – Preliminary › C. Definitions",
+       "keywordRank": 16,
+       "pageEnd": 11,
+       "pageStart": 10,
+       "paraRef": "Para 5, part 10 of 14",
+       "pinned": false,
+       "similarity": 0.6075524921685278
+      }
+     ],
+     "query": "breach of KYC data compromise reporting obligation"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_56a57b16-a4e3-437f-87ea-1ccaef336f21",
+     "text": "{\"query\":\"breach of KYC data compromise reporting obligation\",\"degraded\":null,\"hits\":[{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication \",\"denseRank\":8,\"keywordRank\":2,\"fusedScore\":0.030834914611005692,\"similarity\":0.633542337032787,\"pinned\":false},{\"chunkId\":1635,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 2 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":57,\"pageEnd\":58,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(7) In order to ensure that all KYC records are incrementally uploaded on to\\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\\nindividual customers and LEs opened prior to the above-mentioned dates as p\",\"denseRank\":3,\"keywordRank\":7,\"fusedScore\":0.030798389007344232,\"similarity\":0.6685127424949036,\"pinned\":false},{\"chunkId\":1634,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 1 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":56,\"pageEnd\":57,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\nRegistry (CKYCR)\\n(1) In terms of provision of Rule 9(1A) of the PML Rules, the NBFC shall capture\\ncustomer\\u2019s KYC records and upload onto CKYCR within 10 days of commencement\\nof an account-based relationship with the customer.\\n(2)\",\"denseRank\":1,\"keywordRank\":14,\"fusedScore\":0.029906956136464335,\"similarity\":0.6764325692397278,\"pinned\":false},{\"chunkId\":1621,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 52\",\"heading\":\"Chapter VIII \\u2013 Reporting Requirements to Financial Intelligence Unit \\u2013 India\",\"pageStart\":50,\"pageEnd\":51,\"excerpt\":\"52. The NBFC, its directors, officers, and all employees shall ensure that the\\nfact of maintenance of records referred to in rule 3 of the PML (Maintenance of\\nRecords) Rules, 2005, and furnishing of the information to the Director is\\nconfidential. However, such confidentiality requirement shall not \",\"denseRank\":5,\"keywordRank\":11,\"fusedScore\":0.029469122426868905,\"similarity\":0.6421566643549995,\"pinned\":false},{\"chunkId\":1636,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 3 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":58,\"pageEnd\":59,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(i) there is a change in the information of the customer as existing in the records\\nof CKYCR; or\\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\\napplicable KYC norms; or\\n(iii) the validity \",\"denseRank\":2,\"keywordRank\":37,\"fusedScore\":0.02643831060857998,\"similarity\":0.6730345498981852,\"pinned\":false},{\"chunkId\":2003,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"First Schedule, Part B, Item 7\",\"heading\":\"First Schedule \\u2014 [See rule 4] \\u203A Part B \\u2014 Obligations of Consent Manager\",\"pageStart\":33,\"pageEnd\":33,\"excerpt\":\"7. The Consent Manager shall take reasonable security safeguards to prevent personal data breach.\",\"denseRank\":35,\"keywordRank\":3,\"fusedScore\":0.026399331662489558,\"similarity\":0.5968902039400663,\"pinned\":false},{\"chunkId\":1639,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 66\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":60,\"pageEnd\":60,\"excerpt\":\"66. The NBFC shall allot UCIC while entering into new relationships with individual\\ncustomers as also the existing individual customers.\",\"denseRank\":31,\"keywordRank\":10,\"fusedScore\":0.025274725274725275,\"similarity\":0.601060957190829,\"pinned\":false},{\"chunkId\":1553,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 5, part 10 of 14\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A C. Definitions\",\"pageStart\":10,\"pageEnd\":11,\"excerpt\":\"5. In these Directions, unless the context otherwise requires, the following\\n(viii) \\u2018KYC Templates\\u2019 means templates prepared to facilitate collating and reporting\\nKYC data to the CKYCR, for individuals and legal entities.\\n(ix) \\u2018Non-face-to-face customers\\u2019 means customers who open accounts without\\nvi\",\"denseRank\":24,\"keywordRank\":16,\"fusedScore\":0.02506265664160401,\"similarity\":0.6075524921685278,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "a314011f294d350161c9c1d83530c4f74a2448779cfee8824a0b5c72a502030a": {
+   "args": {
+    "chunkId": 1621
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1621,
+     "content": "52. The NBFC, its directors, officers, and all employees shall ensure that the\nfact of maintenance of records referred to in rule 3 of the PML (Maintenance of\nRecords) Rules, 2005, and furnishing of the information to the Director is\nconfidential. However, such confidentiality requirement shall not inhibit sharing of\ninformation under paragraph 8 of these Directions of any analysis of transactions\nand activities which appear unusual, if the NBFC has done any such analysis.",
+     "documentId": "rbi-nbfc-kyc-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+     "heading": "Chapter VIII – Reporting Requirements to Financial Intelligence Unit – India",
+     "pageEnd": 51,
+     "pageStart": 50,
+     "paraRef": "Para 52"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_5049055a-25bf-4eb5-b114-c8c5beb66942",
+     "text": "{\"chunkId\":1621,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 52\",\"heading\":\"Chapter VIII \\u2013 Reporting Requirements to Financial Intelligence Unit \\u2013 India\",\"pageStart\":50,\"pageEnd\":51,\"content\":\"52. The NBFC, its directors, officers, and all employees shall ensure that the\\nfact of maintenance of records referred to in rule 3 of the PML (Maintenance of\\nRecords) Rules, 2005, and furnishing of the information to the Director is\\nconfidential. However, such confidentiality requirement shall not inhibit sharing of\\ninformation under paragraph 8 of these Directions of any analysis of transactions\\nand activities which appear unusual, if the NBFC has done any such analysis.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "b5da2ec47cb226d48010bea4959fa607569ef24e923c2731796280a17de517a1": {
+   "args": {
+    "chunkId": 1965
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1965,
+     "content": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which shall include, at\nthe minimum, —\n(a) appropriate data security measures, such as securing of personal data through encryption,\nobfuscation, masking or the use of virtual tokens mapped to that personal data;\n(b) appropriate measures to control access to the computer resources used by such Data Fiduciary or\nsuch a Data Processor, wherever applicable;\n(c) visibility on the accessing of such personal data, through appropriate logs, monitoring and review,\nfor enabling detection of unauthorised access, its investigation and remediation to prevent\nrecurrence;\n(d) reasonable measures for continued processing in the event of confidentiality, integrity or\navailability of such personal data being compromised as a result of destruction or loss of access to\npersonal data or otherwise, such as by way of data-backups;\n(e) for enabling the detection of unauthorised access, its investigation, remediation to prevent\nrecurrence and continued processing in the event of such a compromise, retain such logs and\npersonal data for a period of one year, unless compliance with any law for the time being in force\nrequires otherwise;\n(f) appropriate provision in the contract entered into between such Data Fiduciary and such a Data\nProcessor, wherever applicable, for taking reasonable security safeguards; and\n(g) appropriate technical and organisational measures to ensure effective observance of security\nsafeguards.\n(2) In this rule, the expression “computer resource” shall have the same meaning as is assigned to it in\nInformation Technology Act, 2000 (21 of 2000).",
+     "documentId": "dpdp-rules-2025",
+     "documentTitle": "Digital Personal Data Protection Rules, 2025",
+     "heading": "",
+     "pageEnd": 26,
+     "pageStart": 26,
+     "paraRef": "Rule 6"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_e296b7c8-fe26-49a2-9a22-496355e77a4a",
+     "text": "{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"content\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which shall include, at\\nthe minimum, \\u2014\\n(a) appropriate data security measures, such as securing of personal data through encryption,\\nobfuscation, masking or the use of virtual tokens mapped to that personal data;\\n(b) appropriate measures to control access to the computer resources used by such Data Fiduciary or\\nsuch a Data Processor, wherever applicable;\\n(c) visibility on the accessing of such personal data, through appropriate logs, monitoring and review,\\nfor enabling detection of unauthorised access, its investigation and remediation to prevent\\nrecurrence;\\n(d) reasonable measures for continued processing in the event of confidentiality, integrity or\\navailability of such personal data being compromised as a result of destruction or loss of access to\\npersonal data or otherwise, such as by way of data-backups;\\n(e) for enabling the detection of unauthorised access, its investigation, remediation to prevent\\nrecurrence and continued processing in the event of such a compromise, retain such logs and\\npersonal data for a period of one year, unless compliance with any law for the time being in force\\nrequires otherwise;\\n(f) appropriate provision in the contract entered into between such Data Fiduciary and such a Data\\nProcessor, wherever applicable, for taking reasonable security safeguards; and\\n(g) appropriate technical and organisational measures to ensure effective observance of security\\nsafeguards.\\n(2) In this rule, the expression \\u201Ccomputer resource\\u201D shall have the same meaning as is assigned to it in\\nInformation Technology Act, 2000 (21 of 2000).\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "dd234ca5ba399ff02a0fce7b10541de820dec0bf663bd108ef8f18f7302bd661": {
+   "args": {
+    "query": "KYC records confidentiality security safeguards customer information",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1635,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(7) In order to ensure that all KYC records are incrementally uploaded on to\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\nindividual customers and LEs opened prior to the above-mentioned dates as p",
+       "fusedScore": 0.03201844262295082,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 4,
+       "pageEnd": 58,
+       "pageStart": 57,
+       "paraRef": "Para 63, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7470156694082636
+      },
+      {
+       "chunkId": 1636,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(i) there is a change in the information of the customer as existing in the records\nof CKYCR; or\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\napplicable KYC norms; or\n(iii) the validity ",
+       "fusedScore": 0.0315136476426799,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 5,
+       "pageEnd": 59,
+       "pageStart": 58,
+       "paraRef": "Para 63, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.7422152911296432
+      },
+      {
+       "chunkId": 1634,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\nRegistry (CKYCR)\n(1) In terms of provision of Rule 9(1A) of the PML Rules, the NBFC shall capture\ncustomer’s KYC records and upload onto CKYCR within 10 days of commencement\nof an account-based relationship with the customer.\n(2)",
+       "fusedScore": 0.030798389007344232,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 7,
+       "pageEnd": 57,
+       "pageStart": 56,
+       "paraRef": "Para 63, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.735024352364499
+      },
+      {
+       "chunkId": 1621,
+       "denseRank": 15,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "52. The NBFC, its directors, officers, and all employees shall ensure that the\nfact of maintenance of records referred to in rule 3 of the PML (Maintenance of\nRecords) Rules, 2005, and furnishing of the information to the Director is\nconfidential. However, such confidentiality requirement shall not ",
+       "fusedScore": 0.029726775956284153,
+       "heading": "Chapter VIII – Reporting Requirements to Financial Intelligence Unit – India",
+       "keywordRank": 1,
+       "pageEnd": 51,
+       "pageStart": 50,
+       "paraRef": "Para 52",
+       "pinned": false,
+       "similarity": 0.6748255922663002
+      },
+      {
+       "chunkId": 1546,
+       "denseRank": 8,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "5. In these Directions, unless the context otherwise requires, the following\n(v) ‘Certified Copy’ – The NBFC obtaining the certified copy shall mean\ncomparing the copy of the proof of possession of Aadhaar number (where offline\nverification cannot be carried out) or the officially valid document pro",
+       "fusedScore": 0.029411764705882353,
+       "heading": "Chapter I – Preliminary › C. Definitions",
+       "keywordRank": 8,
+       "pageEnd": 6,
+       "pageStart": 5,
+       "paraRef": "Para 5, part 3 of 14",
+       "pinned": false,
+       "similarity": 0.6911492943763782
+      },
+      {
+       "chunkId": 1547,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "5. In these Directions, unless the context otherwise requires, the following\n(viii) ‘Digital KYC’ means that an authorised officer of the NBFC captures a live\nphoto of the customer and officially valid document or the proof of possession of\nAadhaar (where offline verification cannot be carried out),",
+       "fusedScore": 0.029138513513513514,
+       "heading": "Chapter I – Preliminary › C. Definitions",
+       "keywordRank": 14,
+       "pageEnd": 6,
+       "pageStart": 6,
+       "paraRef": "Para 5, part 4 of 14",
+       "pinned": false,
+       "similarity": 0.7151289968692608
+      },
+      {
+       "chunkId": 1608,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(vi) Declaration of current address, if the current address is different from the\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\nshall ensure that the mobile number for Aadhaar authentication is same as the one\navailable wit",
+       "fusedScore": 0.027651515151515153,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 20,
+       "pageEnd": 43,
+       "pageStart": 42,
+       "paraRef": "Para 42, part 3 of 5",
+       "pinned": false,
+       "similarity": 0.6946171415087302
+      },
+      {
+       "chunkId": 1606,
+       "denseRank": 10,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\nensuring that it keeps the information or data collected under CDD is kept up-to-date\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\nperiodic up",
+       "fusedScore": 0.025913621262458473,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 26,
+       "pageEnd": 41,
+       "pageStart": 40,
+       "paraRef": "Para 42, part 1 of 5",
+       "pinned": false,
+       "similarity": 0.6852245772420401
+      }
+     ],
+     "query": "KYC records confidentiality security safeguards customer information"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_7b880765-0071-4eab-9f78-3b89df6fbb9c",
+     "text": "{\"query\":\"KYC records confidentiality security safeguards customer information\",\"degraded\":null,\"hits\":[{\"chunkId\":1635,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 2 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":57,\"pageEnd\":58,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(7) In order to ensure that all KYC records are incrementally uploaded on to\\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\\nindividual customers and LEs opened prior to the above-mentioned dates as p\",\"denseRank\":1,\"keywordRank\":4,\"fusedScore\":0.03201844262295082,\"similarity\":0.7470156694082636,\"pinned\":false},{\"chunkId\":1636,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 3 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":58,\"pageEnd\":59,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(i) there is a change in the information of the customer as existing in the records\\nof CKYCR; or\\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\\napplicable KYC norms; or\\n(iii) the validity \",\"denseRank\":2,\"keywordRank\":5,\"fusedScore\":0.0315136476426799,\"similarity\":0.7422152911296432,\"pinned\":false},{\"chunkId\":1634,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 1 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":56,\"pageEnd\":57,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\nRegistry (CKYCR)\\n(1) In terms of provision of Rule 9(1A) of the PML Rules, the NBFC shall capture\\ncustomer\\u2019s KYC records and upload onto CKYCR within 10 days of commencement\\nof an account-based relationship with the customer.\\n(2)\",\"denseRank\":3,\"keywordRank\":7,\"fusedScore\":0.030798389007344232,\"similarity\":0.735024352364499,\"pinned\":false},{\"chunkId\":1621,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 52\",\"heading\":\"Chapter VIII \\u2013 Reporting Requirements to Financial Intelligence Unit \\u2013 India\",\"pageStart\":50,\"pageEnd\":51,\"excerpt\":\"52. The NBFC, its directors, officers, and all employees shall ensure that the\\nfact of maintenance of records referred to in rule 3 of the PML (Maintenance of\\nRecords) Rules, 2005, and furnishing of the information to the Director is\\nconfidential. However, such confidentiality requirement shall not \",\"denseRank\":15,\"keywordRank\":1,\"fusedScore\":0.029726775956284153,\"similarity\":0.6748255922663002,\"pinned\":false},{\"chunkId\":1546,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 5, part 3 of 14\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A C. Definitions\",\"pageStart\":5,\"pageEnd\":6,\"excerpt\":\"5. In these Directions, unless the context otherwise requires, the following\\n(v) \\u2018Certified Copy\\u2019 \\u2013 The NBFC obtaining the certified copy shall mean\\ncomparing the copy of the proof of possession of Aadhaar number (where offline\\nverification cannot be carried out) or the officially valid document pro\",\"denseRank\":8,\"keywordRank\":8,\"fusedScore\":0.029411764705882353,\"similarity\":0.6911492943763782,\"pinned\":false},{\"chunkId\":1547,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 5, part 4 of 14\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A C. Definitions\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"5. In these Directions, unless the context otherwise requires, the following\\n(viii) \\u2018Digital KYC\\u2019 means that an authorised officer of the NBFC captures a live\\nphoto of the customer and officially valid document or the proof of possession of\\nAadhaar (where offline verification cannot be carried out),\",\"denseRank\":4,\"keywordRank\":14,\"fusedScore\":0.029138513513513514,\"similarity\":0.7151289968692608,\"pinned\":false},{\"chunkId\":1608,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 3 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":42,\"pageEnd\":43,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(vi) Declaration of current address, if the current address is different from the\\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\\nshall ensure that the mobile number for Aadhaar authentication is same as the one\\navailable wit\",\"denseRank\":6,\"keywordRank\":20,\"fusedScore\":0.027651515151515153,\"similarity\":0.6946171415087302,\"pinned\":false},{\"chunkId\":1606,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 1 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":41,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\\nensuring that it keeps the information or data collected under CDD is kept up-to-date\\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\\nperiodic up\",\"denseRank\":10,\"keywordRank\":26,\"fusedScore\":0.025913621262458473,\"similarity\":0.6852245772420401,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "ddb6b5892724b51ffa70b356d97060d758362555b339e724a1cffa4e75fbf806": {
+   "args": {
+    "query": "intimate each affected Data Principal without delay personal data breach nature extent timing consequences mitigation measures contact"
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1966,
+       "denseRank": 1,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication ",
+       "fusedScore": 0.03278688524590164,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 7",
+       "pinned": false,
+       "similarity": 0.7620033451313097
+      },
+      {
+       "chunkId": 1969,
+       "denseRank": 2,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "9. Contact information of person to answer questions about processing.— Every Data Fiduciary shall\nprominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat",
+       "fusedScore": 0.03225806451612903,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 9",
+       "pinned": false,
+       "similarity": 0.726220174206507
+      },
+      {
+       "chunkId": 2047,
+       "denseRank": 6,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "2. Use, by the State or any of its instrumentalities, of\npersonal data of a Data Principal for the following\npurposes, namely: —\n(i) performance of any function under any\nlaw for the time being in force in India; or\n(ii) disclosure of any information for\nfulfilling any obligation under any law for\nt",
+       "fusedScore": 0.02943722943722944,
+       "heading": "Seventh Schedule",
+       "keywordRank": 10,
+       "pageEnd": 41,
+       "pageStart": 41,
+       "paraRef": "Seventh Schedule, Item 2",
+       "pinned": false,
+       "similarity": 0.6956115909317581
+      },
+      {
+       "chunkId": 1967,
+       "denseRank": 12,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance",
+       "fusedScore": 0.029273504273504274,
+       "heading": "",
+       "keywordRank": 5,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 8, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.691527490292936
+      },
+      {
+       "chunkId": 2010,
+       "denseRank": 17,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "[See rules 5(1) and 16]\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\nsection (2) of section 17\nImplementation of appropriate technical and orga",
+       "fusedScore": 0.02886002886002886,
+       "heading": "Second Schedule",
+       "keywordRank": 3,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Second Schedule, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.685205866351767
+      },
+      {
+       "chunkId": 1965,
+       "denseRank": 18,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which ",
+       "fusedScore": 0.02844551282051282,
+       "heading": "",
+       "keywordRank": 4,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 6",
+       "pinned": false,
+       "similarity": 0.6849889755249072
+      },
+      {
+       "chunkId": 1987,
+       "denseRank": 20,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "23. Calling for information from Data Fiduciary or intermediary. — (1) The Central Government may,\nfor such purposes of the Act as are specified in Seventh Schedule, acting through the corresponding\nauthorised person specified in the said Schedule, require any Data Fiduciary or intermediary to furni",
+       "fusedScore": 0.027205882352941177,
+       "heading": "",
+       "keywordRank": 8,
+       "pageEnd": 32,
+       "pageStart": 32,
+       "paraRef": "Rule 23",
+       "pinned": false,
+       "similarity": 0.6799334287643481
+      },
+      {
+       "chunkId": 2012,
+       "denseRank": 8,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "[See rule 8(1)]\nS.\nno.\nClass of Data\nFiduciaries Purposes Time period\n(1) (2) (3) (4)",
+       "fusedScore": 0.025816993464052286,
+       "heading": "Third Schedule",
+       "keywordRank": 30,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Third Schedule",
+       "pinned": false,
+       "similarity": 0.6950716012801649
+      }
+     ],
+     "query": "intimate each affected Data Principal without delay personal data breach nature extent timing consequences mitigation measures contact"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_6116e9fd-1140-4eae-bbe8-b43d50346f8a",
+     "text": "{\"query\":\"intimate each affected Data Principal without delay personal data breach nature extent timing consequences mitigation measures contact\",\"degraded\":null,\"hits\":[{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication \",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7620033451313097,\"pinned\":false},{\"chunkId\":1969,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 9\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"9. Contact information of person to answer questions about processing.\\u2014 Every Data Fiduciary shall\\nprominently publish on its website or app, and mention in every response to a communication for the\\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat\",\"denseRank\":2,\"keywordRank\":2,\"fusedScore\":0.03225806451612903,\"similarity\":0.726220174206507,\"pinned\":false},{\"chunkId\":2047,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Seventh Schedule, Item 2\",\"heading\":\"Seventh Schedule\",\"pageStart\":41,\"pageEnd\":41,\"excerpt\":\"2. Use, by the State or any of its instrumentalities, of\\npersonal data of a Data Principal for the following\\npurposes, namely: \\u2014\\n(i) performance of any function under any\\nlaw for the time being in force in India; or\\n(ii) disclosure of any information for\\nfulfilling any obligation under any law for\\nt\",\"denseRank\":6,\"keywordRank\":10,\"fusedScore\":0.02943722943722944,\"similarity\":0.6956115909317581,\"pinned\":false},{\"chunkId\":1967,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 1 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance\",\"denseRank\":12,\"keywordRank\":5,\"fusedScore\":0.029273504273504274,\"similarity\":0.691527490292936,\"pinned\":false},{\"chunkId\":2010,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Second Schedule, part 1 of 2\",\"heading\":\"Second Schedule\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"[See rules 5(1) and 16]\\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\\nsection (2) of section 17\\nImplementation of appropriate technical and orga\",\"denseRank\":17,\"keywordRank\":3,\"fusedScore\":0.02886002886002886,\"similarity\":0.685205866351767,\"pinned\":false},{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which \",\"denseRank\":18,\"keywordRank\":4,\"fusedScore\":0.02844551282051282,\"similarity\":0.6849889755249072,\"pinned\":false},{\"chunkId\":1987,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 23\",\"heading\":\"\",\"pageStart\":32,\"pageEnd\":32,\"excerpt\":\"23. Calling for information from Data Fiduciary or intermediary. \\u2014 (1) The Central Government may,\\nfor such purposes of the Act as are specified in Seventh Schedule, acting through the corresponding\\nauthorised person specified in the said Schedule, require any Data Fiduciary or intermediary to furni\",\"denseRank\":20,\"keywordRank\":8,\"fusedScore\":0.027205882352941177,\"similarity\":0.6799334287643481,\"pinned\":false},{\"chunkId\":2012,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"[See rule 8(1)]\\nS.\\nno.\\nClass of Data\\nFiduciaries Purposes Time period\\n(1) (2) (3) (4)\",\"denseRank\":8,\"keywordRank\":30,\"fusedScore\":0.025816993464052286,\"similarity\":0.6950716012801649,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "e44d634cf1041f24f7afdd0ae9c60ca10e2997cff6043f6c1f244c2efa8cda5c": {
+   "args": {
+    "chunkId": 1966
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1966,
+     "content": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication registered by her\nwith the Data Fiduciary, —\n(a) a description of the breach, including its nature, extent and the timing of its occurrence;\n(b) the consequences relevant to her, that are likely to arise from the breach;\n(c) the measures implemented and being implemented by the Data Fiduciary, if any, to mitigate risk;\n(d) the safety measures that she may take to protect her interests; and\n(e) business contact information of a person who is able to respond on behalf of the Data Fiduciary, to\nqueries, if any, of the Data Principal.\n(2) On becoming aware of any personal data breach, the Data Fiduciary shall intimate to the Board, —\n(a) without delay, a description of the breach, including its nature, extent, timing and location of\noccurrence and the likely impact;\n(b) within seventy-two hours of becoming aware of the breach, or within such longer period as the\nBoard may allow on a request made in writing in this behalf, —\n(i) updated and detailed information in respect of such description;\n(ii) the broad facts related to the events, circumstances and reasons leading to the breach;\n(iii) measures implemented or proposed, if any, to mitigate risk;\n(iv) any findings regarding the person who caused the breach;\n(v) remedial measures taken to prevent recurrence of such breach; and\n(vi) a report regarding the intimations given to affected Data Principals.",
+     "documentId": "dpdp-rules-2025",
+     "documentTitle": "Digital Personal Data Protection Rules, 2025",
+     "heading": "",
+     "pageEnd": 26,
+     "pageStart": 26,
+     "paraRef": "Rule 7"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b673f7ac-0eee-4d1c-9d83-c8ec14fa7928",
+     "text": "{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"content\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication registered by her\\nwith the Data Fiduciary, \\u2014\\n(a) a description of the breach, including its nature, extent and the timing of its occurrence;\\n(b) the consequences relevant to her, that are likely to arise from the breach;\\n(c) the measures implemented and being implemented by the Data Fiduciary, if any, to mitigate risk;\\n(d) the safety measures that she may take to protect her interests; and\\n(e) business contact information of a person who is able to respond on behalf of the Data Fiduciary, to\\nqueries, if any, of the Data Principal.\\n(2) On becoming aware of any personal data breach, the Data Fiduciary shall intimate to the Board, \\u2014\\n(a) without delay, a description of the breach, including its nature, extent, timing and location of\\noccurrence and the likely impact;\\n(b) within seventy-two hours of becoming aware of the breach, or within such longer period as the\\nBoard may allow on a request made in writing in this behalf, \\u2014\\n(i) updated and detailed information in respect of such description;\\n(ii) the broad facts related to the events, circumstances and reasons leading to the breach;\\n(iii) measures implemented or proposed, if any, to mitigate risk;\\n(iv) any findings regarding the person who caused the breach;\\n(v) remedial measures taken to prevent recurrence of such breach; and\\n(vi) a report regarding the intimations given to affected Data Principals.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  }
+ }
+}

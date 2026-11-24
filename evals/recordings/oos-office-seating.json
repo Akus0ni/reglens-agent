@@ -1,0 +1,716 @@
+{
+ "models": {
+  "5977cfd8563f6af2d7d9c4ccf101cbf776e29c7559853e4e5124882ec4930867": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSrwkKEAgUGAI4AUIIdGhpbmtpbmcSDI2fWrJM5M6aZO6mjRoMD30JfuX7NVz5lawhIjAALIsdmuq+laciDEdMUa75UiLWAoeuFNQvLIK5Y/AY2eaS7BKsPpLSLxVJiOQ9C1AqzAjckYjpDFToCRXNRWUGSrxChS+pnpJVjpqmPPeQ6VMMdUPbMwv1XyBnA/NcV0yJNAdCJ2R7CGBc91jIHznMdSJKodyBpEeonpn9ikc3bDoXZ2jLYir9zKiz9sbjGqPTNCPTBYdm8qklQjdSq0yQPdH/+rdNGCZ2JUTSC2zYgMO/kCwqMPGaghf6LddyKLkFvypgM2H02cDPp0eNA71XGxVL4oh+NjJoRh2aUTK1/NWvfAeMkUi/CDHmpwchC7iiwUF2e62cYmAlLmcrh7GAB9x4MCFq+fOMVR7rpL0Z7MnJXWhwJo8qwpAR1t+D6jiPiLUoJ68Fejopn7bzB6GItKpwIMxCmCYpZPMf6tmx1DvZUp2vnexlaujhJXWoRL7lHep3kgGONt8a8+KX8EdNBSYEpgwR/E1A2SBmJoZbT7I+pwndNPGy5mgB2BvZIDTlFZd9Fz03urHs4lQXzagcL+HA56jOkzUyn/i+7EvnRl7DRMJeFSVCSBDyT6GnECGZSt/mei6C9QZmje6CGEoZ8V/6h/zPqrUga8rVtKL4MuhaHHbBw8wmCLvgsxaBJUlMJM0tHMCjN2UAn/fuTC8PLLG544vp7KLnSzAR2DgTvDH5VAsG3Y5SsD80ZpTX8oEdw5IQ01PeMf9y7CanTXcZGn1W2NMComL2MgCXeThn6lsjmwMAV4OlCBPJMdIPOpgOQChTs9VzFlKfEMeD2lPNa/314ri/6W9PYPxLYvqNbfWpRdeepTE3mnYvV7allg8il5gBPi5B4LOAiVjQ4hSNil8dAqAbtBLiOzp6uGkCmB9p+9IuQraS2yTyOKzUTFsieCoSVKcU02LH2FuqINjjtS/nzdZTmR74Z4IvNWbX3G/kacM1dtwztP5LhO4cT/pRADIIaCGHOxmtYJGda73fXGGsJ1UoogOw01NtY9FLsxXf9V2nx/dHX/vSUFRk7d/xy1MXHkvAPzeoZYYgL+xEeukh0neeuR/P25fQd05xyZ+dPNdfMFjoJnp3rHWXbG5OTE2oDrHKiEBfdqnizudvMCMPydRrrpeHDP/sJnjoeI2fvt7BSFM4Lz8gpqVtZXTNdeCCzzbcGlLL5IIuXHN5jA83+66QkSic/lTdEmBQ2s2Twar8vfXu9PiE3cCi6ZmodzMC61yLX/eySdq+s4P9f8gSd30/yNbxXU/92lnAxVnt15kRgacLbMF8BXtDgLJ+2OcqzIf9qYBE+ws52zJnK2BEqxjhWtB6mUw1gfvwc0dEmHjuVjBFj5y7Mq/H3dZvnfvYbe3ziiN8TsrGVWHKgYwdyve/GYhv4mWySzVrzMtq5ON7PXM0eKsl6EaSXQEaxlENSdbqQ5jy/yS14UY31Zt5uPTGrSGoEqU1yB9k08hqz/iloIP08RY+oaiG2J5pWhIDrbRp3vBXUwIGgApd5dVuawCJmG+LLPsmRW/RSJYnmn6eTnAS7xKIH3KqXRgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "text": "The corpus does not contain the Act's definition of \"personal data\" or any scope provision, so I can't confirm from it whether the DPDP Rules 2025 reach a tool holding only room names and time slots. The Rules I retrieved (Rule 2) only say that undefined terms take their meaning from the Digital Personal Data Protection Act, 2023, and the obligations I found (Rules 9, 10, 11, 14) are framed around processing a Data Principal's personal data. On that basis, a tool with no personal data would likely fall outside them, but you should check the Act's definition of personal data (s. 2(t)) and its scope provision before relying on that, and note that room-booking records can become personal data if they are linked to an identifiable employee.",
+       "type": "text"
+      }
+     ],
+     "id": "lc_run--01a20e2d-5f9d-7359-8761-9fb37bfad669-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMzTgmBDaCE64DjzZqK4",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4810,
+       "output_tokens": 395,
+       "output_tokens_details": {
+        "thinking_tokens": 155
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4810,
+      "output_token_details": {
+       "reasoning": 155
+      },
+      "output_tokens": 395,
+      "total_tokens": 5205
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "7c47e73d88206f669e5df2d2d4b357b8c31d4703350e1c666d10c6c264dd548f": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_017qjRffrCngSHBYCfa3nh98",
+       "input": {
+        "query": "definition of personal data, identifiable individual, scope of application DPDP Rules",
+        "topK": 6
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20e2d-5238-7074-b918-64e8b5cf8696-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMzTSRiKLER9tLDHs96U",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1047,
+       "output_tokens": 95,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "definition of personal data, identifiable individual, scope of application DPDP Rules",
+        "topK": 6
+       },
+       "id": "toolu_017qjRffrCngSHBYCfa3nh98",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1047,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 95,
+      "total_tokens": 1142
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "88d35b7ffd0e89d334c198f13b90c4271b69320879e76ba3025403b0acc66c72": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "findings": []
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"findings\":[]}",
+     "id": "lc_run--01a20e2d-6945-7525-ac04-f7e4868907a8-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMzTsdmqFMNyFYf7w6p5",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 2829,
+       "output_tokens": 10,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 2829,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 10,
+      "total_tokens": 2839
+     }
+    },
+    "type": "ai"
+   },
+   "role": "assess"
+  },
+  "be6d121e48a385d4720e50acb64d2131f6f9f04e73a7c50a93c6e69e6a202511": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "questions": [
+     {
+      "id": "q1",
+      "search_hint": "digital personal data, personal data definition, identifiable individual, Data Fiduciary obligations, scope of application",
+      "text": "Does the DPDP Rules 2025 impose any obligations on an internal tool that stores only room names and time slots and no personal data of employees or anyone else?"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"questions\":[{\"id\":\"q1\",\"text\":\"Does the DPDP Rules 2025 impose any obligations on an internal tool that stores only room names and time slots and no personal data of employees or anyone else?\",\"search_hint\":\"digital personal data, personal data definition, identifiable individual, Data Fiduciary obligations, scope of application\"}]}",
+     "id": "lc_run--01a20e2d-482a-7119-96c6-886dc9fc10a3-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMzTGTgR2QtRCkgrmPpu",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 933,
+       "output_tokens": 115,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 933,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 115,
+      "total_tokens": 1048
+     }
+    },
+    "type": "ai"
+   },
+   "role": "plan"
+  },
+  "c5718fe04b93d998c783af5d1dc26ce9e891351043e5f1f168592030ec66f658": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS1gUKEAgUGAI4AUIIdGhpbmtpbmcSDGlSuf4iejCPM7+X5RoMFCbqKwy/gx0mvttmIjC3m4ruETCRAF2omUGUs6pF92EYl2Cn8HjL/rj59+Sa9tYfWEJM3v8N1gZpGY+tXsAq8wRqYTZMXWDdcGKrsKy3ZHz1F8yQydBKedH9u6ilb5cZdVxzcLV65XqkkrBaSJ0Yzhk5EZRe7q1dxSYBZ7pueRpPvSMCA1Ej/S9Lmj0FYRk+anHU+elmD+IdGHExf53cybKn8YtZbN7Fd2uJqyiYWuXEocyxehFcEfvkY/T2DaWW7+QLlXw+NOAJG+Ehg/KG7NgLe3AIAeUJK6LwwMSb7ee9R0VUl1jU9IUDpQ+nWjhwF8SgP0+omg8LBnICF7b74yOlONx/aNTt4bGootF0oLjQwuXbBlzw4HbqqZyCnGFgyPmWWWDA1qeEIH2a7jV1/rTpFo/VPr2a6LcbuwGDiZYpyjG7gEkT1Nj0EAaFn6ni6rstcf9j70kJWpGU9+cl84D3ERCo28bOjGw4oJ0VGmbhwRMFb0Sgy8kDNPTPAkxAxULoCAGfTr7WxJXIFSgde72Ny8FIm99AnUuWQyxN+PqzfW5dttzQDWHpNDqu9CsXpMQwh8VahSqj9FBvU+corUm61Q6ylsV7qZ/iTp5P9LyVX56Iq0n0AIbze0EMcMasGZ3ye12+KXhNmJacTBII2YMqr9XUzNaHNMSk2wTI1EPjQb8irtKN4bylCWpI6SolF7jCAG1oeQuSIxyWrmjkY56oZg/QRnVGK+Lhx42kPMD429SmE0WAdsX1kVsV3Fd+boC+csLestUDz4QsR/AqeX8RbdamJAB9k7McRTGpmmvjH9tO7US5hxMhnaDybzHL9lXwUbaZxYdGAr+zKaWded6jJGj02xzko1V9tZC+TCIqBRZr7F1NdBdQIHulEThnXAvd8tEw+YNP35u6rrpbxqXgIlAYAQ==",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01CXdTswCBQziE3n48pQSpjx",
+       "input": {
+        "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20e2d-5710-740e-a7e5-03d16ec9bb33-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMzTXQqtncEzVGFr7Umx",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 2763,
+       "output_tokens": 119,
+       "output_tokens_details": {
+        "thinking_tokens": 22
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data",
+        "topK": 5
+       },
+       "id": "toolu_01CXdTswCBQziE3n48pQSpjx",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 2763,
+      "output_token_details": {
+       "reasoning": 22
+      },
+      "output_tokens": 119,
+      "total_tokens": 2882
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "dd57973424e8646fde1f3875a5f65313e73c390bf95d95893ef10da9f8a10c4d": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSlwYKEAgUGAI4AUIIdGhpbmtpbmcSDE7ak0Gv7JQddQnlGBoMnLrR9gM+9H05Aii9IjAgpPT1HTXtBJBwfk0LD7v1WGN1YzsG+4M5sWfSg1mqcS9CHwMWMK6kb+YcrmG502YqtAV4WBSP67/Dahh51QfQFd7XhrVKkyKdxvynLTeKXQn2FvnAMhf395ijQEdK8gCtBwNd0WsNrHISgMPEpiPNcfV1qsgV0THqYJZ2Uj1yvAHRPfjclC/0jDBALhaO6vX9GECS5O2Mx7euoBxy9kBuZoZsAYllQjC4T39tJQa5k72HOHGSnVZolz/b3gGpKT7bBfL8j3Iui4r1eXkrugof/FqRjUw9s+aUw8PuwgulH8mcXHbGp2tX9E9egsfwgzdD0FRikHDQQREkACth/AmkG9p4JawMYN3EDD6GkhBodxryaZmuFBSqpW7K5GESL70CMvwSPW+O/FGgINLlalhA5Q3Fq0oOVvdEMxMPNqR+Ckaxvd3yWzjdJuvvRfZp51SOjSF3gwspfw2ZdWVAPDBXB+hcZgGrjhZtlrZ0038QjZosSYAPTTm1R7lwk7+CmvRjuX1C5+5QW2LhgbaSSGkxIN9zojjraImuE51jswPuZB2uLOEszcc66TwGVl9ya2RKQ3pu6breIwUI/vkwpB95tgPtenEFc0lHW6ZcXdODdljjA18N24do/868cF/otZEpcjIDkVWRVkVOZVhG1hPl6ujTNJSv9QyNcmOTTbXMDiIvV6UGg0zf4OPxgeh0E1sENtQlDSm6qQu+eqo+K2Z2uWIsZXsQ+ntWtgzWBuzv3da+x4e22yVuBBTX8v1WiYCXp+4bhp7QBa9sPwBVbs9wTjqj8HPDOYu4UPRC9O83SJQJzblIjmcAc/579OlYzZVlbAQNLYjYGVSDij48jlraalchAGYzSxpYxO3dCyfyu9ipD+/E+q9hgEkhrEcDPr5P9oMZr5vJL8PWAthCtFSIuud3yVV3puswbgE4mvCyHJ/gzU5Sj9Sky/RoSKSBcfzHawv6/VaPv7Y2RrLgRClPNqQO7Bfs4RgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01JweKvx3B8sxRGG6fvbE1Yy",
+       "input": {
+        "chunkId": 1961
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20e2d-5bd3-76e3-9f6d-8b07df962ffc-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMzTcdNbdorWLPwuX3JQ",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4301,
+       "output_tokens": 86,
+       "output_tokens_details": {
+        "thinking_tokens": 33
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1961
+       },
+       "id": "toolu_01JweKvx3B8sxRGG6fvbE1Yy",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4301,
+      "output_token_details": {
+       "reasoning": 33
+      },
+      "output_tokens": 86,
+      "total_tokens": 4387
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  }
+ },
+ "scenario": "oos-office-seating",
+ "tools": {
+  "92ba42005ed1f05c40e2210d56241ec2fbbf84ad171fe0a7cb08c75c049ac8c5": {
+   "args": {
+    "query": "definition of personal data, identifiable individual, scope of application DPDP Rules",
+    "topK": 6
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 2046,
+       "denseRank": 2,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "1. Use, by the State or any of its instrumentalities, of\npersonal data of a Data Principal in the interest of\nsovereignty and integrity of India or security of\nthe State.\nSuch officer of the State or of any of its\ninstrumentalities notified under clause (a) of\nsub-section (2) of section 17 of the Ac",
+       "fusedScore": 0.03128054740957967,
+       "heading": "Seventh Schedule",
+       "keywordRank": 6,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Seventh Schedule, Item 1",
+       "pinned": false,
+       "similarity": 0.7835343560062804
+      },
+      {
+       "chunkId": 1973,
+       "denseRank": 6,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "11. Verifiable consent for processing of personal data of person with disability who has lawful\nguardian. — (1) A Data Fiduciary, while obtaining verifiable consent from an individual identifying\nherself as the lawful guardian of a person with disability, shall observe due diligence to verify that s",
+       "fusedScore": 0.030776515151515152,
+       "heading": "",
+       "keywordRank": 4,
+       "pageEnd": 29,
+       "pageStart": 28,
+       "paraRef": "Rule 11, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.772930196800921
+      },
+      {
+       "chunkId": 1971,
+       "denseRank": 8,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\n(c) “Digital Locker service provider” shall mean such intermediary, including a body corporate or an\nagency of the appropriate Government, as may be notified by the Central Government, in\naccordance wit",
+       "fusedScore": 0.03057889822595705,
+       "heading": "",
+       "keywordRank": 3,
+       "pageEnd": 28,
+       "pageStart": 28,
+       "paraRef": "Rule 10, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7711536151859448
+      },
+      {
+       "chunkId": 1977,
+       "denseRank": 11,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "14. Rights of Data Principals. — (1) For enabling Data Principals to exercise their rights under the Act,\nthe Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\napp, or both, as the case may be, —\n(a) the details of the means using which a Data Pri",
+       "fusedScore": 0.03047794966520434,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 30,
+       "pageStart": 29,
+       "paraRef": "Rule 14",
+       "pinned": false,
+       "similarity": 0.7596233616126741
+      },
+      {
+       "chunkId": 1970,
+       "denseRank": 10,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\nbefore the processing of any personal data of a child and shall observe due diligence, for c",
+       "fusedScore": 0.030414746543778803,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 28,
+       "pageStart": 27,
+       "paraRef": "Rule 10, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.7640792131425308
+      },
+      {
+       "chunkId": 1969,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "9. Contact information of person to answer questions about processing.— Every Data Fiduciary shall\nprominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat",
+       "fusedScore": 0.02987736900780379,
+       "heading": "",
+       "keywordRank": 9,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 9",
+       "pinned": false,
+       "similarity": 0.774035446058381
+      }
+     ],
+     "query": "definition of personal data, identifiable individual, scope of application DPDP Rules"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_91c7c337-d6ea-4577-ae57-284f87872ddc",
+     "text": "{\"query\":\"definition of personal data, identifiable individual, scope of application DPDP Rules\",\"degraded\":null,\"hits\":[{\"chunkId\":2046,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Seventh Schedule, Item 1\",\"heading\":\"Seventh Schedule\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"1. Use, by the State or any of its instrumentalities, of\\npersonal data of a Data Principal in the interest of\\nsovereignty and integrity of India or security of\\nthe State.\\nSuch officer of the State or of any of its\\ninstrumentalities notified under clause (a) of\\nsub-section (2) of section 17 of the Ac\",\"denseRank\":2,\"keywordRank\":6,\"fusedScore\":0.03128054740957967,\"similarity\":0.7835343560062804,\"pinned\":false},{\"chunkId\":1973,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 11, part 1 of 2\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":29,\"excerpt\":\"11. Verifiable consent for processing of personal data of person with disability who has lawful\\nguardian. \\u2014 (1) A Data Fiduciary, while obtaining verifiable consent from an individual identifying\\nherself as the lawful guardian of a person with disability, shall observe due diligence to verify that s\",\"denseRank\":6,\"keywordRank\":4,\"fusedScore\":0.030776515151515152,\"similarity\":0.772930196800921,\"pinned\":false},{\"chunkId\":1971,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 2 of 3\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\n(c) \\u201CDigital Locker service provider\\u201D shall mean such intermediary, including a body corporate or an\\nagency of the appropriate Government, as may be notified by the Central Government, in\\naccordance wit\",\"denseRank\":8,\"keywordRank\":3,\"fusedScore\":0.03057889822595705,\"similarity\":0.7711536151859448,\"pinned\":false},{\"chunkId\":1977,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 14\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":30,\"excerpt\":\"14. Rights of Data Principals. \\u2014 (1) For enabling Data Principals to exercise their rights under the Act,\\nthe Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\\napp, or both, as the case may be, \\u2014\\n(a) the details of the means using which a Data Pri\",\"denseRank\":11,\"keywordRank\":1,\"fusedScore\":0.03047794966520434,\"similarity\":0.7596233616126741,\"pinned\":false},{\"chunkId\":1970,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 1 of 3\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\\nbefore the processing of any personal data of a child and shall observe due diligence, for c\",\"denseRank\":10,\"keywordRank\":2,\"fusedScore\":0.030414746543778803,\"similarity\":0.7640792131425308,\"pinned\":false},{\"chunkId\":1969,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 9\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"9. Contact information of person to answer questions about processing.\\u2014 Every Data Fiduciary shall\\nprominently publish on its website or app, and mention in every response to a communication for the\\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat\",\"denseRank\":5,\"keywordRank\":9,\"fusedScore\":0.02987736900780379,\"similarity\":0.774035446058381,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "ac80c009f4e012230283a40cbe3c2f24cba89cdb39d8372883528ed515479619": {
+   "args": {
+    "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1970,
+       "denseRank": 7,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\nbefore the processing of any personal data of a child and shall observe due diligence, for c",
+       "fusedScore": 0.03131881575727918,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 28,
+       "pageStart": 27,
+       "paraRef": "Rule 10, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.7126369229714701
+      },
+      {
+       "chunkId": 1971,
+       "denseRank": 4,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\n(c) “Digital Locker service provider” shall mean such intermediary, including a body corporate or an\nagency of the appropriate Government, as may be notified by the Central Government, in\naccordance wit",
+       "fusedScore": 0.03125,
+       "heading": "",
+       "keywordRank": 4,
+       "pageEnd": 28,
+       "pageStart": 28,
+       "paraRef": "Rule 10, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7129772482026824
+      },
+      {
+       "chunkId": 1972,
+       "denseRank": 2,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\nBefore processing C’s personal data for the creation of her user account, DF shall check to confirm that it\nholds reliable identity and age details of P and that P is an identifiable adult.\nCase 4: P is",
+       "fusedScore": 0.031054405392392875,
+       "heading": "",
+       "keywordRank": 7,
+       "pageEnd": 28,
+       "pageStart": 28,
+       "paraRef": "Rule 10, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.7215664854249496
+      },
+      {
+       "chunkId": 1974,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "11. Verifiable consent for processing of personal data of person with disability who has lawful\n(d) “person with disability” shall mean and include—\n(i) an individual who has long term physical, mental, intellectual or sensory impairment\nwhich, in interaction with barriers, hinders her full and effe",
+       "fusedScore": 0.03076923076923077,
+       "heading": "",
+       "keywordRank": 5,
+       "pageEnd": 29,
+       "pageStart": 29,
+       "paraRef": "Rule 11, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7126633696161313
+      },
+      {
+       "chunkId": 1961,
+       "denseRank": 3,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "2. Definitions. — (1) In these rules, unless the context otherwise requires, –\n(a) “Act” means the Digital Personal Data Protection Act, 2023 (22 of 2023);\n(b) “techno-legal measures” means as referred to under rules 20 and 22;\n(c) “user account” means the online account registered by the Data Princ",
+       "fusedScore": 0.03036576949620428,
+       "heading": "",
+       "keywordRank": 9,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Rule 2",
+       "pinned": false,
+       "similarity": 0.7211151358142206
+      }
+     ],
+     "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_16b4f95d-90c9-4a00-b636-d7e74bcd7c22",
+     "text": "{\"query\":\"\\u0022personal data\\u0022 means any data about an individual who is identifiable by or in relation to such data\",\"degraded\":null,\"hits\":[{\"chunkId\":1970,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 1 of 3\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\\nbefore the processing of any personal data of a child and shall observe due diligence, for c\",\"denseRank\":7,\"keywordRank\":1,\"fusedScore\":0.03131881575727918,\"similarity\":0.7126369229714701,\"pinned\":false},{\"chunkId\":1971,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 2 of 3\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\n(c) \\u201CDigital Locker service provider\\u201D shall mean such intermediary, including a body corporate or an\\nagency of the appropriate Government, as may be notified by the Central Government, in\\naccordance wit\",\"denseRank\":4,\"keywordRank\":4,\"fusedScore\":0.03125,\"similarity\":0.7129772482026824,\"pinned\":false},{\"chunkId\":1972,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 3 of 3\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\nBefore processing C\\u2019s personal data for the creation of her user account, DF shall check to confirm that it\\nholds reliable identity and age details of P and that P is an identifiable adult.\\nCase 4: P is\",\"denseRank\":2,\"keywordRank\":7,\"fusedScore\":0.031054405392392875,\"similarity\":0.7215664854249496,\"pinned\":false},{\"chunkId\":1974,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 11, part 2 of 2\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":29,\"excerpt\":\"11. Verifiable consent for processing of personal data of person with disability who has lawful\\n(d) \\u201Cperson with disability\\u201D shall mean and include\\u2014\\n(i) an individual who has long term physical, mental, intellectual or sensory impairment\\nwhich, in interaction with barriers, hinders her full and effe\",\"denseRank\":5,\"keywordRank\":5,\"fusedScore\":0.03076923076923077,\"similarity\":0.7126633696161313,\"pinned\":false},{\"chunkId\":1961,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 2\",\"heading\":\"\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"2. Definitions. \\u2014 (1) In these rules, unless the context otherwise requires, \\u2013\\n(a) \\u201CAct\\u201D means the Digital Personal Data Protection Act, 2023 (22 of 2023);\\n(b) \\u201Ctechno-legal measures\\u201D means as referred to under rules 20 and 22;\\n(c) \\u201Cuser account\\u201D means the online account registered by the Data Princ\",\"denseRank\":3,\"keywordRank\":9,\"fusedScore\":0.03036576949620428,\"similarity\":0.7211151358142206,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "f93f36733b3aebd7ac91d32c7e37a0bb04ac596029c0898263673c4a7b68573d": {
+   "args": {
+    "chunkId": 1961
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1961,
+     "content": "2. Definitions. — (1) In these rules, unless the context otherwise requires, –\n(a) “Act” means the Digital Personal Data Protection Act, 2023 (22 of 2023);\n(b) “techno-legal measures” means as referred to under rules 20 and 22;\n(c) “user account” means the online account registered by the Data Principal with the Data Fiduciary, and\nincludes any profiles, pages, handles, email address, mobile number and other similar presences by means\nof which such Data Principal is able to access the services of such Data Fiduciary; and\n(d) “verifiable consent” means a consent as specified in rule 10 or 11.\n(2) The words and expressions used in these rules and not defined, but defined in the Act, shall have the\nsame meanings respectively assigned to them in the Act.",
+     "documentId": "dpdp-rules-2025",
+     "documentTitle": "Digital Personal Data Protection Rules, 2025",
+     "heading": "",
+     "pageEnd": 24,
+     "pageStart": 24,
+     "paraRef": "Rule 2"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_d2c2a51a-2531-4812-b312-6f7979314423",
+     "text": "{\"chunkId\":1961,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 2\",\"heading\":\"\",\"pageStart\":24,\"pageEnd\":24,\"content\":\"2. Definitions. \\u2014 (1) In these rules, unless the context otherwise requires, \\u2013\\n(a) \\u201CAct\\u201D means the Digital Personal Data Protection Act, 2023 (22 of 2023);\\n(b) \\u201Ctechno-legal measures\\u201D means as referred to under rules 20 and 22;\\n(c) \\u201Cuser account\\u201D means the online account registered by the Data Principal with the Data Fiduciary, and\\nincludes any profiles, pages, handles, email address, mobile number and other similar presences by means\\nof which such Data Principal is able to access the services of such Data Fiduciary; and\\n(d) \\u201Cverifiable consent\\u201D means a consent as specified in rule 10 or 11.\\n(2) The words and expressions used in these rules and not defined, but defined in the Act, shall have the\\nsame meanings respectively assigned to them in the Act.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  }
+ }
+}

@@ -7,7 +7,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 reglens-agent is a Python LangGraph agent that reviews product features for compliance with Indian NBFC regulation,
 using the [RegLens](https://github.com/Akus0ni/reglens) MCP server (a separate .NET repo) for research. **Built: spec
 0001, the review agent** (`src/reglens_agent/`: `graph.py` nodes and guards, `evidence.py` citation checks and memo,
-`filing.py` report and issue, `cli.py`). Next: spec 0002, trajectory evals and the CI gate. Plan, decisions (D*n*) and open
+`filing.py` report and issue, `cli.py`). **Built: spec 0002**, trajectory evals and the CI gate (`src/reglens_agent/evals/`, `evals/`). Next: portfolio pass. Plan, decisions (D*n*) and open
 questions (Q*n*): `docs/plan.md`. Specs: `docs/specs/`. History: `docs/project-log.md`.
 
 ## Workflow — read first
@@ -31,7 +31,13 @@ uv run reglens-agent setup
 uv run reglens-agent review --feature-file samples/contact-access.md --confirm-spend [--no-issue]  # ~$0.05, needs both keys
 uv run reglens-agent resume <thread_id> approve|reject|edit [--memo-file M]   # no API keys needed
 uv run reglens-agent show <thread_id>
+uv run reglens-agent eval check                    # the CI gate: replay recordings, compare with evals/baseline.json (free)
+uv run reglens-agent eval record --runs 1 --scenario <id> --confirm-spend   # re-record (live, ~$0.05 a review)
+uv run reglens-agent eval judge --confirm-spend; uv run reglens-agent eval report
 ```
+
+A change to any prompt or request makes the recordings stale: re-record every scenario (`eval record --runs 2`),
+then `eval check`. `--write-baseline` only in a PR that says so (spec 0002, R2.7).
 
 ## Environment
 

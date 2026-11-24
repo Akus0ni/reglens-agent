@@ -1,6 +1,6 @@
 {
-  "version": 1,
-  "notes": "Golden scenarios for spec 0002. 'required' is a list of groups: every group must be met by some verified finding citing one of its options (document id + paragraph, compared like the verify step: 'Para 13' matches 'Para 13, part 2 of 3'). 'min_severity' applies to the strongest finding that meets a required group. Out-of-scope scenarios expect no MEDIUM or HIGH finding. Every expected paragraph was checked against RegLens's stored text on 2026-11-24.",
+  "version": 2,
+  "notes": "Golden scenarios for spec 0002. 'required' is a list of groups: every group must be met by some verified finding citing one of its options (document id + paragraph, compared like the verify step: 'Para 13' matches 'Para 13, part 2 of 3'). 'min_severity' applies to the strongest finding that meets a required group. Out-of-scope scenarios expect no MEDIUM or HIGH finding. Every expected paragraph was checked against RegLens's stored text on 2026-11-24. Version 2 (2026-11-24, owner decision after run 1): oos-office-seating said what the tool shows, not what it stores, and run 1 reasonably raised conditional DPDP findings; it now states that bookings are anonymous.",
   "scenarios": [
     {
       "id": "cf-contacts",
@@ -130,7 +130,7 @@
     },
     {
       "id": "oos-office-seating",
-      "feature": "An internal tool lets our head-office employees book desks and meeting rooms for the week. It shows room names and time slots only.",
+      "feature": "An internal tool lets our head-office employees book desks and meeting rooms for the week. Bookings are anonymous: the tool stores and shows only the room name and the time slot, never an employee name, ID or any other personal data.",
       "in_scope": false,
       "required": [],
       "min_severity": null
