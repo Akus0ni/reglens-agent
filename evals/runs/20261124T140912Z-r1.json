@@ -1,5 +1,15 @@
 {
  "commit": "853bbe4-dirty",
+ "judge": {
+  "model": "claude-haiku-4-5",
+  "usage": {
+   "claude-haiku-4-5": {
+    "calls": 15,
+    "input": 45689,
+    "output": 5990
+   }
+  }
+ },
  "models": [
   "claude-sonnet-5-5",
   "claude-haiku-5-5",
@@ -39,6 +49,12 @@
     }
    },
    "cost_usd": 0.060083399999999995,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "All recommendations are specific, concrete, and directly implementable by the product and compliance teams. They include: remove contact-list permission and delete collected data; stop calling/messaging contacts and limit recovery to borrower/guarantors; implement confidentiality in scripts and agent contracts; cease contact collection or verify compliant notice/consent; redesign consent screens for need-based, disclosed purposes; train recovery staff on privacy and calling hours; obtain signed undertakings; and establish grievance processes. Each recommendation maps precisely to the feature's violations and provides clear operational steps the organization can execute.",
+    "grounded": 5,
+    "grounded_reason": "Every finding is fully supported by the cited passages. Finding 1 correctly cites passage 1728 on prohibiting contact-list access. Finding 2 accurately cites passages 2158 and 2072 on harassment and privacy intrusion prohibitions. Finding 3 properly cites passages 1632, 2157, and 1728 on confidentiality and consent requirements. Finding 4 correctly cites passages 1962 and 1728 on notice requirements and need-based data collection. Finding 5 accurately cites passage 1728 on need-based, disclosed consent. Finding 6 properly cites passages 2156, 2157, and 1723 on agent training, code of conduct, and disclosure of recovery agent particulars. All obligations stated in the findings are explicitly contained in the cited regulatory text."
+   },
    "seconds": 57.0,
    "state": {
     "create_issue": false,
@@ -776,6 +792,12 @@
     }
    },
    "cost_usd": 0.0575291,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "All recommendations are specific, concrete, and directly actionable by a product team. Finding 1 recommends moving data to India-located servers and deleting foreign copies within 24 hours—clear and implementable. Finding 2 recommends checking need-basis of each data item, obtaining purpose-specific consent with audit trails, providing withdrawal/deletion controls, and publishing a storage policy—all specific actions. Finding 3 recommends ensuring quick retrieval of KYC records and moving them to India servers with five-year retention—concrete. Finding 4 recommends tracking government orders under Rule 15—actionable. Finding 5 recommends confirming cloud contract terms, encrypting data, and setting up breach-response processes with specific timelines—all implementable. Finding 6 recommends treating the cloud provider as an LSP under accountability, conducting due diligence, periodic review, and updating published policies—all specific and actionable. The recommendations correctly address the feature (cloud storage in Singapore) and provide clear direction for compliance.",
+    "grounded": 4,
+    "grounded_reason": "Most findings are well-supported by the passages. Finding 1 on data localization is directly supported by passage 1729(4). Finding 2 on consent and data minimization is supported by passages 1728 and 1729(1). Finding 3 on record retention is supported by passage 1616, though the memo adds an inference that 'the digital lending directions require data to be held on servers in India' which is correct per 1729(4) but represents synthesis rather than direct citation. Finding 4 on DPDP transfers is supported by passage 1978. Finding 5 on security safeguards and breach notification is supported by passages 1965 and 1966. Finding 6 on LSP accountability and disclosure is supported by passages 1719 and 1729(2). One minor issue: Finding 3 states the passage 'sets no location rule of its own' regarding 1616, which is accurate, but then correctly notes that 1729 does impose the localization requirement. The reasoning is sound but involves some interpretive synthesis."
+   },
    "seconds": 52.4,
    "state": {
     "create_issue": false,
@@ -1477,6 +1499,12 @@
     }
    },
    "cost_usd": 0.0526834,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "All recommendations are specific, correct, and actionable for a product team. Finding 1 recommends stopping pool account disbursals and disbursing directly to borrower accounts—a clear operational change. Finding 2 recommends removing LSP fee deduction and paying from NBFC funds—a specific payment flow redesign. Finding 3 recommends verifying KFS and APR calculations reflect actual charges and net disbursed amounts—a concrete compliance check. Finding 4 recommends reviewing LSP agreements, adding controls to prevent fund holding/deduction, and monitoring—specific governance actions. Finding 5 recommends redesigning disbursement and repayment flows to move funds only between NBFC and borrower accounts and removing the pool account model—a clear technical and operational redesign. Each recommendation directly addresses the feature's current non-compliant practice and specifies what must change.",
+    "grounded": 5,
+    "grounded_reason": "Every finding is fully supported by the cited passages. Finding 1 (disbursal to LSP pool account prohibited) is directly supported by passage 1724 which states 'disbursal is made to a third-party account, including the accounts of LSP' is not permitted except in narrow circumstances. Finding 2 (LSP fees must be paid by NBFC, not deducted from borrower) is explicitly supported by passage 1725 stating 'fees, charges, reimbursements, etc. payable to LSP are paid directly by the NBFC and are not charged to or collected from the borrowers separately by LSP.' Finding 3 (KFS and APR requirements) is supported by passages 2082 and 2056 which detail KFS components including sanctioned amount, fees to NBFC and third parties, net disbursed amount, and APR computation on net disbursed amount using IRR approach. Finding 4 (LSP contractual agreement and monitoring) is supported by passage 1719 which requires contractual agreements defining roles, enhanced due diligence, periodic review, monitoring mechanisms, and states the NBFC remains fully responsible for LSP acts. Finding 5 (repayment flows must bypass LSP accounts) is supported by passage 1724 which requires 'all loan servicing, repayment, etc. is executed by the borrower directly in the NBFC's bank account without any pass-through account/pool account of any third party, including the accounts of LSP' and that 'flow of funds between the bank accounts of the borrower and the NBFC shall not be controlled either directly or indirectly by a third-party, including the LSP.'"
+   },
    "seconds": 40.0,
    "state": {
     "create_issue": false,
@@ -2065,6 +2093,12 @@
     }
    },
    "cost_usd": 0.0459786,
+   "judge": {
+    "actionable": 4,
+    "actionable_reason": "The recommendations are specific and actionable for a product team. Finding 1 clearly directs removal of the no-cancellation rule and 3% charge, with replacement of a cooling-off exit mechanism. Finding 2 requires checking loan products against specific regulatory categories (floating/fixed, personal/business, microfinance) and conditionally disabling the charge. Finding 3 specifies disclosure locations (sanction letter, loan agreement, KFS item 10(iii)) and blocking undisclosed levies. Finding 4 asks for plain statement in agreements and reasonableness review. The only minor limitation is that Finding 2 requires the product team to determine loan characteristics not stated in the feature description, which adds a dependency but remains actionable.",
+    "grounded": 4,
+    "grounded_reason": "The findings are largely supported by the passages. Finding 1 is fully grounded in passage 1726, which mandates a cooling-off period of at least one day with exit via principal plus proportionate APR and only a reasonable one-time processing fee. Findings 2 and 3 are well-supported by passages 2090, 2091, 2092, and 2139 regarding pre-payment charge prohibitions and disclosure requirements. Finding 4 is supported by passages 2066 and 2077 on fair practices and agreement copies. However, there is a minor gap: passage 2077 is incomplete (cuts off mid-sentence) and does not fully articulate the concern about excessive charges, though the context is clear enough. The findings accurately reflect the regulatory obligations stated in the passages."
+   },
    "seconds": 36.3,
    "state": {
     "create_issue": false,
@@ -2598,6 +2632,12 @@
     }
    },
    "cost_usd": 0.0495923,
+   "judge": {
+    "actionable": 4,
+    "actionable_reason": "The recommendations are mostly specific and actionable. Finding 1 recommends assigning an owner and preparing templates for Board filings—concrete steps. Finding 2 recommends replacing the 30-day delay with immediate notice and using a template covering specific items—specific and actionable. Finding 3 recommends confirming logging, monitoring, retention, access control and processor clauses are in place—concrete verification steps. Finding 4 recommends writing a breach-handling standard, publishing it, and covering LSPs—specific actions, though the RBI cybersecurity alignment recommendation is somewhat vague since the passages do not specify what RBI requirements apply. Finding 5 recommends checking the Board policy and adding a breach escalation path—actionable but generic. The recommendations are generally well-tailored to the feature and product team capability, though some lack the precision of others.",
+    "grounded": 4,
+    "grounded_reason": "Four of five findings are well-supported by the passages. Finding 1 (Board notification) is fully grounded in passage 1966 Rule 7(2). Finding 2 (customer notification without delay) is fully grounded in passage 1966 Rule 7(1). Finding 3 (security safeguards) is fully grounded in passage 1965 Rule 6. Finding 4 (breach-handling standard and LSP coverage) is grounded in passages 1729 and 1731, though the recommendation about RBI cybersecurity requirements is somewhat generic since passage 1731 only requires compliance with standards \"as may be specified from time to time\" without detailing them. Finding 5 (Board-approved policy) is grounded in passage 1718, though the connection between a Board-approved credit policy and breach escalation is somewhat inferential rather than explicitly stated in the passage. Overall, the findings accurately reflect the regulatory text, with minor overreach in recommendations beyond what the passages explicitly state."
+   },
    "seconds": 41.8,
    "state": {
     "create_issue": false,
@@ -3236,6 +3276,12 @@
     }
    },
    "cost_usd": 0.06448519999999999,
+   "judge": {
+    "actionable": 4,
+    "actionable_reason": "The recommendations are mostly specific and actionable. Findings 1-2 provide clear redesign guidance (involve parent, verify parent identity through specified methods). Finding 3 appropriately flags the need to confirm compliance interpretation for minors. Finding 4 specifies concrete verification methods (Aadhaar offline, OVD, Digital KYC, V-CIP). Finding 5 clearly directs EDD controls and first-transaction requirements. Finding 6 is specific about what not to do (no tracking, monitoring, ad targeting). Finding 7 appropriately recommends keeping the product prepaid/debit-only for minors and seeking legal advice if credit is planned. The only minor weakness is that Finding 3 somewhat defers to compliance rather than providing a definitive recommendation, though this is reasonable given the regulatory ambiguity.",
+    "grounded": 4,
+    "grounded_reason": "Most findings are well-supported by the passages. Findings 1-2 on parental consent and parent verification are directly supported by passages 1970-1972. Finding 3 on CDD requirements is supported by passages 1576-1577, though the memo correctly notes the passages don't explicitly address minor-specific provisions. Finding 4 on verification methods is supported by passages 1577 and 1592. Finding 5 on EDD for remote onboarding is supported by passage 1613. Finding 6 on child data protections is supported by passages 2027 and 2026. Finding 7 on creditworthiness assessment and KFS is supported by passages 1721-1722. However, there is a minor gap: the passages do not explicitly state that a 13-17 year old cannot validly consent alone—this is implied by the requirement for parental consent but not explicitly stated in the cited text."
+   },
    "seconds": 50.4,
    "state": {
     "create_issue": false,
@@ -4101,6 +4147,12 @@
     }
    },
    "cost_usd": 0.058133699999999996,
+   "judge": {
+    "actionable": 4,
+    "actionable_reason": "The recommendations are mostly specific and actionable. Finding 1 recommends stopping unmasked storage and redacting numbers—clear actions. Finding 2 recommends replacing indefinite retention with a five-year schedule tied to business relationship end—specific and implementable. Finding 3 recommends defining a retention/erasure policy aligned with KYC periods—actionable. Finding 4 recommends encryption, role-based access controls, disabling bulk downloads, logging access, and contractual safeguards—all specific technical controls. Finding 5 recommends using self-declaration, Aadhaar OTP e-KYC, or fresh KYC instead of stored images, and documenting in Board policy—clear and actionable. The only minor weakness is that Finding 5's recommendation to \"not rely on stored Aadhaar images\" may be slightly stronger than what the regulations strictly require, though it is a reasonable interpretation of best practice given the redaction obligations.",
+    "grounded": 4,
+    "grounded_reason": "Most findings are well-supported by the passages. Finding 1 on Aadhaar redaction is directly supported by passages 1579 and 1590. Finding 2 on five-year retention is supported by passage 1616. Finding 3 on one-year minimum retention and erasure is supported by passages 1968 and 1616. Finding 4 on security safeguards is supported by passage 1965. Finding 5 on periodic KYC methods is supported by passages 1606-1608. However, there is a minor tension: the memo recommends not relying on stored Aadhaar images for re-KYC, but the passages do not explicitly prohibit this practice—they only require that Aadhaar numbers be redacted/blacked out where authentication is not required, and that periodic KYC can use self-declaration or Aadhaar OTP e-KYC. The recommendation goes slightly beyond what the passages strictly state about the permissibility of image reuse."
+   },
    "seconds": 48.9,
    "state": {
     "create_issue": false,
@@ -4825,6 +4877,12 @@
     }
    },
    "cost_usd": 0.044053999999999996,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "The recommendations are specific, technically feasible, and directly address the feature's compliance gap. They specify: (1) building periodic KYC updation workflows with defined cycles (2, 8, 10 years) and risk-based triggers; (2) implementing six-monthly risk categorisation reviews with enhanced due diligence for high-risk customers; (3) creating updation workflows with specific steps (self-declaration, address verification within two months, acknowledgment, intimation); and (4) adding event-based re-identification triggers alongside scheduled reviews. Each recommendation is concrete enough for a product team to implement, correctly tailored to the NBFC regulatory context, and directly remediates the stated feature deficiency of never updating KYC post-onboarding.",
+    "grounded": 5,
+    "grounded_reason": "Every finding is fully supported by the cited passages. Finding 1 cites passage 1606 which explicitly mandates periodic KYC updation at least once every two years for high-risk, eight years for medium-risk, and ten years for low-risk customers, and requires Board-approved documentation. Finding 2 cites passages 1605 and 1603 which require risk-aligned monitoring, six-monthly risk categorisation reviews, enhanced due diligence for high-risk accounts, and ongoing due diligence checking transactions against customer profile and source of funds. Finding 3 cites passages 1609, 1606, and 1607 which detail self-declaration requirements for no-change scenarios, address verification within two months, acknowledgment of receipt, prompt record updates, customer intimation, and current CDD standards compliance. Finding 4 cites passages 1574 and 1605 which require six-monthly risk reviews and re-identification when there is doubt about authenticity or adequacy of KYC data. All obligations stated in the findings are directly supported by the text of the cited passages."
+   },
    "seconds": 40.2,
    "state": {
     "create_issue": false,
@@ -5343,6 +5401,12 @@
     }
    },
    "cost_usd": 0.0111158,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "The memo correctly identifies that no regulatory action is required for this feature. Local-only UI preference storage does not trigger NBFC compliance obligations, so recommending no action is appropriate and correct for the product team.",
+    "grounded": 5,
+    "grounded_reason": "No findings are stated, and no passages are provided. Since there are no claims to evaluate against source material, the memo is fully grounded by default. The feature (dark mode toggle and font size settings stored locally) does not inherently trigger regulatory obligations that would be unsupported."
+   },
    "seconds": 8.5,
    "state": {
     "create_issue": false,
@@ -5557,6 +5621,12 @@
     }
    },
    "cost_usd": 0.0330596,
+   "judge": {
+    "actionable": 3,
+    "actionable_reason": "The recommendations are partially actionable but have some issues. Finding 1's recommendation to 'record' the scoping and confirm separation from customer systems is somewhat generic and vague about what action to take. Finding 2 provides specific, actionable steps (apply access controls, logging, monitoring, backups, retain logs for one year, include safeguards in vendor contracts) that a product team could implement. Finding 3's recommendation to provide a notice with specific elements (data collected, purpose, rights exercise) is actionable, though it appropriately flags the need to check alternative lawful bases. Finding 4's recommendation to confirm published contact details is actionable but minimal. Overall, the recommendations are conditional on employee identifiers being stored, which is appropriate given the feature description, but some recommendations (especially Finding 1) lack specificity about concrete steps to take.",
+    "grounded": 4,
+    "grounded_reason": "The findings are mostly well-supported by the passages. Finding 1 correctly cites passage 1542 to establish that KYC Directions don't apply to NBFCs with no customer interface, and correctly notes that DPDP applies separately. Finding 2 accurately summarizes passage 1965's security safeguard requirements including encryption, access controls, logs, monitoring, backups, and one-year retention. Finding 3 correctly cites passage 1962 on notice requirements including itemized data description, specified purpose, and rights information. Finding 4 cites passage 1969 on publishing contact details. However, there is a minor issue: Finding 1's statement that the feature has \"no bearing\" on KYC is correct, but the memo then recommends confirming DPDP applicability—yet the feature as described stores no personal data (only room names and time slots), so DPDP's applicability depends on whether employee identifiers are actually stored, which creates some tension with the initial scoping. Findings 2-4 all correctly condition their obligations on whether employee identifiers are stored, which aligns with the feature description."
+   },
    "seconds": 30.8,
    "state": {
     "create_issue": false,
@@ -6024,6 +6094,12 @@
     }
    },
    "cost_usd": 0.0497679,
+   "judge": {
+    "actionable": 3,
+    "actionable_reason": "Recommendations are mostly specific and correct but with some gaps. Recommendations 1, 2, and 4 are clear and actionable: show full KFS pre-acceptance with proposal number and validity period; include APR with fee breakdown; ensure emailed pack includes digitally signed KFS and agreement. Recommendation 3 is actionable but depends on credit policy. Recommendation 5 is partially actionable but vague on what 'log' means and what constitutes valid acceptance—the passages do not specify whether a tap, checkbox, or signature is required, so the recommendation to 'log KFS version, proposal number and timestamp' goes beyond what the passages mandate. The recommendation to 'not treat a tap alone as acceptance' is reasonable but not explicitly grounded in the passages.",
+    "grounded": 2,
+    "grounded_reason": "Most findings are supported by the passages, but some claims overreach. Finding 1 correctly cites the KFS requirement before contract execution (2081), but the passages do not explicitly state that showing terms only after acceptance is 'not permissible'—this is an inference. Finding 2 is well-supported: APR must include all charges (2081, 2082) and be annualised (2076). Finding 3 is supported: cooling-off exit with processing fee disclosure in KFS (1726). Finding 4 is supported: digitally signed documents flow to email/SMS on execution (1722), and agreement copies at sanction/disbursement (2066, 2079). Finding 5 has issues: passage 2065 is truncated and does not complete its statement about what must be recorded as evidence of acceptance. The claim that 'a single tap is not valid consent' is not explicitly stated in the passages; the passages require KFS explanation and acknowledgement but do not address what constitutes valid acceptance of a tap."
+   },
    "seconds": 44.1,
    "state": {
     "create_issue": false,
@@ -6599,6 +6675,12 @@
     }
    },
    "cost_usd": 0.041839799999999996,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "The recommendations are specific, technically feasible, and directly address the compliance violations. They include concrete actions: (1) implement hard time-of-day blocks in dialler/CRM to enforce 8 am–7 pm windows; (2) cap call attempts per day/week and monitor logs; (3) revise collection policy and scripts; (4) retrain agents on permitted hours with documented records; (5) confirm signed code-of-conduct undertakings from all agents; (6) verify borrower notification of agent particulars. Each recommendation is tailored to the feature (evening collection calls on personal loans) and is actionable by a product or compliance team.",
+    "grounded": 5,
+    "grounded_reason": "Every finding is fully supported by the cited passages. Finding 1 correctly cites Para 100 (passage 2158) for the 8 am–7 pm restriction on calls for non-microfinance loans. Finding 2 correctly cites Para 100 (passage 2158) and Para 20 (passage 2072) for prohibitions on harassment and persistent calling. Finding 3 correctly cites Para 20 (passage 2072) for the undue harassment standard. Finding 4 correctly cites Para 98 (passage 2156) for training requirements including hours of calling. Finding 5 correctly cites Para 99 (passage 2157) for agent undertakings and Fair Practices Code compliance. Finding 6 correctly cites Para 9 (passage 1723) for communicating agent particulars to borrowers. All obligations stated in the findings are explicitly present in the passages cited."
+   },
    "seconds": 39.5,
    "state": {
     "create_issue": false,
@@ -7143,6 +7225,12 @@
     }
    },
    "cost_usd": 0.0487322,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "All recommendations are specific, technically correct, and directly actionable by a product team. They specify: (1) replace the 2% p.a. penal interest with a flat penal charge under Board policy; (2) remove the logic adding unpaid penalties to principal and maintain a separate ledger; (3) verify Board-approved policy exists and audit charge structure for uniformity and non-discrimination; (4) ensure full disclosure in KFS and loan agreement before execution and publish on website; (5) add penal charge communication to missed-EMI reminders and send levy notifications. Each recommendation maps directly to a regulatory obligation and describes concrete implementation steps.",
+    "grounded": 5,
+    "grounded_reason": "Every finding is fully supported by the cited passages. Finding 1 correctly cites passages 2084-2085 which explicitly state penalties must be 'penal charges' not 'penal interest added to the rate of interest' and that 'no additional component' may be added to the interest rate. Finding 2 correctly cites 2085-2084 on non-capitalisation and the prohibition on computing interest on penal charges or levying fresh charges on earlier outstanding ones. Finding 3 correctly cites 2085-2086 on reasonableness, non-discrimination within product categories, and application only to the amount under default. Finding 4 correctly cites 2086 on upfront disclosure in loan agreements, KFS, and website display. Finding 5 correctly cites 2086 on communicating penal charges in reminders and at each levy instance."
+   },
    "seconds": 44.2,
    "state": {
     "create_issue": false,
@@ -7631,6 +7719,12 @@
     }
    },
    "cost_usd": 0.0423955,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "The recommendations are specific, correct, and actionable. They direct the product team to: (1) stop charging the 4% fee on the specified loan category and refund past collections; (2) apply the fee only to non-prohibited categories; (3) check rate type at prepayment for dual-rate loans; (4) review disclosure in sanction letters, agreements, and KFS; and (5) verify no retrospective or undisclosed fees are being charged. Each recommendation identifies a concrete action the product team can take to achieve compliance with the identified obligations.",
+    "grounded": 5,
+    "grounded_reason": "Every finding is fully supported by the cited passages. Finding 1 correctly cites passages 2091 and 2090 for the prohibition on pre-payment charges for floating-rate non-business individual loans, covering both existing loans (through Dec 31, 2025) and new loans (from Jan 1, 2026 onwards), with no lock-in period requirement. Finding 2 accurately cites passage 2090 for existing loans. Finding 3 correctly cites passages 2092, 2169, and 2081 for disclosure requirements in sanction letters, loan agreements, and KFS, and that APR includes all charges. Finding 4 accurately cites passages 2067 and 2092 for prospective-only changes and the prohibition on retrospective fee levies. All obligations stated are directly supported by the regulatory text."
+   },
    "seconds": 41.1,
    "state": {
     "create_issue": false,
@@ -8076,6 +8170,12 @@
     }
    },
    "cost_usd": 0.042739700000000005,
+   "judge": {
+    "actionable": 5,
+    "actionable_reason": "The recommendations are specific and actionable for a product team. They include: (1) concrete timeline change from 90 to 30 days with charge removal requirement; (2) removal of no-payment policy with specific compensation amount (₹5,000/day) and process requirements including delay communication; (3) addition of loss/damage procedures with cost-bearing and timeline specifications; (4) confirmation of multi-office collection options and website publication of legal heir procedures; (5) updates to sanction letters with specific content (30-day timeline and return place) and Board policy/governance requirements. Each recommendation maps directly to the feature and provides clear direction for implementation.",
+    "grounded": 5,
+    "grounded_reason": "Every finding is fully supported by the cited passages. Finding 1 cites 2093 which states the 30-day requirement. Finding 2 cites 2097 and 2099 which establish the ₹5,000/day compensation obligation and the December 1, 2023 applicability date. Finding 3 cites 2098 which covers loss/damage procedures and the 60-day timeline. Finding 4 cites 2094 and 2096 which establish borrower choice of collection location and the legal heir procedure requirement. Finding 5 cites 2095, 2058, 2059, 2060 which cover sanction letter requirements, Board-approved policies, grievance redressal mechanisms, and Board review obligations. All citations accurately reflect the passage content."
+   },
    "seconds": 43.7,
    "state": {
     "create_issue": false,

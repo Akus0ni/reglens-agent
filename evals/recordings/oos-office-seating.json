@@ -1,6 +1,6 @@
 {
  "models": {
-  "04a724cdb5dae921a80f8de61f29ca6f0af805340111a3d7464b80bc08619ba7": {
+  "5977cfd8563f6af2d7d9c4ccf101cbf776e29c7559853e4e5124882ec4930867": {
    "model": "claude-haiku-5-5",
    "parsed": null,
    "reply": {
@@ -8,16 +8,16 @@
      "additional_kwargs": {},
      "content": [
       {
-       "signature": "CAQSqgkKEAgUGAI4AUIIdGhpbmtpbmcSDFFpc07s/XNLNMVRShoMCGmAwqzjX5mdnJwbIjCOfr6oRwgt7HSkWJaBoM5VkGEhiQqtpQ38JEMXsLI08seF1IuYD1pG35Sbd5AOVqsqxwjMj41skNLOAN18vQr6KBkDEYWeDPM6u5eKhD6mxlhimvSZRu+2Agf5JGjU2Zdxlgwy40BzGKYCenAss6MPMq7/OjTBlKTBHIvoyFv5BHPGDsBeeOqjrM13tYD3WLsF2a+jcbGFWtlLd1fk0RPQceC3xEv0ZNRIqzEsS7HaMP98j4DvoyrtIsEA41onomYto/ucOe+891i2S57wRVPPF3HeAOmxEIvF9WlxGMJ1noiRAtRebjMLurWOHnE5t46zvpSdgrlQV6OmY2OQ1qyxRwcvL0tSH8V9Me6xvic68mD2o6i5II4mavPeJVIgCrElG2uCxJUWpcknjQEGaZo76KpZoSEXameUKNiZZ/Ojr1UJyEesOJDKCDE3rNJ+H5LdZKGGGk6AB7StoSN94FAqUU601sRQpX2PEQgBOu8slMsl4bj8NJCjzBVymQabeQXCaoquPPUzWitQQH+qAQIlBIOk7fBSncYrr6ZC0IJuB5sARboMdOyKHHlwb+t1Dz87HKhD7EA0ImV4H6vSwKSDlDjL6hQ/oLUfGDx3NNzFWMcNj7i1ImwwRBd9nDgtrWeFQjosvRFbs8lEL4h46t8I/v5jR7xksFiMcB3MVGQpygXWIByV7vJmQ7Ch51a1zY7FpgwLZTgLjFZ1Cok2W+bRBusmJYDnu4jWL/0U28jMHDgVSGst3sY2FTeIp6vzyNzMzXq+RMfJdBilOd+O13JwhIzqgOfxL7Tq0JvWYNwm9F0IuzK0n2a7kdSmL4FLpeb7TTAO1XsyPLS0kqEJ1p7/Vo3cxq8GdHiecfD7E/xoCOg7p0oTk5R4N1G8MVGkrkLguPNFIdORG1K+0fUcxoGVO+wr1UWDB2Qhz8BJdS/v4d1q1gGTwQEc/HZsKaO2J2kK7sn+Fu5zPasPFbJNgcdBPVSDIp+NklDdw/vsjlX08chtGtxlazJhisHVw3KX0calPNhKVt4drdgZednNRjSPVSXVqpB4CPXixYJd99sH7KaNEnUyYB2Z+ZzlvGXoSEY9nS4T95TpvmP0HpFZp+m9pRMCnuK3Kq7gGMK6pU9UjTbj4GAu1deyk5e2/+uNur0fZ8uwG5Ev2UnZDJf/tGs7ZnU1jJJHyE5sPNCxSLe4gCnxdGwnIqINTleotxswIDkb4JnQCcEW+7TNfQFlwvXSsttaFE+usYt2WTD8vI9rqE45yKe++q0jsYzP9Yy/5kINl4PFRXWAvrs+t9bXFtudGWFJ+5lebGOxBj61ivdywuTm6OWOAFnqqm/PlGqFAhkUhDOAMxb+4XyB/YMaYX88baPxYqEvzvGywSt0nRFVmRcl6GPsZSK/Lk8m6cIetF6tDdPvLHVaC3SAYj/jUtUViy3LzE9n6SUJTY8+iuXEM1GCdDY+Uc+K/YbJxm8onnQ9JO9fC6QpHtHJomYuCaGQJgG3Ljb+gHoPlz5qoAPhfy4Rr4hJL/8hnMoYAQ==",
+       "signature": "CAQSrwkKEAgUGAI4AUIIdGhpbmtpbmcSDI2fWrJM5M6aZO6mjRoMD30JfuX7NVz5lawhIjAALIsdmuq+laciDEdMUa75UiLWAoeuFNQvLIK5Y/AY2eaS7BKsPpLSLxVJiOQ9C1AqzAjckYjpDFToCRXNRWUGSrxChS+pnpJVjpqmPPeQ6VMMdUPbMwv1XyBnA/NcV0yJNAdCJ2R7CGBc91jIHznMdSJKodyBpEeonpn9ikc3bDoXZ2jLYir9zKiz9sbjGqPTNCPTBYdm8qklQjdSq0yQPdH/+rdNGCZ2JUTSC2zYgMO/kCwqMPGaghf6LddyKLkFvypgM2H02cDPp0eNA71XGxVL4oh+NjJoRh2aUTK1/NWvfAeMkUi/CDHmpwchC7iiwUF2e62cYmAlLmcrh7GAB9x4MCFq+fOMVR7rpL0Z7MnJXWhwJo8qwpAR1t+D6jiPiLUoJ68Fejopn7bzB6GItKpwIMxCmCYpZPMf6tmx1DvZUp2vnexlaujhJXWoRL7lHep3kgGONt8a8+KX8EdNBSYEpgwR/E1A2SBmJoZbT7I+pwndNPGy5mgB2BvZIDTlFZd9Fz03urHs4lQXzagcL+HA56jOkzUyn/i+7EvnRl7DRMJeFSVCSBDyT6GnECGZSt/mei6C9QZmje6CGEoZ8V/6h/zPqrUga8rVtKL4MuhaHHbBw8wmCLvgsxaBJUlMJM0tHMCjN2UAn/fuTC8PLLG544vp7KLnSzAR2DgTvDH5VAsG3Y5SsD80ZpTX8oEdw5IQ01PeMf9y7CanTXcZGn1W2NMComL2MgCXeThn6lsjmwMAV4OlCBPJMdIPOpgOQChTs9VzFlKfEMeD2lPNa/314ri/6W9PYPxLYvqNbfWpRdeepTE3mnYvV7allg8il5gBPi5B4LOAiVjQ4hSNil8dAqAbtBLiOzp6uGkCmB9p+9IuQraS2yTyOKzUTFsieCoSVKcU02LH2FuqINjjtS/nzdZTmR74Z4IvNWbX3G/kacM1dtwztP5LhO4cT/pRADIIaCGHOxmtYJGda73fXGGsJ1UoogOw01NtY9FLsxXf9V2nx/dHX/vSUFRk7d/xy1MXHkvAPzeoZYYgL+xEeukh0neeuR/P25fQd05xyZ+dPNdfMFjoJnp3rHWXbG5OTE2oDrHKiEBfdqnizudvMCMPydRrrpeHDP/sJnjoeI2fvt7BSFM4Lz8gpqVtZXTNdeCCzzbcGlLL5IIuXHN5jA83+66QkSic/lTdEmBQ2s2Twar8vfXu9PiE3cCi6ZmodzMC61yLX/eySdq+s4P9f8gSd30/yNbxXU/92lnAxVnt15kRgacLbMF8BXtDgLJ+2OcqzIf9qYBE+ws52zJnK2BEqxjhWtB6mUw1gfvwc0dEmHjuVjBFj5y7Mq/H3dZvnfvYbe3ziiN8TsrGVWHKgYwdyve/GYhv4mWySzVrzMtq5ON7PXM0eKsl6EaSXQEaxlENSdbqQ5jy/yS14UY31Zt5uPTGrSGoEqU1yB9k08hqz/iloIP08RY+oaiG2J5pWhIDrbRp3vBXUwIGgApd5dVuawCJmG+LLPsmRW/RSJYnmn6eTnAS7xKIH3KqXRgB",
        "thinking": "",
        "type": "thinking"
       },
       {
-       "text": "The corpus does not directly answer whether employee-linked booking data is \"digital personal data,\" because it doesn't include the Act's definition of personal data or its purpose-limitation section; it does cover the Rules on notice, security and erasure.\n\n**Coverage gaps:**\n- **Definition:** I found no passage defining \"personal data\" or \"digital personal data.\" Whether the booking tool's employee-linked records fall within it therefore can't be confirmed from this corpus.\n- **Purpose limitation:** No passage states the purpose-limitation rule. I did not find a source for it.\n- **Erasure scope:** Rule 8 applies by reference to the Third Schedule classes (e-commerce, online gaming, and similar). The excerpts I saw don't list NBFCs or internal employee-booking data, so I could not confirm that the erasure timelines apply here.\n\n**What the Rules do say, as data fiduciary:**\n- **Notice (Rule 3):** The notice must be understandable on its own. It must give an itemised description of the personal data and the specified purpose, and must give a link to the website or app. It must also explain how to withdraw consent, exercise rights, and complain to the Board.\n- **Reasonable security safeguards (Rule 6):** The fiduciary must protect personal data it holds or controls, including data processed by a processor. The minimum measures include encryption, masking or virtual tokens, access controls, access logs with monitoring, backups for continuity, and retaining logs and data for one year unless other law requires otherwise. Processor contracts must also include security terms.\n- **Erasure (Rule 8):** Where the Third Schedule applies, the fiduciary must erase data once the specified purpose is no longer served, unless retention is required by law. It must give at least 48 hours' advance notice before erasure.",
+       "text": "The corpus does not contain the Act's definition of \"personal data\" or any scope provision, so I can't confirm from it whether the DPDP Rules 2025 reach a tool holding only room names and time slots. The Rules I retrieved (Rule 2) only say that undefined terms take their meaning from the Digital Personal Data Protection Act, 2023, and the obligations I found (Rules 9, 10, 11, 14) are framed around processing a Data Principal's personal data. On that basis, a tool with no personal data would likely fall outside them, but you should check the Act's definition of personal data (s. 2(t)) and its scope provision before relying on that, and note that room-booking records can become personal data if they are linked to an identifiable employee.",
        "type": "text"
       }
      ],
-     "id": "lc_run--01a20dec-e6d2-7000-96b3-20e0005b73dc-0",
+     "id": "lc_run--01a20e2d-5f9d-7359-8761-9fb37bfad669-0",
      "invalid_tool_calls": [],
      "name": null,
      "response_metadata": {
@@ -25,7 +25,7 @@
       "diagnostics": null,
       "finish_reason": "end_turn",
       "finish_state": "complete",
-      "id": "msg_011ChMu6EE4yKXRVzhM39Gjs",
+      "id": "msg_011ChMzTgmBDaCE64DjzZqK4",
       "model": "claude-haiku-5-5",
       "model_name": "claude-haiku-5-5",
       "model_provider": "anthropic",
@@ -41,10 +41,10 @@
        "cache_creation_input_tokens": 0,
        "cache_read_input_tokens": 0,
        "inference_geo": "global",
-       "input_tokens": 8336,
-       "output_tokens": 757,
+       "input_tokens": 4810,
+       "output_tokens": 395,
        "output_tokens_details": {
-        "thinking_tokens": 169
+        "thinking_tokens": 155
        },
        "server_tool_use": null,
        "service_tier": "standard",
@@ -60,19 +60,19 @@
        "ephemeral_1h_input_tokens": 0,
        "ephemeral_5m_input_tokens": 0
       },
-      "input_tokens": 8336,
+      "input_tokens": 4810,
       "output_token_details": {
-       "reasoning": 169
+       "reasoning": 155
       },
-      "output_tokens": 757,
-      "total_tokens": 9093
+      "output_tokens": 395,
+      "total_tokens": 5205
      }
     },
     "type": "ai"
    },
    "role": "research"
   },
-  "18d3d71086347f07e3d538b0da8661890c7099379bc0c71e26b7de6c59b77ad2": {
+  "7c47e73d88206f669e5df2d2d4b357b8c31d4703350e1c666d10c6c264dd548f": {
    "model": "claude-haiku-5-5",
    "parsed": null,
    "reply": {
@@ -83,40 +83,17 @@
        "caller": {
         "type": "direct"
        },
-       "id": "toolu_014KdBvjywRvqKoXSSjE6BKU",
+       "id": "toolu_017qjRffrCngSHBYCfa3nh98",
        "input": {
-        "chunkId": 1967
+        "query": "definition of personal data, identifiable individual, scope of application DPDP Rules",
+        "topK": 6
        },
-       "name": "get_passage",
-       "toolset_name": null,
-       "type": "tool_use"
-      },
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_01LKdSpkjDzKnDZWF9jJ47cP",
-       "input": {
-        "chunkId": 1962
-       },
-       "name": "get_passage",
-       "toolset_name": null,
-       "type": "tool_use"
-      },
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_01K1rXuKJ8tXBy4481SPArkm",
-       "input": {
-        "chunkId": 1965
-       },
-       "name": "get_passage",
+       "name": "search_regulations",
        "toolset_name": null,
        "type": "tool_use"
       }
      ],
-     "id": "lc_run--01a20dec-cd5f-71b0-bce6-952648ea42cc-0",
+     "id": "lc_run--01a20e2d-5238-7074-b918-64e8b5cf8696-0",
      "invalid_tool_calls": [],
      "name": null,
      "response_metadata": {
@@ -124,7 +101,7 @@
       "diagnostics": null,
       "finish_reason": "tool_use",
       "finish_state": "complete",
-      "id": "msg_011ChMu5kKnMHVDJkcZDWbGX",
+      "id": "msg_011ChMzTSRiKLER9tLDHs96U",
       "model": "claude-haiku-5-5",
       "model_name": "claude-haiku-5-5",
       "model_provider": "anthropic",
@@ -140,8 +117,8 @@
        "cache_creation_input_tokens": 0,
        "cache_read_input_tokens": 0,
        "inference_geo": "global",
-       "input_tokens": 4791,
-       "output_tokens": 150,
+       "input_tokens": 1047,
+       "output_tokens": 95,
        "output_tokens_details": {
         "thinking_tokens": 0
        },
@@ -153,26 +130,11 @@
      "tool_calls": [
       {
        "args": {
-        "chunkId": 1967
+        "query": "definition of personal data, identifiable individual, scope of application DPDP Rules",
+        "topK": 6
        },
-       "id": "toolu_014KdBvjywRvqKoXSSjE6BKU",
-       "name": "get_passage",
-       "type": "tool_call"
-      },
-      {
-       "args": {
-        "chunkId": 1962
-       },
-       "id": "toolu_01LKdSpkjDzKnDZWF9jJ47cP",
-       "name": "get_passage",
-       "type": "tool_call"
-      },
-      {
-       "args": {
-        "chunkId": 1965
-       },
-       "id": "toolu_01K1rXuKJ8tXBy4481SPArkm",
-       "name": "get_passage",
+       "id": "toolu_017qjRffrCngSHBYCfa3nh98",
+       "name": "search_regulations",
        "type": "tool_call"
       }
      ],
@@ -184,468 +146,28 @@
        "ephemeral_1h_input_tokens": 0,
        "ephemeral_5m_input_tokens": 0
       },
-      "input_tokens": 4791,
+      "input_tokens": 1047,
       "output_token_details": {
        "reasoning": 0
       },
-      "output_tokens": 150,
-      "total_tokens": 4941
+      "output_tokens": 95,
+      "total_tokens": 1142
      }
     },
     "type": "ai"
    },
    "role": "research"
   },
-  "317716c47aeab971984c7c93d71291c1fab789c02c0d505e623605fbc6f1fb85": {
-   "model": "claude-haiku-5-5",
-   "parsed": null,
-   "reply": {
-    "data": {
-     "additional_kwargs": {},
-     "content": [
-      {
-       "signature": "CAQS2AcKEAgUGAI4AUIIdGhpbmtpbmcSDKPo8UZGtAwUmaQN4hoMz8T6fgZcYG+X6zoMIjCFoogDmpWjfTqYpvAvM7/WwMqmie/1VtFmPaXQMhcFRTBrg6YD7Chz25hJuuU1sssq9QbdsUSdfVY/qGJxgm2xyWSnJh7N9YeRrre/mRXGzA64zleJoNbwX6Ou4V0hzCkSTN9K//6ltatz2phF7esZI/kBTj+nOYhhRSodic3ImPsjXdTtUGfXrZ7F309zpijN4tDUmdTm2a+vgZGZDnrVM3xYwMtMY3xcSTPzApZDPXyPJdmPYMYCdh2lHHLCaPd6oVtrUXw4azt9e1QIb+c1e78VbL6jT2x52+BtLh7bSgiClmfumB7peVFC9olwuTZIhNESepuQd11XNEwxEIeCNmF+hSc0UXuBWmIHGxpi/kEN3yS5AUO4e3vEsXAVMwvzgJe/tF+gDsivvDlPxS6qA21iS+hfnT9dB+TcJV3BclCJ0qYf3uI3oSnWYOZa40z34EH3nB/etW9NdmQo5/Bo0EGersmtY6x9cr4AhJUQQ0GEUQe+jnautTOe+X4xXoK99hyJImCzLs/bkNxIVUGIqRMNYIsgM9RRDwwsWEGIDUmBkeffjBS2PSOSZcW6b7g8dK2Rt2zsXsvVCOiuPUBPlkS+7Nr475nlprKRhc663xAf9iEMoDcLVWdvJ7/23paNnqq9m3AGBxbJYZkLpg1/Yj43Tc4SvNI6BZKREy4rolk+C6PeA3nCL8cbENGBDD8Lk3hmo7pmBkMLn6dO///aIFMHYBeGkCy4bljM1R648McIJBiz41ee4cvnJC2LM2OYAq0K2RIZ4/0s+yZ6ISD5nQIxtYK2oez2mZSo5TpqNqUZaAk21+GGIHJZmeuJlH2X0TlBGaZkxTwPU0gYLV7prKPYCmQz8D7hdWoqve7H1Y7TI3AYUo7jGeVTjQsQZmyyK6pGpI0XEDkT8lf9N//Y8ORWKHL5/1M6UUFx+rnzj9YvcwUicAeNBEK2t0gjENiDdsNWb1jems1hvwEs3m0R2JRTCrNjVUAX6ISO+HMFdWFvBxkhuN2ykPBO1QPcyU0JaZnK/beeD86+UQhUDspngNjHMepu25DVLdpZjIB1sMduKaQKm3bVTXs5P8MvFBekeKpwUKKxgcrQK1APcamEBkXjl+KGDFhPfMvxp1eRryCsFcJuyUEeevdJL17ce+x40FWCH9MJlMWmEVGxDenyCwsTZYvC8itggk3avxqX7dh+2zV6l2a+dIeNRYavrfetaXH+CY1pwSOU7aQOusC4E4R8k858vUkYAQ==",
-       "thinking": "",
-       "type": "thinking"
-      },
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_019nzxqUgyBYFsbWv1mpu6mj",
-       "input": {
-        "query": "purpose limitation processing personal data only for lawful purpose consent or legitimate use",
-        "topK": 5
-       },
-       "name": "search_regulations",
-       "toolset_name": null,
-       "type": "tool_use"
-      }
-     ],
-     "id": "lc_run--01a20dec-d1f4-7238-9f64-33412d72cba8-0",
-     "invalid_tool_calls": [],
-     "name": null,
-     "response_metadata": {
-      "container": null,
-      "diagnostics": null,
-      "finish_reason": "tool_use",
-      "finish_state": "complete",
-      "id": "msg_011ChMu5qQNyJnfCNiF2AjTj",
-      "model": "claude-haiku-5-5",
-      "model_name": "claude-haiku-5-5",
-      "model_provider": "anthropic",
-      "normalized_finish_reason": "tool_call",
-      "stop_details": null,
-      "stop_reason": "tool_use",
-      "stop_sequence": null,
-      "usage": {
-       "cache_creation": {
-        "ephemeral_1h_input_tokens": 0,
-        "ephemeral_5m_input_tokens": 0
-       },
-       "cache_creation_input_tokens": 0,
-       "cache_read_input_tokens": 0,
-       "inference_geo": "global",
-       "input_tokens": 6697,
-       "output_tokens": 213,
-       "output_tokens_details": {
-        "thinking_tokens": 115
-       },
-       "server_tool_use": null,
-       "service_tier": "standard",
-       "speed": "standard"
-      }
-     },
-     "tool_calls": [
-      {
-       "args": {
-        "query": "purpose limitation processing personal data only for lawful purpose consent or legitimate use",
-        "topK": 5
-       },
-       "id": "toolu_019nzxqUgyBYFsbWv1mpu6mj",
-       "name": "search_regulations",
-       "type": "tool_call"
-      }
-     ],
-     "type": "ai",
-     "usage_metadata": {
-      "input_token_details": {
-       "cache_creation": 0,
-       "cache_read": 0,
-       "ephemeral_1h_input_tokens": 0,
-       "ephemeral_5m_input_tokens": 0
-      },
-      "input_tokens": 6697,
-      "output_token_details": {
-       "reasoning": 115
-      },
-      "output_tokens": 213,
-      "total_tokens": 6910
-     }
-    },
-    "type": "ai"
-   },
-   "role": "research"
-  },
-  "3876cf2bcc5a5933ac782a693d0aa31fab9b09243d28212ec7cd1b08299a80cd": {
-   "model": "claude-haiku-5-5",
-   "parsed": null,
-   "reply": {
-    "data": {
-     "additional_kwargs": {},
-     "content": [
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_01FFf7XQkSsugTwWkHAB2WUx",
-       "input": {
-        "query": "data fiduciary personal data notice reasonable security safeguards erasure purpose served",
-        "topK": 8
-       },
-       "name": "search_regulations",
-       "toolset_name": null,
-       "type": "tool_use"
-      },
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_015j6MZ1DMyM8aAok69htzoj",
-       "input": {
-        "query": "definition of personal data digital form DPDP Rules 2025",
-        "topK": 5
-       },
-       "name": "search_regulations",
-       "toolset_name": null,
-       "type": "tool_use"
-      }
-     ],
-     "id": "lc_run--01a20dec-c7fd-746d-8971-555abe7b4c70-0",
-     "invalid_tool_calls": [],
-     "name": null,
-     "response_metadata": {
-      "container": null,
-      "diagnostics": null,
-      "finish_reason": "tool_use",
-      "finish_state": "complete",
-      "id": "msg_011ChMu5eS5nZiWD7EPgkf5H",
-      "model": "claude-haiku-5-5",
-      "model_name": "claude-haiku-5-5",
-      "model_provider": "anthropic",
-      "normalized_finish_reason": "tool_call",
-      "stop_details": null,
-      "stop_reason": "tool_use",
-      "stop_sequence": null,
-      "usage": {
-       "cache_creation": {
-        "ephemeral_1h_input_tokens": 0,
-        "ephemeral_5m_input_tokens": 0
-       },
-       "cache_creation_input_tokens": 0,
-       "cache_read_input_tokens": 0,
-       "inference_geo": "global",
-       "input_tokens": 1094,
-       "output_tokens": 183,
-       "output_tokens_details": {
-        "thinking_tokens": 0
-       },
-       "server_tool_use": null,
-       "service_tier": "standard",
-       "speed": "standard"
-      }
-     },
-     "tool_calls": [
-      {
-       "args": {
-        "query": "data fiduciary personal data notice reasonable security safeguards erasure purpose served",
-        "topK": 8
-       },
-       "id": "toolu_01FFf7XQkSsugTwWkHAB2WUx",
-       "name": "search_regulations",
-       "type": "tool_call"
-      },
-      {
-       "args": {
-        "query": "definition of personal data digital form DPDP Rules 2025",
-        "topK": 5
-       },
-       "id": "toolu_015j6MZ1DMyM8aAok69htzoj",
-       "name": "search_regulations",
-       "type": "tool_call"
-      }
-     ],
-     "type": "ai",
-     "usage_metadata": {
-      "input_token_details": {
-       "cache_creation": 0,
-       "cache_read": 0,
-       "ephemeral_1h_input_tokens": 0,
-       "ephemeral_5m_input_tokens": 0
-      },
-      "input_tokens": 1094,
-      "output_token_details": {
-       "reasoning": 0
-      },
-      "output_tokens": 183,
-      "total_tokens": 1277
-     }
-    },
-    "type": "ai"
-   },
-   "role": "research"
-  },
-  "48f19c7e84a055065f5e294ff63d06cf15ce3edf888361f045e4e677372cdef9": {
-   "model": "claude-haiku-5-5",
-   "parsed": null,
-   "reply": {
-    "data": {
-     "additional_kwargs": {},
-     "content": [
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_01YHqdTRJyKGFmf8LoSFCVjx",
-       "input": {
-        "query": "scope and applicability of directions regulated entities NBFC",
-        "topK": 5
-       },
-       "name": "search_regulations",
-       "toolset_name": null,
-       "type": "tool_use"
-      },
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_01RpEfB4mfM8XBedB9oUF48f",
-       "input": {
-        "query": "applicability to non-banking financial companies customer due diligence digital lending borrower",
-        "topK": 5
-       },
-       "name": "search_regulations",
-       "toolset_name": null,
-       "type": "tool_use"
-      }
-     ],
-     "id": "lc_run--01a20dec-ac6c-77e5-847c-b85cf21927f3-0",
-     "invalid_tool_calls": [],
-     "name": null,
-     "response_metadata": {
-      "container": null,
-      "diagnostics": null,
-      "finish_reason": "tool_use",
-      "finish_state": "complete",
-      "id": "msg_011ChMu58HN3bzW1naHQ4CHS",
-      "model": "claude-haiku-5-5",
-      "model_name": "claude-haiku-5-5",
-      "model_provider": "anthropic",
-      "normalized_finish_reason": "tool_call",
-      "stop_details": null,
-      "stop_reason": "tool_use",
-      "stop_sequence": null,
-      "usage": {
-       "cache_creation": {
-        "ephemeral_1h_input_tokens": 0,
-        "ephemeral_5m_input_tokens": 0
-       },
-       "cache_creation_input_tokens": 0,
-       "cache_read_input_tokens": 0,
-       "inference_geo": "global",
-       "input_tokens": 1082,
-       "output_tokens": 180,
-       "output_tokens_details": {
-        "thinking_tokens": 0
-       },
-       "server_tool_use": null,
-       "service_tier": "standard",
-       "speed": "standard"
-      }
-     },
-     "tool_calls": [
-      {
-       "args": {
-        "query": "scope and applicability of directions regulated entities NBFC",
-        "topK": 5
-       },
-       "id": "toolu_01YHqdTRJyKGFmf8LoSFCVjx",
-       "name": "search_regulations",
-       "type": "tool_call"
-      },
-      {
-       "args": {
-        "query": "applicability to non-banking financial companies customer due diligence digital lending borrower",
-        "topK": 5
-       },
-       "id": "toolu_01RpEfB4mfM8XBedB9oUF48f",
-       "name": "search_regulations",
-       "type": "tool_call"
-      }
-     ],
-     "type": "ai",
-     "usage_metadata": {
-      "input_token_details": {
-       "cache_creation": 0,
-       "cache_read": 0,
-       "ephemeral_1h_input_tokens": 0,
-       "ephemeral_5m_input_tokens": 0
-      },
-      "input_tokens": 1082,
-      "output_token_details": {
-       "reasoning": 0
-      },
-      "output_tokens": 180,
-      "total_tokens": 1262
-     }
-    },
-    "type": "ai"
-   },
-   "role": "research"
-  },
-  "ab0e8487bb8df5ac8ae307dfcbe7b6bd00cc2b19aa81ecce166d16d610d0cb61": {
-   "model": "claude-haiku-5-5",
-   "parsed": null,
-   "reply": {
-    "data": {
-     "additional_kwargs": {},
-     "content": [
-      {
-       "text": "The KYC Directions' applicability proviso (Para 3) is the key text, so I'll read it in full.",
-       "type": "text"
-      },
-      {
-       "caller": {
-        "type": "direct"
-       },
-       "id": "toolu_012eLR6eeLWqBqTeRF8heWBs",
-       "input": {
-        "chunkId": 1542
-       },
-       "name": "get_passage",
-       "toolset_name": null,
-       "type": "tool_use"
-      }
-     ],
-     "id": "lc_run--01a20dec-bddb-7398-9944-5397f7cd4715-0",
-     "invalid_tool_calls": [],
-     "name": null,
-     "response_metadata": {
-      "container": null,
-      "diagnostics": null,
-      "finish_reason": "tool_use",
-      "finish_state": "complete",
-      "id": "msg_011ChMu5THrmNoWopyQ4etKK",
-      "model": "claude-haiku-5-5",
-      "model_name": "claude-haiku-5-5",
-      "model_provider": "anthropic",
-      "normalized_finish_reason": "tool_call",
-      "stop_details": null,
-      "stop_reason": "tool_use",
-      "stop_sequence": null,
-      "usage": {
-       "cache_creation": {
-        "ephemeral_1h_input_tokens": 0,
-        "ephemeral_5m_input_tokens": 0
-       },
-       "cache_creation_input_tokens": 0,
-       "cache_read_input_tokens": 0,
-       "inference_geo": "global",
-       "input_tokens": 4727,
-       "output_tokens": 87,
-       "output_tokens_details": {
-        "thinking_tokens": 0
-       },
-       "server_tool_use": null,
-       "service_tier": "standard",
-       "speed": "standard"
-      }
-     },
-     "tool_calls": [
-      {
-       "args": {
-        "chunkId": 1542
-       },
-       "id": "toolu_012eLR6eeLWqBqTeRF8heWBs",
-       "name": "get_passage",
-       "type": "tool_call"
-      }
-     ],
-     "type": "ai",
-     "usage_metadata": {
-      "input_token_details": {
-       "cache_creation": 0,
-       "cache_read": 0,
-       "ephemeral_1h_input_tokens": 0,
-       "ephemeral_5m_input_tokens": 0
-      },
-      "input_tokens": 4727,
-      "output_token_details": {
-       "reasoning": 0
-      },
-      "output_tokens": 87,
-      "total_tokens": 4814
-     }
-    },
-    "type": "ai"
-   },
-   "role": "research"
-  },
-  "c6208d3f224307eb95e2541ffb5f824d8c263e66a4272143b7959c3f9a5f2c81": {
+  "88d35b7ffd0e89d334c198f13b90c4271b69320879e76ba3025403b0acc66c72": {
    "model": "claude-sonnet-5-5",
    "parsed": {
-    "findings": [
-     {
-      "document": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
-      "evidence_chunk_ids": [
-       1542
-      ],
-      "obligation": "The NBFC KYC Directions apply to all NBFCs, but not to NBFCs with no customer interface. They concern customer due diligence, so they have no bearing on an internal tool that records only room names and time slots.",
-      "para_ref": "Para 3",
-      "question_id": "q1",
-      "recommendation": "Record that the room booking tool is an internal employee facility with no customer or borrower data and is outside KYC scope. Confirm that it stays separate from customer-facing systems and customer data. Note that the other RBI Directions apply in addition to other laws (Responsible Business Conduct Para 108), so this scoping does not exempt the tool from DPDP.",
-      "severity": "LOW"
-     },
-     {
-      "document": "Digital Personal Data Protection Rules, 2025",
-      "evidence_chunk_ids": [
-       1965
-      ],
-      "obligation": "If bookings are linked to identifiable employees (names or IDs), the NBFC as Data Fiduciary must take reasonable security safeguards. At minimum these include encryption, masking or tokenisation, access controls, logs and monitoring, backups, and retention of logs and personal data for one year to detect and investigate unauthorised access.",
-      "para_ref": "Rule 6",
-      "question_id": "q2",
-      "recommendation": "If employee identifiers are stored, apply access controls, logging and monitoring, and backups to the booking tool. Retain the logs for one year. If a vendor hosts the tool, include security safeguards in the contract.",
-      "severity": "MEDIUM"
-     },
-     {
-      "document": "Digital Personal Data Protection Rules, 2025",
-      "evidence_chunk_ids": [
-       1962
-      ],
-      "obligation": "The notice to the Data Principal must be clear and standalone. It must give an itemised description of the personal data and the specified purpose of processing. It must also give a link to the Data Fiduciary's website or app and describe how to withdraw consent, exercise rights and complain to the Board.",
-      "para_ref": "Rule 3",
-      "question_id": "q2",
-      "recommendation": "If bookings carry employee names or IDs, give employees a short notice. It should list the data collected (name, ID, time slots), state the purpose (desk and room booking), and explain how to exercise rights or complain. Check whether another lawful basis applies to employee data.",
-      "severity": "MEDIUM"
-     },
-     {
-      "document": "Digital Personal Data Protection Rules, 2025",
-      "evidence_chunk_ids": [
-       1969
-      ],
-      "obligation": "Data Fiduciaries must publish business contact details of the person who can answer questions about processing, and include them in every response to a rights request.",
-      "para_ref": "Rule 9",
-      "question_id": "q2",
-      "recommendation": "Confirm that the NBFC's published contact details for data queries cover employee data in the booking tool.",
-      "severity": "LOW"
-     }
-    ]
+    "findings": []
    },
    "reply": {
     "data": {
      "additional_kwargs": {},
-     "content": "{\"findings\":[{\"question_id\":\"q1\",\"obligation\":\"The NBFC KYC Directions apply to all NBFCs, but not to NBFCs with no customer interface. They concern customer due diligence, so they have no bearing on an internal tool that records only room names and time slots.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025\",\"para_ref\":\"Para 3\",\"severity\":\"LOW\",\"evidence_chunk_ids\":[1542],\"recommendation\":\"Record that the room booking tool is an internal employee facility with no customer or borrower data and is outside KYC scope. Confirm that it stays separate from customer-facing systems and customer data. Note that the other RBI Directions apply in addition to other laws (Responsible Business Conduct Para 108), so this scoping does not exempt the tool from DPDP.\"},{\"question_id\":\"q2\",\"obligation\":\"If bookings are linked to identifiable employees (names or IDs), the NBFC as Data Fiduciary must take reasonable security safeguards. At minimum these include encryption, masking or tokenisation, access controls, logs and monitoring, backups, and retention of logs and personal data for one year to detect and investigate unauthorised access.\",\"document\":\"Digital Personal Data Protection Rules, 2025\",\"para_ref\":\"Rule 6\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[1965],\"recommendation\":\"If employee identifiers are stored, apply access controls, logging and monitoring, and backups to the booking tool. Retain the logs for one year. If a vendor hosts the tool, include security safeguards in the contract.\"},{\"question_id\":\"q2\",\"obligation\":\"The notice to the Data Principal must be clear and standalone. It must give an itemised description of the personal data and the specified purpose of processing. It must also give a link to the Data Fiduciary's website or app and describe how to withdraw consent, exercise rights and complain to the Board.\",\"document\":\"Digital Personal Data Protection Rules, 2025\",\"para_ref\":\"Rule 3\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[1962],\"recommendation\":\"If bookings carry employee names or IDs, give employees a short notice. It should list the data collected (name, ID, time slots), state the purpose (desk and room booking), and explain how to exercise rights or complain. Check whether another lawful basis applies to employee data.\"},{\"question_id\":\"q2\",\"obligation\":\"Data Fiduciaries must publish business contact details of the person who can answer questions about processing, and include them in every response to a rights request.\",\"document\":\"Digital Personal Data Protection Rules, 2025\",\"para_ref\":\"Rule 9\",\"severity\":\"LOW\",\"evidence_chunk_ids\":[1969],\"recommendation\":\"Confirm that the NBFC's published contact details for data queries cover employee data in the booking tool.\"}]}",
-     "id": "lc_run--01a20dec-f714-760f-bce7-56b66f1cf3a3-0",
+     "content": "{\"findings\":[]}",
+     "id": "lc_run--01a20e2d-6945-7525-ac04-f7e4868907a8-0",
      "invalid_tool_calls": [],
      "name": null,
      "response_metadata": {
@@ -653,7 +175,7 @@
       "diagnostics": null,
       "finish_reason": "end_turn",
       "finish_state": "complete",
-      "id": "msg_011ChMu6YEJ4uHxvPKUHTUhm",
+      "id": "msg_011ChMzTsdmqFMNyFYf7w6p5",
       "model": "claude-sonnet-5-5",
       "model_name": "claude-sonnet-5-5",
       "model_provider": "anthropic",
@@ -669,8 +191,8 @@
        "cache_creation_input_tokens": 0,
        "cache_read_input_tokens": 0,
        "inference_geo": "global",
-       "input_tokens": 7273,
-       "output_tokens": 961,
+       "input_tokens": 2829,
+       "output_tokens": 10,
        "output_tokens_details": {
         "thinking_tokens": 0
        },
@@ -688,39 +210,34 @@
        "ephemeral_1h_input_tokens": 0,
        "ephemeral_5m_input_tokens": 0
       },
-      "input_tokens": 7273,
+      "input_tokens": 2829,
       "output_token_details": {
        "reasoning": 0
       },
-      "output_tokens": 961,
-      "total_tokens": 8234
+      "output_tokens": 10,
+      "total_tokens": 2839
      }
     },
     "type": "ai"
    },
    "role": "assess"
   },
-  "d8d8c0c64f0f678b1e3dbdbd7f4f73ce424b44957bcf4d94a52236a0a8dbddb8": {
+  "be6d121e48a385d4720e50acb64d2131f6f9f04e73a7c50a93c6e69e6a202511": {
    "model": "claude-sonnet-5-5",
    "parsed": {
     "questions": [
      {
       "id": "q1",
-      "search_hint": "scope applicability regulated entity customer due diligence digital lending borrower loan",
-      "text": "Does an internal desk and meeting room booking tool that records only employee room names and time slots fall outside the scope of the RBI NBFC KYC, Credit Facilities (digital lending) and Responsible Business Conduct Directions 2025, given that it involves no customers, loans or borrower data?"
-     },
-     {
-      "id": "q2",
-      "search_hint": "data fiduciary personal data notice reasonable security safeguards erasure employees purpose",
-      "text": "If the booking tool links room reservations to identifiable employees (such as names or employee IDs), does this count as processing digital personal data under the DPDP Rules 2025, and what obligations does the NBFC have as data fiduciary (notice, purpose limitation, reasonable security safeguards, erasure after purpose is served)?"
+      "search_hint": "digital personal data, personal data definition, identifiable individual, Data Fiduciary obligations, scope of application",
+      "text": "Does the DPDP Rules 2025 impose any obligations on an internal tool that stores only room names and time slots and no personal data of employees or anyone else?"
      }
     ]
    },
    "reply": {
     "data": {
      "additional_kwargs": {},
-     "content": "{\"questions\":[{\"id\":\"q1\",\"text\":\"Does an internal desk and meeting room booking tool that records only employee room names and time slots fall outside the scope of the RBI NBFC KYC, Credit Facilities (digital lending) and Responsible Business Conduct Directions 2025, given that it involves no customers, loans or borrower data?\",\"search_hint\":\"scope applicability regulated entity customer due diligence digital lending borrower loan\"},{\"id\":\"q2\",\"text\":\"If the booking tool links room reservations to identifiable employees (such as names or employee IDs), does this count as processing digital personal data under the DPDP Rules 2025, and what obligations does the NBFC have as data fiduciary (notice, purpose limitation, reasonable security safeguards, erasure after purpose is served)?\",\"search_hint\":\"data fiduciary personal data notice reasonable security safeguards erasure employees purpose\"}]}",
-     "id": "lc_run--01a20dec-9e89-769a-9ec0-a7b473b29325-0",
+     "content": "{\"questions\":[{\"id\":\"q1\",\"text\":\"Does the DPDP Rules 2025 impose any obligations on an internal tool that stores only room names and time slots and no personal data of employees or anyone else?\",\"search_hint\":\"digital personal data, personal data definition, identifiable individual, Data Fiduciary obligations, scope of application\"}]}",
+     "id": "lc_run--01a20e2d-482a-7119-96c6-886dc9fc10a3-0",
      "invalid_tool_calls": [],
      "name": null,
      "response_metadata": {
@@ -728,7 +245,7 @@
       "diagnostics": null,
       "finish_reason": "end_turn",
       "finish_state": "complete",
-      "id": "msg_011ChMu4sNfipgJkn5MXr8gC",
+      "id": "msg_011ChMzTGTgR2QtRCkgrmPpu",
       "model": "claude-sonnet-5-5",
       "model_name": "claude-sonnet-5-5",
       "model_provider": "anthropic",
@@ -744,8 +261,8 @@
        "cache_creation_input_tokens": 0,
        "cache_read_input_tokens": 0,
        "inference_geo": "global",
-       "input_tokens": 901,
-       "output_tokens": 302,
+       "input_tokens": 933,
+       "output_tokens": 115,
        "output_tokens_details": {
         "thinking_tokens": 0
        },
@@ -763,40 +280,59 @@
        "ephemeral_1h_input_tokens": 0,
        "ephemeral_5m_input_tokens": 0
       },
-      "input_tokens": 901,
+      "input_tokens": 933,
       "output_token_details": {
        "reasoning": 0
       },
-      "output_tokens": 302,
-      "total_tokens": 1203
+      "output_tokens": 115,
+      "total_tokens": 1048
      }
     },
     "type": "ai"
    },
    "role": "plan"
   },
-  "f7087d5b3029a88b776d357dcc0197a332cf0f441da3b2d4d38213f1173ff078": {
+  "c5718fe04b93d998c783af5d1dc26ce9e891351043e5f1f168592030ec66f658": {
    "model": "claude-haiku-5-5",
    "parsed": null,
    "reply": {
     "data": {
      "additional_kwargs": {},
-     "content": "Partly yes: the KYC Directions (Para 3) exclude \"NBFCs not having any customer interface,\" so an NBFC whose only system is an internal room-booking tool would plausibly fall outside them, but the corpus does not say how that exclusion applies to a tool used by an NBFC that also has customers. I did not find an equivalent exclusion in the Credit Facilities (digital lending) or Responsible Business Conduct Directions, and the digital lending provisions are tied to borrowers and loans, so an internal tool with no borrower data would not engage them. This is a reading of the scope text from the search results, not legal advice.",
-     "id": "lc_run--01a20dec-c1b2-7566-8778-3b63227499ab-0",
+     "content": [
+      {
+       "signature": "CAQS1gUKEAgUGAI4AUIIdGhpbmtpbmcSDGlSuf4iejCPM7+X5RoMFCbqKwy/gx0mvttmIjC3m4ruETCRAF2omUGUs6pF92EYl2Cn8HjL/rj59+Sa9tYfWEJM3v8N1gZpGY+tXsAq8wRqYTZMXWDdcGKrsKy3ZHz1F8yQydBKedH9u6ilb5cZdVxzcLV65XqkkrBaSJ0Yzhk5EZRe7q1dxSYBZ7pueRpPvSMCA1Ej/S9Lmj0FYRk+anHU+elmD+IdGHExf53cybKn8YtZbN7Fd2uJqyiYWuXEocyxehFcEfvkY/T2DaWW7+QLlXw+NOAJG+Ehg/KG7NgLe3AIAeUJK6LwwMSb7ee9R0VUl1jU9IUDpQ+nWjhwF8SgP0+omg8LBnICF7b74yOlONx/aNTt4bGootF0oLjQwuXbBlzw4HbqqZyCnGFgyPmWWWDA1qeEIH2a7jV1/rTpFo/VPr2a6LcbuwGDiZYpyjG7gEkT1Nj0EAaFn6ni6rstcf9j70kJWpGU9+cl84D3ERCo28bOjGw4oJ0VGmbhwRMFb0Sgy8kDNPTPAkxAxULoCAGfTr7WxJXIFSgde72Ny8FIm99AnUuWQyxN+PqzfW5dttzQDWHpNDqu9CsXpMQwh8VahSqj9FBvU+corUm61Q6ylsV7qZ/iTp5P9LyVX56Iq0n0AIbze0EMcMasGZ3ye12+KXhNmJacTBII2YMqr9XUzNaHNMSk2wTI1EPjQb8irtKN4bylCWpI6SolF7jCAG1oeQuSIxyWrmjkY56oZg/QRnVGK+Lhx42kPMD429SmE0WAdsX1kVsV3Fd+boC+csLestUDz4QsR/AqeX8RbdamJAB9k7McRTGpmmvjH9tO7US5hxMhnaDybzHL9lXwUbaZxYdGAr+zKaWded6jJGj02xzko1V9tZC+TCIqBRZr7F1NdBdQIHulEThnXAvd8tEw+YNP35u6rrpbxqXgIlAYAQ==",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01CXdTswCBQziE3n48pQSpjx",
+       "input": {
+        "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20e2d-5710-740e-a7e5-03d16ec9bb33-0",
      "invalid_tool_calls": [],
      "name": null,
      "response_metadata": {
       "container": null,
       "diagnostics": null,
-      "finish_reason": "end_turn",
+      "finish_reason": "tool_use",
       "finish_state": "complete",
-      "id": "msg_011ChMu5XVrcAfZkBpKccgq9",
+      "id": "msg_011ChMzTXQqtncEzVGFr7Umx",
       "model": "claude-haiku-5-5",
       "model_name": "claude-haiku-5-5",
       "model_provider": "anthropic",
-      "normalized_finish_reason": "stop",
+      "normalized_finish_reason": "tool_call",
       "stop_details": null,
-      "stop_reason": "end_turn",
+      "stop_reason": "tool_use",
       "stop_sequence": null,
       "usage": {
        "cache_creation": {
@@ -806,17 +342,27 @@
        "cache_creation_input_tokens": 0,
        "cache_read_input_tokens": 0,
        "inference_geo": "global",
-       "input_tokens": 5214,
-       "output_tokens": 205,
+       "input_tokens": 2763,
+       "output_tokens": 119,
        "output_tokens_details": {
-        "thinking_tokens": 0
+        "thinking_tokens": 22
        },
        "server_tool_use": null,
        "service_tier": "standard",
        "speed": "standard"
       }
      },
-     "tool_calls": [],
+     "tool_calls": [
+      {
+       "args": {
+        "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data",
+        "topK": 5
+       },
+       "id": "toolu_01CXdTswCBQziE3n48pQSpjx",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
      "type": "ai",
      "usage_metadata": {
       "input_token_details": {
@@ -825,12 +371,101 @@
        "ephemeral_1h_input_tokens": 0,
        "ephemeral_5m_input_tokens": 0
       },
-      "input_tokens": 5214,
+      "input_tokens": 2763,
       "output_token_details": {
-       "reasoning": 0
+       "reasoning": 22
       },
-      "output_tokens": 205,
-      "total_tokens": 5419
+      "output_tokens": 119,
+      "total_tokens": 2882
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "dd57973424e8646fde1f3875a5f65313e73c390bf95d95893ef10da9f8a10c4d": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSlwYKEAgUGAI4AUIIdGhpbmtpbmcSDE7ak0Gv7JQddQnlGBoMnLrR9gM+9H05Aii9IjAgpPT1HTXtBJBwfk0LD7v1WGN1YzsG+4M5sWfSg1mqcS9CHwMWMK6kb+YcrmG502YqtAV4WBSP67/Dahh51QfQFd7XhrVKkyKdxvynLTeKXQn2FvnAMhf395ijQEdK8gCtBwNd0WsNrHISgMPEpiPNcfV1qsgV0THqYJZ2Uj1yvAHRPfjclC/0jDBALhaO6vX9GECS5O2Mx7euoBxy9kBuZoZsAYllQjC4T39tJQa5k72HOHGSnVZolz/b3gGpKT7bBfL8j3Iui4r1eXkrugof/FqRjUw9s+aUw8PuwgulH8mcXHbGp2tX9E9egsfwgzdD0FRikHDQQREkACth/AmkG9p4JawMYN3EDD6GkhBodxryaZmuFBSqpW7K5GESL70CMvwSPW+O/FGgINLlalhA5Q3Fq0oOVvdEMxMPNqR+Ckaxvd3yWzjdJuvvRfZp51SOjSF3gwspfw2ZdWVAPDBXB+hcZgGrjhZtlrZ0038QjZosSYAPTTm1R7lwk7+CmvRjuX1C5+5QW2LhgbaSSGkxIN9zojjraImuE51jswPuZB2uLOEszcc66TwGVl9ya2RKQ3pu6breIwUI/vkwpB95tgPtenEFc0lHW6ZcXdODdljjA18N24do/868cF/otZEpcjIDkVWRVkVOZVhG1hPl6ujTNJSv9QyNcmOTTbXMDiIvV6UGg0zf4OPxgeh0E1sENtQlDSm6qQu+eqo+K2Z2uWIsZXsQ+ntWtgzWBuzv3da+x4e22yVuBBTX8v1WiYCXp+4bhp7QBa9sPwBVbs9wTjqj8HPDOYu4UPRC9O83SJQJzblIjmcAc/579OlYzZVlbAQNLYjYGVSDij48jlraalchAGYzSxpYxO3dCyfyu9ipD+/E+q9hgEkhrEcDPr5P9oMZr5vJL8PWAthCtFSIuud3yVV3puswbgE4mvCyHJ/gzU5Sj9Sky/RoSKSBcfzHawv6/VaPv7Y2RrLgRClPNqQO7Bfs4RgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01JweKvx3B8sxRGG6fvbE1Yy",
+       "input": {
+        "chunkId": 1961
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20e2d-5bd3-76e3-9f6d-8b07df962ffc-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMzTcdNbdorWLPwuX3JQ",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4301,
+       "output_tokens": 86,
+       "output_tokens_details": {
+        "thinking_tokens": 33
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1961
+       },
+       "id": "toolu_01JweKvx3B8sxRGG6fvbE1Yy",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4301,
+      "output_token_details": {
+       "reasoning": 33
+      },
+      "output_tokens": 86,
+      "total_tokens": 4387
      }
     },
     "type": "ai"
@@ -840,615 +475,59 @@
  },
  "scenario": "oos-office-seating",
  "tools": {
-  "0848ccc8117dccc76cc73811a524d4bd331c2d575c4b39ee8a3b4c48c16fc98b": {
+  "92ba42005ed1f05c40e2210d56241ec2fbbf84ad171fe0a7cb08c75c049ac8c5": {
    "args": {
-    "chunkId": 1967
-   },
-   "artifact": {
-    "structured_content": {
-     "chunkId": 1967,
-     "content": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance with any law\nfor the time being in force, or, for the corresponding time period specified in the Third Schedule, if the Data\nPrincipal neither approaches such Data Fiduciary for the performance of the specified purpose nor exercises\nher rights in relation to such processing.\n(2) At least forty-eight hours before completion of the time period for erasure of personal data under this\nrule, the Data Fiduciary shall inform the Data Principal that such personal data shall be erased upon\ncompletion of such period, unless she logs into her user account or otherwise initiates contact with the Data\nFiduciary for the performance of the specified purpose or exercises her rights in relation to the processing\nof such personal data.",
-     "documentId": "dpdp-rules-2025",
-     "documentTitle": "Digital Personal Data Protection Rules, 2025",
-     "heading": "",
-     "pageEnd": 27,
-     "pageStart": 27,
-     "paraRef": "Rule 8, part 1 of 2"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_f77559aa-0ef1-4fb8-a3cc-b7de026968e8",
-     "text": "{\"chunkId\":1967,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 1 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"content\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance with any law\\nfor the time being in force, or, for the corresponding time period specified in the Third Schedule, if the Data\\nPrincipal neither approaches such Data Fiduciary for the performance of the specified purpose nor exercises\\nher rights in relation to such processing.\\n(2) At least forty-eight hours before completion of the time period for erasure of personal data under this\\nrule, the Data Fiduciary shall inform the Data Principal that such personal data shall be erased upon\\ncompletion of such period, unless she logs into her user account or otherwise initiates contact with the Data\\nFiduciary for the performance of the specified purpose or exercises her rights in relation to the processing\\nof such personal data.\"}",
-     "type": "text"
-    }
-   ],
-   "name": "get_passage",
-   "status": "success"
-  },
-  "22867c0e9736694c162255c2a789de6b01bdddacb7cb814a7717197a63ea6161": {
-   "args": {
-    "chunkId": 1962
-   },
-   "artifact": {
-    "structured_content": {
-     "chunkId": 1962,
-     "content": "3. Notice given by Data Fiduciary to Data Principal. —The notice given by the Data Fiduciary to the\nData Principal shall—\n(a) be presented and be understandable independently of any other information that has been, is or may\nbe made available by such Data Fiduciary;\n(b) give, in clear and plain language, a fair account of the details necessary to enable the Data Principal\nto give specific and informed consent for the processing of her personal data, which shall include,\nat the minimum, —\n(i) an itemised description of such personal data; and\n(ii) the specified purpose or purposes of, and specific description of the goods or services to be\nprovided or uses to be enabled by, such processing; and\n(c) give, the particular communication link for accessing the website or app, or both, of such Data\nFiduciary, and a description of other means, if any, using which such Data Principal may—\n(i) withdraw her consent, with the ease of doing so being comparable to that with which\nsuch consent was given;\n(ii) exercise her rights under the Act; and\n(iii) make a complaint to the Board.",
-     "documentId": "dpdp-rules-2025",
-     "documentTitle": "Digital Personal Data Protection Rules, 2025",
-     "heading": "",
-     "pageEnd": 25,
-     "pageStart": 24,
-     "paraRef": "Rule 3"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_378972b0-4987-4261-abae-b9a2547132f2",
-     "text": "{\"chunkId\":1962,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 3\",\"heading\":\"\",\"pageStart\":24,\"pageEnd\":25,\"content\":\"3. Notice given by Data Fiduciary to Data Principal. \\u2014The notice given by the Data Fiduciary to the\\nData Principal shall\\u2014\\n(a) be presented and be understandable independently of any other information that has been, is or may\\nbe made available by such Data Fiduciary;\\n(b) give, in clear and plain language, a fair account of the details necessary to enable the Data Principal\\nto give specific and informed consent for the processing of her personal data, which shall include,\\nat the minimum, \\u2014\\n(i) an itemised description of such personal data; and\\n(ii) the specified purpose or purposes of, and specific description of the goods or services to be\\nprovided or uses to be enabled by, such processing; and\\n(c) give, the particular communication link for accessing the website or app, or both, of such Data\\nFiduciary, and a description of other means, if any, using which such Data Principal may\\u2014\\n(i) withdraw her consent, with the ease of doing so being comparable to that with which\\nsuch consent was given;\\n(ii) exercise her rights under the Act; and\\n(iii) make a complaint to the Board.\"}",
-     "type": "text"
-    }
-   ],
-   "name": "get_passage",
-   "status": "success"
-  },
-  "24765c2e9e079c94a84c3b0d596db0e2a583b6adb684201e534914a60efaff3a": {
-   "args": {
-    "chunkId": 1542
-   },
-   "artifact": {
-    "structured_content": {
-     "chunkId": 1542,
-     "content": "3. These Directions shall be applicable to all categories of Non-Banking Financial\nCompany (hereinafter collectively referred to as 'NBFCs' and individually as an\n'NBFC'), for all layers, unless specified otherwise.\nProvided that these directions are not applicable for ‘NBFCs not having any customer\ninterface’.\nNote: The applicability under these Directions is in line with the regulatory structure for\nNBFCs as set out in Reserve Bank of India (Non-Banking Financial Companies –\nRegistration, Exemptions and Framework for Scale Based Regulation) Directions,\n2025.",
-     "documentId": "rbi-nbfc-kyc-2025",
-     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
-     "heading": "Chapter I – Preliminary › B. Applicability",
-     "pageEnd": 3,
-     "pageStart": 3,
-     "paraRef": "Para 3"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_b7b144de-a552-4fb8-89a1-1137c5ce700c",
-     "text": "{\"chunkId\":1542,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 3\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A B. Applicability\",\"pageStart\":3,\"pageEnd\":3,\"content\":\"3. These Directions shall be applicable to all categories of Non-Banking Financial\\nCompany (hereinafter collectively referred to as \\u0027NBFCs\\u0027 and individually as an\\n\\u0027NBFC\\u0027), for all layers, unless specified otherwise.\\nProvided that these directions are not applicable for \\u2018NBFCs not having any customer\\ninterface\\u2019.\\nNote: The applicability under these Directions is in line with the regulatory structure for\\nNBFCs as set out in Reserve Bank of India (Non-Banking Financial Companies \\u2013\\nRegistration, Exemptions and Framework for Scale Based Regulation) Directions,\\n2025.\"}",
-     "type": "text"
-    }
-   ],
-   "name": "get_passage",
-   "status": "success"
-  },
-  "30ec19087744edd90bc99df31bd2fda54dd2adfd83627ce3c1bd97f63596aae8": {
-   "args": {
-    "query": "purpose limitation processing personal data only for lawful purpose consent or legitimate use",
-    "topK": 5
+    "query": "definition of personal data, identifiable individual, scope of application DPDP Rules",
+    "topK": 6
    },
    "artifact": {
     "structured_content": {
      "degraded": null,
      "hits": [
       {
-       "chunkId": 2047,
-       "denseRank": 1,
+       "chunkId": 2046,
+       "denseRank": 2,
        "documentId": "dpdp-rules-2025",
        "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "2. Use, by the State or any of its instrumentalities, of\npersonal data of a Data Principal for the following\npurposes, namely: —\n(i) performance of any function under any\nlaw for the time being in force in India; or\n(ii) disclosure of any information for\nfulfilling any obligation under any law for\nt",
-       "fusedScore": 0.03201844262295082,
+       "excerpt": "1. Use, by the State or any of its instrumentalities, of\npersonal data of a Data Principal in the interest of\nsovereignty and integrity of India or security of\nthe State.\nSuch officer of the State or of any of its\ninstrumentalities notified under clause (a) of\nsub-section (2) of section 17 of the Ac",
+       "fusedScore": 0.03128054740957967,
        "heading": "Seventh Schedule",
-       "keywordRank": 4,
-       "pageEnd": 41,
-       "pageStart": 41,
-       "paraRef": "Seventh Schedule, Item 2",
+       "keywordRank": 6,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Seventh Schedule, Item 1",
        "pinned": false,
-       "similarity": 0.7346885398958622
+       "similarity": 0.7835343560062804
       },
       {
-       "chunkId": 2024,
-       "denseRank": 4,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "2. For providing or issuing of any subsidy,\nbenefit, service, certificate, licence or permit,\nby whatever name called, under law or policy\nor using public funds, in the interests of a\nchild, under clause (b) of section 7 of the Act.\nProcessing is restricted to the extent necessary for\nsuch provision",
-       "fusedScore": 0.031754032258064516,
-       "heading": "Fourth Schedule — [See rule 12] › Part B",
-       "keywordRank": 2,
-       "pageEnd": 37,
-       "pageStart": 37,
-       "paraRef": "Fourth Schedule, Part B, Item 2",
-       "pinned": false,
-       "similarity": 0.7132157516900199
-      },
-      {
-       "chunkId": 2025,
+       "chunkId": 1973,
        "denseRank": 6,
        "documentId": "dpdp-rules-2025",
        "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "3. For the creation of a user account for\ncommunicating by email.\nProcessing is restricted to the extent necessary for\ncreating such user account, the use of which is\nlimited to communication by email.",
-       "fusedScore": 0.030536130536130537,
-       "heading": "Fourth Schedule — [See rule 12] › Part B",
-       "keywordRank": 5,
-       "pageEnd": 37,
-       "pageStart": 37,
-       "paraRef": "Fourth Schedule, Part B, Item 3",
+       "excerpt": "11. Verifiable consent for processing of personal data of person with disability who has lawful\nguardian. — (1) A Data Fiduciary, while obtaining verifiable consent from an individual identifying\nherself as the lawful guardian of a person with disability, shall observe due diligence to verify that s",
+       "fusedScore": 0.030776515151515152,
+       "heading": "",
+       "keywordRank": 4,
+       "pageEnd": 29,
+       "pageStart": 28,
+       "paraRef": "Rule 11, part 1 of 2",
        "pinned": false,
-       "similarity": 0.7090827920239517
+       "similarity": 0.772930196800921
       },
       {
-       "chunkId": 1972,
-       "denseRank": 5,
+       "chunkId": 1971,
+       "denseRank": 8,
        "documentId": "dpdp-rules-2025",
        "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\nBefore processing C’s personal data for the creation of her user account, DF shall check to confirm that it\nholds reliable identity and age details of P and that P is an identifiable adult.\nCase 4: P is",
-       "fusedScore": 0.02967032967032967,
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\n(c) “Digital Locker service provider” shall mean such intermediary, including a body corporate or an\nagency of the appropriate Government, as may be notified by the Central Government, in\naccordance wit",
+       "fusedScore": 0.03057889822595705,
        "heading": "",
-       "keywordRank": 10,
+       "keywordRank": 3,
        "pageEnd": 28,
        "pageStart": 28,
-       "paraRef": "Rule 10, part 3 of 3",
+       "paraRef": "Rule 10, part 2 of 3",
        "pinned": false,
-       "similarity": 0.712144912182459
-      },
-      {
-       "chunkId": 2023,
-       "denseRank": 13,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "1. For the exercise of any power, performance\nof any function or discharge of any duties in\nthe interests of a child, under any law for the\ntime being in force in India.\nProcessing is restricted to the extent necessary for\nsuch exercise, performance or discharge.",
-       "fusedScore": 0.029571646010002173,
-       "heading": "Fourth Schedule — [See rule 12] › Part B",
-       "keywordRank": 3,
-       "pageEnd": 37,
-       "pageStart": 37,
-       "paraRef": "Fourth Schedule, Part B, Item 1",
-       "pinned": false,
-       "similarity": 0.7002616882012263
-      }
-     ],
-     "query": "purpose limitation processing personal data only for lawful purpose consent or legitimate use"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_1437b876-37a1-4c92-8436-e6d71ed7043b",
-     "text": "{\"query\":\"purpose limitation processing personal data only for lawful purpose consent or legitimate use\",\"degraded\":null,\"hits\":[{\"chunkId\":2047,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Seventh Schedule, Item 2\",\"heading\":\"Seventh Schedule\",\"pageStart\":41,\"pageEnd\":41,\"excerpt\":\"2. Use, by the State or any of its instrumentalities, of\\npersonal data of a Data Principal for the following\\npurposes, namely: \\u2014\\n(i) performance of any function under any\\nlaw for the time being in force in India; or\\n(ii) disclosure of any information for\\nfulfilling any obligation under any law for\\nt\",\"denseRank\":1,\"keywordRank\":4,\"fusedScore\":0.03201844262295082,\"similarity\":0.7346885398958622,\"pinned\":false},{\"chunkId\":2024,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Fourth Schedule, Part B, Item 2\",\"heading\":\"Fourth Schedule \\u2014 [See rule 12] \\u203A Part B\",\"pageStart\":37,\"pageEnd\":37,\"excerpt\":\"2. For providing or issuing of any subsidy,\\nbenefit, service, certificate, licence or permit,\\nby whatever name called, under law or policy\\nor using public funds, in the interests of a\\nchild, under clause (b) of section 7 of the Act.\\nProcessing is restricted to the extent necessary for\\nsuch provision\",\"denseRank\":4,\"keywordRank\":2,\"fusedScore\":0.031754032258064516,\"similarity\":0.7132157516900199,\"pinned\":false},{\"chunkId\":2025,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Fourth Schedule, Part B, Item 3\",\"heading\":\"Fourth Schedule \\u2014 [See rule 12] \\u203A Part B\",\"pageStart\":37,\"pageEnd\":37,\"excerpt\":\"3. For the creation of a user account for\\ncommunicating by email.\\nProcessing is restricted to the extent necessary for\\ncreating such user account, the use of which is\\nlimited to communication by email.\",\"denseRank\":6,\"keywordRank\":5,\"fusedScore\":0.030536130536130537,\"similarity\":0.7090827920239517,\"pinned\":false},{\"chunkId\":1972,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 3 of 3\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\nBefore processing C\\u2019s personal data for the creation of her user account, DF shall check to confirm that it\\nholds reliable identity and age details of P and that P is an identifiable adult.\\nCase 4: P is\",\"denseRank\":5,\"keywordRank\":10,\"fusedScore\":0.02967032967032967,\"similarity\":0.712144912182459,\"pinned\":false},{\"chunkId\":2023,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Fourth Schedule, Part B, Item 1\",\"heading\":\"Fourth Schedule \\u2014 [See rule 12] \\u203A Part B\",\"pageStart\":37,\"pageEnd\":37,\"excerpt\":\"1. For the exercise of any power, performance\\nof any function or discharge of any duties in\\nthe interests of a child, under any law for the\\ntime being in force in India.\\nProcessing is restricted to the extent necessary for\\nsuch exercise, performance or discharge.\",\"denseRank\":13,\"keywordRank\":3,\"fusedScore\":0.029571646010002173,\"similarity\":0.7002616882012263,\"pinned\":false}]}",
-     "type": "text"
-    }
-   ],
-   "name": "search_regulations",
-   "status": "success"
-  },
-  "b5da2ec47cb226d48010bea4959fa607569ef24e923c2731796280a17de517a1": {
-   "args": {
-    "chunkId": 1965
-   },
-   "artifact": {
-    "structured_content": {
-     "chunkId": 1965,
-     "content": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which shall include, at\nthe minimum, —\n(a) appropriate data security measures, such as securing of personal data through encryption,\nobfuscation, masking or the use of virtual tokens mapped to that personal data;\n(b) appropriate measures to control access to the computer resources used by such Data Fiduciary or\nsuch a Data Processor, wherever applicable;\n(c) visibility on the accessing of such personal data, through appropriate logs, monitoring and review,\nfor enabling detection of unauthorised access, its investigation and remediation to prevent\nrecurrence;\n(d) reasonable measures for continued processing in the event of confidentiality, integrity or\navailability of such personal data being compromised as a result of destruction or loss of access to\npersonal data or otherwise, such as by way of data-backups;\n(e) for enabling the detection of unauthorised access, its investigation, remediation to prevent\nrecurrence and continued processing in the event of such a compromise, retain such logs and\npersonal data for a period of one year, unless compliance with any law for the time being in force\nrequires otherwise;\n(f) appropriate provision in the contract entered into between such Data Fiduciary and such a Data\nProcessor, wherever applicable, for taking reasonable security safeguards; and\n(g) appropriate technical and organisational measures to ensure effective observance of security\nsafeguards.\n(2) In this rule, the expression “computer resource” shall have the same meaning as is assigned to it in\nInformation Technology Act, 2000 (21 of 2000).",
-     "documentId": "dpdp-rules-2025",
-     "documentTitle": "Digital Personal Data Protection Rules, 2025",
-     "heading": "",
-     "pageEnd": 26,
-     "pageStart": 26,
-     "paraRef": "Rule 6"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_01c01746-f1a9-416c-9c8a-0bbaaef432f5",
-     "text": "{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"content\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which shall include, at\\nthe minimum, \\u2014\\n(a) appropriate data security measures, such as securing of personal data through encryption,\\nobfuscation, masking or the use of virtual tokens mapped to that personal data;\\n(b) appropriate measures to control access to the computer resources used by such Data Fiduciary or\\nsuch a Data Processor, wherever applicable;\\n(c) visibility on the accessing of such personal data, through appropriate logs, monitoring and review,\\nfor enabling detection of unauthorised access, its investigation and remediation to prevent\\nrecurrence;\\n(d) reasonable measures for continued processing in the event of confidentiality, integrity or\\navailability of such personal data being compromised as a result of destruction or loss of access to\\npersonal data or otherwise, such as by way of data-backups;\\n(e) for enabling the detection of unauthorised access, its investigation, remediation to prevent\\nrecurrence and continued processing in the event of such a compromise, retain such logs and\\npersonal data for a period of one year, unless compliance with any law for the time being in force\\nrequires otherwise;\\n(f) appropriate provision in the contract entered into between such Data Fiduciary and such a Data\\nProcessor, wherever applicable, for taking reasonable security safeguards; and\\n(g) appropriate technical and organisational measures to ensure effective observance of security\\nsafeguards.\\n(2) In this rule, the expression \\u201Ccomputer resource\\u201D shall have the same meaning as is assigned to it in\\nInformation Technology Act, 2000 (21 of 2000).\"}",
-     "type": "text"
-    }
-   ],
-   "name": "get_passage",
-   "status": "success"
-  },
-  "bce95ae386b912b75acc8dd7996152b02b70df1681100770beddc752815e2493": {
-   "args": {
-    "query": "applicability to non-banking financial companies customer due diligence digital lending borrower",
-    "topK": 5
-   },
-   "artifact": {
-    "structured_content": {
-     "degraded": null,
-     "hits": [
-      {
-       "chunkId": 1719,
-       "denseRank": 1,
-       "documentId": "rbi-nbfc-credit-facilities-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
-       "excerpt": "6. Due diligence requirements with respect to LSPs\n(1) Digital lending by an NBFC involving a LSP, shall be carried out under a\ncontractual agreement between the NBFC and the LSP, which clearly defines\nthe respective roles, rights, and obligations of each party thereto.\n(2) An NBFC shall conduct enh",
-       "fusedScore": 0.03278688524590164,
-       "heading": "Chapter III – Digital Lending › A. General Requirements for NBFC-LSP Arrangements",
-       "keywordRank": 1,
-       "pageEnd": 14,
-       "pageStart": 14,
-       "paraRef": "Para 6",
-       "pinned": false,
-       "similarity": 0.7807399617737356
-      },
-      {
-       "chunkId": 1603,
-       "denseRank": 2,
-       "documentId": "rbi-nbfc-kyc-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
-       "excerpt": "39. The NBFC shall undertake ongoing due diligence of customers to ensure that\ntheir transactions are consistent with their knowledge about the customers, customers’\nbusiness and risk profile, the source of funds / wealth.",
-       "fusedScore": 0.031754032258064516,
-       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
-       "keywordRank": 4,
-       "pageEnd": 40,
-       "pageStart": 40,
-       "paraRef": "Para 39",
-       "pinned": false,
-       "similarity": 0.7617453648742437
-      },
-      {
-       "chunkId": 1612,
-       "denseRank": 3,
-       "documentId": "rbi-nbfc-kyc-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
-       "excerpt": "44. Enhanced Due Diligence (EDD) for non-face-to-face customer onboarding\n(other than customer onboarding in terms of paragraph 25): Non-face-to-face\nonboarding facilitates the NBFC to establish a relationship with the customer without\nmeeting the customer physically or through V-CIP. Such non-face-",
-       "fusedScore": 0.030798389007344232,
-       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › F. Enhanced Due Diligence Procedure",
-       "keywordRank": 7,
-       "pageEnd": 46,
-       "pageStart": 45,
-       "paraRef": "Para 44, part 1 of 2",
-       "pinned": false,
-       "similarity": 0.7485662245729366
-      },
-      {
-       "chunkId": 1712,
-       "denseRank": 7,
-       "documentId": "rbi-nbfc-credit-facilities-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
-       "excerpt": "4.\n(c) Expiry of original / extended DCCO, as the case may be.\n(d) Any lender(s) determines a need for infusion of additional debt.\n(e) The project is faced with financial difficulty as determined under the\nPart A of the Reserve Bank of India (Non-Banking Financial Companies\n– Resolution of Stressed",
-       "fusedScore": 0.03030998851894374,
-       "heading": "Chapter I – Preliminary › C. Definitions",
-       "keywordRank": 5,
-       "pageEnd": 8,
-       "pageStart": 7,
-       "paraRef": "Para 4, part 2 of 7",
-       "pinned": false,
-       "similarity": 0.7422490697502191
-      },
-      {
-       "chunkId": 1721,
-       "denseRank": 8,
-       "documentId": "rbi-nbfc-credit-facilities-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
-       "excerpt": "8. Assessing the borrower’s creditworthiness\n(1) An NBFC shall obtain the necessary information relating to economic profile of\nthe borrower with a view to assessing the borrower’s creditworthiness before\nextending any loan, including, at a minimum, age, occupation and income\ndetails. The same shall",
-       "fusedScore": 0.027364110201042444,
-       "heading": "Chapter III – Digital Lending › B. Conduct and Customer Protection Requirements",
-       "keywordRank": 19,
-       "pageEnd": 16,
-       "pageStart": 15,
-       "paraRef": "Para 8",
-       "pinned": false,
-       "similarity": 0.7381015490959428
-      }
-     ],
-     "query": "applicability to non-banking financial companies customer due diligence digital lending borrower"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_c4a27f9c-4c0e-4baa-bf66-470ee2dbaaf1",
-     "text": "{\"query\":\"applicability to non-banking financial companies customer due diligence digital lending borrower\",\"degraded\":null,\"hits\":[{\"chunkId\":1719,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 6\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A A. General Requirements for NBFC-LSP Arrangements\",\"pageStart\":14,\"pageEnd\":14,\"excerpt\":\"6. Due diligence requirements with respect to LSPs\\n(1) Digital lending by an NBFC involving a LSP, shall be carried out under a\\ncontractual agreement between the NBFC and the LSP, which clearly defines\\nthe respective roles, rights, and obligations of each party thereto.\\n(2) An NBFC shall conduct enh\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7807399617737356,\"pinned\":false},{\"chunkId\":1603,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"39. The NBFC shall undertake ongoing due diligence of customers to ensure that\\ntheir transactions are consistent with their knowledge about the customers, customers\\u2019\\nbusiness and risk profile, the source of funds / wealth.\",\"denseRank\":2,\"keywordRank\":4,\"fusedScore\":0.031754032258064516,\"similarity\":0.7617453648742437,\"pinned\":false},{\"chunkId\":1612,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 44, part 1 of 2\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A F. Enhanced Due Diligence Procedure\",\"pageStart\":45,\"pageEnd\":46,\"excerpt\":\"44. Enhanced Due Diligence (EDD) for non-face-to-face customer onboarding\\n(other than customer onboarding in terms of paragraph 25): Non-face-to-face\\nonboarding facilitates the NBFC to establish a relationship with the customer without\\nmeeting the customer physically or through V-CIP. Such non-face-\",\"denseRank\":3,\"keywordRank\":7,\"fusedScore\":0.030798389007344232,\"similarity\":0.7485662245729366,\"pinned\":false},{\"chunkId\":1712,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 4, part 2 of 7\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A C. Definitions\",\"pageStart\":7,\"pageEnd\":8,\"excerpt\":\"4.\\n(c) Expiry of original / extended DCCO, as the case may be.\\n(d) Any lender(s) determines a need for infusion of additional debt.\\n(e) The project is faced with financial difficulty as determined under the\\nPart A of the Reserve Bank of India (Non-Banking Financial Companies\\n\\u2013 Resolution of Stressed\",\"denseRank\":7,\"keywordRank\":5,\"fusedScore\":0.03030998851894374,\"similarity\":0.7422490697502191,\"pinned\":false},{\"chunkId\":1721,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 8\",\"heading\":\"Chapter III \\u2013 Digital Lending \\u203A B. Conduct and Customer Protection Requirements\",\"pageStart\":15,\"pageEnd\":16,\"excerpt\":\"8. Assessing the borrower\\u2019s creditworthiness\\n(1) An NBFC shall obtain the necessary information relating to economic profile of\\nthe borrower with a view to assessing the borrower\\u2019s creditworthiness before\\nextending any loan, including, at a minimum, age, occupation and income\\ndetails. The same shall\",\"denseRank\":8,\"keywordRank\":19,\"fusedScore\":0.027364110201042444,\"similarity\":0.7381015490959428,\"pinned\":false}]}",
-     "type": "text"
-    }
-   ],
-   "name": "search_regulations",
-   "status": "success"
-  },
-  "e593c732b4213e8a8e4b66983c312e32d63c1cd80ccbad5df37d3672abb82401": {
-   "args": {
-    "query": "scope and applicability of directions regulated entities NBFC",
-    "topK": 5
-   },
-   "artifact": {
-    "structured_content": {
-     "degraded": null,
-     "hits": [
-      {
-       "chunkId": 1542,
-       "denseRank": 1,
-       "documentId": "rbi-nbfc-kyc-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
-       "excerpt": "3. These Directions shall be applicable to all categories of Non-Banking Financial\nCompany (hereinafter collectively referred to as 'NBFCs' and individually as an\n'NBFC'), for all layers, unless specified otherwise.\nProvided that these directions are not applicable for ‘NBFCs not having any customer",
-       "fusedScore": 0.03278688524590164,
-       "heading": "Chapter I – Preliminary › B. Applicability",
-       "keywordRank": 1,
-       "pageEnd": 3,
-       "pageStart": 3,
-       "paraRef": "Para 3",
-       "pinned": false,
-       "similarity": 0.7686517879132774
-      },
-      {
-       "chunkId": 2167,
-       "denseRank": 2,
-       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
-       "excerpt": "108.The provisions of these Directions shall be in addition to, and not in derogation of\nthe provisions of any other laws, rules, regulations, or directions, for the time being\nin force.",
-       "fusedScore": 0.030621785881252923,
-       "heading": "Chapter V – Repeal and Other Provisions › B. Application of other laws not barred",
-       "keywordRank": 9,
-       "pageEnd": 32,
-       "pageStart": 32,
-       "paraRef": "Para 108",
-       "pinned": false,
-       "similarity": 0.7551869153976494
-      },
-      {
-       "chunkId": 2053,
-       "denseRank": 8,
-       "documentId": "rbi-nbfc-responsible-business-conduct-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Responsible Business Conduct) Directions, 2025",
-       "excerpt": "3. These Directions shall be applicable to following Non-Banking Financial Company\n(hereinafter collectively referred to as 'NBFCs' and individually as an 'NBFC'), for\nall layers, unless specified otherwise:\n(1) NBFC-D registered with the RBI under the provisions of the RBI Act, 1934;\n(2) NBFC-ICC r",
-       "fusedScore": 0.030090497737556562,
-       "heading": "Chapter I – Preliminary › B. Applicability",
-       "keywordRank": 5,
-       "pageEnd": 3,
-       "pageStart": 3,
-       "paraRef": "Para 3",
-       "pinned": false,
-       "similarity": 0.7435793570970722
-      },
-      {
-       "chunkId": 1710,
-       "denseRank": 9,
-       "documentId": "rbi-nbfc-credit-facilities-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
-       "excerpt": "3.\n(iv) NOFHC registered with the RBI as NBFC under the provisions of the RBI\nAct, 1934.\n(v) 1[NBFC holding Certificate of Registration as ‘Type I NBFC’].\nNote: The applicability under these Directions is in line with the regulatory\nstructure for NBFCs as set out in Reserve Bank of India (Non-Bankin",
-       "fusedScore": 0.029418126757516764,
-       "heading": "Chapter I – Preliminary › B. Applicability",
-       "keywordRank": 7,
-       "pageEnd": 6,
-       "pageStart": 6,
-       "paraRef": "Para 3, part 2 of 2",
-       "pinned": false,
-       "similarity": 0.7434823497491769
-      },
-      {
-       "chunkId": 1709,
-       "denseRank": 6,
-       "documentId": "rbi-nbfc-credit-facilities-2025",
-       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Credit Facilities) Directions, 2025",
-       "excerpt": "3.\n(1) These Directions shall be applicable to following Non-Banking Financial\nCompany (hereinafter collectively referred to as 'NBFCs' and individually as an\n'NBFC'), for all layers unless specified otherwise:\n(i) NBFC-D registered with the RBI under the provisions of the RBI Act, 1934.\n(ii) NBFC-I",
-       "fusedScore": 0.02923602219376867,
-       "heading": "Chapter I – Preliminary › B. Applicability",
-       "keywordRank": 11,
-       "pageEnd": 6,
-       "pageStart": 5,
-       "paraRef": "Para 3, part 1 of 2",
-       "pinned": false,
-       "similarity": 0.7446477330696188
-      }
-     ],
-     "query": "scope and applicability of directions regulated entities NBFC"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_a053b286-ee5a-4438-aa32-ef7288f8705d",
-     "text": "{\"query\":\"scope and applicability of directions regulated entities NBFC\",\"degraded\":null,\"hits\":[{\"chunkId\":1542,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 3\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A B. Applicability\",\"pageStart\":3,\"pageEnd\":3,\"excerpt\":\"3. These Directions shall be applicable to all categories of Non-Banking Financial\\nCompany (hereinafter collectively referred to as \\u0027NBFCs\\u0027 and individually as an\\n\\u0027NBFC\\u0027), for all layers, unless specified otherwise.\\nProvided that these directions are not applicable for \\u2018NBFCs not having any customer\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.7686517879132774,\"pinned\":false},{\"chunkId\":2167,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 108\",\"heading\":\"Chapter V \\u2013 Repeal and Other Provisions \\u203A B. Application of other laws not barred\",\"pageStart\":32,\"pageEnd\":32,\"excerpt\":\"108.The provisions of these Directions shall be in addition to, and not in derogation of\\nthe provisions of any other laws, rules, regulations, or directions, for the time being\\nin force.\",\"denseRank\":2,\"keywordRank\":9,\"fusedScore\":0.030621785881252923,\"similarity\":0.7551869153976494,\"pinned\":false},{\"chunkId\":2053,\"documentId\":\"rbi-nbfc-responsible-business-conduct-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Responsible Business Conduct) Directions, 2025\",\"paraRef\":\"Para 3\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A B. Applicability\",\"pageStart\":3,\"pageEnd\":3,\"excerpt\":\"3. These Directions shall be applicable to following Non-Banking Financial Company\\n(hereinafter collectively referred to as \\u0027NBFCs\\u0027 and individually as an \\u0027NBFC\\u0027), for\\nall layers, unless specified otherwise:\\n(1) NBFC-D registered with the RBI under the provisions of the RBI Act, 1934;\\n(2) NBFC-ICC r\",\"denseRank\":8,\"keywordRank\":5,\"fusedScore\":0.030090497737556562,\"similarity\":0.7435793570970722,\"pinned\":false},{\"chunkId\":1710,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 3, part 2 of 2\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A B. Applicability\",\"pageStart\":6,\"pageEnd\":6,\"excerpt\":\"3.\\n(iv) NOFHC registered with the RBI as NBFC under the provisions of the RBI\\nAct, 1934.\\n(v) 1[NBFC holding Certificate of Registration as \\u2018Type I NBFC\\u2019].\\nNote: The applicability under these Directions is in line with the regulatory\\nstructure for NBFCs as set out in Reserve Bank of India (Non-Bankin\",\"denseRank\":9,\"keywordRank\":7,\"fusedScore\":0.029418126757516764,\"similarity\":0.7434823497491769,\"pinned\":false},{\"chunkId\":1709,\"documentId\":\"rbi-nbfc-credit-facilities-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Credit Facilities) Directions, 2025\",\"paraRef\":\"Para 3, part 1 of 2\",\"heading\":\"Chapter I \\u2013 Preliminary \\u203A B. Applicability\",\"pageStart\":5,\"pageEnd\":6,\"excerpt\":\"3.\\n(1) These Directions shall be applicable to following Non-Banking Financial\\nCompany (hereinafter collectively referred to as \\u0027NBFCs\\u0027 and individually as an\\n\\u0027NBFC\\u0027), for all layers unless specified otherwise:\\n(i) NBFC-D registered with the RBI under the provisions of the RBI Act, 1934.\\n(ii) NBFC-I\",\"denseRank\":6,\"keywordRank\":11,\"fusedScore\":0.02923602219376867,\"similarity\":0.7446477330696188,\"pinned\":false}]}",
-     "type": "text"
-    }
-   ],
-   "name": "search_regulations",
-   "status": "success"
-  },
-  "f223b6d7c517b25a9e4da6a38696a658293c1323aa880772dd907c874dd579f2": {
-   "args": {
-    "query": "data fiduciary personal data notice reasonable security safeguards erasure purpose served",
-    "topK": 8
-   },
-   "artifact": {
-    "structured_content": {
-     "degraded": null,
-     "hits": [
-      {
-       "chunkId": 1965,
-       "denseRank": 1,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which ",
-       "fusedScore": 0.03252247488101533,
-       "heading": "",
-       "keywordRank": 2,
-       "pageEnd": 26,
-       "pageStart": 26,
-       "paraRef": "Rule 6",
-       "pinned": false,
-       "similarity": 0.8116750906869751
-      },
-      {
-       "chunkId": 1967,
-       "denseRank": 3,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance",
-       "fusedScore": 0.032266458495966696,
-       "heading": "",
-       "keywordRank": 1,
-       "pageEnd": 27,
-       "pageStart": 27,
-       "paraRef": "Rule 8, part 1 of 2",
-       "pinned": false,
-       "similarity": 0.7811605259990326
-      },
-      {
-       "chunkId": 1968,
-       "denseRank": 2,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\n(3) Without prejudice to sub-rules (1) and (2), a Data Fiduciary shall retain, in respect of any processing of\npersonal data undertaken by it or on its behalf by a Data Processor, such personal data, a",
-       "fusedScore": 0.03200204813108039,
-       "heading": "",
-       "keywordRank": 3,
-       "pageEnd": 27,
-       "pageStart": 27,
-       "paraRef": "Rule 8, part 2 of 2",
-       "pinned": false,
-       "similarity": 0.7865613310232986
-      },
-      {
-       "chunkId": 2014,
-       "denseRank": 5,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "2. Data Fiduciary who\nis an online gaming\nintermediary having\nnot less than fifty\nlakh registered users\nin India.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to\naccess her user account; and\n(b) Enabling the Data Principal to\naccess any virtual token that is\nissued by ",
-       "fusedScore": 0.031009615384615385,
-       "heading": "Third Schedule",
-       "keywordRank": 4,
-       "pageEnd": 36,
-       "pageStart": 35,
-       "paraRef": "Third Schedule, Item 2",
-       "pinned": false,
-       "similarity": 0.7569151504242922
-      },
-      {
-       "chunkId": 1966,
-       "denseRank": 7,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication ",
-       "fusedScore": 0.030076888285843508,
-       "heading": "",
-       "keywordRank": 6,
-       "pageEnd": 26,
-       "pageStart": 26,
-       "paraRef": "Rule 7",
-       "pinned": false,
-       "similarity": 0.7524144337091299
-      },
-      {
-       "chunkId": 1962,
-       "denseRank": 6,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "3. Notice given by Data Fiduciary to Data Principal. —The notice given by the Data Fiduciary to the\nData Principal shall—\n(a) be presented and be understandable independently of any other information that has been, is or may\nbe made available by such Data Fiduciary;\n(b) give, in clear and plain lang",
-       "fusedScore": 0.029857397504456328,
-       "heading": "",
-       "keywordRank": 8,
-       "pageEnd": 25,
-       "pageStart": 24,
-       "paraRef": "Rule 3",
-       "pinned": false,
-       "similarity": 0.7549728143280854
-      },
-      {
-       "chunkId": 2013,
-       "denseRank": 8,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "1. Data Fiduciary who\nis an e-commerce\nentity having not\nless than two crore\nregistered users in\nIndia.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to access\nher user account; and\n(b) Enabling the Data Principal to access\nany virtual token that is issued by or\non beha",
-       "fusedScore": 0.029198635976129584,
-       "heading": "Third Schedule",
-       "keywordRank": 9,
-       "pageEnd": 35,
-       "pageStart": 35,
-       "paraRef": "Third Schedule, Item 1",
-       "pinned": false,
-       "similarity": 0.7484734511784553
-      },
-      {
-       "chunkId": 1976,
-       "denseRank": 4,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "13. Additional obligations of Significant Data Fiduciary. — (1) A Significant Data Fiduciary shall, once\nin every period of twelve months from the date on which it is notified as such or is included in the class of\nData Fiduciaries notified as such, undertake a Data Protection Impact Assessment and ",
-       "fusedScore": 0.028612012987012988,
-       "heading": "",
-       "keywordRank": 17,
-       "pageEnd": 29,
-       "pageStart": 29,
-       "paraRef": "Rule 13",
-       "pinned": false,
-       "similarity": 0.7574772347632104
-      }
-     ],
-     "query": "data fiduciary personal data notice reasonable security safeguards erasure purpose served"
-    }
-   },
-   "content": [
-    {
-     "id": "lc_a5a279e3-a00b-4b66-80db-cf9b61e235ed",
-     "text": "{\"query\":\"data fiduciary personal data notice reasonable security safeguards erasure purpose served\",\"degraded\":null,\"hits\":[{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which \",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.8116750906869751,\"pinned\":false},{\"chunkId\":1967,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 1 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance\",\"denseRank\":3,\"keywordRank\":1,\"fusedScore\":0.032266458495966696,\"similarity\":0.7811605259990326,\"pinned\":false},{\"chunkId\":1968,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 2 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\n(3) Without prejudice to sub-rules (1) and (2), a Data Fiduciary shall retain, in respect of any processing of\\npersonal data undertaken by it or on its behalf by a Data Processor, such personal data, a\",\"denseRank\":2,\"keywordRank\":3,\"fusedScore\":0.03200204813108039,\"similarity\":0.7865613310232986,\"pinned\":false},{\"chunkId\":2014,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 2\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":36,\"excerpt\":\"2. Data Fiduciary who\\nis an online gaming\\nintermediary having\\nnot less than fifty\\nlakh registered users\\nin India.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to\\naccess her user account; and\\n(b) Enabling the Data Principal to\\naccess any virtual token that is\\nissued by \",\"denseRank\":5,\"keywordRank\":4,\"fusedScore\":0.031009615384615385,\"similarity\":0.7569151504242922,\"pinned\":false},{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication \",\"denseRank\":7,\"keywordRank\":6,\"fusedScore\":0.030076888285843508,\"similarity\":0.7524144337091299,\"pinned\":false},{\"chunkId\":1962,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 3\",\"heading\":\"\",\"pageStart\":24,\"pageEnd\":25,\"excerpt\":\"3. Notice given by Data Fiduciary to Data Principal. \\u2014The notice given by the Data Fiduciary to the\\nData Principal shall\\u2014\\n(a) be presented and be understandable independently of any other information that has been, is or may\\nbe made available by such Data Fiduciary;\\n(b) give, in clear and plain lang\",\"denseRank\":6,\"keywordRank\":8,\"fusedScore\":0.029857397504456328,\"similarity\":0.7549728143280854,\"pinned\":false},{\"chunkId\":2013,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 1\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"1. Data Fiduciary who\\nis an e-commerce\\nentity having not\\nless than two crore\\nregistered users in\\nIndia.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to access\\nher user account; and\\n(b) Enabling the Data Principal to access\\nany virtual token that is issued by or\\non beha\",\"denseRank\":8,\"keywordRank\":9,\"fusedScore\":0.029198635976129584,\"similarity\":0.7484734511784553,\"pinned\":false},{\"chunkId\":1976,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 13\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":29,\"excerpt\":\"13. Additional obligations of Significant Data Fiduciary. \\u2014 (1) A Significant Data Fiduciary shall, once\\nin every period of twelve months from the date on which it is notified as such or is included in the class of\\nData Fiduciaries notified as such, undertake a Data Protection Impact Assessment and \",\"denseRank\":4,\"keywordRank\":17,\"fusedScore\":0.028612012987012988,\"similarity\":0.7574772347632104,\"pinned\":false}]}",
-     "type": "text"
-    }
-   ],
-   "name": "search_regulations",
-   "status": "success"
-  },
-  "f26c93aea714897a7a468c1a398eec0fcf4bfdc780d9a4a4f74f1a9c1840c7ca": {
-   "args": {
-    "query": "definition of personal data digital form DPDP Rules 2025",
-    "topK": 5
-   },
-   "artifact": {
-    "structured_content": {
-     "degraded": null,
-     "hits": [
-      {
-       "chunkId": 2045,
-       "denseRank": 4,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "[See rule 23(1) and 8(3)]\nS.\nno. Purpose Authorised person\n(1) (2) (3)",
-       "fusedScore": 0.031009615384615385,
-       "heading": "Seventh Schedule",
-       "keywordRank": 5,
-       "pageEnd": 40,
-       "pageStart": 40,
-       "paraRef": "Seventh Schedule",
-       "pinned": false,
-       "similarity": 0.7936923522674114
-      },
-      {
-       "chunkId": 1969,
-       "denseRank": 5,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "9. Contact information of person to answer questions about processing.— Every Data Fiduciary shall\nprominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat",
-       "fusedScore": 0.030090497737556562,
-       "heading": "",
-       "keywordRank": 8,
-       "pageEnd": 27,
-       "pageStart": 27,
-       "paraRef": "Rule 9",
-       "pinned": false,
-       "similarity": 0.7932647959554907
-      },
-      {
-       "chunkId": 2000,
-       "denseRank": 19,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "4. The Consent Manager: —\n(a) shall give the Data Principal using such platform access to such record;\n(b) shall, on the request of the Data Principal and in accordance with its terms of service, make\navailable to her the information contained in such record, in machine-readable form; and\n(c) shall ",
-       "fusedScore": 0.029051670471052084,
-       "heading": "First Schedule — [See rule 4] › Part B — Obligations of Consent Manager",
-       "keywordRank": 1,
-       "pageEnd": 33,
-       "pageStart": 33,
-       "paraRef": "First Schedule, Part B, Item 4",
-       "pinned": false,
-       "similarity": 0.7592792775824323
-      },
-      {
-       "chunkId": 1979,
-       "denseRank": 6,
-       "documentId": "dpdp-rules-2025",
-       "documentTitle": "Digital Personal Data Protection Rules, 2025",
-       "excerpt": "16. Exemption from Act for research, archiving or statistical purposes. —The provisions of the Act\nshall not apply to the processing of personal data necessary for research, archiving or statistical purposes if\nit is carried on in accordance with the standards specified in Second Schedule.",
-       "fusedScore": 0.02904040404040404,
-       "heading": "",
-       "keywordRank": 12,
-       "pageEnd": 30,
-       "pageStart": 30,
-       "paraRef": "Rule 16",
-       "pinned": false,
-       "similarity": 0.7921271088086231
+       "similarity": 0.7711536151859448
       },
       {
        "chunkId": 1977,
@@ -1456,27 +535,181 @@
        "documentId": "dpdp-rules-2025",
        "documentTitle": "Digital Personal Data Protection Rules, 2025",
        "excerpt": "14. Rights of Data Principals. — (1) For enabling Data Principals to exercise their rights under the Act,\nthe Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\napp, or both, as the case may be, —\n(a) the details of the means using which a Data Pri",
-       "fusedScore": 0.02900988017658188,
+       "fusedScore": 0.03047794966520434,
        "heading": "",
-       "keywordRank": 7,
+       "keywordRank": 1,
        "pageEnd": 30,
        "pageStart": 29,
        "paraRef": "Rule 14",
        "pinned": false,
-       "similarity": 0.7715644470324448
+       "similarity": 0.7596233616126741
+      },
+      {
+       "chunkId": 1970,
+       "denseRank": 10,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\nbefore the processing of any personal data of a child and shall observe due diligence, for c",
+       "fusedScore": 0.030414746543778803,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 28,
+       "pageStart": 27,
+       "paraRef": "Rule 10, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.7640792131425308
+      },
+      {
+       "chunkId": 1969,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "9. Contact information of person to answer questions about processing.— Every Data Fiduciary shall\nprominently publish on its website or app, and mention in every response to a communication for the\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat",
+       "fusedScore": 0.02987736900780379,
+       "heading": "",
+       "keywordRank": 9,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 9",
+       "pinned": false,
+       "similarity": 0.774035446058381
       }
      ],
-     "query": "definition of personal data digital form DPDP Rules 2025"
+     "query": "definition of personal data, identifiable individual, scope of application DPDP Rules"
     }
    },
    "content": [
     {
-     "id": "lc_47da8523-4602-48fa-bde6-5b536ffcddbb",
-     "text": "{\"query\":\"definition of personal data digital form DPDP Rules 2025\",\"degraded\":null,\"hits\":[{\"chunkId\":2045,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Seventh Schedule\",\"heading\":\"Seventh Schedule\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"[See rule 23(1) and 8(3)]\\nS.\\nno. Purpose Authorised person\\n(1) (2) (3)\",\"denseRank\":4,\"keywordRank\":5,\"fusedScore\":0.031009615384615385,\"similarity\":0.7936923522674114,\"pinned\":false},{\"chunkId\":1969,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 9\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"9. Contact information of person to answer questions about processing.\\u2014 Every Data Fiduciary shall\\nprominently publish on its website or app, and mention in every response to a communication for the\\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat\",\"denseRank\":5,\"keywordRank\":8,\"fusedScore\":0.030090497737556562,\"similarity\":0.7932647959554907,\"pinned\":false},{\"chunkId\":2000,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"First Schedule, Part B, Item 4\",\"heading\":\"First Schedule \\u2014 [See rule 4] \\u203A Part B \\u2014 Obligations of Consent Manager\",\"pageStart\":33,\"pageEnd\":33,\"excerpt\":\"4. The Consent Manager: \\u2014\\n(a) shall give the Data Principal using such platform access to such record;\\n(b) shall, on the request of the Data Principal and in accordance with its terms of service, make\\navailable to her the information contained in such record, in machine-readable form; and\\n(c) shall \",\"denseRank\":19,\"keywordRank\":1,\"fusedScore\":0.029051670471052084,\"similarity\":0.7592792775824323,\"pinned\":false},{\"chunkId\":1979,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 16\",\"heading\":\"\",\"pageStart\":30,\"pageEnd\":30,\"excerpt\":\"16. Exemption from Act for research, archiving or statistical purposes. \\u2014The provisions of the Act\\nshall not apply to the processing of personal data necessary for research, archiving or statistical purposes if\\nit is carried on in accordance with the standards specified in Second Schedule.\",\"denseRank\":6,\"keywordRank\":12,\"fusedScore\":0.02904040404040404,\"similarity\":0.7921271088086231,\"pinned\":false},{\"chunkId\":1977,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 14\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":30,\"excerpt\":\"14. Rights of Data Principals. \\u2014 (1) For enabling Data Principals to exercise their rights under the Act,\\nthe Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\\napp, or both, as the case may be, \\u2014\\n(a) the details of the means using which a Data Pri\",\"denseRank\":11,\"keywordRank\":7,\"fusedScore\":0.02900988017658188,\"similarity\":0.7715644470324448,\"pinned\":false}]}",
+     "id": "lc_91c7c337-d6ea-4577-ae57-284f87872ddc",
+     "text": "{\"query\":\"definition of personal data, identifiable individual, scope of application DPDP Rules\",\"degraded\":null,\"hits\":[{\"chunkId\":2046,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Seventh Schedule, Item 1\",\"heading\":\"Seventh Schedule\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"1. Use, by the State or any of its instrumentalities, of\\npersonal data of a Data Principal in the interest of\\nsovereignty and integrity of India or security of\\nthe State.\\nSuch officer of the State or of any of its\\ninstrumentalities notified under clause (a) of\\nsub-section (2) of section 17 of the Ac\",\"denseRank\":2,\"keywordRank\":6,\"fusedScore\":0.03128054740957967,\"similarity\":0.7835343560062804,\"pinned\":false},{\"chunkId\":1973,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 11, part 1 of 2\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":29,\"excerpt\":\"11. Verifiable consent for processing of personal data of person with disability who has lawful\\nguardian. \\u2014 (1) A Data Fiduciary, while obtaining verifiable consent from an individual identifying\\nherself as the lawful guardian of a person with disability, shall observe due diligence to verify that s\",\"denseRank\":6,\"keywordRank\":4,\"fusedScore\":0.030776515151515152,\"similarity\":0.772930196800921,\"pinned\":false},{\"chunkId\":1971,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 2 of 3\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\n(c) \\u201CDigital Locker service provider\\u201D shall mean such intermediary, including a body corporate or an\\nagency of the appropriate Government, as may be notified by the Central Government, in\\naccordance wit\",\"denseRank\":8,\"keywordRank\":3,\"fusedScore\":0.03057889822595705,\"similarity\":0.7711536151859448,\"pinned\":false},{\"chunkId\":1977,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 14\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":30,\"excerpt\":\"14. Rights of Data Principals. \\u2014 (1) For enabling Data Principals to exercise their rights under the Act,\\nthe Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\\napp, or both, as the case may be, \\u2014\\n(a) the details of the means using which a Data Pri\",\"denseRank\":11,\"keywordRank\":1,\"fusedScore\":0.03047794966520434,\"similarity\":0.7596233616126741,\"pinned\":false},{\"chunkId\":1970,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 1 of 3\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\\nbefore the processing of any personal data of a child and shall observe due diligence, for c\",\"denseRank\":10,\"keywordRank\":2,\"fusedScore\":0.030414746543778803,\"similarity\":0.7640792131425308,\"pinned\":false},{\"chunkId\":1969,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 9\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"9. Contact information of person to answer questions about processing.\\u2014 Every Data Fiduciary shall\\nprominently publish on its website or app, and mention in every response to a communication for the\\nexercise of the rights of a Data Principal under the Act, the business contact information of the Dat\",\"denseRank\":5,\"keywordRank\":9,\"fusedScore\":0.02987736900780379,\"similarity\":0.774035446058381,\"pinned\":false}]}",
      "type": "text"
     }
    ],
    "name": "search_regulations",
+   "status": "success"
+  },
+  "ac80c009f4e012230283a40cbe3c2f24cba89cdb39d8372883528ed515479619": {
+   "args": {
+    "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1970,
+       "denseRank": 7,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\nbefore the processing of any personal data of a child and shall observe due diligence, for c",
+       "fusedScore": 0.03131881575727918,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 28,
+       "pageStart": 27,
+       "paraRef": "Rule 10, part 1 of 3",
+       "pinned": false,
+       "similarity": 0.7126369229714701
+      },
+      {
+       "chunkId": 1971,
+       "denseRank": 4,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\n(c) “Digital Locker service provider” shall mean such intermediary, including a body corporate or an\nagency of the appropriate Government, as may be notified by the Central Government, in\naccordance wit",
+       "fusedScore": 0.03125,
+       "heading": "",
+       "keywordRank": 4,
+       "pageEnd": 28,
+       "pageStart": 28,
+       "paraRef": "Rule 10, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7129772482026824
+      },
+      {
+       "chunkId": 1972,
+       "denseRank": 2,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "10. Verifiable consent for processing of personal data of child.—(1) A Data Fiduciary shall adopt\nBefore processing C’s personal data for the creation of her user account, DF shall check to confirm that it\nholds reliable identity and age details of P and that P is an identifiable adult.\nCase 4: P is",
+       "fusedScore": 0.031054405392392875,
+       "heading": "",
+       "keywordRank": 7,
+       "pageEnd": 28,
+       "pageStart": 28,
+       "paraRef": "Rule 10, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.7215664854249496
+      },
+      {
+       "chunkId": 1974,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "11. Verifiable consent for processing of personal data of person with disability who has lawful\n(d) “person with disability” shall mean and include—\n(i) an individual who has long term physical, mental, intellectual or sensory impairment\nwhich, in interaction with barriers, hinders her full and effe",
+       "fusedScore": 0.03076923076923077,
+       "heading": "",
+       "keywordRank": 5,
+       "pageEnd": 29,
+       "pageStart": 29,
+       "paraRef": "Rule 11, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7126633696161313
+      },
+      {
+       "chunkId": 1961,
+       "denseRank": 3,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "2. Definitions. — (1) In these rules, unless the context otherwise requires, –\n(a) “Act” means the Digital Personal Data Protection Act, 2023 (22 of 2023);\n(b) “techno-legal measures” means as referred to under rules 20 and 22;\n(c) “user account” means the online account registered by the Data Princ",
+       "fusedScore": 0.03036576949620428,
+       "heading": "",
+       "keywordRank": 9,
+       "pageEnd": 24,
+       "pageStart": 24,
+       "paraRef": "Rule 2",
+       "pinned": false,
+       "similarity": 0.7211151358142206
+      }
+     ],
+     "query": "\"personal data\" means any data about an individual who is identifiable by or in relation to such data"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_16b4f95d-90c9-4a00-b636-d7e74bcd7c22",
+     "text": "{\"query\":\"\\u0022personal data\\u0022 means any data about an individual who is identifiable by or in relation to such data\",\"degraded\":null,\"hits\":[{\"chunkId\":1970,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 1 of 3\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\nappropriate technical and organisational measures to ensure that verifiable consent of the parent is obtained\\nbefore the processing of any personal data of a child and shall observe due diligence, for c\",\"denseRank\":7,\"keywordRank\":1,\"fusedScore\":0.03131881575727918,\"similarity\":0.7126369229714701,\"pinned\":false},{\"chunkId\":1971,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 2 of 3\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\n(c) \\u201CDigital Locker service provider\\u201D shall mean such intermediary, including a body corporate or an\\nagency of the appropriate Government, as may be notified by the Central Government, in\\naccordance wit\",\"denseRank\":4,\"keywordRank\":4,\"fusedScore\":0.03125,\"similarity\":0.7129772482026824,\"pinned\":false},{\"chunkId\":1972,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 10, part 3 of 3\",\"heading\":\"\",\"pageStart\":28,\"pageEnd\":28,\"excerpt\":\"10. Verifiable consent for processing of personal data of child.\\u2014(1) A Data Fiduciary shall adopt\\nBefore processing C\\u2019s personal data for the creation of her user account, DF shall check to confirm that it\\nholds reliable identity and age details of P and that P is an identifiable adult.\\nCase 4: P is\",\"denseRank\":2,\"keywordRank\":7,\"fusedScore\":0.031054405392392875,\"similarity\":0.7215664854249496,\"pinned\":false},{\"chunkId\":1974,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 11, part 2 of 2\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":29,\"excerpt\":\"11. Verifiable consent for processing of personal data of person with disability who has lawful\\n(d) \\u201Cperson with disability\\u201D shall mean and include\\u2014\\n(i) an individual who has long term physical, mental, intellectual or sensory impairment\\nwhich, in interaction with barriers, hinders her full and effe\",\"denseRank\":5,\"keywordRank\":5,\"fusedScore\":0.03076923076923077,\"similarity\":0.7126633696161313,\"pinned\":false},{\"chunkId\":1961,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 2\",\"heading\":\"\",\"pageStart\":24,\"pageEnd\":24,\"excerpt\":\"2. Definitions. \\u2014 (1) In these rules, unless the context otherwise requires, \\u2013\\n(a) \\u201CAct\\u201D means the Digital Personal Data Protection Act, 2023 (22 of 2023);\\n(b) \\u201Ctechno-legal measures\\u201D means as referred to under rules 20 and 22;\\n(c) \\u201Cuser account\\u201D means the online account registered by the Data Princ\",\"denseRank\":3,\"keywordRank\":9,\"fusedScore\":0.03036576949620428,\"similarity\":0.7211151358142206,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "f93f36733b3aebd7ac91d32c7e37a0bb04ac596029c0898263673c4a7b68573d": {
+   "args": {
+    "chunkId": 1961
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1961,
+     "content": "2. Definitions. — (1) In these rules, unless the context otherwise requires, –\n(a) “Act” means the Digital Personal Data Protection Act, 2023 (22 of 2023);\n(b) “techno-legal measures” means as referred to under rules 20 and 22;\n(c) “user account” means the online account registered by the Data Principal with the Data Fiduciary, and\nincludes any profiles, pages, handles, email address, mobile number and other similar presences by means\nof which such Data Principal is able to access the services of such Data Fiduciary; and\n(d) “verifiable consent” means a consent as specified in rule 10 or 11.\n(2) The words and expressions used in these rules and not defined, but defined in the Act, shall have the\nsame meanings respectively assigned to them in the Act.",
+     "documentId": "dpdp-rules-2025",
+     "documentTitle": "Digital Personal Data Protection Rules, 2025",
+     "heading": "",
+     "pageEnd": 24,
+     "pageStart": 24,
+     "paraRef": "Rule 2"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_d2c2a51a-2531-4812-b312-6f7979314423",
+     "text": "{\"chunkId\":1961,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 2\",\"heading\":\"\",\"pageStart\":24,\"pageEnd\":24,\"content\":\"2. Definitions. \\u2014 (1) In these rules, unless the context otherwise requires, \\u2013\\n(a) \\u201CAct\\u201D means the Digital Personal Data Protection Act, 2023 (22 of 2023);\\n(b) \\u201Ctechno-legal measures\\u201D means as referred to under rules 20 and 22;\\n(c) \\u201Cuser account\\u201D means the online account registered by the Data Principal with the Data Fiduciary, and\\nincludes any profiles, pages, handles, email address, mobile number and other similar presences by means\\nof which such Data Principal is able to access the services of such Data Fiduciary; and\\n(d) \\u201Cverifiable consent\\u201D means a consent as specified in rule 10 or 11.\\n(2) The words and expressions used in these rules and not defined, but defined in the Act, shall have the\\nsame meanings respectively assigned to them in the Act.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
    "status": "success"
   }
  }

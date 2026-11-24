@@ -1,6 +1,6 @@
 # Spec 0002 — Trajectory evals and a CI gate
 
-> Status: **Approved (PR #5, 2026-11-24) · In progress in `feat/0002-trajectory-evals`** · Created: 2026-11-24 · Owner: @Akus0ni
+> Status: **Approved (PR #5, 2026-11-24) · Implemented in `feat/0002-trajectory-evals`** · Created: 2026-11-24 · Owner: @Akus0ni
 > Depends on: spec 0001; RegLens with PR #21 (MCP results match their schemas) · Blocked by open questions: none
 > Sprint phase: D2·5
 
@@ -175,7 +175,40 @@ scenarios, and the PR says so.
 | R2.5 | The graph state logs each research turn's question id and each executed tool (`turns_log`, `tools_log`) | The checks need them. They change no request sent to a model |
 | R2.4 | The stale-recording message names the scenario and the command that re-records just it | Seen in practice: rewording one scenario made exactly that scenario stale |
 
-## 10. Sources (checked 2026-11-24)
+## 10. Results (2026-11-24; full tables in `evals/results.md`)
+
+- **A1:** `uv run pytest`: **30 passed**, offline. Covers record/replay round trip, a changed prompt raising
+  `StaleRecording`, a recorded tool error replaying as an error, each check on hand-made states, and the gate.
+- **A2:** two live runs of 15 reviews. Run 1 is `20261124T140912Z-r1.json`, plus `20261124T152938Z-r1.json`, which
+  re-records `oos-office-seating` after the scenario was clarified. Run 2 is `20261124T153003Z-r2.json`.
+  `evals/recordings/` holds 15 recordings.
+
+  | Check | Run 1 (as first recorded) | Run 1 (merged) | Run 2 |
+  |-------|---------------------------|----------------|-------|
+  | completed, guards, searched, verified | 15/15 each | 15/15 each | 15/15 each |
+  | quiet | 1/2 (office seating, v1 wording) | 2/2 | 2/2 |
+  | required | 13/13 | 13/13 | 13/13 |
+  | severity | 13/13 | 13/13 | 13/13 |
+
+  **Spread:** no scenario's check results differed between run 1 (merged) and run 2. Each review cost about $0.045
+  (run 1 $0.70, run 2 $0.68), with p50 wall times of 41.8 s and 43.4 s.
+- **A3:** `eval check` passes on the committed recordings. The baseline (`evals/baseline.json`) is required 13,
+  severity 13. The GitHub Actions run is linked in the PR.
+- **A4, judge** (`claude-haiku-4-5`, n = 30 memos):
+  - Grounded mean 4.60 and actionable mean 4.63.
+  - The lowest scores: grounded 2 for `rbc-kfs-after-acceptance` (run 1), where it called a claim that "a single
+    tap is not valid acceptance" an inference beyond the passages; and actionable 3 for that memo and for the v1
+    `oos-office-seating` memo.
+  - **Hand check** (D14: Claude, in the session, no API call, labelled before seeing any judge score; a
+    second-model check, not a human one): 10 memos × 2 criteria. Within 1 point: **20/20**. Exact: 14/20.
+  - Judge cost $0.144.
+- **A5:** broken-prompt demo: see the PR.
+- **A6:** ruleset: see the PR.
+- **A7, spend:** run 1 $0.70, run 2 lost to the memory reap (≈ $0.45, estimated from timing), the office-seating
+  re-record $0.01, run 2 $0.68, judge $0.14. That's about $2.0 for this spec so far, and about **$2.14** for Day 2
+  with spec 0001's $0.16.
+
+## 11. Sources (checked 2026-11-24)
 
 - `astral-sh/setup-uv` latest release v10.4.0 (2026-11-20) and `actions/checkout` v7.0.1 (2026-07-20), from the
   GitHub releases API.

@@ -9,7 +9,7 @@ The wait is durable: the process can exit and the review resumes from Postgres w
 plan (Sonnet) → research ⇄ tools (Haiku + RegLens MCP) → assess (Sonnet) → verify (code) → review (interrupt) → file
 ```
 
-Status: spec 0001 (the agent) built. Spec 0002 (trajectory evals, CI gate) next. See `docs/`.
+Status: spec 0001 (the agent) and spec 0002 (trajectory evals, CI gate) built. See `docs/` and `evals/results.md`.
 
 ## Quickstart (Windows, PowerShell)
 
@@ -40,4 +40,20 @@ Claude calls and RegLens's MCP handling.
 | Aadhaar images kept indefinitely for re-KYC | 6 | $0.063 | 49 s |
 | APR shown only after the borrower accepts | 4 | $0.042 | 36 s |
 
-These show the agent works, not how good it is. Quality is measured in spec 0002.
+## Evals (spec 0002)
+
+15 golden scenarios (13 that must cite specific paragraphs, 2 out of scope), two live runs, n = 15 each:
+
+| Check | Run 1 | Run 2 |
+|-------|-------|-------|
+| Completed, limits respected, searched, every citation retrieved | 15/15 | 15/15 |
+| Required paragraphs cited | 13/13 | 13/13 |
+| Severity at least the expected level | 13/13 | 13/13 |
+| Out-of-scope features stay quiet | 2/2* | 2/2 |
+
+\* After one out-of-scope scenario was clarified (see `docs/specs/0002-trajectory-evals.md` §9).
+
+Memo quality, `claude-haiku-4-5` judge (n = 30): grounded 4.60, actionable 4.63 out of 5. A hand check of 10 memos
+by a second model agreed within one point on 20 of 20 judgements. CI (`.github/workflows/evals.yml`) replays the
+recorded runs, so a pull request that changes a prompt fails until it is re-recorded and is no worse than
+`evals/baseline.json`.
