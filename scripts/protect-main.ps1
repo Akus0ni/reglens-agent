@@ -5,6 +5,7 @@
 .DESCRIPTION
   - Changes to the default branch must go through a pull request approved by a code owner (.github/CODEOWNERS).
   - Direct pushes, force-pushes and branch deletion are blocked for everyone.
+  - The `evals` status check (GitHub Actions) must pass (spec 0002).
   - The Repository admin role (the owner) may bypass the approval rule only when merging a pull request
     (bypass_mode = pull_request), never for a direct push.
   Safe to re-run: updates the ruleset if it already exists.
@@ -24,6 +25,14 @@ $ruleset = @{
     rules        = @(
         @{ type = "deletion" },
         @{ type = "non_fast_forward" },
+        # Spec 0002, R2.12: the evals job (.github/workflows/evals.yml) must pass before merging.
+        @{
+            type       = "required_status_checks"
+            parameters = @{
+                required_status_checks               = @(@{ context = "evals" })
+                strict_required_status_checks_policy = $false
+            }
+        },
         @{
             type       = "pull_request"
             parameters = @{

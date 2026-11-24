@@ -1,0 +1,2674 @@
+{
+ "models": {
+  "063bd4409e955c77b14f604df59947276aefba739923304429d343718704e35a": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01LaKnRgjSuV5euv1uuaTy6Y",
+       "input": {
+        "chunkId": 1608
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-23de-70b7-8ddc-9cb4fa96e53d-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu2YmBPHYpeE8iGBamh",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 8118,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1608
+       },
+       "id": "toolu_01LaKnRgjSuV5euv1uuaTy6Y",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 8118,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 8170
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "075b2ec94b6b621d40759da768b955714de4da821c438d3c63581f8c2d07d0cb": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Yes. Para 42(1) of the RBI NBFC KYC Directions, 2025 requires risk-based periodic updation at least once every two years for high-risk customers, every eight years for medium-risk, and every 10 years for low-risk customers, counted from account opening or the last KYC updation. Para 42(2) adds a transitional concession for low-risk individuals: updation may be completed within one year of falling due or by June 30, 2026, whichever is later.",
+     "id": "lc_run--01a20deb-ff5b-7313-93a5-cc2d4171add3-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMu1rsZnveumVfF3BPbJ",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4611,
+       "output_tokens": 151,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4611,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 151,
+      "total_tokens": 4762
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "08724a1122f7166c76b3bf85e0f6cac5e91c55ec8e54d53c1975211104cd1838": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01K1h14txxrrTjhpjfdj4Fgx",
+       "input": {
+        "query": "ongoing due diligence risk categorisation enhanced due diligence high risk customers monitoring of transactions",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-03b4-7090-9f30-906e77f5c393-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu1wbqAtpqCNSuUZogK",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1064,
+       "output_tokens": 105,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "ongoing due diligence risk categorisation enhanced due diligence high risk customers monitoring of transactions",
+        "topK": 8
+       },
+       "id": "toolu_01K1h14txxrrTjhpjfdj4Fgx",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1064,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 105,
+      "total_tokens": 1169
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "190f0c27b733886346d4f35713c6e15f03d05476842865f5cf8e2ad1d596559e": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_016Pdihhfa1YFkiqLEHrngn5",
+       "input": {
+        "query": "KYC updation self-declaration change in address officially valid document periodic updation partial freezing of accounts",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-1356-7167-b722-7668b80f44a4-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu2EmT8Xndn5AgnLAZP",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1055,
+       "output_tokens": 102,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "KYC updation self-declaration change in address officially valid document periodic updation partial freezing of accounts",
+        "topK": 8
+       },
+       "id": "toolu_016Pdihhfa1YFkiqLEHrngn5",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1055,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 102,
+      "total_tokens": 1157
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "2dc2a4a1c363a26d9d16fe4c70551a7c2b5144c0c26fbb9635ff163327b20031": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01Rety4WuXaMAT8fWT6rNrsQ",
+       "input": {
+        "chunkId": 1605
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01SVvB7jisjjhrzD411m2hke",
+       "input": {
+        "chunkId": 1606
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01Bfj91BioD7zezbPRQfHG8p",
+       "input": {
+        "chunkId": 1574
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-2abb-72e2-99a2-9f2a7686a087-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu2gJrhK8CQqxFR6mUR",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 2782,
+       "output_tokens": 150,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1605
+       },
+       "id": "toolu_01Rety4WuXaMAT8fWT6rNrsQ",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 1606
+       },
+       "id": "toolu_01SVvB7jisjjhrzD411m2hke",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 1574
+       },
+       "id": "toolu_01Bfj91BioD7zezbPRQfHG8p",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 2782,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 150,
+      "total_tokens": 2932
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "42f9ba07bf3dbf11f6bd493a127051524743110a681f031388971c573f486db7": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_015iCJi5AQabZAwZ7XPDRLk3",
+       "input": {
+        "chunkId": 1605
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-0870-72e5-b54c-ba26f173ff08-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu22juJi5E38X6EmWDW",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3800,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1605
+       },
+       "id": "toolu_015iCJi5AQabZAwZ7XPDRLk3",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3800,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 3852
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "44dec3807ba867f948c022e874464ecdfec877da0051726a8f94d958b4b73fdf": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSuAgKEAgUGAI4AUIIdGhpbmtpbmcSDP+sbQ1i8N0oCZcMKRoMdlMaTUgn0V5wjAy5IjDa0l+wCuJBfHHZwreu1fh5AaTvoUSSSDZ0jCIEH0NTDKBVECaQfFrXf5w5fAnSr1sq1Qf5qKvvO6cw1zmJcuXvEoJjUoHrAFRSdWCSvNpiOc2JMNZjsUEdBJZqgEAELPg4EGt8AL0UWpXWyAnEaL/xr+/0r268RmFfR+p587TE6N14gME1uLo+9A9VLE5XwfoDwdnIczYvDvBtX4ksGMv+EKA2LrIh8jLuoMYZfv/ob9/0B7e0FIS0FecHDt6ebQP8twZwoMuKOepWQnzde2SFgKml13/xMdJXyRS9gjTaYyVgmMlM5OAPaR5KHrOKd7+8rM00fgzZgDD/VP5ZBZkjHItFXRL/7KA8wNErTZNDWPk7mjIntXNOxbi+RbhOLLcOL+Yxi4rXcaBH+7wBXvevNBn6t6NcqDPp+kaUoPmd4qpZ9DF8vk/R1rm1rQTLlEOWk3jItlNP94fCzld5Wz4+FdWwJVqLGgDSSZ11hCkcPN7xZ+WGSd8mFi1eauyRR26FLEX9r/u9SBA4HIwRfeC8GCwdMjp6pKwKRkb2h4XynYkg48mb3fOk+tUDKc0koJSuBvJjF1qoVeo4vePFh7wiZmZiGjN94Wqb5jXYPKtNbTLw0oxTfPERxDToNUOkEQPVE88EMYWpnvBAIjhnfGG+TpwfVhAP/rNPz6MnH9wG/JpSvauhAskYPG3+SUZEwtw1oLaPFLvraHs2Yu8nPZ2juZIN1Wday0VenBKdITJS2DAymDqFJ1wmmm1ZGgyAXk7WVnx7i1xQ010zkBLmmPXhmjad5uMhvTQY9f7wHOYcDH3v+nXhzspv0zqchXLcW3gASDoNWMSA+hwD6mSsF3KRmqFCC50B+o7aCc0wrQbDqvuIEiEdePq32Rhm/lyUIWDrtIG4wP64vT5kyGYORL8c+OUFBRtu5JyJywbsyECr+q2Q6iS5vEnjdp37PqvMUX28jPF7UloFo6IHe2+Yidd3IZuomktuI+WZsHQ86Tiju5k7HiZZHM6n9VTE0fmnInAg4GHJ9fy0Odrz2WsgyTd1XMH4o9LXRjsZXcR+aV0HGWvHNodx07CLQ8ByBYMQs+QHkPQykCCqtv5YVtpOyGoR8iEUswTy5WzeTXFjZ8VElSAHPO5OGXPxUydoTgN2aRrpxvDVnEcRfVap1rW58sBN6g7Av4bfY5qx14HquVVKxA/xjKoC088ckkDIX0FMV8JOkWmDUr4vfSXMmnj13jbPSIyiKb8gKtAQWh475OiGWU/jEeYZK7dZU+Yh//K7etYON6uesqPtE8R/lUXStnZZFwzBrFwZoi091jJVNn1Hex0u+IftxnoCS0Sq6N2JBHjgkQfFdPN6JCs3J0x7HoSFlwe6YbueEpAYAQ==",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01LmJqcYa18VTo3UTGmiXdLW",
+       "input": {
+        "query": "periodic updation high risk every two years medium risk ten years low risk; no change self-declaration; non-compliance partial freezing of KYC non-compliant accounts",
+        "topK": 6
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-1c89-75e6-a68a-3838508e0be2-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu2QiFNkmc7puHa9CZC",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 5746,
+       "output_tokens": 260,
+       "output_tokens_details": {
+        "thinking_tokens": 137
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "periodic updation high risk every two years medium risk ten years low risk; no change self-declaration; non-compliance partial freezing of KYC non-compliant accounts",
+        "topK": 6
+       },
+       "id": "toolu_01LmJqcYa18VTo3UTGmiXdLW",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 5746,
+      "output_token_details": {
+       "reasoning": 137
+      },
+      "output_tokens": 260,
+      "total_tokens": 6006
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "488318a1848e76d7619fc82d53c2a9b0f5f9071004665be6d9a8773530e13f66": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "Yes. Under the RBI NBFC KYC Directions 2025, NBFCs must run ongoing due diligence to check that transactions are consistent with the customer's knowledge, business, risk profile and source of funds (Para 39). Monitoring must match the customer's risk category, with risk categorisation reviewed at least once every six months to decide whether enhanced due diligence is needed, and high-risk accounts must be subject to more intensified monitoring (Para 41). The corpus confirms the ongoing-monitoring and review obligations, but the text I read does not state an explicit \"more frequent review\" period for high-risk customers beyond the six-month minimum for all categorisation reviews. The EDD procedure itself (Section F, starting Para 44–45) covers specific cases such as non-face-to-face and PEP accounts, which I did not read in full.",
+     "id": "lc_run--01a20dec-0b9d-777f-9e47-e841f5c5f9e2-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMu26GixWZhgzLLQn7wk",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 4241,
+       "output_tokens": 278,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 4241,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 278,
+      "total_tokens": 4519
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "4dbdd2bfdd7945eacae8158692f75b7b35b51df2174fc5651087ecca89ed0d24": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "text": "I need the full text of the para 42 parts for timelines and consequences.",
+       "type": "text"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_012RAfVKESRc59CyQZVoQmiS",
+       "input": {
+        "chunkId": 1606
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01XAqScwAW4ha2e7P5iPQQmv",
+       "input": {
+        "chunkId": 1607
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_018h6ZUmRD4zpnfx6F4aGQ4o",
+       "input": {
+        "chunkId": 1609
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-17a3-767c-b827-d387c760cde9-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu2KPWQt7itFcGtChAh",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3855,
+       "output_tokens": 173,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1606
+       },
+       "id": "toolu_012RAfVKESRc59CyQZVoQmiS",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 1607
+       },
+       "id": "toolu_01XAqScwAW4ha2e7P5iPQQmv",
+       "name": "get_passage",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 1609
+       },
+       "id": "toolu_018h6ZUmRD4zpnfx6F4aGQ4o",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3855,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 173,
+      "total_tokens": 4028
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "523871a43a9de3011ea4843ee20f26939e52c697a485e4e92f6c39aa4577a152": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01QGE4NC2gtb1VqxL6T9GAF3",
+       "input": {
+        "query": "data fiduciary accuracy completeness of personal data retention erasure specified purpose reasonable security safeguards",
+        "topK": 8
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-44e3-75da-8d04-ee78bb937faa-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu3B7xw4R6JNyf4XgRc",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1073,
+       "output_tokens": 106,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "data fiduciary accuracy completeness of personal data retention erasure specified purpose reasonable security safeguards",
+        "topK": 8
+       },
+       "id": "toolu_01QGE4NC2gtb1VqxL6T9GAF3",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1073,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 106,
+      "total_tokens": 1179
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "8f73d244f4187f2a093cf288d4e5b3e297c9a260987b35218dcb03aa4610ee53": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS1wYKEAgUGAI4AUIIdGhpbmtpbmcSDPO3Z27EJ3x6epw0AxoMd+JqWc+iQP95qTZ5IjDA+cup3Dd42bTPS3gzh6tEI4SKoqxvBs79jZ/V7H6N5ti7jN1SAxs6MXiP3U37Oysq9AWkWA+OAdioKhHCPk5KIaj8YHhDivaA7IF325EmBGuO7GYkZCE6IDB8u8eGnbPs5PhTNC/mkZriLUWNh8i7ZbvpERUbqn0W5dLAdkvoBm+VIrn4GeN4lAL4jSiK1FiNQ8ufEauLVC9105qEYTpVAhTBIBn5Uen/rcIMI7U5loNkpmIi13QOOkhxaoojQpKPb3AB1Tin1gsj3vA8Ck0sV9ZGxl84hKIaJYwfCVAmxdS3BCihx8OVp/nNfm6619TKRtbtGtwUjTJSAtcvYu9HDfVBT8LYhCbG4UHdXByIKpry+HtXRWeUVaSHUP8vd73YbHLa6yQtxzsVFsNicTvvtzjh9wppK7wbl/LpFOh/Rc08JIw3BGqUYo2e4TbVexpu8zRWTj9/db0B2d1xBi6DbZ4EDmYHoz1ACv4aEysBK8cAOEGWS02h3moXA0PZCxLbsUqSugXcEFq8U1j5JZoDcRmxpW+bdaHG6mu3gkiapbU/7uAu9w14yT47owK2EgM5JppUl1DdhIQrjWZu2IC6wsAQGDugc2Q2Ef/gtJ/ug6yrkcWxlhqEgNXB1KWxJ78nIlwv0cJ6vK0Sv4RFyDWlIGe82y3GynaGntYwBSpH0fThlLzweLO4GcqISXS61n2WIKhzPb7eUUKVQECB8HVhymJSgO7h8beBCXDYdk0hMQ07tYDLovJuOHNvPIAzhCE0T6m355/rKA7h6rTpdHlv3Vjij6gKwjlSceYb4E2WLq+Uk2SFONTkmPv6v/6FUgbiE0qiCfSZopsZqO3IfVBv+RTRhYTSDN4FRjvvN4IabUFKC+1pk/raoXgSsVIYhFtgZwS0S0ZGCS8cui9IHNnJyMcMoIIINSETN57P5RhC4WERjXqrttYJFdcR3AAkSO0k/GMOAHYnLtR0rYU67MK+5zH3Qct8p+gW7M6hELtYh04J1/YJD8KJIntskegR5EwNFE2dkvGvWSCM1G4UcY36w2yRylvpXzdkrpUqI79GkaWhbvDsXIAYAQ==",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01KYh4nGHoiL15xhzooG97SN",
+       "input": {
+        "query": "personal data accurate and complete where used to make decision affecting Data Principal",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      },
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_014FQSqdaRU2eKPE7YvLN2QV",
+       "input": {
+        "chunkId": 1967
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-4984-7035-9273-ca1805ff3caf-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu3GqFosJoHFNAYo4T8",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3363,
+       "output_tokens": 227,
+       "output_tokens_details": {
+        "thinking_tokens": 84
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "personal data accurate and complete where used to make decision affecting Data Principal",
+        "topK": 5
+       },
+       "id": "toolu_01KYh4nGHoiL15xhzooG97SN",
+       "name": "search_regulations",
+       "type": "tool_call"
+      },
+      {
+       "args": {
+        "chunkId": 1967
+       },
+       "id": "toolu_014FQSqdaRU2eKPE7YvLN2QV",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3363,
+      "output_token_details": {
+       "reasoning": 84
+      },
+      "output_tokens": 227,
+      "total_tokens": 3590
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "9989f32b2514b1c665ee03df3df679ec6a50fda31a4d8dbcadc799373513cc49": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01RHWhwXKoLJgJmCNSZ6bdEy",
+       "input": {
+        "query": "periodic review of risk categorisation doubt about adequacy or veracity of previously obtained customer identification data",
+        "topK": 5
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20dec-26f5-71eb-99f0-45d74a13a76f-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu2c95G8Z2SWDfeg3V8",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1058,
+       "output_tokens": 104,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "periodic review of risk categorisation doubt about adequacy or veracity of previously obtained customer identification data",
+        "topK": 5
+       },
+       "id": "toolu_01RHWhwXKoLJgJmCNSZ6bdEy",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1058,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 104,
+      "total_tokens": 1162
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "9af0763e712610b9455fea2eac60f81fd6c580b82f1a8a38c13c475c74963e8b": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQS9AkKEAgUGAI4AUIIdGhpbmtpbmcSDI2xhN+yNRXxtUm8mRoMySAzw+lWD8jiHrmyIjCjhhYC2g/NEshTwRocm9ZMKeD95csJVfFOY3VwihlyDpm2jBdIW61j+b3KXbdfTSoqkQn+xnl+eeSW/POuqoffGWYOjI6n8nG1h1X4wj12BNHdW752hkHcihgZaNMw0Bm5jyuwEBBg8MCWvl7WRqrE1vqpZ/LWDR5GqLi78SzX9Qnh0PBLJ5XU4/9AbCa139ISNuXBZ+pj7cOKnQ2EtTh1fbEshZsyJsBZUmBJaGy0tpmTkFrnnOUzqcE9xlcX1AhifDXUXLHc7f1Fu3AKaf5Og8lkVPHka68cYk23uNlSyDmZxqEWRbyzB36zm5RThOoUJjqpBAFEnRzQGwQad5RqSNGMeYoCfdMUF7HVO0SNWLFo05nuvOV+BOY1POCT0k1PxJnZjv9hxaQ2HGzFU6Y/NT0nZQzGmPbgo43ZmY7qeaFcffgQzGqK+1n3h3yozYPAN9ojl0dRoGzqfBHAWNF6p7DDT4A/S9ehM4F+6kgzRc50TYOza1t72UWPcbq7uTj0UTBSF9TUDByls+5QdKGZsaAGH04MBkLx+M1w4u4SD5a7S27Vo76se1pAUR7r6RLyaJ9iPggbGn5vFXwdc//8AxK4jRxtN1iMfzBXFneu/tVjdJ3GBaLXsCFbXfH2GSAgzBp9xzhjSz1qw2r3UGPqXOqAm6dbYMDCAzbOLg82DUeMkwXU37p3T8wXTUmgMCzCF27BCu6V0vtX6kXQInDstNPSgbWMzr9XeCko4Wh1l9epSZpsyQLl0ZWT+d95v2HX8i+ZFY9RdtHb9dMHYsUMaoMdEwQe8c1hWWE1mEE+zB55VXrXCsZzgQPifgGw/1630CXbUGjIAY8kYMCRG5FOCfqNTMvhiQtxQ5fgzqGzfrLFGsLfSqNMfhQyJFoGY12h88hzD1Llad1WXNb5q/wNXzplVmEdzyPQH/g2ybR6/A2xIZv0HxpqtQEYJXIHiMcwCdCA756qgetelnVgJg+ohczArAFDS8uFWqO0SzpddO9rKaJFK/uefr8bXNdn/52BREnuY0tdxHZbysRPB19clC4zxkh5Vx8qZaMP8vz7p+Bd2t2++Fw9xH13ompOrYWUGdwjCpEYrwYleSjWytlJdkOzth+tRCQiJ2vLzSCm8TRhCDcOC9S/kO8qLh21DQ0WL2WTld8asT0eUDRKxxOS6T4ZUeuZP4q885AoTZaAxncKCpiDhArulZ9YqldhHkdLNJvU9lo/m0k39vHDbtDk3Wuw9XKyEo2Q3U/ChHSjdlKuaV6vLQs7GUvU6SWV+quInraWdURFuj/rMEoArz+lOAEF+gU+TkGcD8l6FFKf1BwnlTEn+RmZTx/COX2g/rXBYQQzMnPilVbzmgwnZRq45fz3vy2HjAq5rFnsf1kCvKaVLJ1QEuFyBgiAczAHhwJBJ6IQTq7HXhJ9axam1Gl5sSZE09KQ+kDWJgC04RmOxtp4UN8dxQer3JpDOB4dAtL90Z9YmY3A5fEAehivIH1uGE374M5X92NWrqTYgK1ld/jgl55CILRLjcdjGawOK4+xX+A4D2mMUjrv8XIKifgcNoGgA3xLgTeIpkK1dRQO3K+TC/qGcf6IRXnIIkAEYvMT60awsGI/BzUuxfHBUn+S/m9ShhgB",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "text": "The DPDP Rules 2025 in the corpus contain a retention-and-erasure duty but no accuracy or completeness duty that I could find, so the answer is only partly yes. Rule 8(1) requires a Data Fiduciary in a Third Schedule class to erase personal data once the specified purpose is no longer served, unless another law requires retention, and Rule 8(2) requires 48 hours' notice before erasure. The Third Schedule lists classes such as e-commerce, online gaming and social media intermediaries, and I did not confirm whether NBFCs are among them. My searches for an accuracy or completeness provision returned nothing, and Rule 6 covers only reasonable security safeguards. The corpus also does not contain any KYC-specific retention rule, so whether \"never refreshing\" KYC records breaches these duties would have to be tested against the RBI KYC Directions and the DPDP Act itself, which are not in this corpus.",
+       "type": "text"
+      }
+     ],
+     "id": "lc_run--01a20dec-533a-7293-9ee1-2552f6e7bef0-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMu3SiKGog3JBXD5ApdH",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 5485,
+       "output_tokens": 515,
+       "output_tokens_details": {
+        "thinking_tokens": 206
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 5485,
+      "output_token_details": {
+       "reasoning": 206
+      },
+      "output_tokens": 515,
+      "total_tokens": 6000
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "9bce13850600bef31120343358dde23ab5a11a16cd45296d5f2184226f1fbbdc": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "signature": "CAQSpQkKEAgUGAI4AUIIdGhpbmtpbmcSDE3iTg3XY8nJ2fGQpBoM3z3YmJ+AUcTUfx8zIjBI1nlwHe27CysicMVB1VXnPRooY2hIr4odFAE6mAtiRts9kSrK17ekH4U+y57MoV8qwgh5bf4Vk5KZ1OqaASxcRP7cBX1kIDxlsS2r+a7fF+XZQNwrm2wIsa69KZUCbWznk2CjveLrtkyghNKx2RzPFuTb6dhQcI18QrwyqUKN5qyJRxOzJGLXZ3+wBr7q0fgqQRZq20Z6aWbpmIH52Ssq/Vg27TOlEgMaNk/fTqcjiETL7dTxW3zVLogmhOxBFxntNE7N/Bj4nPnIsR5HnwCgF41ANFki6JvxBrt7A0uHs3aY+WBqR96YIqUiBo16YYxRH0KMyg+v+N2MSc1BjsN1v5VK9btXr7Er9y7fkuewzuT01LsG3kXs7LCyzAdr9eEI2QKRD/iKqxv0vinHV3AhhfDZWi3XUOgmSEhA4SWj5zVGPpirvGlmYFIiI3UZ5qiD2Qpc9Hgj7RM06MlAyB4s72Jt3EpnA1xUW3nThmulyclwO8e1WYhKkIdTX1jqYnY5PPDwBcLOsLVtBYnB9NGDwvpcMprVuCIBajP2OUCTNRke6g7kGosBD9YGMz6aMBSOCILBmOIOEkQCRBwRfraB0qPomTVAFE2zOmhXt0aajowPnpKi1WDIce0ZK01dxyIOeCPngDBoOmi9HBk7y57bG6xCA+747YfsjapXYi/En5u4NaNqCSMNiI9tN/1G40um2q6cDKgPpKF3kSxPA7zRIj5dtOajvDg2nCagtyRoTLkjVHhg6+hyu8bdQQ7jBorourwcdTIT2hY9HTvMgqIVDOpj9suEyhkLMtjgwXUbGz4QtGx7OEXiCVDF3zZOll7mCTfqgosBVU09FSO+Ubp9Rtrd+0g8GJ4tGjTeMAB5j9O0/awsjwrjOxIyacSRGTOhd6J4FomO7j0UluGorO9nSNpx6Np+wcstmLKv6RyvBzehpLgvomlJYs+d0vbpOlq8yQzeeD6Ve8/5F8WZK4E/NDOEW9/Phm5EpiiEzEtSjWWvj/fVnmvicoB+RaVk7le6XubgZHn9Ur/mklb/RM7MsbolLi2bQVcEkfHqFyZLmJ+Db40PEpZLUrGt2XiUpNoB8FxrvzjhqJXTp79xbsjIvMKC9fPi15EEGiFwOQQ3fz2JwQrTQwqEh5rpcJy28zrpf/YKSGs6zOagU7hZFFIf6VNcP6JyyCDk3iqV8WAXJQKqufvVgrnvYA6s/Oe/gvAEG2OcEHEhxtRIpTsgsxuqr6YRLc2NXtblNH21f/dPYFDTscH9918Uh+R1UGevd/JGKc3QdWMOwIdBH2TurOxdqfYx6zlcxC/9CRZOTsWrsIz4llanGFVxL+xJk93ep0dPgWcOAOO0LlRcK483HN/CjgQqfwZl/tW3VWKV5kbd9H1UOaSUw9+2+9sUcFDbMBVHuH2mUXdZ7SH5n/q1CtzjfpzasLqhqgbkqkzS68zvLYw8onPXjfsSdfFkSttibGu1HJM5UTIYd4zR3jVpSMcjjwFgcCUxH1A3LP75sdC9614NI2iiGAE=",
+       "thinking": "",
+       "type": "thinking"
+      },
+      {
+       "text": "Yes. The NBFC KYC Directions require a periodic review of risk categorisation at least once every six months (Para 41), and a doubt about the authenticity or adequacy of customer identification data is a listed trigger for re-identifying the customer (Para 21(3)).\n\nI read Para 21 in full. For Para 41 I only have the excerpt, which states the six-month minimum and the link to enhanced due diligence, so the rest of that paragraph is unverified. Para 42 on periodic updation of KYC data appeared in search results, but I could not retrieve its full text, so I have not relied on it for the specific obligation to refresh data.",
+       "type": "text"
+      }
+     ],
+     "id": "lc_run--01a20dec-3af0-7697-acba-f37b800eb6bb-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMu2z4wYaVKoR6Gn6xDn",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3616,
+       "output_tokens": 381,
+       "output_tokens_details": {
+        "thinking_tokens": 173
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3616,
+      "output_token_details": {
+       "reasoning": 173
+      },
+      "output_tokens": 381,
+      "total_tokens": 3997
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "a63a2410752cc04ea2f8f659dd6f9b3634a1153e6ef64bbe5ca8a489a47e0da4": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "findings": [
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+      "evidence_chunk_ids": [
+       1606
+      ],
+      "obligation": "The NBFC must carry out periodic KYC updation at least once every two years for high-risk customers, every eight years for medium-risk and every ten years for low-risk customers, counted from account opening or last updation. The policy must be documented in the Board-approved KYC policy.",
+      "para_ref": "Para 42, part 1 of 5",
+      "question_id": "q1",
+      "recommendation": "Build periodic KYC updation into the product with a two-year cycle for high-risk, eight-year for medium-risk and ten-year for low-risk customers. Document it in the Board-approved KYC policy. Identify and remediate existing customers whose updation is overdue.",
+      "severity": "HIGH"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+      "evidence_chunk_ids": [
+       1605,
+       1603
+      ],
+      "obligation": "The NBFC must align monitoring with each customer's risk category and subject high-risk accounts to more intensified monitoring. It must also review risk categorisation at least every six months and decide whether enhanced due diligence is needed.",
+      "para_ref": "Para 41",
+      "question_id": "q2",
+      "recommendation": "Put in place a periodic risk-categorisation review at least every six months. Trigger enhanced due diligence and intensified monitoring for high-risk customers, and make sure ongoing due diligence checks transactions against the customer's profile and source of funds.",
+      "severity": "HIGH"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+      "evidence_chunk_ids": [
+       1609,
+       1606,
+       1607
+      ],
+      "obligation": "For updation, the NBFC must obtain a self-declaration where nothing has changed, verify a changed address within two months, and ensure KYC documents meet current CDD standards. It must also acknowledge receipt of documents, promptly update its records, and intimate the customer of the date of updation.",
+      "para_ref": "Para 42, part 4 of 5",
+      "question_id": "q3",
+      "recommendation": "Build updation workflows covering no-change self-declaration, change of address with verification within two months, acknowledgment and customer intimation, and re-KYC when documents are outdated or expired. Document these in the Board-approved policy.",
+      "severity": "MEDIUM"
+     },
+     {
+      "document": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+      "evidence_chunk_ids": [
+       1574,
+       1605
+      ],
+      "obligation": "The NBFC must review risk categorisation at least every six months. It must also carry out identification afresh when there is doubt about the authenticity or adequacy of previously obtained customer identification data.",
+      "para_ref": "Para 21",
+      "question_id": "q4",
+      "recommendation": "Add event-based triggers for re-identification, such as doubts about the authenticity or adequacy of KYC data, alongside the scheduled six-monthly risk review. Feed the results back into the customer's risk category.",
+      "severity": "MEDIUM"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"findings\":[{\"question_id\":\"q1\",\"obligation\":\"The NBFC must carry out periodic KYC updation at least once every two years for high-risk customers, every eight years for medium-risk and every ten years for low-risk customers, counted from account opening or last updation. The policy must be documented in the Board-approved KYC policy.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025\",\"para_ref\":\"Para 42, part 1 of 5\",\"severity\":\"HIGH\",\"evidence_chunk_ids\":[1606],\"recommendation\":\"Build periodic KYC updation into the product with a two-year cycle for high-risk, eight-year for medium-risk and ten-year for low-risk customers. Document it in the Board-approved KYC policy. Identify and remediate existing customers whose updation is overdue.\"},{\"question_id\":\"q2\",\"obligation\":\"The NBFC must align monitoring with each customer's risk category and subject high-risk accounts to more intensified monitoring. It must also review risk categorisation at least every six months and decide whether enhanced due diligence is needed.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025\",\"para_ref\":\"Para 41\",\"severity\":\"HIGH\",\"evidence_chunk_ids\":[1605,1603],\"recommendation\":\"Put in place a periodic risk-categorisation review at least every six months. Trigger enhanced due diligence and intensified monitoring for high-risk customers, and make sure ongoing due diligence checks transactions against the customer's profile and source of funds.\"},{\"question_id\":\"q3\",\"obligation\":\"For updation, the NBFC must obtain a self-declaration where nothing has changed, verify a changed address within two months, and ensure KYC documents meet current CDD standards. It must also acknowledge receipt of documents, promptly update its records, and intimate the customer of the date of updation.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025\",\"para_ref\":\"Para 42, part 4 of 5\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[1609,1606,1607],\"recommendation\":\"Build updation workflows covering no-change self-declaration, change of address with verification within two months, acknowledgment and customer intimation, and re-KYC when documents are outdated or expired. Document these in the Board-approved policy.\"},{\"question_id\":\"q4\",\"obligation\":\"The NBFC must review risk categorisation at least every six months. It must also carry out identification afresh when there is doubt about the authenticity or adequacy of previously obtained customer identification data.\",\"document\":\"Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025\",\"para_ref\":\"Para 21\",\"severity\":\"MEDIUM\",\"evidence_chunk_ids\":[1574,1605],\"recommendation\":\"Add event-based triggers for re-identification, such as doubts about the authenticity or adequacy of KYC data, alongside the scheduled six-monthly risk review. Feed the results back into the customer's risk category.\"}]}",
+     "id": "lc_run--01a20dec-5eda-7765-84a6-0b5171e009b0-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMu3foco2YWGdnN5837c",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 9408,
+       "output_tokens": 1057,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 9408,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 1057,
+      "total_tokens": 10465
+     }
+    },
+    "type": "ai"
+   },
+   "role": "assess"
+  },
+  "b4a11f4a0d420d51ec4402aabacb046ee1f164a5f46c8995e57cadfa66796e12": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_0153ZrDPfGWNDYCQGygmw5Q7",
+       "input": {
+        "query": "periodic updation of KYC high risk every two years medium risk every eight years low risk every ten years"
+       },
+       "name": "search_regulations",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-f7d2-723d-9a82-fa4b3541da44-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu1ipPaNHju5A5uPs9v",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 1050,
+       "output_tokens": 78,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "query": "periodic updation of KYC high risk every two years medium risk every eight years low risk every ten years"
+       },
+       "id": "toolu_0153ZrDPfGWNDYCQGygmw5Q7",
+       "name": "search_regulations",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 1050,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 78,
+      "total_tokens": 1128
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  },
+  "c27ec1b072846beb80bd0e016def767f3f62f0fc8f8c7d3a1aa70bb05fbee5e0": {
+   "model": "claude-sonnet-5-5",
+   "parsed": {
+    "questions": [
+     {
+      "id": "q1",
+      "search_hint": "periodic updation of KYC high risk every two years medium risk every eight years low risk every ten years",
+      "text": "Does the RBI KYC Directions for NBFCs require periodic updation of KYC, and what is the prescribed frequency for each risk category (high, medium, low risk customers)?"
+     },
+     {
+      "id": "q2",
+      "search_hint": "ongoing due diligence risk categorisation enhanced due diligence high risk customers monitoring of transactions",
+      "text": "Is an NBFC required to apply ongoing due diligence and risk-based monitoring of customer accounts after onboarding, and must high-risk customers be subject to enhanced due diligence and more frequent review?"
+     },
+     {
+      "id": "q3",
+      "search_hint": "KYC updation self-declaration change in address officially valid document due date partial freezing of accounts",
+      "text": "What procedure and timelines must an NBFC follow for KYC updation, including customer-initiated updates, no-change self-declarations, and consequences of failing to update (such as restrictions on accounts)?"
+     },
+     {
+      "id": "q4",
+      "search_hint": "periodic review of risk categorisation doubt about adequacy or veracity of previously obtained customer identification data",
+      "text": "Must an NBFC conduct periodic review of customer risk categorisation and obtain fresh or updated customer identification data when there are triggers such as doubts about the veracity of previously obtained data?"
+     },
+     {
+      "id": "q5",
+      "search_hint": "data fiduciary accuracy completeness of personal data retention erasure specified purpose reasonable security safeguards",
+      "text": "Does the Digital Personal Data Protection Rules 2025 require the NBFC as data fiduciary to keep personal data accurate and complete and to retain KYC data only as long as needed, which bears on never refreshing KYC records?"
+     }
+    ]
+   },
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": "{\"questions\":[{\"id\":\"q1\",\"text\":\"Does the RBI KYC Directions for NBFCs require periodic updation of KYC, and what is the prescribed frequency for each risk category (high, medium, low risk customers)?\",\"search_hint\":\"periodic updation of KYC high risk every two years medium risk every eight years low risk every ten years\"},{\"id\":\"q2\",\"text\":\"Is an NBFC required to apply ongoing due diligence and risk-based monitoring of customer accounts after onboarding, and must high-risk customers be subject to enhanced due diligence and more frequent review?\",\"search_hint\":\"ongoing due diligence risk categorisation enhanced due diligence high risk customers monitoring of transactions\"},{\"id\":\"q3\",\"text\":\"What procedure and timelines must an NBFC follow for KYC updation, including customer-initiated updates, no-change self-declarations, and consequences of failing to update (such as restrictions on accounts)?\",\"search_hint\":\"KYC updation self-declaration change in address officially valid document due date partial freezing of accounts\"},{\"id\":\"q4\",\"text\":\"Must an NBFC conduct periodic review of customer risk categorisation and obtain fresh or updated customer identification data when there are triggers such as doubts about the veracity of previously obtained data?\",\"search_hint\":\"periodic review of risk categorisation doubt about adequacy or veracity of previously obtained customer identification data\"},{\"id\":\"q5\",\"text\":\"Does the Digital Personal Data Protection Rules 2025 require the NBFC as data fiduciary to keep personal data accurate and complete and to retain KYC data only as long as needed, which bears on never refreshing KYC records?\",\"search_hint\":\"data fiduciary accuracy completeness of personal data retention erasure specified purpose reasonable security safeguards\"}]}",
+     "id": "lc_run--01a20deb-e08b-7710-abea-15b42eb62e90-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "end_turn",
+      "finish_state": "complete",
+      "id": "msg_011ChMu1HQgERCCLH1KCQfU5",
+      "model": "claude-sonnet-5-5",
+      "model_name": "claude-sonnet-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "stop",
+      "stop_details": null,
+      "stop_reason": "end_turn",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 901,
+       "output_tokens": 600,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 901,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 600,
+      "total_tokens": 1501
+     }
+    },
+    "type": "ai"
+   },
+   "role": "plan"
+  },
+  "ce0c65492ba2d0ddd2135d05d934229b729dd2e59b0680f13c4e16e67e86f59e": {
+   "model": "claude-haiku-5-5",
+   "parsed": null,
+   "reply": {
+    "data": {
+     "additional_kwargs": {},
+     "content": [
+      {
+       "caller": {
+        "type": "direct"
+       },
+       "id": "toolu_01SHkVPWDVscSTcatSNNcdva",
+       "input": {
+        "chunkId": 1606
+       },
+       "name": "get_passage",
+       "toolset_name": null,
+       "type": "tool_use"
+      }
+     ],
+     "id": "lc_run--01a20deb-fc36-70c4-a879-cf7f0bba2c23-0",
+     "invalid_tool_calls": [],
+     "name": null,
+     "response_metadata": {
+      "container": null,
+      "diagnostics": null,
+      "finish_reason": "tool_use",
+      "finish_state": "complete",
+      "id": "msg_011ChMu1oe7Ra4KrjwZ4G6B3",
+      "model": "claude-haiku-5-5",
+      "model_name": "claude-haiku-5-5",
+      "model_provider": "anthropic",
+      "normalized_finish_reason": "tool_call",
+      "stop_details": null,
+      "stop_reason": "tool_use",
+      "stop_sequence": null,
+      "usage": {
+       "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+       },
+       "cache_creation_input_tokens": 0,
+       "cache_read_input_tokens": 0,
+       "inference_geo": "global",
+       "input_tokens": 3813,
+       "output_tokens": 52,
+       "output_tokens_details": {
+        "thinking_tokens": 0
+       },
+       "server_tool_use": null,
+       "service_tier": "standard",
+       "speed": "standard"
+      }
+     },
+     "tool_calls": [
+      {
+       "args": {
+        "chunkId": 1606
+       },
+       "id": "toolu_01SHkVPWDVscSTcatSNNcdva",
+       "name": "get_passage",
+       "type": "tool_call"
+      }
+     ],
+     "type": "ai",
+     "usage_metadata": {
+      "input_token_details": {
+       "cache_creation": 0,
+       "cache_read": 0,
+       "ephemeral_1h_input_tokens": 0,
+       "ephemeral_5m_input_tokens": 0
+      },
+      "input_tokens": 3813,
+      "output_token_details": {
+       "reasoning": 0
+      },
+      "output_tokens": 52,
+      "total_tokens": 3865
+     }
+    },
+    "type": "ai"
+   },
+   "role": "research"
+  }
+ },
+ "scenario": "kyc-no-periodic-update",
+ "tools": {
+  "0848ccc8117dccc76cc73811a524d4bd331c2d575c4b39ee8a3b4c48c16fc98b": {
+   "args": {
+    "chunkId": 1967
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1967,
+     "content": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance with any law\nfor the time being in force, or, for the corresponding time period specified in the Third Schedule, if the Data\nPrincipal neither approaches such Data Fiduciary for the performance of the specified purpose nor exercises\nher rights in relation to such processing.\n(2) At least forty-eight hours before completion of the time period for erasure of personal data under this\nrule, the Data Fiduciary shall inform the Data Principal that such personal data shall be erased upon\ncompletion of such period, unless she logs into her user account or otherwise initiates contact with the Data\nFiduciary for the performance of the specified purpose or exercises her rights in relation to the processing\nof such personal data.",
+     "documentId": "dpdp-rules-2025",
+     "documentTitle": "Digital Personal Data Protection Rules, 2025",
+     "heading": "",
+     "pageEnd": 27,
+     "pageStart": 27,
+     "paraRef": "Rule 8, part 1 of 2"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_e2bff7c0-4614-4afe-973a-c33d9cfa7093",
+     "text": "{\"chunkId\":1967,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 1 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"content\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance with any law\\nfor the time being in force, or, for the corresponding time period specified in the Third Schedule, if the Data\\nPrincipal neither approaches such Data Fiduciary for the performance of the specified purpose nor exercises\\nher rights in relation to such processing.\\n(2) At least forty-eight hours before completion of the time period for erasure of personal data under this\\nrule, the Data Fiduciary shall inform the Data Principal that such personal data shall be erased upon\\ncompletion of such period, unless she logs into her user account or otherwise initiates contact with the Data\\nFiduciary for the performance of the specified purpose or exercises her rights in relation to the processing\\nof such personal data.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "0d8b83a381525956fe48f274b189398a88df9bcfe16f2ca113ba1e8a9b203eaf": {
+   "args": {
+    "chunkId": 1605
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1605,
+     "content": "41. The NBFC shall align the extent of monitoring with the risk category of the\ncustomer.\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\nof accounts, with such periodicity being at least once in every six months and shall\nestablish the need for applying enhanced due diligence measures.\n(2) The NBFC shall closely monitor the transactions in accounts of marketing firms,\nespecially accounts of Multi-level Marketing (MLM) companies.\nExplanation: The NBFC shall subject high-risk accounts to more intensified\nmonitoring.",
+     "documentId": "rbi-nbfc-kyc-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+     "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+     "pageEnd": 40,
+     "pageStart": 40,
+     "paraRef": "Para 41"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_ad4cd752-2df0-4018-b237-22a47b3a35b4",
+     "text": "{\"chunkId\":1605,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"content\":\"41. The NBFC shall align the extent of monitoring with the risk category of the\\ncustomer.\\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\\nof accounts, with such periodicity being at least once in every six months and shall\\nestablish the need for applying enhanced due diligence measures.\\n(2) The NBFC shall closely monitor the transactions in accounts of marketing firms,\\nespecially accounts of Multi-level Marketing (MLM) companies.\\nExplanation: The NBFC shall subject high-risk accounts to more intensified\\nmonitoring.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "219770d204c113b096dc7f15244c2a8bedf980ff17da319ae00284fcdd7d06fe": {
+   "args": {
+    "query": "personal data accurate and complete where used to make decision affecting Data Principal",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1967,
+       "denseRank": 7,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance",
+       "fusedScore": 0.031054405392392875,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 8, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.6960584626406943
+      },
+      {
+       "chunkId": 1977,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "14. Rights of Data Principals. — (1) For enabling Data Principals to exercise their rights under the Act,\nthe Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\napp, or both, as the case may be, —\n(a) the details of the means using which a Data Pri",
+       "fusedScore": 0.031009615384615385,
+       "heading": "",
+       "keywordRank": 4,
+       "pageEnd": 30,
+       "pageStart": 29,
+       "paraRef": "Rule 14",
+       "pinned": false,
+       "similarity": 0.6972967938794347
+      },
+      {
+       "chunkId": 2047,
+       "denseRank": 1,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "2. Use, by the State or any of its instrumentalities, of\npersonal data of a Data Principal for the following\npurposes, namely: —\n(i) performance of any function under any\nlaw for the time being in force in India; or\n(ii) disclosure of any information for\nfulfilling any obligation under any law for\nt",
+       "fusedScore": 0.030679156908665104,
+       "heading": "Seventh Schedule",
+       "keywordRank": 10,
+       "pageEnd": 41,
+       "pageStart": 41,
+       "paraRef": "Seventh Schedule, Item 2",
+       "pinned": false,
+       "similarity": 0.7263557314873568
+      },
+      {
+       "chunkId": 2010,
+       "denseRank": 11,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "[See rules 5(1) and 16]\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\nsection (2) of section 17\nImplementation of appropriate technical and orga",
+       "fusedScore": 0.03047794966520434,
+       "heading": "Second Schedule",
+       "keywordRank": 1,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Second Schedule, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.6876792853064556
+      },
+      {
+       "chunkId": 2046,
+       "denseRank": 3,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "1. Use, by the State or any of its instrumentalities, of\npersonal data of a Data Principal in the interest of\nsovereignty and integrity of India or security of\nthe State.\nSuch officer of the State or of any of its\ninstrumentalities notified under clause (a) of\nsub-section (2) of section 17 of the Ac",
+       "fusedScore": 0.029957522915269395,
+       "heading": "Seventh Schedule",
+       "keywordRank": 11,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Seventh Schedule, Item 1",
+       "pinned": false,
+       "similarity": 0.7032579249009072
+      }
+     ],
+     "query": "personal data accurate and complete where used to make decision affecting Data Principal"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_f32bbde9-d295-49d1-a752-f004b8d7f7ac",
+     "text": "{\"query\":\"personal data accurate and complete where used to make decision affecting Data Principal\",\"degraded\":null,\"hits\":[{\"chunkId\":1967,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 1 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance\",\"denseRank\":7,\"keywordRank\":2,\"fusedScore\":0.031054405392392875,\"similarity\":0.6960584626406943,\"pinned\":false},{\"chunkId\":1977,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 14\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":30,\"excerpt\":\"14. Rights of Data Principals. \\u2014 (1) For enabling Data Principals to exercise their rights under the Act,\\nthe Data Fiduciary and, where applicable, the Consent Manager, shall prominently publish on its website or\\napp, or both, as the case may be, \\u2014\\n(a) the details of the means using which a Data Pri\",\"denseRank\":5,\"keywordRank\":4,\"fusedScore\":0.031009615384615385,\"similarity\":0.6972967938794347,\"pinned\":false},{\"chunkId\":2047,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Seventh Schedule, Item 2\",\"heading\":\"Seventh Schedule\",\"pageStart\":41,\"pageEnd\":41,\"excerpt\":\"2. Use, by the State or any of its instrumentalities, of\\npersonal data of a Data Principal for the following\\npurposes, namely: \\u2014\\n(i) performance of any function under any\\nlaw for the time being in force in India; or\\n(ii) disclosure of any information for\\nfulfilling any obligation under any law for\\nt\",\"denseRank\":1,\"keywordRank\":10,\"fusedScore\":0.030679156908665104,\"similarity\":0.7263557314873568,\"pinned\":false},{\"chunkId\":2010,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Second Schedule, part 1 of 2\",\"heading\":\"Second Schedule\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"[See rules 5(1) and 16]\\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\\nsection (2) of section 17\\nImplementation of appropriate technical and orga\",\"denseRank\":11,\"keywordRank\":1,\"fusedScore\":0.03047794966520434,\"similarity\":0.6876792853064556,\"pinned\":false},{\"chunkId\":2046,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Seventh Schedule, Item 1\",\"heading\":\"Seventh Schedule\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"1. Use, by the State or any of its instrumentalities, of\\npersonal data of a Data Principal in the interest of\\nsovereignty and integrity of India or security of\\nthe State.\\nSuch officer of the State or of any of its\\ninstrumentalities notified under clause (a) of\\nsub-section (2) of section 17 of the Ac\",\"denseRank\":3,\"keywordRank\":11,\"fusedScore\":0.029957522915269395,\"similarity\":0.7032579249009072,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "352af597e3b9fc5a6fb7f70299b1c2844a347d1f6b9cefffe13bbd3fde2da481": {
+   "args": {
+    "chunkId": 1606
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1606,
+     "content": "42. Updation / Periodic Updation of KYC\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\nensuring that it keeps the information or data collected under CDD is kept up-to-date\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\nperiodic updation at least once in every two years for high-risk customers, once in\nevery eight years for medium risk customers and once in every 10 years for low-risk\ncustomers from the date of opening of the account / last KYC updation. The NBFC\nshall document its policy in this regard as part of the NBFC’s internal KYC policy duly\napproved by the Board of Directors of NBFC or any committee of the Board to which\npower has been delegated.\n(2) Notwithstanding the provisions given above, in respect of an individual\ncustomer who is categorised as low-risk, the NBFC shall allow all transactions and\nensure the updation of KYC within one year of its falling due for KYC or up to June 30,\n2026, whichever is later. The NBFC shall subject accounts of such customers to\nregular monitoring. This shall also apply to low-risk individual customers for whom\nperiodic updation of KYC has already fallen due.\n(3) Individuals:\n(i) No change in KYC information: In case of no change in the KYC information,\nthe NBFC shall obtain a self-declaration from the customer in this regard through the\ncustomer’s email-id registered with the NBFC, customer’s mobile number registered\nwith the NBFC, digital channels (including mobile application of NBFC) letter, etc.",
+     "documentId": "rbi-nbfc-kyc-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+     "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+     "pageEnd": 41,
+     "pageStart": 40,
+     "paraRef": "Para 42, part 1 of 5"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_0a842bfa-cf1c-4af1-861c-31307aa17c0f",
+     "text": "{\"chunkId\":1606,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 1 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":41,\"content\":\"42. Updation / Periodic Updation of KYC\\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\\nensuring that it keeps the information or data collected under CDD is kept up-to-date\\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\\nperiodic updation at least once in every two years for high-risk customers, once in\\nevery eight years for medium risk customers and once in every 10 years for low-risk\\ncustomers from the date of opening of the account / last KYC updation. The NBFC\\nshall document its policy in this regard as part of the NBFC\\u2019s internal KYC policy duly\\napproved by the Board of Directors of NBFC or any committee of the Board to which\\npower has been delegated.\\n(2) Notwithstanding the provisions given above, in respect of an individual\\ncustomer who is categorised as low-risk, the NBFC shall allow all transactions and\\nensure the updation of KYC within one year of its falling due for KYC or up to June 30,\\n2026, whichever is later. The NBFC shall subject accounts of such customers to\\nregular monitoring. This shall also apply to low-risk individual customers for whom\\nperiodic updation of KYC has already fallen due.\\n(3) Individuals:\\n(i) No change in KYC information: In case of no change in the KYC information,\\nthe NBFC shall obtain a self-declaration from the customer in this regard through the\\ncustomer\\u2019s email-id registered with the NBFC, customer\\u2019s mobile number registered\\nwith the NBFC, digital channels (including mobile application of NBFC) letter, etc.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "36d37531edeb21a073b471b8f222a0c0490fcd48f48e0cb04d988fbb9917a9b2": {
+   "args": {
+    "chunkId": 1609
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1609,
+     "content": "42. Updation / Periodic Updation of KYC\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\nof receipt of the relevant document(s), including self-declaration from the customer,\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\npromptly updates the information / documents obtained from the customers at the time\nof updation / periodic updation of KYC in its records / database and provide an\nintimation, mentioning the date of updation of KYC details, to the customer.\n(iv) In order to ensure customer convenience, the NBFC may consider making\navailable the facility of updation / periodic updation of KYC at any branch, in terms of\ntheir internal KYC policy duly approved by the Board of Directors of the NBFC or any\ncommittee of the Board to which power has been delegated.\n(v) The NBFC shall adopt a risk-based approach with respect to periodic updation\nof KYC. The NBFC shall clearly specify in its internal policy, duly approved by the\nBoard of Directors of the NBFC or any committee of the Board to which power has\nbeen delegated, any additional and exceptional measures, it adopts that are not\notherwise mandated under the above instructions, such as requirement of obtaining\nrecent photograph, requirement of physical presence of the customer, requirement of\nperiodic updation of KYC only in the branch of the NBFC where account is maintained,\na more frequent periodicity of KYC updation than the minimum specified periodicity\netc.",
+     "documentId": "rbi-nbfc-kyc-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+     "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+     "pageEnd": 43,
+     "pageStart": 43,
+     "paraRef": "Para 42, part 4 of 5"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b8d55aab-71ad-4652-8e71-5425a70bf889",
+     "text": "{\"chunkId\":1609,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 4 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":43,\"pageEnd\":43,\"content\":\"42. Updation / Periodic Updation of KYC\\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\\nof receipt of the relevant document(s), including self-declaration from the customer,\\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\\npromptly updates the information / documents obtained from the customers at the time\\nof updation / periodic updation of KYC in its records / database and provide an\\nintimation, mentioning the date of updation of KYC details, to the customer.\\n(iv) In order to ensure customer convenience, the NBFC may consider making\\navailable the facility of updation / periodic updation of KYC at any branch, in terms of\\ntheir internal KYC policy duly approved by the Board of Directors of the NBFC or any\\ncommittee of the Board to which power has been delegated.\\n(v) The NBFC shall adopt a risk-based approach with respect to periodic updation\\nof KYC. The NBFC shall clearly specify in its internal policy, duly approved by the\\nBoard of Directors of the NBFC or any committee of the Board to which power has\\nbeen delegated, any additional and exceptional measures, it adopts that are not\\notherwise mandated under the above instructions, such as requirement of obtaining\\nrecent photograph, requirement of physical presence of the customer, requirement of\\nperiodic updation of KYC only in the branch of the NBFC where account is maintained,\\na more frequent periodicity of KYC updation than the minimum specified periodicity\\netc.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "3e7358ad784247bb67b3a2c00781cc337528cac360117bd5c3ba0b5293068692": {
+   "args": {
+    "query": "periodic updation of KYC high risk every two years medium risk every eight years low risk every ten years"
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1606,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\nensuring that it keeps the information or data collected under CDD is kept up-to-date\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\nperiodic up",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 1,
+       "pageEnd": 41,
+       "pageStart": 40,
+       "paraRef": "Para 42, part 1 of 5",
+       "pinned": false,
+       "similarity": 0.8277789437112059
+      },
+      {
+       "chunkId": 1607,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(ii) Change in address: In case of a change only in the address details of the\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\ncustomer through customer’s email-id registered with the NBFC, customer’s mobile\nnumber registered wit",
+       "fusedScore": 0.031054405392392875,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 7,
+       "pageEnd": 42,
+       "pageStart": 41,
+       "paraRef": "Para 42, part 2 of 5",
+       "pinned": false,
+       "similarity": 0.7274708315556703
+      },
+      {
+       "chunkId": 1609,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\nof receipt of the relevant document(s), including self-declaration from the customer,\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\npromptly u",
+       "fusedScore": 0.031024531024531024,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 6,
+       "pageEnd": 43,
+       "pageStart": 43,
+       "paraRef": "Para 42, part 4 of 5",
+       "pinned": false,
+       "similarity": 0.726177865547625
+      },
+      {
+       "chunkId": 1558,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "6. Know Your Customer (KYC) Policy:\n(1) The NBFC shall have a KYC policy. The Board of Directors of the NBFC, or any\ncommittee to which the Board has delegated power, shall duly approve the KYC policy.\n(2) The KYC policy shall include following four key elements:\n(i) Customer Acceptance Policy;\n(ii)",
+       "fusedScore": 0.03055037313432836,
+       "heading": "Chapter II – General › A. Board of Directors / Policies-related guidelines:",
+       "keywordRank": 4,
+       "pageEnd": 15,
+       "pageStart": 15,
+       "paraRef": "Para 6",
+       "pinned": false,
+       "similarity": 0.70805016399925
+      },
+      {
+       "chunkId": 1605,
+       "denseRank": 13,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "41. The NBFC shall align the extent of monitoring with the risk category of the\ncustomer.\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\nof accounts, with such periodicity being at least once in every six months and shall\nestablish the need for applying enhanced d",
+       "fusedScore": 0.029571646010002173,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 3,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.6540964017144207
+      },
+      {
+       "chunkId": 1573,
+       "denseRank": 15,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "20. For risk management, the NBFC shall have a risk-based approach which\nincludes the following.\n(1) The NBFC shall categorise customers into low, medium, and high-risk\ncategories, based on its assessment and risk perception.\n(2) The NBFC may lay down broad principles for the risk-categorisation of\n",
+       "fusedScore": 0.029462365591397848,
+       "heading": "Chapter IV – Risk Management",
+       "keywordRank": 2,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 20",
+       "pinned": false,
+       "similarity": 0.6494093537330812
+      },
+      {
+       "chunkId": 1592,
+       "denseRank": 14,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "28. Simplified procedure for opening accounts by NBFCs: In case a person who\ndesires to open an account is not able to produce documents, as specified in paragraph\n23, NBFCs may at their discretion open accounts subject to the following conditions:\n(i) The NBFC shall obtain a self-attested photograp",
+       "fusedScore": 0.0288981288981289,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › A. CDD Procedure in case of Individuals",
+       "keywordRank": 5,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Para 28",
+       "pinned": false,
+       "similarity": 0.6494948996136766
+      },
+      {
+       "chunkId": 1635,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(7) In order to ensure that all KYC records are incrementally uploaded on to\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\nindividual customers and LEs opened prior to the above-mentioned dates as p",
+       "fusedScore": 0.02854251012145749,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 16,
+       "pageEnd": 58,
+       "pageStart": 57,
+       "paraRef": "Para 63, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.714929453117717
+      }
+     ],
+     "query": "periodic updation of KYC high risk every two years medium risk every eight years low risk every ten years"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b5813a16-a4c0-45b0-8eb6-cf93d57e960e",
+     "text": "{\"query\":\"periodic updation of KYC high risk every two years medium risk every eight years low risk every ten years\",\"degraded\":null,\"hits\":[{\"chunkId\":1606,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 1 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":41,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\\nensuring that it keeps the information or data collected under CDD is kept up-to-date\\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\\nperiodic up\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.8277789437112059,\"pinned\":false},{\"chunkId\":1607,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 2 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":41,\"pageEnd\":42,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(ii) Change in address: In case of a change only in the address details of the\\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\\ncustomer through customer\\u2019s email-id registered with the NBFC, customer\\u2019s mobile\\nnumber registered wit\",\"denseRank\":2,\"keywordRank\":7,\"fusedScore\":0.031054405392392875,\"similarity\":0.7274708315556703,\"pinned\":false},{\"chunkId\":1609,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 4 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":43,\"pageEnd\":43,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\\nof receipt of the relevant document(s), including self-declaration from the customer,\\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\\npromptly u\",\"denseRank\":3,\"keywordRank\":6,\"fusedScore\":0.031024531024531024,\"similarity\":0.726177865547625,\"pinned\":false},{\"chunkId\":1558,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 6\",\"heading\":\"Chapter II \\u2013 General \\u203A A. Board of Directors / Policies-related guidelines:\",\"pageStart\":15,\"pageEnd\":15,\"excerpt\":\"6. Know Your Customer (KYC) Policy:\\n(1) The NBFC shall have a KYC policy. The Board of Directors of the NBFC, or any\\ncommittee to which the Board has delegated power, shall duly approve the KYC policy.\\n(2) The KYC policy shall include following four key elements:\\n(i) Customer Acceptance Policy;\\n(ii)\",\"denseRank\":7,\"keywordRank\":4,\"fusedScore\":0.03055037313432836,\"similarity\":0.70805016399925,\"pinned\":false},{\"chunkId\":1605,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"41. The NBFC shall align the extent of monitoring with the risk category of the\\ncustomer.\\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\\nof accounts, with such periodicity being at least once in every six months and shall\\nestablish the need for applying enhanced d\",\"denseRank\":13,\"keywordRank\":3,\"fusedScore\":0.029571646010002173,\"similarity\":0.6540964017144207,\"pinned\":false},{\"chunkId\":1573,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 20\",\"heading\":\"Chapter IV \\u2013 Risk Management\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"20. For risk management, the NBFC shall have a risk-based approach which\\nincludes the following.\\n(1) The NBFC shall categorise customers into low, medium, and high-risk\\ncategories, based on its assessment and risk perception.\\n(2) The NBFC may lay down broad principles for the risk-categorisation of\\n\",\"denseRank\":15,\"keywordRank\":2,\"fusedScore\":0.029462365591397848,\"similarity\":0.6494093537330812,\"pinned\":false},{\"chunkId\":1592,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 28\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A A. CDD Procedure in case of Individuals\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"28. Simplified procedure for opening accounts by NBFCs: In case a person who\\ndesires to open an account is not able to produce documents, as specified in paragraph\\n23, NBFCs may at their discretion open accounts subject to the following conditions:\\n(i) The NBFC shall obtain a self-attested photograp\",\"denseRank\":14,\"keywordRank\":5,\"fusedScore\":0.0288981288981289,\"similarity\":0.6494948996136766,\"pinned\":false},{\"chunkId\":1635,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 2 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":57,\"pageEnd\":58,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(7) In order to ensure that all KYC records are incrementally uploaded on to\\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\\nindividual customers and LEs opened prior to the above-mentioned dates as p\",\"denseRank\":5,\"keywordRank\":16,\"fusedScore\":0.02854251012145749,\"similarity\":0.714929453117717,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "44e63aea4fd9c2994937b806dbe37b077509e8fe62a921ae507a391d6be796d4": {
+   "args": {
+    "query": "ongoing due diligence risk categorisation enhanced due diligence high risk customers monitoring of transactions",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1605,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "41. The NBFC shall align the extent of monitoring with the risk category of the\ncustomer.\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\nof accounts, with such periodicity being at least once in every six months and shall\nestablish the need for applying enhanced d",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 1,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.772740364074729
+      },
+      {
+       "chunkId": 1604,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "40. Without prejudice to the generality of factors that call for close monitoring, the\nNBFC shall necessarily monitor the following types of transactions:\n(1) Large and complex transactions including RTGS transactions, and those with\nunusual patterns, inconsistent with the normal and expected activi",
+       "fusedScore": 0.031754032258064516,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 4,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Para 40",
+       "pinned": false,
+       "similarity": 0.7543732513491508
+      },
+      {
+       "chunkId": 1613,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "44. Enhanced Due Diligence (EDD) for non-face-to-face customer onboarding\n(5) First transaction in such accounts shall be a credit from existing KYC-complied\nbank account of the customer.\n(6) The NBFC shall categorise such customers as high-risk customers and shall\nsubject accounts opened in non-fac",
+       "fusedScore": 0.031754032258064516,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › F. Enhanced Due Diligence Procedure",
+       "keywordRank": 2,
+       "pageEnd": 46,
+       "pageStart": 46,
+       "paraRef": "Para 44, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.7366088409242539
+      },
+      {
+       "chunkId": 1573,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "20. For risk management, the NBFC shall have a risk-based approach which\nincludes the following.\n(1) The NBFC shall categorise customers into low, medium, and high-risk\ncategories, based on its assessment and risk perception.\n(2) The NBFC may lay down broad principles for the risk-categorisation of\n",
+       "fusedScore": 0.03125763125763126,
+       "heading": "Chapter IV – Risk Management",
+       "keywordRank": 3,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 20",
+       "pinned": false,
+       "similarity": 0.7063050374257476
+      },
+      {
+       "chunkId": 1603,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "39. The NBFC shall undertake ongoing due diligence of customers to ensure that\ntheir transactions are consistent with their knowledge about the customers, customers’\nbusiness and risk profile, the source of funds / wealth.",
+       "fusedScore": 0.03125763125763126,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 5,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Para 39",
+       "pinned": false,
+       "similarity": 0.7487795805062734
+      },
+      {
+       "chunkId": 1606,
+       "denseRank": 7,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\nensuring that it keeps the information or data collected under CDD is kept up-to-date\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\nperiodic up",
+       "fusedScore": 0.030076888285843508,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 6,
+       "pageEnd": 41,
+       "pageStart": 40,
+       "paraRef": "Para 42, part 1 of 5",
+       "pinned": false,
+       "similarity": 0.6944629367866191
+      },
+      {
+       "chunkId": 1614,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "45. Accounts of Politically Exposed Persons (PEPs):\n(1) The NBFC shall have the option of establishing a relationship with PEPs\n(whether as customer or beneficial owner) provided that, apart from performing normal\ncustomer due diligence:\n(i) The NBFC has in place appropriate risk management systems ",
+       "fusedScore": 0.029857397504456328,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › F. Enhanced Due Diligence Procedure",
+       "keywordRank": 8,
+       "pageEnd": 47,
+       "pageStart": 46,
+       "paraRef": "Para 45",
+       "pinned": false,
+       "similarity": 0.7051522380295534
+      },
+      {
+       "chunkId": 1575,
+       "denseRank": 9,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "22. For the purpose of verifying the identity of customers at the time of\ncommencement of an account-based relationship or while carrying out an occasional\ntransaction of an amount equal to or exceeding ₹50,000 whether conducted as a single\ntransaction or several transactions that appear to be conne",
+       "fusedScore": 0.029418126757516764,
+       "heading": "Chapter V – Customer Identification Procedure (CIP)",
+       "keywordRank": 7,
+       "pageEnd": 23,
+       "pageStart": 22,
+       "paraRef": "Para 22",
+       "pinned": false,
+       "similarity": 0.6926151054823148
+      }
+     ],
+     "query": "ongoing due diligence risk categorisation enhanced due diligence high risk customers monitoring of transactions"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_10f209e3-c1a5-4075-a305-c22eadf129d8",
+     "text": "{\"query\":\"ongoing due diligence risk categorisation enhanced due diligence high risk customers monitoring of transactions\",\"degraded\":null,\"hits\":[{\"chunkId\":1605,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"41. The NBFC shall align the extent of monitoring with the risk category of the\\ncustomer.\\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\\nof accounts, with such periodicity being at least once in every six months and shall\\nestablish the need for applying enhanced d\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.772740364074729,\"pinned\":false},{\"chunkId\":1604,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 40\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"40. Without prejudice to the generality of factors that call for close monitoring, the\\nNBFC shall necessarily monitor the following types of transactions:\\n(1) Large and complex transactions including RTGS transactions, and those with\\nunusual patterns, inconsistent with the normal and expected activi\",\"denseRank\":2,\"keywordRank\":4,\"fusedScore\":0.031754032258064516,\"similarity\":0.7543732513491508,\"pinned\":false},{\"chunkId\":1613,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 44, part 2 of 2\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A F. Enhanced Due Diligence Procedure\",\"pageStart\":46,\"pageEnd\":46,\"excerpt\":\"44. Enhanced Due Diligence (EDD) for non-face-to-face customer onboarding\\n(5) First transaction in such accounts shall be a credit from existing KYC-complied\\nbank account of the customer.\\n(6) The NBFC shall categorise such customers as high-risk customers and shall\\nsubject accounts opened in non-fac\",\"denseRank\":4,\"keywordRank\":2,\"fusedScore\":0.031754032258064516,\"similarity\":0.7366088409242539,\"pinned\":false},{\"chunkId\":1573,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 20\",\"heading\":\"Chapter IV \\u2013 Risk Management\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"20. For risk management, the NBFC shall have a risk-based approach which\\nincludes the following.\\n(1) The NBFC shall categorise customers into low, medium, and high-risk\\ncategories, based on its assessment and risk perception.\\n(2) The NBFC may lay down broad principles for the risk-categorisation of\\n\",\"denseRank\":5,\"keywordRank\":3,\"fusedScore\":0.03125763125763126,\"similarity\":0.7063050374257476,\"pinned\":false},{\"chunkId\":1603,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 39\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"39. The NBFC shall undertake ongoing due diligence of customers to ensure that\\ntheir transactions are consistent with their knowledge about the customers, customers\\u2019\\nbusiness and risk profile, the source of funds / wealth.\",\"denseRank\":3,\"keywordRank\":5,\"fusedScore\":0.03125763125763126,\"similarity\":0.7487795805062734,\"pinned\":false},{\"chunkId\":1606,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 1 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":41,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\\nensuring that it keeps the information or data collected under CDD is kept up-to-date\\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\\nperiodic up\",\"denseRank\":7,\"keywordRank\":6,\"fusedScore\":0.030076888285843508,\"similarity\":0.6944629367866191,\"pinned\":false},{\"chunkId\":1614,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 45\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A F. Enhanced Due Diligence Procedure\",\"pageStart\":46,\"pageEnd\":47,\"excerpt\":\"45. Accounts of Politically Exposed Persons (PEPs):\\n(1) The NBFC shall have the option of establishing a relationship with PEPs\\n(whether as customer or beneficial owner) provided that, apart from performing normal\\ncustomer due diligence:\\n(i) The NBFC has in place appropriate risk management systems \",\"denseRank\":6,\"keywordRank\":8,\"fusedScore\":0.029857397504456328,\"similarity\":0.7051522380295534,\"pinned\":false},{\"chunkId\":1575,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 22\",\"heading\":\"Chapter V \\u2013 Customer Identification Procedure (CIP)\",\"pageStart\":22,\"pageEnd\":23,\"excerpt\":\"22. For the purpose of verifying the identity of customers at the time of\\ncommencement of an account-based relationship or while carrying out an occasional\\ntransaction of an amount equal to or exceeding \\u20B950,000 whether conducted as a single\\ntransaction or several transactions that appear to be conne\",\"denseRank\":9,\"keywordRank\":7,\"fusedScore\":0.029418126757516764,\"similarity\":0.6926151054823148,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "b0baff4307893a97d409b14f54cbe117676637884869dec46535569b8fd67907": {
+   "args": {
+    "chunkId": 1608
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1608,
+     "content": "42. Updation / Periodic Updation of KYC\n(vi) Declaration of current address, if the current address is different from the\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\nshall ensure that the mobile number for Aadhaar authentication is same as the one\navailable with them in the customer’s profile, in order to prevent any fraud.\n(4) Customers other than individuals:\n(i) No change in KYC information: In case of no change in the KYC information\nof the LE customer, the NBFC shall obtain a self-declaration in this regard from the LE\ncustomer through its email id registered with the NBFC, ATMs, digital channels\n(including mobile application of NBFC), letter from an official authorised by the LE in\nthis regard, board resolution, etc. Further, the NBFC shall ensure during this process\nthat Beneficial Ownership (BO) information available with them is accurate and shall\nupdate the same, if required, to keep it as up-to-date as possible.\n(ii) Change in KYC information: In case of change in KYC information, the NBFC\nshall undertake the KYC process equivalent to that applicable for onboarding a new\nLE customer.\n(5) Additional measures: In addition to the above, the NBFC shall ensure that:\n(i) The NBFC has customer’s KYC document as per the current CDD standards\navailable with it. This is applicable even if there is no change in customer information\nbut the documents available with the NBFC are not as per the current CDD standards.\nFurther, in case the validity of the CDD documents available with the NBFC has\nexpired at the time of periodic updation of KYC, the NBFC shall undertake the KYC\nprocess equivalent to that applicable for onboarding a new customer.\n(ii) The NBFC verifies the Customer’s PAN details, if available, from the database\nof the issuing authority at the time of periodic updation of KYC.",
+     "documentId": "rbi-nbfc-kyc-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+     "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+     "pageEnd": 43,
+     "pageStart": 42,
+     "paraRef": "Para 42, part 3 of 5"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_2b495614-4a3a-4acd-9a2a-cd9e89734861",
+     "text": "{\"chunkId\":1608,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 3 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":42,\"pageEnd\":43,\"content\":\"42. Updation / Periodic Updation of KYC\\n(vi) Declaration of current address, if the current address is different from the\\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\\nshall ensure that the mobile number for Aadhaar authentication is same as the one\\navailable with them in the customer\\u2019s profile, in order to prevent any fraud.\\n(4) Customers other than individuals:\\n(i) No change in KYC information: In case of no change in the KYC information\\nof the LE customer, the NBFC shall obtain a self-declaration in this regard from the LE\\ncustomer through its email id registered with the NBFC, ATMs, digital channels\\n(including mobile application of NBFC), letter from an official authorised by the LE in\\nthis regard, board resolution, etc. Further, the NBFC shall ensure during this process\\nthat Beneficial Ownership (BO) information available with them is accurate and shall\\nupdate the same, if required, to keep it as up-to-date as possible.\\n(ii) Change in KYC information: In case of change in KYC information, the NBFC\\nshall undertake the KYC process equivalent to that applicable for onboarding a new\\nLE customer.\\n(5) Additional measures: In addition to the above, the NBFC shall ensure that:\\n(i) The NBFC has customer\\u2019s KYC document as per the current CDD standards\\navailable with it. This is applicable even if there is no change in customer information\\nbut the documents available with the NBFC are not as per the current CDD standards.\\nFurther, in case the validity of the CDD documents available with the NBFC has\\nexpired at the time of periodic updation of KYC, the NBFC shall undertake the KYC\\nprocess equivalent to that applicable for onboarding a new customer.\\n(ii) The NBFC verifies the Customer\\u2019s PAN details, if available, from the database\\nof the issuing authority at the time of periodic updation of KYC.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "b75f5e14b4f6784b59a970e8f134a52e837be45d1c190e8b665c85dd5993bc6c": {
+   "args": {
+    "chunkId": 1607
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1607,
+     "content": "42. Updation / Periodic Updation of KYC\n(ii) Change in address: In case of a change only in the address details of the\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\ncustomer through customer’s email-id registered with the NBFC, customer’s mobile\nnumber registered with the NBFC, ATMs, digital channels (including mobile application\nof NBFC), letter, etc., and shall verify the declared address through positive\nconfirmation within two months, by means such as address verification letter, contact\npoint verification, deliverables, etc.\n(iii) Further, the NBFC at its option, may obtain a copy of OVD or deemed OVD, as\ndefined in sub-clause (xiv) of clause (1) of paragraph 5 or the equivalent e-documents\nthereof, as defined in sub-clause (x) of clause (1) of paragraph 5 for the purpose of\nproof of address, declared by the customer at the time of updation / periodic updation.\nHowever, the NBFC shall clearly specify such requirement, in its internal KYC policy\nduly approved by the Board of Directors of the NBFC or any committee of the Board\nto which power has been delegated.\n(iv) Accounts of customers, who were minor at the time of opening account, on their\nbecoming major: In case of customers for whom the NBFC opened an account when\nthey were minors, the NBFC shall obtain fresh photographs upon their becoming a\nmajor and, at that time, shall ensure that CDD documents as per the current CDD\nstandards are available. Wherever required, the NBFC may carry out fresh KYC of\nsuch customers, i.e., customers for whom it opened account when they were minor,\nupon their becoming a major.\n(v) The NBFC may use Aadhaar OTP based e-KYC in non-face-to-face mode for\nupdation / periodic updation. To clarify, conditions stipulated in paragraph 25 are not\napplicable in case of updation / periodic updation of KYC through Aadhaar OTP based\ne-KYC in non-face to face mode.",
+     "documentId": "rbi-nbfc-kyc-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+     "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+     "pageEnd": 42,
+     "pageStart": 41,
+     "paraRef": "Para 42, part 2 of 5"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b9fef6b3-f07c-4e6d-8bd9-e01fd080f48c",
+     "text": "{\"chunkId\":1607,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 2 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":41,\"pageEnd\":42,\"content\":\"42. Updation / Periodic Updation of KYC\\n(ii) Change in address: In case of a change only in the address details of the\\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\\ncustomer through customer\\u2019s email-id registered with the NBFC, customer\\u2019s mobile\\nnumber registered with the NBFC, ATMs, digital channels (including mobile application\\nof NBFC), letter, etc., and shall verify the declared address through positive\\nconfirmation within two months, by means such as address verification letter, contact\\npoint verification, deliverables, etc.\\n(iii) Further, the NBFC at its option, may obtain a copy of OVD or deemed OVD, as\\ndefined in sub-clause (xiv) of clause (1) of paragraph 5 or the equivalent e-documents\\nthereof, as defined in sub-clause (x) of clause (1) of paragraph 5 for the purpose of\\nproof of address, declared by the customer at the time of updation / periodic updation.\\nHowever, the NBFC shall clearly specify such requirement, in its internal KYC policy\\nduly approved by the Board of Directors of the NBFC or any committee of the Board\\nto which power has been delegated.\\n(iv) Accounts of customers, who were minor at the time of opening account, on their\\nbecoming major: In case of customers for whom the NBFC opened an account when\\nthey were minors, the NBFC shall obtain fresh photographs upon their becoming a\\nmajor and, at that time, shall ensure that CDD documents as per the current CDD\\nstandards are available. Wherever required, the NBFC may carry out fresh KYC of\\nsuch customers, i.e., customers for whom it opened account when they were minor,\\nupon their becoming a major.\\n(v) The NBFC may use Aadhaar OTP based e-KYC in non-face-to-face mode for\\nupdation / periodic updation. To clarify, conditions stipulated in paragraph 25 are not\\napplicable in case of updation / periodic updation of KYC through Aadhaar OTP based\\ne-KYC in non-face to face mode.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "caf417e3e1eb8d9906f2961b14c8060fbe1fec9e8b0330d228b9dd20fbef5d24": {
+   "args": {
+    "query": "data fiduciary accuracy completeness of personal data retention erasure specified purpose reasonable security safeguards",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1965,
+       "denseRank": 2,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "6. Reasonable security safeguards. — (1) A Data Fiduciary shall protect personal data in its possession or\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which ",
+       "fusedScore": 0.03252247488101533,
+       "heading": "",
+       "keywordRank": 1,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 6",
+       "pinned": false,
+       "similarity": 0.8039139035863369
+      },
+      {
+       "chunkId": 1968,
+       "denseRank": 1,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\n(3) Without prejudice to sub-rules (1) and (2), a Data Fiduciary shall retain, in respect of any processing of\npersonal data undertaken by it or on its behalf by a Data Processor, such personal data, a",
+       "fusedScore": 0.032266458495966696,
+       "heading": "",
+       "keywordRank": 3,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 8, part 2 of 2",
+       "pinned": false,
+       "similarity": 0.806421278950462
+      },
+      {
+       "chunkId": 1967,
+       "denseRank": 3,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "8. Time period for specified purpose to be deemed as no longer being served.—(1) A Data Fiduciary,\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance",
+       "fusedScore": 0.03200204813108039,
+       "heading": "",
+       "keywordRank": 2,
+       "pageEnd": 27,
+       "pageStart": 27,
+       "paraRef": "Rule 8, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.7882237164382178
+      },
+      {
+       "chunkId": 2014,
+       "denseRank": 4,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "2. Data Fiduciary who\nis an online gaming\nintermediary having\nnot less than fifty\nlakh registered users\nin India.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to\naccess her user account; and\n(b) Enabling the Data Principal to\naccess any virtual token that is\nissued by ",
+       "fusedScore": 0.031009615384615385,
+       "heading": "Third Schedule",
+       "keywordRank": 5,
+       "pageEnd": 36,
+       "pageStart": 35,
+       "paraRef": "Third Schedule, Item 2",
+       "pinned": false,
+       "similarity": 0.7741502215669157
+      },
+      {
+       "chunkId": 2013,
+       "denseRank": 5,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "1. Data Fiduciary who\nis an e-commerce\nentity having not\nless than two crore\nregistered users in\nIndia.\nFor all purposes, except for the following:\n(a) Enabling the Data Principal to access\nher user account; and\n(b) Enabling the Data Principal to access\nany virtual token that is issued by or\non beha",
+       "fusedScore": 0.030536130536130537,
+       "heading": "Third Schedule",
+       "keywordRank": 6,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Third Schedule, Item 1",
+       "pinned": false,
+       "similarity": 0.7661669939309818
+      },
+      {
+       "chunkId": 1966,
+       "denseRank": 7,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "7. Intimation of personal data breach. — (1) On becoming aware of any personal data breach, the Data\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\nplain manner and without delay, through her user account or any mode of communication ",
+       "fusedScore": 0.029631255487269536,
+       "heading": "",
+       "keywordRank": 8,
+       "pageEnd": 26,
+       "pageStart": 26,
+       "paraRef": "Rule 7",
+       "pinned": false,
+       "similarity": 0.7454054881270353
+      },
+      {
+       "chunkId": 2010,
+       "denseRank": 12,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "[See rules 5(1) and 16]\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\nsection (2) of section 17\nImplementation of appropriate technical and orga",
+       "fusedScore": 0.029513888888888888,
+       "heading": "Second Schedule",
+       "keywordRank": 4,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Second Schedule, part 1 of 2",
+       "pinned": false,
+       "similarity": 0.7143153037520391
+      },
+      {
+       "chunkId": 1976,
+       "denseRank": 6,
+       "documentId": "dpdp-rules-2025",
+       "documentTitle": "Digital Personal Data Protection Rules, 2025",
+       "excerpt": "13. Additional obligations of Significant Data Fiduciary. — (1) A Significant Data Fiduciary shall, once\nin every period of twelve months from the date on which it is notified as such or is included in the class of\nData Fiduciaries notified as such, undertake a Data Protection Impact Assessment and ",
+       "fusedScore": 0.028484848484848484,
+       "heading": "",
+       "keywordRank": 15,
+       "pageEnd": 29,
+       "pageStart": 29,
+       "paraRef": "Rule 13",
+       "pinned": false,
+       "similarity": 0.7537462486700747
+      }
+     ],
+     "query": "data fiduciary accuracy completeness of personal data retention erasure specified purpose reasonable security safeguards"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_fcae15c1-db62-4034-98ab-dbe52f8f4283",
+     "text": "{\"query\":\"data fiduciary accuracy completeness of personal data retention erasure specified purpose reasonable security safeguards\",\"degraded\":null,\"hits\":[{\"chunkId\":1965,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 6\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"6. Reasonable security safeguards. \\u2014 (1) A Data Fiduciary shall protect personal data in its possession or\\nunder its control, including in respect of any processing undertaken by it or on its behalf by a Data\\nProcessor, by taking reasonable security safeguards to prevent personal data breach, which \",\"denseRank\":2,\"keywordRank\":1,\"fusedScore\":0.03252247488101533,\"similarity\":0.8039139035863369,\"pinned\":false},{\"chunkId\":1968,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 2 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\n(3) Without prejudice to sub-rules (1) and (2), a Data Fiduciary shall retain, in respect of any processing of\\npersonal data undertaken by it or on its behalf by a Data Processor, such personal data, a\",\"denseRank\":1,\"keywordRank\":3,\"fusedScore\":0.032266458495966696,\"similarity\":0.806421278950462,\"pinned\":false},{\"chunkId\":1967,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 8, part 1 of 2\",\"heading\":\"\",\"pageStart\":27,\"pageEnd\":27,\"excerpt\":\"8. Time period for specified purpose to be deemed as no longer being served.\\u2014(1) A Data Fiduciary,\\nwho is of such class and is processing personal data for such corresponding purposes as are specified in\\nThird Schedule, shall erase such personal data, unless its retention is necessary for compliance\",\"denseRank\":3,\"keywordRank\":2,\"fusedScore\":0.03200204813108039,\"similarity\":0.7882237164382178,\"pinned\":false},{\"chunkId\":2014,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 2\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":36,\"excerpt\":\"2. Data Fiduciary who\\nis an online gaming\\nintermediary having\\nnot less than fifty\\nlakh registered users\\nin India.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to\\naccess her user account; and\\n(b) Enabling the Data Principal to\\naccess any virtual token that is\\nissued by \",\"denseRank\":4,\"keywordRank\":5,\"fusedScore\":0.031009615384615385,\"similarity\":0.7741502215669157,\"pinned\":false},{\"chunkId\":2013,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Third Schedule, Item 1\",\"heading\":\"Third Schedule\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"1. Data Fiduciary who\\nis an e-commerce\\nentity having not\\nless than two crore\\nregistered users in\\nIndia.\\nFor all purposes, except for the following:\\n(a) Enabling the Data Principal to access\\nher user account; and\\n(b) Enabling the Data Principal to access\\nany virtual token that is issued by or\\non beha\",\"denseRank\":5,\"keywordRank\":6,\"fusedScore\":0.030536130536130537,\"similarity\":0.7661669939309818,\"pinned\":false},{\"chunkId\":1966,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 7\",\"heading\":\"\",\"pageStart\":26,\"pageEnd\":26,\"excerpt\":\"7. Intimation of personal data breach. \\u2014 (1) On becoming aware of any personal data breach, the Data\\nFiduciary shall, to the best of its knowledge, intimate to each affected Data Principal, in a concise, clear and\\nplain manner and without delay, through her user account or any mode of communication \",\"denseRank\":7,\"keywordRank\":8,\"fusedScore\":0.029631255487269536,\"similarity\":0.7454054881270353,\"pinned\":false},{\"chunkId\":2010,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Second Schedule, part 1 of 2\",\"heading\":\"Second Schedule\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"[See rules 5(1) and 16]\\nStandards for processing of personal data by State and its instrumentalities under clause (b) of\\nsection 7 and for processing of personal data necessary for the purposes specified in clause (b) of sub-\\nsection (2) of section 17\\nImplementation of appropriate technical and orga\",\"denseRank\":12,\"keywordRank\":4,\"fusedScore\":0.029513888888888888,\"similarity\":0.7143153037520391,\"pinned\":false},{\"chunkId\":1976,\"documentId\":\"dpdp-rules-2025\",\"documentTitle\":\"Digital Personal Data Protection Rules, 2025\",\"paraRef\":\"Rule 13\",\"heading\":\"\",\"pageStart\":29,\"pageEnd\":29,\"excerpt\":\"13. Additional obligations of Significant Data Fiduciary. \\u2014 (1) A Significant Data Fiduciary shall, once\\nin every period of twelve months from the date on which it is notified as such or is included in the class of\\nData Fiduciaries notified as such, undertake a Data Protection Impact Assessment and \",\"denseRank\":6,\"keywordRank\":15,\"fusedScore\":0.028484848484848484,\"similarity\":0.7537462486700747,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "ddb1d5dd7deb0abb52642a05cc09a034ecf5d1124418b0b9d22f730d2a0f43b3": {
+   "args": {
+    "query": "KYC updation self-declaration change in address officially valid document periodic updation partial freezing of accounts",
+    "topK": 8
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1607,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(ii) Change in address: In case of a change only in the address details of the\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\ncustomer through customer’s email-id registered with the NBFC, customer’s mobile\nnumber registered wit",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 2,
+       "pageEnd": 42,
+       "pageStart": 41,
+       "paraRef": "Para 42, part 2 of 5",
+       "pinned": false,
+       "similarity": 0.8087197721170108
+      },
+      {
+       "chunkId": 1608,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(vi) Declaration of current address, if the current address is different from the\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\nshall ensure that the mobile number for Aadhaar authentication is same as the one\navailable wit",
+       "fusedScore": 0.03252247488101533,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 1,
+       "pageEnd": 43,
+       "pageStart": 42,
+       "paraRef": "Para 42, part 3 of 5",
+       "pinned": false,
+       "similarity": 0.7950075483358151
+      },
+      {
+       "chunkId": 1606,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\nensuring that it keeps the information or data collected under CDD is kept up-to-date\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\nperiodic up",
+       "fusedScore": 0.031746031746031744,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 3,
+       "pageEnd": 41,
+       "pageStart": 40,
+       "paraRef": "Para 42, part 1 of 5",
+       "pinned": false,
+       "similarity": 0.787081665756156
+      },
+      {
+       "chunkId": 1609,
+       "denseRank": 8,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\nof receipt of the relevant document(s), including self-declaration from the customer,\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\npromptly u",
+       "fusedScore": 0.030330882352941176,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 4,
+       "pageEnd": 43,
+       "pageStart": 43,
+       "paraRef": "Para 42, part 4 of 5",
+       "pinned": false,
+       "similarity": 0.7392028609285226
+      },
+      {
+       "chunkId": 1558,
+       "denseRank": 5,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "6. Know Your Customer (KYC) Policy:\n(1) The NBFC shall have a KYC policy. The Board of Directors of the NBFC, or any\ncommittee to which the Board has delegated power, shall duly approve the KYC policy.\n(2) The KYC policy shall include following four key elements:\n(i) Customer Acceptance Policy;\n(ii)",
+       "fusedScore": 0.030090497737556562,
+       "heading": "Chapter II – General › A. Board of Directors / Policies-related guidelines:",
+       "keywordRank": 8,
+       "pageEnd": 15,
+       "pageStart": 15,
+       "paraRef": "Para 6",
+       "pinned": false,
+       "similarity": 0.7524732882426011
+      },
+      {
+       "chunkId": 1636,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(i) there is a change in the information of the customer as existing in the records\nof CKYCR; or\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\napplicable KYC norms; or\n(iii) the validity ",
+       "fusedScore": 0.030076888285843508,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 7,
+       "pageEnd": 59,
+       "pageStart": 58,
+       "paraRef": "Para 63, part 3 of 3",
+       "pinned": false,
+       "similarity": 0.750036187473235
+      },
+      {
+       "chunkId": 1593,
+       "denseRank": 9,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "29. KYC verification once done by one branch / office of the NBFC shall be valid\nfor transfer of the account to any other branch / office of the same NBFC, provided the\nNBFC has already completed the full KYC verification for the concerned account and\nthe same is not due for periodic updation.",
+       "fusedScore": 0.028985507246376812,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › A. CDD Procedure in case of Individuals",
+       "keywordRank": 9,
+       "pageEnd": 35,
+       "pageStart": 35,
+       "paraRef": "Para 29",
+       "pinned": false,
+       "similarity": 0.7378836777633214
+      },
+      {
+       "chunkId": 1635,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "63. CDD Procedure and sharing KYC information with Central KYC Records\n(7) In order to ensure that all KYC records are incrementally uploaded on to\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\nindividual customers and LEs opened prior to the above-mentioned dates as p",
+       "fusedScore": 0.028958333333333332,
+       "heading": "Chapter X – Other Instructions",
+       "keywordRank": 15,
+       "pageEnd": 58,
+       "pageStart": 57,
+       "paraRef": "Para 63, part 2 of 3",
+       "pinned": false,
+       "similarity": 0.7598340618066425
+      }
+     ],
+     "query": "KYC updation self-declaration change in address officially valid document periodic updation partial freezing of accounts"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_291012a4-9997-41bf-92c2-d1ed017011ba",
+     "text": "{\"query\":\"KYC updation self-declaration change in address officially valid document periodic updation partial freezing of accounts\",\"degraded\":null,\"hits\":[{\"chunkId\":1607,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 2 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":41,\"pageEnd\":42,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(ii) Change in address: In case of a change only in the address details of the\\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\\ncustomer through customer\\u2019s email-id registered with the NBFC, customer\\u2019s mobile\\nnumber registered wit\",\"denseRank\":1,\"keywordRank\":2,\"fusedScore\":0.03252247488101533,\"similarity\":0.8087197721170108,\"pinned\":false},{\"chunkId\":1608,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 3 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":42,\"pageEnd\":43,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(vi) Declaration of current address, if the current address is different from the\\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\\nshall ensure that the mobile number for Aadhaar authentication is same as the one\\navailable wit\",\"denseRank\":2,\"keywordRank\":1,\"fusedScore\":0.03252247488101533,\"similarity\":0.7950075483358151,\"pinned\":false},{\"chunkId\":1606,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 1 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":41,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\\nensuring that it keeps the information or data collected under CDD is kept up-to-date\\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\\nperiodic up\",\"denseRank\":3,\"keywordRank\":3,\"fusedScore\":0.031746031746031744,\"similarity\":0.787081665756156,\"pinned\":false},{\"chunkId\":1609,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 4 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":43,\"pageEnd\":43,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\\nof receipt of the relevant document(s), including self-declaration from the customer,\\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\\npromptly u\",\"denseRank\":8,\"keywordRank\":4,\"fusedScore\":0.030330882352941176,\"similarity\":0.7392028609285226,\"pinned\":false},{\"chunkId\":1558,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 6\",\"heading\":\"Chapter II \\u2013 General \\u203A A. Board of Directors / Policies-related guidelines:\",\"pageStart\":15,\"pageEnd\":15,\"excerpt\":\"6. Know Your Customer (KYC) Policy:\\n(1) The NBFC shall have a KYC policy. The Board of Directors of the NBFC, or any\\ncommittee to which the Board has delegated power, shall duly approve the KYC policy.\\n(2) The KYC policy shall include following four key elements:\\n(i) Customer Acceptance Policy;\\n(ii)\",\"denseRank\":5,\"keywordRank\":8,\"fusedScore\":0.030090497737556562,\"similarity\":0.7524732882426011,\"pinned\":false},{\"chunkId\":1636,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 3 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":58,\"pageEnd\":59,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(i) there is a change in the information of the customer as existing in the records\\nof CKYCR; or\\n(ii) the KYC record or information retrieved is incomplete or is not as per the current\\napplicable KYC norms; or\\n(iii) the validity \",\"denseRank\":6,\"keywordRank\":7,\"fusedScore\":0.030076888285843508,\"similarity\":0.750036187473235,\"pinned\":false},{\"chunkId\":1593,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 29\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A A. CDD Procedure in case of Individuals\",\"pageStart\":35,\"pageEnd\":35,\"excerpt\":\"29. KYC verification once done by one branch / office of the NBFC shall be valid\\nfor transfer of the account to any other branch / office of the same NBFC, provided the\\nNBFC has already completed the full KYC verification for the concerned account and\\nthe same is not due for periodic updation.\",\"denseRank\":9,\"keywordRank\":9,\"fusedScore\":0.028985507246376812,\"similarity\":0.7378836777633214,\"pinned\":false},{\"chunkId\":1635,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 63, part 2 of 3\",\"heading\":\"Chapter X \\u2013 Other Instructions\",\"pageStart\":57,\"pageEnd\":58,\"excerpt\":\"63. CDD Procedure and sharing KYC information with Central KYC Records\\n(7) In order to ensure that all KYC records are incrementally uploaded on to\\nCKYCR, the NBFC shall upload / update the KYC data pertaining to accounts of\\nindividual customers and LEs opened prior to the above-mentioned dates as p\",\"denseRank\":4,\"keywordRank\":15,\"fusedScore\":0.028958333333333332,\"similarity\":0.7598340618066425,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "e1842dee576cc49415c611989593e16f3443ba81f03fd5af628d106f116a8867": {
+   "args": {
+    "query": "periodic review of risk categorisation doubt about adequacy or veracity of previously obtained customer identification data",
+    "topK": 5
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1605,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "41. The NBFC shall align the extent of monitoring with the risk category of the\ncustomer.\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\nof accounts, with such periodicity being at least once in every six months and shall\nestablish the need for applying enhanced d",
+       "fusedScore": 0.03225806451612903,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 2,
+       "pageEnd": 40,
+       "pageStart": 40,
+       "paraRef": "Para 41",
+       "pinned": false,
+       "similarity": 0.7111476143266477
+      },
+      {
+       "chunkId": 1573,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "20. For risk management, the NBFC shall have a risk-based approach which\nincludes the following.\n(1) The NBFC shall categorise customers into low, medium, and high-risk\ncategories, based on its assessment and risk perception.\n(2) The NBFC may lay down broad principles for the risk-categorisation of\n",
+       "fusedScore": 0.031746031746031744,
+       "heading": "Chapter IV – Risk Management",
+       "keywordRank": 3,
+       "pageEnd": 21,
+       "pageStart": 21,
+       "paraRef": "Para 20",
+       "pinned": false,
+       "similarity": 0.7092994028747551
+      },
+      {
+       "chunkId": 1622,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "53. To identify and report suspicious transactions effectively, the NBFC shall\nimplement robust software that generates alerts when transactions are inconsistent\nwith a customer's risk categorisation and updated profile.",
+       "fusedScore": 0.03154495777446597,
+       "heading": "Chapter VIII – Reporting Requirements to Financial Intelligence Unit – India",
+       "keywordRank": 6,
+       "pageEnd": 51,
+       "pageStart": 51,
+       "paraRef": "Para 53",
+       "pinned": false,
+       "similarity": 0.7118204225744896
+      },
+      {
+       "chunkId": 1606,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\nensuring that it keeps the information or data collected under CDD is kept up-to-date\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\nperiodic up",
+       "fusedScore": 0.031009615384615385,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 5,
+       "pageEnd": 41,
+       "pageStart": 40,
+       "paraRef": "Para 42, part 1 of 5",
+       "pinned": false,
+       "similarity": 0.6981574173348994
+      },
+      {
+       "chunkId": 1574,
+       "denseRank": 10,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "21. The NBFC shall undertake identification of customers in the following cases:\n(1) Commencement of an account-based relationship with the customer.\n(2) Carrying out any international money transfer operations for a person who is\nnot an account holder of the NBFC.\n(3) When there is a doubt about th",
+       "fusedScore": 0.030679156908665104,
+       "heading": "Chapter V – Customer Identification Procedure (CIP)",
+       "keywordRank": 1,
+       "pageEnd": 22,
+       "pageStart": 22,
+       "paraRef": "Para 21",
+       "pinned": false,
+       "similarity": 0.6760179207335675
+      }
+     ],
+     "query": "periodic review of risk categorisation doubt about adequacy or veracity of previously obtained customer identification data"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_c167d601-cb35-4388-83b1-288c070d18c8",
+     "text": "{\"query\":\"periodic review of risk categorisation doubt about adequacy or veracity of previously obtained customer identification data\",\"degraded\":null,\"hits\":[{\"chunkId\":1605,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 41\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":40,\"excerpt\":\"41. The NBFC shall align the extent of monitoring with the risk category of the\\ncustomer.\\n(1) The NBFC shall put in place a system of periodic review of risk categorisation\\nof accounts, with such periodicity being at least once in every six months and shall\\nestablish the need for applying enhanced d\",\"denseRank\":2,\"keywordRank\":2,\"fusedScore\":0.03225806451612903,\"similarity\":0.7111476143266477,\"pinned\":false},{\"chunkId\":1573,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 20\",\"heading\":\"Chapter IV \\u2013 Risk Management\",\"pageStart\":21,\"pageEnd\":21,\"excerpt\":\"20. For risk management, the NBFC shall have a risk-based approach which\\nincludes the following.\\n(1) The NBFC shall categorise customers into low, medium, and high-risk\\ncategories, based on its assessment and risk perception.\\n(2) The NBFC may lay down broad principles for the risk-categorisation of\\n\",\"denseRank\":3,\"keywordRank\":3,\"fusedScore\":0.031746031746031744,\"similarity\":0.7092994028747551,\"pinned\":false},{\"chunkId\":1622,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 53\",\"heading\":\"Chapter VIII \\u2013 Reporting Requirements to Financial Intelligence Unit \\u2013 India\",\"pageStart\":51,\"pageEnd\":51,\"excerpt\":\"53. To identify and report suspicious transactions effectively, the NBFC shall\\nimplement robust software that generates alerts when transactions are inconsistent\\nwith a customer\\u0027s risk categorisation and updated profile.\",\"denseRank\":1,\"keywordRank\":6,\"fusedScore\":0.03154495777446597,\"similarity\":0.7118204225744896,\"pinned\":false},{\"chunkId\":1606,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 1 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":41,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\\nensuring that it keeps the information or data collected under CDD is kept up-to-date\\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\\nperiodic up\",\"denseRank\":4,\"keywordRank\":5,\"fusedScore\":0.031009615384615385,\"similarity\":0.6981574173348994,\"pinned\":false},{\"chunkId\":1574,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 21\",\"heading\":\"Chapter V \\u2013 Customer Identification Procedure (CIP)\",\"pageStart\":22,\"pageEnd\":22,\"excerpt\":\"21. The NBFC shall undertake identification of customers in the following cases:\\n(1) Commencement of an account-based relationship with the customer.\\n(2) Carrying out any international money transfer operations for a person who is\\nnot an account holder of the NBFC.\\n(3) When there is a doubt about th\",\"denseRank\":10,\"keywordRank\":1,\"fusedScore\":0.030679156908665104,\"similarity\":0.6760179207335675,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  },
+  "eb293b92fb54f85989f1450ca67a8be800989c27ac60635c670bcada0211e681": {
+   "args": {
+    "chunkId": 1574
+   },
+   "artifact": {
+    "structured_content": {
+     "chunkId": 1574,
+     "content": "21. The NBFC shall undertake identification of customers in the following cases:\n(1) Commencement of an account-based relationship with the customer.\n(2) Carrying out any international money transfer operations for a person who is\nnot an account holder of the NBFC.\n(3) When there is a doubt about the authenticity or adequacy of the customer\nidentification data it has obtained.\n(4) Selling third-party products as agents, selling its own products, payment of\ndues of credit cards / sale and reloading of prepaid / travel cards and any other\nproduct for more than ₹50,000.\n(5) Carrying out transactions for a non-account-based customer, i.e., a walk-in\ncustomer, where the amount involved is equal to or exceeds ₹50,000 whether\nconducted as a single transaction or several transactions that appear to be connected.\n(6) When the NBFC has reason to believe that a customer (account-based or walk-\nin) is intentionally structuring a transaction into a series of transactions below the\nthreshold of ₹50,000.\n(7) The NBFC shall ensure it does not seek introductions while opening accounts.",
+     "documentId": "rbi-nbfc-kyc-2025",
+     "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+     "heading": "Chapter V – Customer Identification Procedure (CIP)",
+     "pageEnd": 22,
+     "pageStart": 22,
+     "paraRef": "Para 21"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_b7cf5740-b120-40f9-8d33-f2ca4c5537f1",
+     "text": "{\"chunkId\":1574,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 21\",\"heading\":\"Chapter V \\u2013 Customer Identification Procedure (CIP)\",\"pageStart\":22,\"pageEnd\":22,\"content\":\"21. The NBFC shall undertake identification of customers in the following cases:\\n(1) Commencement of an account-based relationship with the customer.\\n(2) Carrying out any international money transfer operations for a person who is\\nnot an account holder of the NBFC.\\n(3) When there is a doubt about the authenticity or adequacy of the customer\\nidentification data it has obtained.\\n(4) Selling third-party products as agents, selling its own products, payment of\\ndues of credit cards / sale and reloading of prepaid / travel cards and any other\\nproduct for more than \\u20B950,000.\\n(5) Carrying out transactions for a non-account-based customer, i.e., a walk-in\\ncustomer, where the amount involved is equal to or exceeds \\u20B950,000 whether\\nconducted as a single transaction or several transactions that appear to be connected.\\n(6) When the NBFC has reason to believe that a customer (account-based or walk-\\nin) is intentionally structuring a transaction into a series of transactions below the\\nthreshold of \\u20B950,000.\\n(7) The NBFC shall ensure it does not seek introductions while opening accounts.\"}",
+     "type": "text"
+    }
+   ],
+   "name": "get_passage",
+   "status": "success"
+  },
+  "ede5de20469fd8b253b90d2c98364e31002dfb3e29b0102aec98794ccc4a1730": {
+   "args": {
+    "query": "periodic updation high risk every two years medium risk ten years low risk; no change self-declaration; non-compliance partial freezing of KYC non-compliant accounts",
+    "topK": 6
+   },
+   "artifact": {
+    "structured_content": {
+     "degraded": null,
+     "hits": [
+      {
+       "chunkId": 1606,
+       "denseRank": 1,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\nensuring that it keeps the information or data collected under CDD is kept up-to-date\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\nperiodic up",
+       "fusedScore": 0.03278688524590164,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 1,
+       "pageEnd": 41,
+       "pageStart": 40,
+       "paraRef": "Para 42, part 1 of 5",
+       "pinned": false,
+       "similarity": 0.8289912037237783
+      },
+      {
+       "chunkId": 1607,
+       "denseRank": 2,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(ii) Change in address: In case of a change only in the address details of the\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\ncustomer through customer’s email-id registered with the NBFC, customer’s mobile\nnumber registered wit",
+       "fusedScore": 0.03225806451612903,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 2,
+       "pageEnd": 42,
+       "pageStart": 41,
+       "paraRef": "Para 42, part 2 of 5",
+       "pinned": false,
+       "similarity": 0.7600078034439014
+      },
+      {
+       "chunkId": 1608,
+       "denseRank": 4,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(vi) Declaration of current address, if the current address is different from the\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\nshall ensure that the mobile number for Aadhaar authentication is same as the one\navailable wit",
+       "fusedScore": 0.03149801587301587,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 3,
+       "pageEnd": 43,
+       "pageStart": 42,
+       "paraRef": "Para 42, part 3 of 5",
+       "pinned": false,
+       "similarity": 0.7424752319537993
+      },
+      {
+       "chunkId": 1558,
+       "denseRank": 3,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "6. Know Your Customer (KYC) Policy:\n(1) The NBFC shall have a KYC policy. The Board of Directors of the NBFC, or any\ncommittee to which the Board has delegated power, shall duly approve the KYC policy.\n(2) The KYC policy shall include following four key elements:\n(i) Customer Acceptance Policy;\n(ii)",
+       "fusedScore": 0.031024531024531024,
+       "heading": "Chapter II – General › A. Board of Directors / Policies-related guidelines:",
+       "keywordRank": 6,
+       "pageEnd": 15,
+       "pageStart": 15,
+       "paraRef": "Para 6",
+       "pinned": false,
+       "similarity": 0.7430756228701513
+      },
+      {
+       "chunkId": 1609,
+       "denseRank": 6,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "42. Updation / Periodic Updation of KYC\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\nof receipt of the relevant document(s), including self-declaration from the customer,\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\npromptly u",
+       "fusedScore": 0.030536130536130537,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › E. On-going Due Diligence",
+       "keywordRank": 5,
+       "pageEnd": 43,
+       "pageStart": 43,
+       "paraRef": "Para 42, part 4 of 5",
+       "pinned": false,
+       "similarity": 0.7386123226418932
+      },
+      {
+       "chunkId": 1592,
+       "denseRank": 11,
+       "documentId": "rbi-nbfc-kyc-2025",
+       "documentTitle": "Reserve Bank of India (Non-Banking Financial Companies – Know Your Customer) Directions, 2025",
+       "excerpt": "28. Simplified procedure for opening accounts by NBFCs: In case a person who\ndesires to open an account is not able to produce documents, as specified in paragraph\n23, NBFCs may at their discretion open accounts subject to the following conditions:\n(i) The NBFC shall obtain a self-attested photograp",
+       "fusedScore": 0.02900988017658188,
+       "heading": "Chapter VI – Customer Due Diligence (CDD) Procedure › A. CDD Procedure in case of Individuals",
+       "keywordRank": 7,
+       "pageEnd": 35,
+       "pageStart": 34,
+       "paraRef": "Para 28",
+       "pinned": false,
+       "similarity": 0.7119454862925481
+      }
+     ],
+     "query": "periodic updation high risk every two years medium risk ten years low risk; no change self-declaration; non-compliance partial freezing of KYC non-compliant accounts"
+    }
+   },
+   "content": [
+    {
+     "id": "lc_f93bef49-b471-4c42-a8ec-feffc90d1687",
+     "text": "{\"query\":\"periodic updation high risk every two years medium risk ten years low risk; no change self-declaration; non-compliance partial freezing of KYC non-compliant accounts\",\"degraded\":null,\"hits\":[{\"chunkId\":1606,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 1 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":40,\"pageEnd\":41,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(1) The NBFC shall adopt a risk-based approach for periodic updation of KYC\\nensuring that it keeps the information or data collected under CDD is kept up-to-date\\nand relevant, particularly where there is high risk. However, the NBFC shall carry out\\nperiodic up\",\"denseRank\":1,\"keywordRank\":1,\"fusedScore\":0.03278688524590164,\"similarity\":0.8289912037237783,\"pinned\":false},{\"chunkId\":1607,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 2 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":41,\"pageEnd\":42,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(ii) Change in address: In case of a change only in the address details of the\\ncustomer, the NBFC shall obtain a self-declaration of the new address from the\\ncustomer through customer\\u2019s email-id registered with the NBFC, customer\\u2019s mobile\\nnumber registered wit\",\"denseRank\":2,\"keywordRank\":2,\"fusedScore\":0.03225806451612903,\"similarity\":0.7600078034439014,\"pinned\":false},{\"chunkId\":1608,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 3 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":42,\"pageEnd\":43,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(vi) Declaration of current address, if the current address is different from the\\naddress in Aadhaar, shall not require positive confirmation in this case. The NBFC\\nshall ensure that the mobile number for Aadhaar authentication is same as the one\\navailable wit\",\"denseRank\":4,\"keywordRank\":3,\"fusedScore\":0.03149801587301587,\"similarity\":0.7424752319537993,\"pinned\":false},{\"chunkId\":1558,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 6\",\"heading\":\"Chapter II \\u2013 General \\u203A A. Board of Directors / Policies-related guidelines:\",\"pageStart\":15,\"pageEnd\":15,\"excerpt\":\"6. Know Your Customer (KYC) Policy:\\n(1) The NBFC shall have a KYC policy. The Board of Directors of the NBFC, or any\\ncommittee to which the Board has delegated power, shall duly approve the KYC policy.\\n(2) The KYC policy shall include following four key elements:\\n(i) Customer Acceptance Policy;\\n(ii)\",\"denseRank\":3,\"keywordRank\":6,\"fusedScore\":0.031024531024531024,\"similarity\":0.7430756228701513,\"pinned\":false},{\"chunkId\":1609,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 42, part 4 of 5\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A E. On-going Due Diligence\",\"pageStart\":43,\"pageEnd\":43,\"excerpt\":\"42. Updation / Periodic Updation of KYC\\n(iii) The NBFC provides an acknowledgment to the customer mentioning the date\\nof receipt of the relevant document(s), including self-declaration from the customer,\\nfor carrying out updation / periodic updation. Further, the NBFC shall ensure that it\\npromptly u\",\"denseRank\":6,\"keywordRank\":5,\"fusedScore\":0.030536130536130537,\"similarity\":0.7386123226418932,\"pinned\":false},{\"chunkId\":1592,\"documentId\":\"rbi-nbfc-kyc-2025\",\"documentTitle\":\"Reserve Bank of India (Non-Banking Financial Companies \\u2013 Know Your Customer) Directions, 2025\",\"paraRef\":\"Para 28\",\"heading\":\"Chapter VI \\u2013 Customer Due Diligence (CDD) Procedure \\u203A A. CDD Procedure in case of Individuals\",\"pageStart\":34,\"pageEnd\":35,\"excerpt\":\"28. Simplified procedure for opening accounts by NBFCs: In case a person who\\ndesires to open an account is not able to produce documents, as specified in paragraph\\n23, NBFCs may at their discretion open accounts subject to the following conditions:\\n(i) The NBFC shall obtain a self-attested photograp\",\"denseRank\":11,\"keywordRank\":7,\"fusedScore\":0.02900988017658188,\"similarity\":0.7119454862925481,\"pinned\":false}]}",
+     "type": "text"
+    }
+   ],
+   "name": "search_regulations",
+   "status": "success"
+  }
+ }
+}

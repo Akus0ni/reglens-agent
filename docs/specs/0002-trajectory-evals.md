@@ -1,6 +1,6 @@
 # Spec 0002 — Trajectory evals and a CI gate
 
-> Status: **Draft** · Created: 2026-11-24 · Owner: @Akus0ni
+> Status: **Approved (PR #5, 2026-11-24) · In progress in `feat/0002-trajectory-evals`** · Created: 2026-11-24 · Owner: @Akus0ni
 > Depends on: spec 0001; RegLens with PR #21 (MCP results match their schemas) · Blocked by open questions: none
 > Sprint phase: D2·5
 
@@ -165,7 +165,17 @@ scenarios, and the PR says so.
 |---|----------|--------|
 | — | None | — |
 
-## 9. Sources (checked 2026-11-24)
+## 9. Changes made while building
+
+| Where | Change | Why |
+|-------|--------|-----|
+| R2.1 (owner decision, after run 1) | `oos-office-seating` now says bookings are anonymous (no employee name, ID or other personal data stored or shown); `scenarios.json` version 2 | Version 1 said what the tool *shows*, not what it *stores*. Run 1 asked whether bookings identify employees and raised two conditional MEDIUM DPDP findings (Rules 3 and 6), a defensible reading. This test was fixed after seeing a result; the run 1 record keeps the original outcome |
+| R2.3 | `eval record --first-run N --scenario ID` records one run or one scenario again; the report merges run files by run number (a later file's scenario replaces an earlier one) | The machine ran out of memory during run 2, and Claude Code stopped the recording and the RegLens API. Run 1 had finished; run 2 was lost (about 9 reviews, ≈ $0.45 paid with nothing saved) |
+| R2.3 | Progress lines are flushed | Run 2's progress was buffered and lost with the process |
+| R2.5 | The graph state logs each research turn's question id and each executed tool (`turns_log`, `tools_log`) | The checks need them. They change no request sent to a model |
+| R2.4 | The stale-recording message names the scenario and the command that re-records just it | Seen in practice: rewording one scenario made exactly that scenario stale |
+
+## 10. Sources (checked 2026-11-24)
 
 - `astral-sh/setup-uv` latest release v10.4.0 (2026-11-20) and `actions/checkout` v7.0.1 (2026-07-20), from the
   GitHub releases API.

@@ -62,6 +62,8 @@ class ReviewState(TypedDict, total=False):
     evidence: Annotated[dict[str, dict], merge_evidence]
     tool_call_hashes: Annotated[list[str], lambda left, right: (left or []) + (right or [])]
     guard_notes: Annotated[list[str], lambda left, right: (left or []) + (right or [])]
+    turns_log: Annotated[list[str], lambda left, right: (left or []) + (right or [])]
+    tools_log: Annotated[list[str], lambda left, right: (left or []) + (right or [])]
     findings: list[dict]
     rejected: list[dict]
     memo: str
@@ -105,7 +107,7 @@ def build_graph(models: Models, tools: Sequence[BaseTool], filer: Filer) -> Stat
                                              HumanMessage(prompts.research_message(question))]
         reply: AIMessage = await research_model.ainvoke(messages)
         update: dict = {"messages": [*messages, reply], "question_turns": state.get("question_turns", 0) + 1,
-                        "usage": usage_of(models.researcher_name, reply)}
+                        "usage": usage_of(models.researcher_name, reply), "turns_log": [question["id"]]}
         if not reply.tool_calls:
             update |= _advance(state)
         return update
@@ -116,6 +118,7 @@ def build_graph(models: Models, tools: Sequence[BaseTool], filer: Filer) -> Stat
         used = len(seen)
         results: list[ToolMessage] = []
         new_hashes: list[str] = []
+        executed: list[str] = []
         evidence: dict[str, dict] = {}
         for call in reply.tool_calls:
             key = call_hash(call["name"], call["args"])
@@ -129,13 +132,15 @@ def build_graph(models: Models, tools: Sequence[BaseTool], filer: Filer) -> Stat
             else:
                 message = await by_name[call["name"]].ainvoke(call)
                 new_hashes.append(key)
+                executed.append(call["name"])
                 seen.add(key)
                 for item in evidence_from_artifact(getattr(message, "artifact", None)):
                     evidence = merge_evidence(evidence, {str(item["chunk_id"]): item})
                 results.append(ToolMessage(content=prompts.tool_result_block(call["name"], _text(message.content)),
                                            tool_call_id=call["id"], name=call["name"],
                                            status=getattr(message, "status", "success")))
-        return {"messages": [*state["messages"], *results], "tool_call_hashes": new_hashes, "evidence": evidence}
+        return {"messages": [*state["messages"], *results], "tool_call_hashes": new_hashes, "evidence": evidence,
+                "tools_log": executed}
 
     async def assess(state: ReviewState) -> dict:
         evidence = state.get("evidence", {})

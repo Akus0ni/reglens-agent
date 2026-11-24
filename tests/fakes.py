@@ -5,7 +5,7 @@ from collections.abc import Sequence
 from typing import Any
 
 from langchain_core.messages import AIMessage
-from langchain_core.tools import StructuredTool
+from langchain_core.tools import StructuredTool, ToolException
 
 from reglens_agent.graph import Models
 
@@ -81,14 +81,14 @@ class FakeReglens:
         async def get_passage(chunkId: int) -> tuple[str, dict]:  # noqa: N803
             self.calls.append(("get_passage", {"chunkId": chunkId}))
             if chunkId not in self._passages:
-                raise ValueError(f"No passage with id {chunkId}.")
+                raise ToolException(f"No passage with id {chunkId}.")  # the adapter returns isError as an error ToolMessage
             return json.dumps(self._passages[chunkId]), {"structured_content": self._passages[chunkId]}
 
         return [
             StructuredTool.from_function(coroutine=search_regulations, name="search_regulations",
                                          description="search", response_format="content_and_artifact"),
             StructuredTool.from_function(coroutine=get_passage, name="get_passage", description="passage",
-                                         response_format="content_and_artifact"),
+                                         response_format="content_and_artifact", handle_tool_error=True),
         ]
 
 

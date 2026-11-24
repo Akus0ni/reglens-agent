@@ -195,4 +195,8 @@ def _parser() -> argparse.ArgumentParser:
     show = commands.add_parser("show", help="Print a review's memo, state and cost.")
     show.add_argument("thread_id")
     show.set_defaults(handler=_show)
+
+    from reglens_agent.evals.commands import add_parser
+
+    add_parser(commands)
     return parser

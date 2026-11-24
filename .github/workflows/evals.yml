@@ -1,0 +1,24 @@
+# Spec 0002, R2.11: the regression gate. Replays recorded runs; never calls Claude or RegLens, so it needs no secrets.
+name: evals
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  evals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+      - name: Install (locked)
+        run: uv sync --locked
+      - name: Tests (offline; Docker for the Postgres crash test)
+        run: uv run pytest -p no:warnings
+      - name: Gate (replay recordings, compare with the baseline)
+        run: uv run reglens-agent eval check
