@@ -2,6 +2,12 @@
 
 Newest first. What was done, why, and the problems hit.
 
+## 2026-11-24 — Portfolio pass: README
+
+- README rewritten for a reader new to the project: architecture diagram, how a review runs, eval results with n, the
+  CI gate, quickstart, known limitations (21 of 29 eval reviews hit a research limit), and links to RegLens's ADRs and
+  scale-up design.
+
 ## 2026-11-24 — Spec 0002: trajectory evals and the CI gate
 
 - 15 golden scenarios, deterministic checks, record and replay keyed by the exact request, and a GitHub Actions gate
