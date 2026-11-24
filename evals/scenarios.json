@@ -1,0 +1,139 @@
+{
+  "version": 1,
+  "notes": "Golden scenarios for spec 0002. 'required' is a list of groups: every group must be met by some verified finding citing one of its options (document id + paragraph, compared like the verify step: 'Para 13' matches 'Para 13, part 2 of 3'). 'min_severity' applies to the strongest finding that meets a required group. Out-of-scope scenarios expect no MEDIUM or HIGH finding. Every expected paragraph was checked against RegLens's stored text on 2026-11-24.",
+  "scenarios": [
+    {
+      "id": "cf-contacts",
+      "feature": "Our digital lending app asks for permission to read the borrower's phone contacts at sign-up. If a loan becomes overdue, our recovery team calls and messages people in the contact list to remind them that the borrower owes us money.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-credit-facilities-2025", "para": "Para 13"}],
+        [{"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 100"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "kyc-aadhaar-images",
+      "feature": "During onboarding we photograph the customer's Aadhaar card (front and back) and keep the unmasked images in our cloud bucket indefinitely, so that periodic re-KYC can reuse them. Branch staff can download them from the admin portal.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-kyc-2025", "para": "Para 23"}],
+        [{"document": "dpdp-rules-2025", "para": "Rule 6"}, {"document": "dpdp-rules-2025", "para": "Rule 8"}]
+      ],
+      "min_severity": "MEDIUM"
+    },
+    {
+      "id": "rbc-kfs-after-acceptance",
+      "feature": "Our personal-loan journey shows the loan amount and the monthly instalment, and the borrower taps Accept. The annual percentage rate, the processing fee and the repayment schedule appear on the confirmation screen after acceptance and in the emailed agreement.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 29"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "dpdp-breach-notice",
+      "feature": "If our customer database is breached, our incident plan is to email affected customers within 30 days once the investigation is complete. We do not plan to inform any regulator or board.",
+      "in_scope": true,
+      "required": [
+        [{"document": "dpdp-rules-2025", "para": "Rule 7"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "rbc-late-calls",
+      "feature": "Our collection agents call borrowers with overdue personal loans every evening between 8 pm and 10 pm, when they are most likely to be at home, until the dues are paid.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 100"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "rbc-penal-interest",
+      "feature": "When a borrower misses an EMI we add 2% a year to their loan interest rate as penal interest, and the unpaid penalty is added to the principal so that interest accrues on it.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 30"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "cf-disbursal-via-lsp",
+      "feature": "For loans sourced through our lending service provider's app, we disburse the loan amount into the LSP's pool account, and the LSP transfers it to the borrower after deducting its own service fee.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-credit-facilities-2025", "para": "Para 10"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "cf-no-cooling-off",
+      "feature": "Once a digital loan is disbursed it cannot be cancelled. A borrower who wants to exit early pays the full foreclosure charge of 3% of the principal, even on the day after disbursal.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-credit-facilities-2025", "para": "Para 11"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "cf-data-abroad",
+      "feature": "Our digital lending app stores all borrower data, including bank statements and KYC documents, on a cloud region in Singapore to reduce cost.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-credit-facilities-2025", "para": "Para 14"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "dpdp-children",
+      "feature": "We are launching a pocket-money card and app for teenagers aged 13 to 17. They sign up themselves with their name, date of birth and phone number; parents are not involved.",
+      "in_scope": true,
+      "required": [
+        [{"document": "dpdp-rules-2025", "para": "Rule 10"}]
+      ],
+      "min_severity": "MEDIUM"
+    },
+    {
+      "id": "rbc-prepayment-floating",
+      "feature": "We charge a 4% foreclosure fee when individual borrowers prepay floating-rate personal loans taken for household expenses.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 34"}, {"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 33"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "rbc-property-documents",
+      "feature": "After a home loan is fully repaid, our operations team returns the original property documents within 90 days, and we do not pay anything for delays.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 35"}, {"document": "rbi-nbfc-responsible-business-conduct-2025", "para": "Para 39"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "kyc-no-periodic-update",
+      "feature": "We complete KYC once at onboarding and never update it afterwards, including for customers our risk engine classifies as high risk.",
+      "in_scope": true,
+      "required": [
+        [{"document": "rbi-nbfc-kyc-2025", "para": "Para 42"}]
+      ],
+      "min_severity": "HIGH"
+    },
+    {
+      "id": "oos-dark-mode",
+      "feature": "We are adding a dark mode toggle and a larger font option to the settings screen of our app. The choice is stored on the device only.",
+      "in_scope": false,
+      "required": [],
+      "min_severity": null
+    },
+    {
+      "id": "oos-office-seating",
+      "feature": "An internal tool lets our head-office employees book desks and meeting rooms for the week. It shows room names and time slots only.",
+      "in_scope": false,
+      "required": [],
+      "min_severity": null
+    }
+  ]
+}

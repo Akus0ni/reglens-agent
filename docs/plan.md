@@ -28,6 +28,10 @@ wait survives a crash. Trajectory evals gate changes in CI.
 | D9 | Two specs: 0001 the review agent (graph, tools, findings and verification, loop guards, durable approval, filing, tracing); 0002 trajectory evals, recorded MCP fixtures and the GitHub Actions gate | Owner | 2026-11-24 |
 | D10 | `claude-sonnet-5-5` plans the questions and writes the findings; `claude-haiku-5-5` runs the research tool loop (amends RegLens D3 for this step, to fit D5); `claude-haiku-4-5` is the eval judge | Owner | 2026-11-24 |
 | D11 | LangGraph with the Postgres checkpointer in the RegLens compose Postgres, separate database; `langchain-mcp-adapters` for the MCP tools | Plan | 2026-11-24 |
+| D12 | CI replays recorded runs (model replies and RegLens tool results, keyed by a hash of the exact request); nothing in CI calls Claude or RegLens. A request with no recording fails the gate (spec 0002) | Owner | 2026-11-24 |
+| D13 | The 15 golden scenarios are drafted by Claude, every expected paragraph checked against RegLens's stored text, and reviewed by the owner in the spec PR (spec 0002) | Owner | 2026-11-24 |
+| D14 | The judge's hand check (10 memos) is labelled by Claude in the working session, without calling the Claude API, and reported as a second-model check (spec 0002) | Owner | 2026-11-24 |
+| D15 | Live eval runs: 15 scenarios × 2 runs (spec 0002) | Owner | 2026-11-24 |
 
 ## 3. Open questions
 
