@@ -13,7 +13,11 @@ Newest first. What was done, why, and the problems hit.
   API (run 2 lost, about $0.45; `--first-run` and `--scenario` added, output unbuffered). The office-seating
   scenario said what the tool shows, not what it stores, and run 1 reasonably flagged DPDP: reworded by owner
   decision, re-recorded. PowerShell's `*>` writes a byte-order mark that hid one progress line.
-- Spend: about $2.14 of the $3 Day 2 cap. Tests: 30.
+- CI green on GitHub Actions; the ruleset now requires the `evals` check. Broken-prompt demo (PR #7, closed): stale
+  without a re-record, and after re-recording 5 scenarios a named failure (`rbc-late-calls` missing Para 100).
+  Sonnet 5.5 refused to invent passage ids even when told to.
+- `setup-uv` has no floating `v10` tag (pinned `v10.4.0`).
+- Spend: about $2.41 of the $3 Day 2 cap. Tests: 31.
 
 ## 2026-11-24 — Spec 0001: review agent built
 

@@ -99,10 +99,11 @@ async def replay_scenario(scenario: Scenario, recording: dict | None) -> dict[st
 def unreplayable(scenario: Scenario, reason: str) -> dict[str, dict]:
     """Every applicable check fails with the reason, so the gate counts the scenario as failing."""
     failed = {"passed": False, "detail": reason}
+    short = {"passed": False, "detail": "not replayed (see completed)"}
     skipped = {"passed": None, "detail": "not replayed"}
     return {"completed": failed, "guards": skipped, "searched": skipped, "verified": skipped,
-            "required": failed if scenario.in_scope else skipped, "severity": failed if scenario.in_scope else skipped,
-            "quiet": skipped if scenario.in_scope else failed}
+            "required": short if scenario.in_scope else skipped, "severity": short if scenario.in_scope else skipped,
+            "quiet": skipped if scenario.in_scope else short}
 
 
 def check_gate(checks: dict[str, dict], write_baseline: bool = False) -> list[str]:

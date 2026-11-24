@@ -174,6 +174,8 @@ scenarios, and the PR says so.
 | R2.3 | Progress lines are flushed | Run 2's progress was buffered and lost with the process |
 | R2.5 | The graph state logs each research turn's question id and each executed tool (`turns_log`, `tools_log`) | The checks need them. They change no request sent to a model |
 | R2.4 | The stale-recording message names the scenario and the command that re-records just it | Seen in practice: rewording one scenario made exactly that scenario stale |
+| R2.6 | `eval check` fails each stale or missing recording on its own and keeps checking the others; `--write-baseline` refuses while any scenario didn't replay | The demo needs both kinds of failure in one run; the first version stopped at the first stale scenario |
+| R2.11 | `astral-sh/setup-uv@v10.4.0`, not `@v10` | The action publishes exact version tags only; the first CI run could not resolve `v10` |
 
 ## 10. Results (2026-11-24; full tables in `evals/results.md`)
 
@@ -202,11 +204,33 @@ scenarios, and the PR says so.
   - **Hand check** (D14: Claude, in the session, no API call, labelled before seeing any judge score; a
     second-model check, not a human one): 10 memos × 2 criteria. Within 1 point: **20/20**. Exact: 14/20.
   - Judge cost $0.144.
-- **A5:** broken-prompt demo: see the PR.
-- **A6:** ruleset: see the PR.
-- **A7, spend:** run 1 $0.70, run 2 lost to the memory reap (≈ $0.45, estimated from timing), the office-seating
-  re-record $0.01, run 2 $0.68, judge $0.14. That's about $2.0 for this spec so far, and about **$2.14** for Day 2
-  with spec 0001's $0.16.
+- **A3, CI:** GitHub Actions passed on `ubuntu-26.04`
+  (https://github.com/Akus0ni/reglens-agent/actions/runs/45429498935). The replay of recordings made on Windows
+  reproduced every check.
+- **A5, broken-prompt demo** (PR #7, closed unmerged):
+  - The assess prompt was changed to cite "from memory" with invented passage ids.
+  - Pushed without re-recording, the gate
+    [failed](https://github.com/Akus0ni/reglens-agent/actions/runs/45429751028) because all 15 recordings were stale.
+  - After re-recording 5 scenarios live ($0.27), it
+    [failed](https://github.com/Akus0ni/reglens-agent/actions/runs/45431028604) on a named check:
+    `required: 4 scenarios pass, baseline 13; failing: rbc-late-calls (met []; missing ['Para 100'])`, plus 10 still
+    stale.
+  - Sonnet 5.5 didn't follow the instruction to invent ids: no finding was rejected by verification. The broken
+    prompt still lost a required citation, and the gate caught it.
+- **A6:** the "Protect main" ruleset now has `required_status_checks: evals`, applied with
+  `scripts/protect-main.ps1` and read back from the rulesets API.
+- **A7, spend:**
+
+  | Item | Cost |
+  |------|------|
+  | Run 1 | $0.70 |
+  | Run 2 lost to the memory reap (estimated from timing) | ≈ $0.45 |
+  | Office-seating re-record | $0.01 |
+  | Run 2 | $0.68 |
+  | Judge | $0.14 |
+  | Demo | $0.27 |
+  | **This spec** | **≈ $2.25** |
+  | **Day 2, with spec 0001's $0.16** | **≈ $2.41 of $3** |
 
 ## 11. Sources (checked 2026-11-24)
 
