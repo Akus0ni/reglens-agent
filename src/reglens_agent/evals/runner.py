@@ -12,7 +12,7 @@ from typing import Any
 from langgraph.checkpoint.memory import InMemorySaver
 
 from reglens_agent.evals.checks import Scenario, check, count, gate, load_scenarios
-from reglens_agent.evals.recording import Store, Throttle, recorded_models, recorded_tools
+from reglens_agent.evals.recording import StaleRecording, Store, Throttle, recorded_models, recorded_tools
 from reglens_agent.filing import Filer
 from reglens_agent.graph import Models, build_graph, thread_config
 from reglens_agent.pricing import cost_usd
@@ -76,18 +76,38 @@ async def record(runs: list[int], models: Models, tools: list, only: list[str] |
 
 
 async def replay_all() -> dict[str, dict]:
-    """Every scenario from its recording; any request not recorded raises ``StaleRecording``."""
+    """Every scenario from its recording. A missing or stale recording fails that scenario's checks with the reason;
+    the other scenarios are still checked, so one run of the gate shows every problem."""
     checks: dict[str, dict] = {}
     for scenario in load_scenarios():
         path = RECORDINGS / f"{scenario.id}.json"
-        if not path.exists():
-            raise FileNotFoundError(f"No recording for scenario '{scenario.id}' ({path}). Record one first.")
-        store = Store(scenario.id, json.loads(path.read_text(encoding="utf-8")), replay=True)
-        checks[scenario.id] = (await run_scenario(scenario, None, _replay_tool_stubs(store), store))["checks"]
+        data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else None
+        checks[scenario.id] = await replay_scenario(scenario, data)
     return checks
 
 
+async def replay_scenario(scenario: Scenario, recording: dict | None) -> dict[str, dict]:
+    if recording is None:
+        return unreplayable(scenario, f"no recording ({RECORDINGS / (scenario.id + '.json')})")
+    store = Store(scenario.id, recording, replay=True)
+    try:
+        return (await run_scenario(scenario, None, _replay_tool_stubs(store), store))["checks"]
+    except StaleRecording as stale:
+        return unreplayable(scenario, str(stale))
+
+
+def unreplayable(scenario: Scenario, reason: str) -> dict[str, dict]:
+    """Every applicable check fails with the reason, so the gate counts the scenario as failing."""
+    failed = {"passed": False, "detail": reason}
+    skipped = {"passed": None, "detail": "not replayed"}
+    return {"completed": failed, "guards": skipped, "searched": skipped, "verified": skipped,
+            "required": failed if scenario.in_scope else skipped, "severity": failed if scenario.in_scope else skipped,
+            "quiet": skipped if scenario.in_scope else failed}
+
+
 def check_gate(checks: dict[str, dict], write_baseline: bool = False) -> list[str]:
+    if write_baseline and any(r["completed"]["passed"] is False for r in checks.values()):
+        return ["Refusing to write a baseline: some scenarios did not replay (see above)."]
     if write_baseline:
         _write_json(BASELINE, {"required": count(checks, "required"), "severity": count(checks, "severity"),
                                "written_utc": datetime.now(UTC).strftime("%Y-%m-%dT%H:%M:%SZ"), "commit": _commit()})

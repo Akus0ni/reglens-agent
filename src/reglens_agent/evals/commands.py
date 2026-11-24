@@ -12,7 +12,6 @@ from pathlib import Path
 from urllib.parse import urlsplit
 
 from reglens_agent.evals.checks import load_scenarios
-from reglens_agent.evals.recording import StaleRecording
 from reglens_agent.evals.runner import RUNS, check_gate, record, replay_all
 from reglens_agent.pricing import cost_usd
 from reglens_agent.settings import Settings
@@ -63,11 +62,7 @@ async def _record(args: argparse.Namespace, settings: Settings) -> int:
 
 
 async def _check(args: argparse.Namespace, _: Settings) -> int:
-    try:
-        checks = await replay_all()
-    except (StaleRecording, FileNotFoundError) as error:
-        print(f"Gate FAILED: {error}", file=sys.stderr)
-        return 1
+    checks = await replay_all()
     failures = check_gate(checks, write_baseline=args.write_baseline)
     for scenario, results in checks.items():
         print(f"{scenario}: " + ", ".join(f"{n} {'ok' if r['passed'] else ('-' if r['passed'] is None else 'FAIL')}"

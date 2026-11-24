@@ -15,7 +15,7 @@ jobs:
     timeout-minutes: 15
     steps:
       - uses: actions/checkout@v7
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.4.0   # the action publishes exact version tags only
       - name: Install (locked)
         run: uv sync --locked
       - name: Tests (offline; Docker for the Postgres crash test)

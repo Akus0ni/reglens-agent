@@ -5,7 +5,7 @@ import pytest
 from reglens_agent import prompts
 from reglens_agent.evals.checks import Scenario, check, gate
 from reglens_agent.evals.recording import StaleRecording, Store
-from reglens_agent.evals.runner import run_scenario
+from reglens_agent.evals.runner import replay_scenario, run_scenario
 from reglens_agent.models import Finding, Findings, Question, QuestionPlan, Severity
 from tests.fakes import FakeReglens, FakeResearcher, FakeStructured, calls, models, passage, tool_call
 
@@ -120,3 +120,18 @@ def test_gate_requires_hard_checks_everywhere_and_scored_checks_no_worse_than_ba
         "required: 1 scenarios pass, baseline 2; failing: b (missing ['Para 7'])"]
     assert gate({"a": results(verified={"passed": False, "detail": "unseen: ['9']"})}, {"required": 0, "severity": 0}) == [
         "a: verified failed (unseen: ['9'])"]
+
+
+async def test_a_stale_scenario_fails_its_checks_without_stopping_the_others(monkeypatch):
+    live_models, reglens = _live()
+    store = Store(SCENARIO.id)
+    await run_scenario(SCENARIO, live_models, reglens.tools(), store)
+    monkeypatch.setattr(prompts, "PLAN_SYSTEM", prompts.PLAN_SYSTEM + " Changed.")
+
+    stale = await replay_scenario(SCENARIO, store.data)
+    missing = await replay_scenario(SCENARIO, None)
+
+    assert stale["completed"]["passed"] is False and "stale recording" in stale["completed"]["detail"]
+    assert stale["required"]["passed"] is False
+    assert missing["completed"]["detail"].startswith("no recording")
+    assert gate({SCENARIO.id: stale}, {"required": 1, "severity": 1})[0].startswith("dpdp-breach: completed failed (stale")
