@@ -5,8 +5,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Project status
 
 reglens-agent is a Python LangGraph agent that reviews product features for compliance with Indian NBFC regulation,
-using the [RegLens](https://github.com/Akus0ni/reglens) MCP server (a separate .NET repo) for research. **Nothing is
-built yet**: the workflow is set up and spec 0001 (the review agent) comes next. Plan, decisions (D*n*) and open
+using the [RegLens](https://github.com/Akus0ni/reglens) MCP server (a separate .NET repo) for research. **Built: spec
+0001, the review agent** (`src/reglens_agent/`: `graph.py` nodes and guards, `evidence.py` citation checks and memo,
+`filing.py` report and issue, `cli.py`). Next: spec 0002, trajectory evals and the CI gate. Plan, decisions (D*n*) and open
 questions (Q*n*): `docs/plan.md`. Specs: `docs/specs/`. History: `docs/project-log.md`.
 
 ## Workflow — read first
@@ -20,6 +21,17 @@ questions (Q*n*): `docs/plan.md`. Specs: `docs/specs/`. History: `docs/project-l
   "Protect main" ruleset (`scripts/protect-main.ps1`).
 - The owner's standing rules: **ask when in doubt, don't assume**, and **verify against primary sources and cite
   them**.
+
+## Commands
+
+```powershell
+uv sync; uv run pytest                            # offline; Docker for the Postgres crash test
+$env:AGENT_DATABASE_URL = 'postgresql://reglens:reglens-dev@127.0.0.1:5432/reglens_agent'
+uv run reglens-agent setup
+uv run reglens-agent review --feature-file samples/contact-access.md --confirm-spend [--no-issue]  # ~$0.05, needs both keys
+uv run reglens-agent resume <thread_id> approve|reject|edit [--memo-file M]   # no API keys needed
+uv run reglens-agent show <thread_id>
+```
 
 ## Environment
 

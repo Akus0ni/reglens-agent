@@ -1,6 +1,6 @@
 # Spec 0001 — Review agent
 
-> Status: **Draft** · Created: 2026-11-24 · Owner: @Akus0ni
+> Status: **Approved (PR #2, 2026-11-24) · Implemented in `feat/0001-review-agent`** · Created: 2026-11-24 · Owner: @Akus0ni
 > Depends on: RegLens specs 0001–0006 (the MCP server) · Blocked by open questions: none
 > Sprint phase: D2·0–D2·4
 
@@ -200,7 +200,52 @@ RegLens's ASP.NET Core instrumentation continues the trace.
 |---|----------|--------|
 | — | None | — |
 
-## 9. Sources (checked 2026-11-24)
+## 9. Changes made while building
+
+| Where | Change | Why |
+|-------|--------|-----|
+| R1.3 | The first live run failed on its first `search_regulations` call: the Python MCP client validates `structuredContent` against `outputSchema`, and RegLens omitted null properties its schema marks required. Fixed in RegLens (reglens PR #21, `fix/mcp-null-fields`), not worked around here | The bug was the server's; RegLens's own C# client doesn't validate, so its tests passed |
+| R1.17 | `telemetry.py` gives Traceloop's `TraceloopCallbackHandler` no-op `on_interrupt` and `on_resume` | LangGraph 1.2 sends graph lifecycle events to every callback handler (its docs say only `GraphCallbackHandler` subclasses); Traceloop 0.63.1 has neither method, and each interrupt logged an `AttributeError` |
+| R1.14 | The CLI and the Postgres test run asyncio on a `SelectorEventLoop` on Windows | psycopg's async connections cannot use Windows' default `ProactorEventLoop` |
+| R1.5 | `ChatAnthropic(reasoning_effort=…)`: the installed 1.7.12 has the `reasoning_effort` field; `effort` is an alias the docs mention but not a model field | Checked against the installed package |
+| R1.15 | `resume` and `show` build the graph with models that raise on any attribute access and with no tools, and need neither API key | Makes "no new model or tool calls on resume" structural, not just observed |
+| P6 | Unverified item 1 is answered: the Traceloop instrumentation names each LangGraph node (`execute_task plan`, …) and the LLM calls (`ChatAnthropic.chat`) as spans under `invoke_agent LangGraph` | Seen in the dashboard (A6) |
+
+## 10. Results (2026-11-24)
+
+- **A1:** `uv run pytest`: **23 passed**, offline. The suite includes the Postgres crash test on Testcontainers
+  (`postgres:17-alpine`): review to the interrupt in one graph, approve twice from a new graph built with
+  unreachable models and no tools; no new model or tool calls, one issue.
+- **A2, A7** (RegLens at `fix/mcp-null-fields`, n = 3, one run each):
+
+  | Sample | Findings (verified / rejected) | Main citations | Guards fired | Cost | Wall time |
+  |--------|--------------------------------|----------------|--------------|------|-----------|
+  | Phone contacts for recovery | 4 / 0 | Credit Facilities Para 13; RBC Para 100; DPDP Rule 3 | q5 turn limit | $0.0492 | 47.8 s |
+  | Aadhaar images kept for re-KYC | 6 / 0 | KYC Paras 23, 42, 47; DPDP Rules 6, 8; Credit Facilities Paras 13, 14 | tool budget (20) | $0.0628 | 49.3 s |
+  | APR shown after acceptance | 4 / 0 | RBC Para 29 (KFS); Credit Facilities Paras 9, 11 | q2–q4 turn limit | $0.0416 | 36.4 s |
+
+  Per review: 2 Sonnet calls (9–16k tokens in) and 15–18 Haiku calls (about 60k in). Haiku is about a third of the
+  cost. Every review hit a research limit at least once.
+- **A3:** covered by tests (`test_rejects_unseen_ids…`, `test_a_repeated_call_is_refused…`, `test_the_review_stops…`).
+  No live finding was rejected.
+- **A4:** the Aadhaar review's process had exited at the interrupt. `resume <id> approve` ran from a new process with
+  `ANTHROPIC_API_KEY` and `REGLENS_API_KEY` both empty. It wrote `reports/<id>.md` and created issue
+  Akus0ni/reglens-agent#3 (label `compliance-review`, thread-id marker in the body). A second `resume` was refused:
+  "not waiting for review (next: done)".
+- **A5:** `resume <id> reject` on the APR review: "nothing filed".
+- **A6:** one review is one trace in the Aspire dashboard: 47.5 s, 420 spans across `reglens-agent` and
+  `reglens-api`. Under `review`: the MCP `initialize`/`tools/list`/`tools/call` requests with RegLens's `POST /mcp/`
+  spans nested inside, and `invoke_agent LangGraph` → `execute_task <node>` → `ChatAnthropic.chat` → Anthropic
+  HTTP.
+- **Spend:** $0.1536 for the three samples, plus the first run that failed at its first tool call (one Sonnet and
+  one Haiku call, about $0.01): **about $0.16** of the $3 cap.
+- **Observed, for spec 0002:** code verifies citations, not what a finding says about them. In the three memos the
+  one claim I checked against the source held: the Aadhaar memo's finding 5 cites DPDP Rule 8 for a one-year minimum
+  retention followed by erasure, and Rule 8(3) says exactly that. Checking content systematically is what spec
+  0002's judge and hand check are for. Each tool call also opens a new MCP session (`initialize` +
+  `notifications/initialized` + the call), the adapter's default; it costs a few ms against RegLens.
+
+## 11. Sources (checked 2026-11-24)
 
 - PyPI, versions and release dates:
   - `langgraph` 1.2.24 (2026-11-20)
