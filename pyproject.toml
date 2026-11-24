@@ -1,0 +1,17 @@
+[project]
+name = "reglens-agent"
+version = "0.1.0"
+description = "A LangGraph compliance-review agent that researches Indian NBFC regulation through the RegLens MCP server and files cited findings after human approval."
+readme = "README.md"
+authors = [
+    { name = "Akash Soni", email = "31813761+Akus0ni@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+reglens-agent = "reglens_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.6,<0.13.0"]
+build-backend = "uv_build"
